@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wer klatscht für wen? — bundestagsdaten.de</title>
+<meta name="description" content="Beifall, Zwischenrufe und Lachen im Deutschen Bundestag, ausgewertet aus den amtlichen Plenarprotokollen der 21. Wahlperiode. Ein inoffizielles Datenprojekt.">
+<meta property="og:title" content="Wer klatscht für wen?">
+<meta property="og:description" content="Beifall und Zwischenrufe im Bundestag, ausgewertet aus den Plenarprotokollen der 21. Wahlperiode.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%234a5590'/%3E%3Ctext x='8' y='12' font-family='sans-serif' font-size='11' font-weight='700' fill='%23fcfcfb' text-anchor='middle'%3EB%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="shell">
+    <a class="wordmark" href="/">bundestagsdaten<span class="tld">.de</span></a>
+    <span class="unofficial">Inoffizielles Datenprojekt — kein Angebot des Deutschen Bundestages</span>
+  </div>
+</header>
+
+<main class="shell">
+
+  <div class="hero">
+    <p class="eyebrow" id="hero-eyebrow">Plenarprotokolle · 21. Wahlperiode</p>
+    <h1>Wer klatscht für wen?</h1>
+    <p class="lede">
+      Jede Reaktion im Plenarsaal wird stenografisch protokolliert: Beifall, Zurufe,
+      Lachen, Widerspruch — samt Angabe, aus welcher Fraktion sie kam. Diese Seite
+      wertet dieses Protokoll-Kleingedruckte aus den amtlichen XML-Daten des
+      Bundestages aus.
+    </p>
+    <div class="stats" id="stats" hidden>
+      <div class="stat"><div class="value" id="stat-sitzungen"></div><div class="label">Sitzungen</div></div>
+      <div class="stat"><div class="value" id="stat-reden"></div><div class="label">Reden</div></div>
+      <div class="stat"><div class="value" id="stat-ereignisse"></div><div class="label">protokollierte Reaktionen</div></div>
+    </div>
+  </div>
+
+  <section id="beifall" aria-labelledby="beifall-h">
+    <h2 id="beifall-h">Die Beifall-Matrix</h2>
+    <p class="section-sub">
+      Wie oft applaudiert eine Fraktion bei Reden einer anderen — gewichtete
+      Beifall-Ereignisse pro Rede. Die Diagonale ist der Applaus für die eigenen
+      Leute; interessant sind die Nebendiagonalen: Koalitionsapplaus und die
+      Ränder, auf denen es still bleibt.
+    </p>
+    <div class="matrix-wrap">
+      <div class="matrix" id="matrix-beifall" role="grid" aria-label="Beifall-Matrix: Reaktionen pro Rede nach Fraktion"></div>
+      <p class="axis-hint">Zeile: Fraktion am Rednerpult · Spalte: applaudierende Fraktion · dunkler = mehr</p>
+    </div>
+    <p class="reading" id="reading-beifall" aria-live="polite"></p>
+  </section>
+
+  <section id="zurufe" aria-labelledby="zurufe-h">
+    <h2 id="zurufe-h">Die Zuruf-Matrix: wer stört wen?</h2>
+    <p class="section-sub">
+      Dasselbe Bild für protokollierte Zurufe und Zwischenrufe — pro Rede, aus
+      welcher Fraktion sie kommen und wen sie treffen.
+    </p>
+    <div class="matrix-wrap">
+      <div class="matrix" id="matrix-zuruf" role="grid" aria-label="Zuruf-Matrix: Zwischenrufe pro Rede nach Fraktion"></div>
+      <p class="axis-hint">Zeile: Fraktion am Rednerpult · Spalte: rufende Fraktion · dunkler = mehr</p>
+    </div>
+    <p class="reading" id="reading-zuruf" aria-live="polite"></p>
+  </section>
+
+  <section aria-labelledby="personen-h">
+    <h2 id="personen-h">Personen</h2>
+    <p class="section-sub">
+      Links: wessen Reden den meisten Beifall auslösen (gewichtete Beifall-Ereignisse
+      pro Rede, mindestens 10 Reden). Rechts: wer am häufigsten namentlich mit
+      Zwischenruf im Protokoll steht.
+    </p>
+    <div class="columns">
+      <div>
+        <h3>Beifall pro Rede</h3>
+        <dl class="bars" id="bars-beifall"></dl>
+      </div>
+      <div>
+        <h3>Namentliche Zwischenrufe</h3>
+        <dl class="bars" id="bars-zurufe"></dl>
+      </div>
+    </div>
+    <ul class="legend" id="party-legend" aria-hidden="true"></ul>
+  </section>
+
+  <section aria-labelledby="eigen-h">
+    <h2 id="eigen-h">Eigenapplaus</h2>
+    <p class="section-sub">
+      Welcher Anteil des Beifalls, den eine Fraktion für ihre Reden erhält, kommt
+      aus den eigenen Reihen?
+    </p>
+    <dl class="bars" id="bars-eigen"></dl>
+  </section>
+
+  <section aria-labelledby="zitate-h">
+    <h2 id="zitate-h">Was gerufen wird</h2>
+    <p class="section-sub" id="zitate-sub"></p>
+    <div class="columns">
+      <div>
+        <h3>Am häufigsten protokolliert</h3>
+        <ul class="quote-list" id="quotes-frequent"></ul>
+      </div>
+      <div>
+        <h3>Zuletzt protokolliert</h3>
+        <ul class="quote-list" id="quotes-recent"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="methodik-h">
+    <h2 id="methodik-h">Methodik</h2>
+    <p class="section-sub">
+      Datengrundlage sind die amtlichen Plenarprotokoll-XMLs des
+      <a href="https://www.bundestag.de/services/opendata">Open-Data-Portals des Deutschen Bundestages</a>.
+      Jede <code>&lt;kommentar&gt;</code>-Zeile wird in einzelne Ereignisse zerlegt und der
+      Fraktion bzw. Person zugeordnet, von der sie ausging. „Beifall bei Abgeordneten
+      der X“ (ein Teil der Fraktion) zählt mit Gewicht&nbsp;0,5, Beifall der ganzen
+      Fraktion mit&nbsp;1. Die Matrizen normalisieren auf gehaltene Reden, damit
+      Fraktionen mit mehr Redezeit das Bild nicht dominieren.
+      Quellcode und Pipeline: <a href="https://github.com/janschill/bundestagdaten">github.com/janschill/bundestagdaten</a>.
+    </p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="shell">
+    <p><strong>Inoffizielles Projekt</strong> — kein Angebot des Deutschen Bundestages und mit diesem in keiner Weise verbunden.</p>
+    <p id="stand"></p>
+  </div>
+</footer>
+
+<div class="tooltip" id="tooltip" role="status"></div>
+<noscript><style>.hero .stats { display: none; }</style><p class="shell note">Diese Seite benötigt JavaScript, um die Auswertungen darzustellen.</p></noscript>
+<script type="module" src="app.js"></script>
+
+</body>
+</html>

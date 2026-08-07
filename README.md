@@ -4,6 +4,13 @@ Analytics on German Bundestag open data — starting with the plenary protocol
 `<kommentar>` metadata (Beifall, Zurufe, Lachen …), heading toward a website
 at [bundestagsdaten.de](https://bundestagsdaten.de).
 
+## How it works
+
+Fully serverless: `.github/workflows/publish.yml` runs daily, downloads any
+new protocol XMLs (cached between runs, never committed), regenerates the
+JSON aggregates in `site/data/`, commits them, and deploys `site/` to
+GitHub Pages.
+
 ## Layout
 
 - `scripts/download_protocols.py` — downloads plenary protocol XMLs from the
@@ -13,6 +20,8 @@ at [bundestagsdaten.de](https://bundestagsdaten.de).
   structured kommentar events (kind, source fraktion/person, partial applause,
   verbatim quotes)
 - `btd/frames.py` — pandas DataFrames + party colors + interaction matrices
+- `scripts/export_json.py` — writes the site's data files to `site/data/`
+- `site/` — the static website (plain HTML/CSS/JS, no dependencies)
 - `notebooks/01_kommentare.ipynb` — first exploration: applause matrix,
   heckling matrix, top speakers/hecklers, self-applause shares
 
@@ -23,6 +32,21 @@ uv sync
 uv run scripts/download_protocols.py 21   # ~90 XMLs, ~80 MB
 uv run jupyter lab notebooks/
 ```
+
+## Local site
+
+```sh
+uv run scripts/export_json.py
+python3 -m http.server -d site
+```
+
+## Custom domain
+
+GitHub Pages is deployed from the workflow. To serve it at
+[bundestagsdaten.de](https://bundestagsdaten.de): set the custom domain in the
+repo's Pages settings, then at the registrar point `A`/`AAAA` records for the
+apex at GitHub Pages (185.199.108.153 …111.153) and a `www` CNAME at
+`janschill.github.io`.
 
 ## Data notes
 
