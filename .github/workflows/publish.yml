@@ -1,11 +1,12 @@
 name: publish
 
 on:
-  schedule:
-    - cron: "0 6 * * *" # protocols appear a day or two after sittings
   workflow_dispatch:
   push:
     branches: [main]
+  workflow_run:
+    workflows: [download]
+    types: [completed]
 
 permissions:
   contents: write
@@ -19,6 +20,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -29,16 +31,19 @@ jobs:
 
       - run: uv sync
 
-      # raw XMLs are never committed; the cache carries them between runs and
-      # the download script only fetches what is missing
-      - uses: actions/cache@v4
+      # the download workflow maintains the protocol cache; publish only reads it
+      - uses: actions/cache/restore@v4
         with:
           path: data/protocols
-          key: protocols-${{ github.run_id }}
+          key: protocols-
           restore-keys: |
             protocols-
 
-      - run: uv run scripts/download_protocols.py 21
+      - name: Download protocols (fallback when the cache is empty)
+        run: |
+          if [ -z "$(ls -A data/protocols 2>/dev/null)" ]; then
+            uv run scripts/download_protocols.py 21
+          fi
 
       - run: uv run scripts/export_json.py
 

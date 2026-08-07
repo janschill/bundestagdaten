@@ -1,0 +1,30 @@
+name: download
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # protocols appear a day or two after sittings
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+
+      - run: uv sync
+
+      # raw XMLs are never committed; the cache carries them between runs and
+      # the download script only fetches what is missing
+      - uses: actions/cache@v4
+        with:
+          path: data/protocols
+          key: protocols-${{ github.run_id }}
+          restore-keys: |
+            protocols-
+
+      - run: uv run scripts/download_protocols.py 21
