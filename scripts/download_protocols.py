@@ -16,24 +16,40 @@ LIST_IDS = {
 }
 BASE = "https://www.bundestag.de"
 DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "protocols"
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml",
+    "Accept-Language": "de-DE,de;q=0.9",
+}
 
 
 def list_protocol_urls(term: int) -> list[str]:
+    """Page through the filterlist endpoint until it returns an empty page.
+
+    August 2026 markup: 10 items per page, each linked twice (icon + title
+    anchor), no data-hits/data-nextoffset attributes anymore. The offset
+    parameter counts items, so advance by unique URLs per page.
+    """
     urls: list[str] = []
     offset = 0
+    session = requests.Session()
+    session.headers.update(HEADERS)
     while True:
-        resp = requests.get(
+        resp = session.get(
             f"{BASE}/ajax/filterlist/de/services/opendata/{LIST_IDS[term]}",
             params={"noFilterSet": "true", "offset": offset},
             timeout=30,
         )
         resp.raise_for_status()
-        urls.extend(re.findall(r'href="(https://www\.bundestag\.de/resource/blob/\d+/\d+\.xml)"', resp.text))
-        hits = int(re.search(r'data-hits="(\d+)"', resp.text).group(1))
-        # the server caps page size at 10 and reports the next offset itself
-        offset = int(re.search(r'data-nextoffset="(\d+)"', resp.text).group(1))
-        if offset >= hits:
-            return urls
+        page = list(dict.fromkeys(
+            re.findall(r'href="(https://www\.bundestag\.de/resource/blob/\d+/\d+\.xml)"', resp.text)
+        ))
+        if not page:
+            if offset == 0:
+                raise RuntimeError(f"no protocol links at offset 0: {resp.text[:500]!r}")
+            return list(dict.fromkeys(urls))
+        urls.extend(page)
+        offset += len(page)
 
 
 def download(term: int) -> None:
@@ -45,7 +61,7 @@ def download(term: int) -> None:
         target = DATA_DIR / name
         if target.exists():
             continue
-        resp = requests.get(url, timeout=60)
+        resp = requests.get(url, headers=HEADERS, timeout=60)
         resp.raise_for_status()
         target.write_bytes(resp.content)
         print(f"  downloaded {name} ({len(resp.content) // 1024} KB)")
