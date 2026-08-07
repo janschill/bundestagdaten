@@ -15,7 +15,7 @@ GitHub Pages.
 
 - `scripts/download_protocols.py` — downloads plenary protocol XMLs from the
   [Bundestag open data portal](https://www.bundestag.de/services/opendata)
-  into `data/protocols/` (`uv run scripts/download_protocols.py 21`)
+  into `data/protocols/` (`uv run scripts/download_protocols.py 19 20 21`)
 - `btd/parse.py` — parses the `dbtplenarprotokoll` XML into speeches and
   structured kommentar events (kind, source fraktion/person, partial applause,
   verbatim quotes)
@@ -29,7 +29,7 @@ GitHub Pages.
 
 ```sh
 uv sync
-uv run scripts/download_protocols.py 21   # ~90 XMLs, ~80 MB
+uv run scripts/download_protocols.py 19 20 21   # ~540 XMLs, ~450 MB
 uv run jupyter lab notebooks/
 ```
 

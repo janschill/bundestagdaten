@@ -1,14 +1,19 @@
-// Renders the precomputed JSON aggregates. No external dependencies:
-// the only nontrivial piece is OKLab interpolation for the heatmap ramp.
+// Renders the precomputed JSON aggregates: per-Wahlperiode sections behind a
+// switcher, plus cross-period trend lines. No external dependencies: the only
+// nontrivial pieces are OKLab interpolation (heatmap ramp) and a small SVG
+// line chart.
 
 const SURFACE = "#fcfcfb";
 const INK = "#1b1a17";
 const MUTED = "#898781";
 const RAMP = ["#efeee8", "#2c2b26"]; // sequential: light = wenig, dunkel = viel
 const BAR_MAX_PCT = 78; // longest bar leaves room for its value label at the tip
+// validated categorical trio for the trend lines (not party colors)
+const TREND_COLORS = ["#2a78d6", "#eb6834", "#1baf7a"];
 
 const fmt1 = new Intl.NumberFormat("de-DE", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
 const fmtInt = new Intl.NumberFormat("de-DE");
+const fmtPct = new Intl.NumberFormat("de-DE", { style: "percent", maximumFractionDigits: 0 });
 const fmtDate = new Intl.DateTimeFormat("de-DE", { day: "numeric", month: "long", year: "numeric" });
 const fmtMonth = new Intl.DateTimeFormat("de-DE", { month: "long", year: "numeric" });
 
@@ -17,8 +22,10 @@ const GRAMMAR = {
   "CDU/CSU": { subj: "Die CDU/CSU", verb: "applaudiert", von: "von der CDU/CSU", gen: "der CDU/CSU" },
   SPD: { subj: "Die SPD", verb: "applaudiert", von: "von der SPD", gen: "der SPD" },
   AfD: { subj: "Die AfD", verb: "applaudiert", von: "von der AfD", gen: "der AfD" },
+  FDP: { subj: "Die FDP", verb: "applaudiert", von: "von der FDP", gen: "der FDP" },
   "Grüne": { subj: "Die Grünen", verb: "applaudieren", von: "von den Grünen", gen: "der Grünen" },
   Linke: { subj: "Die Linke", verb: "applaudiert", von: "von der Linken", gen: "der Linken" },
+  BSW: { subj: "Das BSW", verb: "applaudiert", von: "vom BSW", gen: "des BSW" },
 };
 
 // --- OKLab (Björn Ottosson) — perceptually smooth ramp with monotone lightness
@@ -65,19 +72,27 @@ function rampColor(t) {
 
 const tooltip = document.getElementById("tooltip");
 
-function showTooltip(value, label, x, y) {
+function showTooltipRows(rows, x, y) {
   tooltip.replaceChildren();
-  const v = document.createElement("div");
-  v.className = "tip-value";
-  v.textContent = value;
-  const l = document.createElement("div");
-  l.textContent = label;
-  tooltip.append(v, l);
+  for (const row of rows) {
+    const div = document.createElement("div");
+    if (row.strong) div.className = "tip-value";
+    if (row.swatch) {
+      const key = document.createElement("span");
+      key.style.cssText = `display:inline-block;width:10px;height:2px;margin:0 6px 3px 0;background:${row.swatch}`;
+      div.append(key);
+    }
+    div.append(document.createTextNode(row.text));
+    tooltip.append(div);
+  }
   tooltip.classList.add("visible");
   const { width, height } = tooltip.getBoundingClientRect();
   tooltip.style.left = `${Math.min(x + 14, window.innerWidth - width - 8)}px`;
   tooltip.style.top = `${Math.max(8, Math.min(y + 14, window.innerHeight - height - 8))}px`;
 }
+
+const showTooltip = (value, label, x, y) =>
+  showTooltipRows([{ text: value, strong: true }, { text: label }], x, y);
 
 const hideTooltip = () => tooltip.classList.remove("visible");
 
@@ -113,6 +128,7 @@ function renderMatrix(kind, matrices) {
     "Zelle berühren oder fokussieren, um den Wert im Klartext zu lesen. " +
     "Werte sind gewichtete Ereignisse pro gehaltener Rede.";
 
+  container.replaceChildren();
   container.style.gridTemplateColumns = `max-content repeat(${parties.length}, 1fr)`;
   container.append(document.createElement("span"));
   for (const p of parties) {
@@ -141,19 +157,20 @@ function renderMatrix(kind, matrices) {
       cell.addEventListener("focus", show);
       attachTooltip(cell, () => [
         `${fmt1.format(value)} pro Rede`,
-        kind === "beifall" ? `Beifall ${GRAMMAR[parties[j]].von} bei Reden ${GRAMMAR[parties[i]].gen}` : `Zwischenrufe ${GRAMMAR[parties[j]].von} bei Reden ${GRAMMAR[parties[i]].gen}`,
+        `${kind === "beifall" ? "Beifall" : "Zwischenrufe"} ${GRAMMAR[parties[j]].von} bei Reden ${GRAMMAR[parties[i]].gen}`,
       ]);
       container.append(cell);
     });
   });
-  container.addEventListener("pointerleave", () => (reading.textContent = defaultReading));
+  container.onpointerleave = () => (reading.textContent = defaultReading);
   reading.textContent = defaultReading;
 }
 
 // --- HTML bar lists
 
-function renderBars(id, items, colors, { max, value, short, label, party, tip }) {
+function renderBars(id, items, colors, { max, value, short, label, party, barColor, tip }) {
   const list = document.getElementById(id);
+  list.replaceChildren();
   for (const item of items) {
     const dt = document.createElement("dt");
     dt.textContent = label(item);
@@ -167,7 +184,7 @@ function renderBars(id, items, colors, { max, value, short, label, party, tip })
     const bar = document.createElement("span");
     bar.className = "bar";
     bar.style.width = `${(value(item) / max) * BAR_MAX_PCT}%`;
-    bar.style.background = colors[party(item)] ?? MUTED;
+    bar.style.background = colors[barColor(item)] ?? MUTED;
     const val = document.createElement("span");
     val.className = "bar-value";
     val.textContent = short(item);
@@ -194,23 +211,163 @@ function quoteItem(quote, attribution) {
   return li;
 }
 
-// --- load & render
+// --- SVG line chart (quarterly series, crosshair + tooltip, WP markers)
 
-async function main() {
-  const [matrices, speakers, eigen, zitate, meta] = await Promise.all(
-    ["matrices", "speakers", "selbstapplaus", "zitate", "meta"].map((name) =>
-      fetch(`data/${name}.json`).then((r) => {
-        if (!r.ok) throw new Error(`${name}.json: HTTP ${r.status}`);
-        return r.json();
-      })
-    )
+const SVG_NS = "http://www.w3.org/2000/svg";
+
+function svgEl(name, attrs, textContent) {
+  const el = document.createElementNS(SVG_NS, name);
+  for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v);
+  if (textContent !== undefined) el.textContent = textContent;
+  return el;
+}
+
+function niceStep(max) {
+  const raw = max / 4;
+  const mag = 10 ** Math.floor(Math.log10(raw));
+  return [1, 2, 2.5, 5, 10].map((m) => m * mag).find((s) => s >= raw);
+}
+
+const quarterLabel = (q) => `Q${q.slice(5)} ${q.slice(0, 4)}`;
+
+function renderLineChart(containerId, { quarters, series, marks, reden, format }) {
+  const W = 680, H = 280, L = 46, R = 86, T = 16, B = 26;
+  const container = document.getElementById(containerId);
+  container.replaceChildren();
+  const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, tabindex: "0", role: "img" });
+
+  const allValues = series.flatMap((s) => s.values.filter((v) => v != null));
+  const step = niceStep(Math.max(...allValues));
+  const yMax = step * Math.ceil(Math.max(...allValues) / step + 0.25);
+  const x = (i) => L + (i / (quarters.length - 1)) * (W - L - R);
+  const y = (v) => T + (1 - v / yMax) * (H - T - B);
+
+  for (let v = 0; v <= yMax + 1e-9; v += step) {
+    svg.append(svgEl("line", { class: "gridline", x1: L, x2: W - R, y1: y(v), y2: y(v) }));
+    svg.append(svgEl("text", { class: "tick-label", x: L - 8, y: y(v) + 3.5, "text-anchor": "end" }, format(v)));
+  }
+  quarters.forEach((q, i) => {
+    if (q.endsWith("Q1")) {
+      svg.append(svgEl("text", { class: "tick-label", x: x(i), y: H - 8, "text-anchor": "middle" }, q.slice(0, 4)));
+    }
+  });
+  for (const mark of marks) {
+    if (mark.index <= 0) continue;
+    svg.append(svgEl("line", { class: "wp-mark", x1: x(mark.index), x2: x(mark.index), y1: T, y2: H - B }));
+    svg.append(svgEl("text", { class: "wp-label", x: x(mark.index) + 4, y: T + 9 }, `WP ${mark.wp}`));
+  }
+
+  for (const s of series) {
+    let d = "";
+    s.values.forEach((v, i) => {
+      if (v == null) return;
+      d += `${d && s.values[i - 1] != null ? "L" : "M"}${x(i).toFixed(1)},${y(v).toFixed(1)}`;
+    });
+    svg.append(svgEl("path", { class: "series", d, stroke: s.color }));
+  }
+
+  // direct end labels (multi-series only — a single series is named by the
+  // heading), nudged apart when series converge
+  const ends = (series.length > 1 ? series : [])
+    .map((s) => {
+      const i = s.values.findLastIndex((v) => v != null);
+      return { name: s.name, yPos: y(s.values[i]) };
+    })
+    .sort((a, b) => a.yPos - b.yPos);
+  ends.forEach((e, k) => {
+    if (k > 0) e.yPos = Math.max(e.yPos, ends[k - 1].yPos + 14);
+    svg.append(svgEl("text", { class: "end-label", x: W - R + 8, y: e.yPos + 3.5 }, e.name));
+  });
+
+  const crosshair = svgEl("line", { class: "crosshair", y1: T, y2: H - B });
+  svg.append(crosshair);
+  const dots = series.map((s) => {
+    const dot = svgEl("circle", { class: "cross-dot", r: 4, fill: s.color });
+    svg.append(dot);
+    return dot;
+  });
+
+  const showIndex = (i, clientX, clientY) => {
+    crosshair.setAttribute("x1", x(i));
+    crosshair.setAttribute("x2", x(i));
+    crosshair.style.visibility = "visible";
+    series.forEach((s, k) => {
+      const v = s.values[i];
+      dots[k].style.visibility = v == null ? "hidden" : "visible";
+      if (v != null) {
+        dots[k].setAttribute("cx", x(i));
+        dots[k].setAttribute("cy", y(v));
+      }
+    });
+    showTooltipRows(
+      [
+        { text: `${quarterLabel(quarters[i])} · ${fmtInt.format(reden[i])} Reden`, strong: true },
+        ...series.map((s) => ({
+          text: s.values[i] == null ? `${s.name}: –` : `${format(s.values[i])} ${s.name}`,
+          swatch: s.color,
+        })),
+      ],
+      clientX,
+      clientY
+    );
+  };
+
+  let activeIndex = quarters.length - 1;
+  const hide = () => {
+    crosshair.style.visibility = "hidden";
+    dots.forEach((d) => (d.style.visibility = "hidden"));
+    hideTooltip();
+  };
+  svg.addEventListener("pointermove", (e) => {
+    const rect = svg.getBoundingClientRect();
+    const px = ((e.clientX - rect.left) / rect.width) * W;
+    activeIndex = Math.max(0, Math.min(quarters.length - 1, Math.round(((px - L) / (W - L - R)) * (quarters.length - 1))));
+    showIndex(activeIndex, e.clientX, e.clientY);
+  });
+  svg.addEventListener("pointerleave", hide);
+  svg.addEventListener("keydown", (e) => {
+    if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+    e.preventDefault();
+    activeIndex = Math.max(0, Math.min(quarters.length - 1, activeIndex + (e.key === "ArrowRight" ? 1 : -1)));
+    const rect = svg.getBoundingClientRect();
+    showIndex(activeIndex, rect.left + (x(activeIndex) / W) * rect.width, rect.top + rect.height / 2);
+  });
+  svg.addEventListener("blur", hide);
+
+  if (series.length > 1) {
+    const legend = document.createElement("ul");
+    legend.className = "legend";
+    for (const s of series) {
+      const li = document.createElement("li");
+      const swatch = document.createElement("span");
+      swatch.className = "swatch";
+      swatch.style.background = s.color;
+      li.append(swatch, document.createTextNode(s.name));
+      legend.append(li);
+    }
+    container.append(legend);
+  }
+  container.prepend(svg);
+}
+
+// --- per-Wahlperiode sections
+
+const fetchJson = (path) =>
+  fetch(`data/${path}`).then((r) => {
+    if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
+    return r.json();
+  });
+
+async function loadWahlperiode(info) {
+  const [matrices, speakers, eigen, zitate] = await Promise.all(
+    ["matrices", "speakers", "selbstapplaus", "zitate"].map((n) => fetchJson(`wp${info.wp}/${n}.json`))
   );
 
   document.getElementById("hero-eyebrow").textContent =
-    `Plenarprotokolle · ${meta.wahlperiode}. Wahlperiode · ${fmtMonth.format(new Date(meta.von))} bis ${fmtMonth.format(new Date(meta.bis))}`;
-  document.getElementById("stat-sitzungen").textContent = fmtInt.format(meta.sitzungen);
-  document.getElementById("stat-reden").textContent = fmtInt.format(meta.reden);
-  document.getElementById("stat-ereignisse").textContent = fmtInt.format(meta.ereignisse);
+    `Plenarprotokolle · ${info.wp}. Wahlperiode · ${fmtMonth.format(new Date(info.von))} bis ${fmtMonth.format(new Date(info.bis))}`;
+  document.getElementById("stat-sitzungen").textContent = fmtInt.format(info.sitzungen);
+  document.getElementById("stat-reden").textContent = fmtInt.format(info.reden);
+  document.getElementById("stat-ereignisse").textContent = fmtInt.format(info.ereignisse);
   document.getElementById("stats").hidden = false;
 
   renderMatrix("beifall", matrices);
@@ -222,6 +379,7 @@ async function main() {
     short: (s) => fmt1.format(s.rate),
     label: (s) => s.speaker,
     party: (s) => s.party,
+    barColor: (s) => s.party,
     tip: (s) => ({
       value: `${fmt1.format(s.rate)} Beifall pro Rede`,
       label: `${s.speaker} (${s.party}), ${fmtInt.format(s.n_reden)} Reden`,
@@ -234,6 +392,7 @@ async function main() {
     short: (s) => fmtInt.format(s.n),
     label: (s) => s.person,
     party: (s) => s.party,
+    barColor: (s) => s.party,
     tip: (s) => ({
       value: `${fmtInt.format(s.n)} Zwischenrufe`,
       label: `${s.person} (${s.party}), namentlich protokolliert`,
@@ -246,17 +405,15 @@ async function main() {
     short: (e) => `${Math.round(e.share * 100)} %`,
     label: (e) => e.party,
     party: () => "",
+    barColor: (e) => e.party,
     tip: (e) => ({
       value: `${Math.round(e.share * 100)} %`,
       label: `des Beifalls für Reden ${GRAMMAR[e.party].gen} kommt aus der eigenen Fraktion`,
     }),
   });
-  // Eigenapplaus-Balken tragen die Fraktionsfarbe; die Zeile nennt die Partei im Text
-  document.querySelectorAll("#bars-eigen .bar").forEach((bar, i) => {
-    bar.style.background = matrices.colors[eigen[i].party] ?? MUTED;
-  });
 
   const legend = document.getElementById("party-legend");
+  legend.replaceChildren();
   for (const p of matrices.fraktionen) {
     const li = document.createElement("li");
     const swatch = document.createElement("span");
@@ -267,20 +424,74 @@ async function main() {
   }
 
   document.getElementById("zitate-sub").textContent =
-    `${fmtInt.format(zitate.gesamt)} Zwischenrufe stehen wörtlich im Protokoll. Links die Klassiker, rechts die jüngsten.`;
+    `${fmtInt.format(zitate.gesamt)} Zwischenrufe der ${info.wp}. Wahlperiode stehen wörtlich im Protokoll. Links die Klassiker, rechts die jüngsten.`;
   const frequent = document.getElementById("quotes-frequent");
+  frequent.replaceChildren();
   for (const q of zitate.haeufig) {
     frequent.append(quoteItem(q.quote, `${fmtInt.format(q.n)}-mal protokolliert`));
   }
   const recent = document.getElementById("quotes-recent");
+  recent.replaceChildren();
   for (const q of zitate.zuletzt.slice(0, 10)) {
     recent.append(quoteItem(q.quote, `${q.person} (${q.party}) · ${fmtDate.format(new Date(q.date))}`));
   }
+}
+
+// --- boot
+
+async function main() {
+  const [meta, trends] = await Promise.all([fetchJson("meta.json"), fetchJson("trends.json")]);
+  const perioden = meta.wahlperioden;
+  const current = perioden[perioden.length - 1];
+
+  const switcher = document.getElementById("wp-switch");
+  for (const info of perioden) {
+    const label = document.createElement("label");
+    const input = document.createElement("input");
+    input.type = "radio";
+    input.name = "wp";
+    input.value = info.wp;
+    input.checked = info.wp === current.wp;
+    input.addEventListener("change", () => {
+      loadWahlperiode(info).catch(console.error);
+    });
+    label.append(input, document.createTextNode(`WP ${info.wp}`));
+    label.title = `${fmtMonth.format(new Date(info.von))} bis ${fmtMonth.format(new Date(info.bis))}`;
+    switcher.append(label);
+  }
+  switcher.hidden = perioden.length < 2;
+
+  await loadWahlperiode(current);
+
+  const marks = trends.wp_marken.map((m) => ({
+    wp: m.wp,
+    index: trends.quartale.indexOf(`${m.von.slice(0, 4)}Q${Math.floor((+m.von.slice(5, 7) - 1) / 3) + 1}`),
+  }));
+
+  renderLineChart("chart-fremd", {
+    quarters: trends.quartale,
+    reden: trends.reden,
+    marks,
+    format: (v) => fmtPct.format(v),
+    series: [{ name: "fraktionsübergreifend", color: TREND_COLORS[0], values: trends.beifall_fremd_anteil }],
+  });
+
+  renderLineChart("chart-reaktionen", {
+    quarters: trends.quartale,
+    reden: trends.reden,
+    marks,
+    format: (v) => fmt1.format(v),
+    series: [
+      { name: "Beifall", color: TREND_COLORS[0], values: trends.beifall_pro_rede },
+      { name: "Zurufe", color: TREND_COLORS[1], values: trends.zurufe_pro_rede },
+      { name: "Lachen", color: TREND_COLORS[2], values: trends.lachen_pro_rede },
+    ],
+  });
 
   document.getElementById("stand").textContent =
-    `Datenstand: ${fmtDate.format(new Date(meta.bis))} (letzte ausgewertete Sitzung) · ` +
+    `Datenstand: ${fmtDate.format(new Date(current.bis))} (letzte ausgewertete Sitzung) · ` +
     `zuletzt aktualisiert am ${fmtDate.format(new Date(meta.generated_at))} · ` +
-    `${fmtInt.format(meta.sitzungen)} Plenarprotokolle ausgewertet`;
+    `${fmtInt.format(perioden.reduce((sum, p) => sum + p.sitzungen, 0))} Plenarprotokolle ausgewertet`;
 }
 
 main().catch((err) => {

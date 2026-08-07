@@ -42,7 +42,7 @@ jobs:
       - name: Download protocols (fallback when the cache is empty)
         run: |
           if [ -z "$(ls -A data/protocols 2>/dev/null)" ]; then
-            uv run scripts/download_protocols.py 21
+            uv run scripts/download_protocols.py 19 20 21
           fi
 
       - run: uv run scripts/export_json.py

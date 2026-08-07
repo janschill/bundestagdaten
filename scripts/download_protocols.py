@@ -6,6 +6,7 @@ WP21: list id 1058442-1058442, WP20: 866354-866354.
 
 import re
 import sys
+import time
 from pathlib import Path
 
 import requests
@@ -13,6 +14,7 @@ import requests
 LIST_IDS = {
     21: "1058442-1058442",
     20: "866354-866354",
+    19: "543410-543410",
 }
 BASE = "https://www.bundestag.de"
 DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "protocols"
@@ -52,6 +54,19 @@ def list_protocol_urls(term: int) -> list[str]:
         offset += len(page)
 
 
+def fetch(url: str) -> bytes:
+    for attempt in range(4):
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=60)
+            resp.raise_for_status()
+            return resp.content
+        except requests.RequestException:
+            if attempt == 3:
+                raise
+            time.sleep(2**attempt)
+    raise AssertionError("unreachable")
+
+
 def download(term: int) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     urls = list_protocol_urls(term)
@@ -61,11 +76,11 @@ def download(term: int) -> None:
         target = DATA_DIR / name
         if target.exists():
             continue
-        resp = requests.get(url, headers=HEADERS, timeout=60)
-        resp.raise_for_status()
-        target.write_bytes(resp.content)
-        print(f"  downloaded {name} ({len(resp.content) // 1024} KB)")
+        content = fetch(url)
+        target.write_bytes(content)
+        print(f"  downloaded {name} ({len(content) // 1024} KB)")
 
 
 if __name__ == "__main__":
-    download(int(sys.argv[1]) if len(sys.argv) > 1 else 21)
+    for term in [int(arg) for arg in sys.argv[1:]] or [21]:
+        download(term)

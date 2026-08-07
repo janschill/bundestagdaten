@@ -35,6 +35,9 @@
       <div class="stat"><div class="value" id="stat-reden"></div><div class="label">Reden</div></div>
       <div class="stat"><div class="value" id="stat-ereignisse"></div><div class="label">protokollierte Reaktionen</div></div>
     </div>
+    <fieldset class="wp-switch" id="wp-switch" hidden>
+      <legend>Wahlperiode</legend>
+    </fieldset>
   </div>
 
   <section id="beifall" aria-labelledby="beifall-h">
@@ -109,11 +112,31 @@
     </div>
   </section>
 
+  <section id="trends" aria-labelledby="trends-h">
+    <h2 id="trends-h">Trends seit 2017</h2>
+    <p class="section-sub">
+      Quartalsweise über alle ausgewerteten Wahlperioden hinweg — unabhängig von
+      der Auswahl oben.
+    </p>
+    <div class="trend">
+      <h3>Fraktionsübergreifender Beifall</h3>
+      <p class="note">Anteil des zugeordneten Beifalls, der über Fraktionsgrenzen geht — je niedriger, desto stärker klatscht jede Fraktion nur für sich.</p>
+      <div class="chart" id="chart-fremd"></div>
+    </div>
+    <div class="trend">
+      <h3>Reaktionen pro Rede</h3>
+      <p class="note">Gewichtete Ereignisse pro Rede: Beifall, Zurufe sowie Lachen und Heiterkeit.</p>
+      <div class="chart" id="chart-reaktionen"></div>
+    </div>
+  </section>
+
   <section aria-labelledby="methodik-h">
     <h2 id="methodik-h">Methodik</h2>
     <p class="section-sub">
       Datengrundlage sind die amtlichen Plenarprotokoll-XMLs des
-      <a href="https://www.bundestag.de/services/opendata">Open-Data-Portals des Deutschen Bundestages</a>.
+      <a href="https://www.bundestag.de/services/opendata">Open-Data-Portals des Deutschen Bundestages</a>
+      für die Wahlperioden 19 bis 21 (seit Oktober 2017; ältere Protokolle liegen
+      nur als unstrukturierter Text vor).
       Jede <code>&lt;kommentar&gt;</code>-Zeile wird in einzelne Ereignisse zerlegt und der
       Fraktion bzw. Person zugeordnet, von der sie ausging. „Beifall bei Abgeordneten
       der X“ (ein Teil der Fraktion) zählt mit Gewicht&nbsp;0,5, Beifall der ganzen

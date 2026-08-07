@@ -6,16 +6,24 @@ import pandas as pd
 
 from btd.parse import load_term
 
-FRAKTIONEN = ["CDU/CSU", "SPD", "AfD", "Grüne", "Linke"]
+# canonical display order, filtered per Wahlperiode so matrices stay comparable
+FRAKTIONEN_BY_WP = {
+    19: ["CDU/CSU", "SPD", "AfD", "FDP", "Grüne", "Linke"],
+    20: ["CDU/CSU", "SPD", "AfD", "FDP", "Grüne", "Linke", "BSW"],
+    21: ["CDU/CSU", "SPD", "AfD", "Grüne", "Linke"],
+}
+FRAKTIONEN = FRAKTIONEN_BY_WP[21]
 
-# chart-adjusted conventional party colors (validated: CVD ΔE 21.7, all ≥3:1 on white;
-# CDU near-black and fraktionslos gray are deliberate — every chart direct-labels)
+# chart-adjusted conventional party colors (all ≥3:1 on white; CDU near-black,
+# FDP dark mustard and fraktionslos gray are deliberate — every chart direct-labels)
 PARTY_COLORS = {
     "CDU/CSU": "#333333",
     "SPD": "#d61f2e",
     "AfD": "#0090c9",
+    "FDP": "#b58900",
     "Grüne": "#3d8a26",
     "Linke": "#b0308a",
+    "BSW": "#7d254f",
     "fraktionslos": "#898781",
 }
 
@@ -29,7 +37,7 @@ def load_frames(data_dir: Path, wahlperiode: int = 21) -> tuple[pd.DataFrame, pd
     # partial applause ("bei Abgeordneten der X") counts half a fraktion
     edf["weight"] = edf["partial"].map({False: 1.0, True: 0.5})
     edf = edf.merge(
-        sdf[["rede_id", "sitzung", "date", "speaker_id", "speaker", "party", "is_government"]].rename(
+        sdf[["rede_id", "wahlperiode", "sitzung", "date", "speaker_id", "speaker", "party", "is_government"]].rename(
             columns={"speaker_id": "to_speaker_id", "speaker": "to_speaker", "party": "to_party"}
         ),
         on="rede_id",
@@ -38,15 +46,17 @@ def load_frames(data_dir: Path, wahlperiode: int = 21) -> tuple[pd.DataFrame, pd
     return sdf, edf
 
 
-def interaction_matrix(edf: pd.DataFrame, sdf: pd.DataFrame, kind: str) -> pd.DataFrame:
+def interaction_matrix(
+    edf: pd.DataFrame, sdf: pd.DataFrame, kind: str, fraktionen: list[str] = FRAKTIONEN
+) -> pd.DataFrame:
     """Events of one kind, from-party × to-party, normalized per speech held.
 
     Rows: party of the speaker on the lectern. Columns: fraktion the reaction
     came from. Values: weighted events per speech, so parties with more
     speaking time don't dominate.
     """
-    sub = edf[(edf["kind"] == kind) & edf["party"].isin(FRAKTIONEN) & edf["to_party"].isin(FRAKTIONEN)]
+    sub = edf[(edf["kind"] == kind) & edf["party"].isin(fraktionen) & edf["to_party"].isin(fraktionen)]
     counts = sub.pivot_table(index="to_party", columns="party", values="weight", aggfunc="sum", fill_value=0.0)
-    speeches_held = sdf[sdf["party"].isin(FRAKTIONEN)].groupby("party").size()
+    speeches_held = sdf[sdf["party"].isin(fraktionen)].groupby("party").size()
     rate = counts.div(speeches_held, axis=0)
-    return rate.reindex(index=FRAKTIONEN, columns=FRAKTIONEN)
+    return rate.reindex(index=fraktionen, columns=fraktionen).fillna(0.0)

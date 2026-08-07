@@ -27,4 +27,4 @@ jobs:
           restore-keys: |
             protocols-
 
-      - run: uv run scripts/download_protocols.py 21
+      - run: uv run scripts/download_protocols.py 19 20 21
