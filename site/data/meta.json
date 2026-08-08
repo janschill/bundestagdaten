@@ -1,0 +1,29 @@
+{
+ "generated_at": "2026-08-08T08:19:54Z",
+ "wahlperioden": [
+  {
+   "wp": 19,
+   "sitzungen": 239,
+   "reden": 26978,
+   "ereignisse": 312688,
+   "von": "2017-10-24",
+   "bis": "2021-09-07"
+  },
+  {
+   "wp": 20,
+   "sitzungen": 214,
+   "reden": 27007,
+   "ereignisse": 396104,
+   "von": "2021-10-26",
+   "bis": "2025-03-18"
+  },
+  {
+   "wp": 21,
+   "sitzungen": 90,
+   "reden": 12090,
+   "ereignisse": 142825,
+   "von": "2025-03-25",
+   "bis": "2026-07-10"
+  }
+ ]
+}

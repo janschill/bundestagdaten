@@ -1,0 +1,171 @@
+{
+ "beifall": [
+  {
+   "speaker": "Jens Spahn",
+   "party": "CDU/CSU",
+   "rate": 25.4,
+   "n_reden": 14
+  },
+  {
+   "speaker": "Matthias Miersch",
+   "party": "SPD",
+   "rate": 25.3,
+   "n_reden": 11
+  },
+  {
+   "speaker": "Britta Haßelmann",
+   "party": "Grüne",
+   "rate": 20.1,
+   "n_reden": 13
+  },
+  {
+   "speaker": "Alice Weidel",
+   "party": "AfD",
+   "rate": 19.9,
+   "n_reden": 12
+  },
+  {
+   "speaker": "Katharina Dröge",
+   "party": "Grüne",
+   "rate": 18.5,
+   "n_reden": 15
+  },
+  {
+   "speaker": "Alexander Hoffmann",
+   "party": "CDU/CSU",
+   "rate": 16.1,
+   "n_reden": 15
+  },
+  {
+   "speaker": "Norbert Röttgen",
+   "party": "CDU/CSU",
+   "rate": 15.7,
+   "n_reden": 15
+  },
+  {
+   "speaker": "Tino Chrupalla",
+   "party": "AfD",
+   "rate": 14.9,
+   "n_reden": 15
+  },
+  {
+   "speaker": "Mathias Middelberg",
+   "party": "CDU/CSU",
+   "rate": 12.3,
+   "n_reden": 10
+  },
+  {
+   "speaker": "Günter Krings",
+   "party": "CDU/CSU",
+   "rate": 12.0,
+   "n_reden": 12
+  },
+  {
+   "speaker": "Hülya Düber",
+   "party": "CDU/CSU",
+   "rate": 11.8,
+   "n_reden": 20
+  },
+  {
+   "speaker": "Ralf Stegner",
+   "party": "SPD",
+   "rate": 11.6,
+   "n_reden": 31
+  },
+  {
+   "speaker": "Florian Oßner",
+   "party": "CDU/CSU",
+   "rate": 11.3,
+   "n_reden": 17
+  },
+  {
+   "speaker": "Johannes Fechner",
+   "party": "SPD",
+   "rate": 11.2,
+   "n_reden": 20
+  },
+  {
+   "speaker": "Thomas Rachel",
+   "party": "CDU/CSU",
+   "rate": 11.2,
+   "n_reden": 10
+  }
+ ],
+ "zurufe": [
+  {
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "n": 2302
+  },
+  {
+   "person": "Dr. Götz Frömming",
+   "party": "AfD",
+   "n": 1095
+  },
+  {
+   "person": "Martin Reichardt",
+   "party": "AfD",
+   "n": 898
+  },
+  {
+   "person": "Jörn König",
+   "party": "AfD",
+   "n": 884
+  },
+  {
+   "person": "Beatrix von Storch",
+   "party": "AfD",
+   "n": 802
+  },
+  {
+   "person": "Britta Haßelmann",
+   "party": "Grüne",
+   "n": 795
+  },
+  {
+   "person": "Dr. Bernd Baumann",
+   "party": "AfD",
+   "n": 784
+  },
+  {
+   "person": "Dr. Johannes Fechner",
+   "party": "SPD",
+   "n": 727
+  },
+  {
+   "person": "Kay Gottschalk",
+   "party": "AfD",
+   "n": 566
+  },
+  {
+   "person": "Markus Frohnmaier",
+   "party": "AfD",
+   "n": 542
+  },
+  {
+   "person": "Lisa Badum",
+   "party": "Grüne",
+   "n": 538
+  },
+  {
+   "person": "Marc Bernhard",
+   "party": "AfD",
+   "n": 499
+  },
+  {
+   "person": "Enrico Komning",
+   "party": "AfD",
+   "n": 498
+  },
+  {
+   "person": "Claudia Roth",
+   "party": "Grüne",
+   "n": 469
+  },
+  {
+   "person": "Filiz Polat",
+   "party": "Grüne",
+   "n": 466
+  }
+ ]
+}

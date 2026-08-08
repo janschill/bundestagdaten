@@ -1,0 +1,215 @@
+{
+ "gesamt": 74182,
+ "haeufig": [
+  {
+   "quote": "Ja!",
+   "n": 752
+  },
+  {
+   "quote": "Genau!",
+   "n": 735
+  },
+  {
+   "quote": "So ist es!",
+   "n": 644
+  },
+  {
+   "quote": "Nein!",
+   "n": 439
+  },
+  {
+   "quote": "Richtig!",
+   "n": 433
+  },
+  {
+   "quote": "Hört! Hört!",
+   "n": 341
+  },
+  {
+   "quote": "Was?",
+   "n": 294
+  },
+  {
+   "quote": "Sehr gut!",
+   "n": 285
+  },
+  {
+   "quote": "Sehr richtig!",
+   "n": 261
+  },
+  {
+   "quote": "Unglaublich!",
+   "n": 218
+  },
+  {
+   "quote": "Aha!",
+   "n": 205
+  },
+  {
+   "quote": "Das stimmt!",
+   "n": 197
+  }
+ ],
+ "zuletzt": [
+  {
+   "quote": "Nein, die lässt niemand im Stich!",
+   "person": "Gegenruf des Abg. Dr. Götz Frömming",
+   "party": "AfD",
+   "to_speaker": "Götz Frömming",
+   "to_party": "AfD",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Hat mit Corona nichts zu tun!",
+   "person": "Carsten Schneider",
+   "party": "SPD",
+   "to_speaker": "Christian Lindner",
+   "to_party": "FDP",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Ja, die hat es nicht ausgehalten!",
+   "person": "Dr. Diether Dehm",
+   "party": "Linke",
+   "to_speaker": "Dietmar Bartsch",
+   "to_party": "Linke",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Richtig!",
+   "person": "Dr. Gesine Lötzsch",
+   "party": "Linke",
+   "to_speaker": "Dietmar Bartsch",
+   "to_party": "Linke",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Die Menschen denken darüber anders!",
+   "person": "Michael Grosse-Brömer",
+   "party": "CDU/CSU",
+   "to_speaker": "Dietmar Bartsch",
+   "to_party": "Linke",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Genau!",
+   "person": "Jan Korte",
+   "party": "Linke",
+   "to_speaker": "Dietmar Bartsch",
+   "to_party": "Linke",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Unmöglich!",
+   "person": "Dr. Gesine Lötzsch",
+   "party": "Linke",
+   "to_speaker": "Dietmar Bartsch",
+   "to_party": "Linke",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Richtig! Genau!",
+   "person": "Dr. Gesine Lötzsch",
+   "party": "Linke",
+   "to_speaker": "Dietmar Bartsch",
+   "to_party": "Linke",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Scheuer! Stichwort „Scheuer“!",
+   "person": "Dr. Franziska Brantner",
+   "party": "Grüne",
+   "to_speaker": "Dietmar Bartsch",
+   "to_party": "Linke",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Vergleichen Sie Deutschland mal mit anderen Ländern!",
+   "person": "Michael Grosse-Brömer",
+   "party": "CDU/CSU",
+   "to_speaker": "Dietmar Bartsch",
+   "to_party": "Linke",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Das stimmt!",
+   "person": "Jan Korte",
+   "party": "Linke",
+   "to_speaker": "Dietmar Bartsch",
+   "to_party": "Linke",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Gute Rede bis jetzt!",
+   "person": "Michael Grosse-Brömer",
+   "party": "CDU/CSU",
+   "to_speaker": "Dietmar Bartsch",
+   "to_party": "Linke",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Mann, Mann, Mann! Stabil neoliberal!",
+   "person": "Jan Korte",
+   "party": "Linke",
+   "to_speaker": "Christian Lindner",
+   "to_party": "FDP",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Das sieht die EZB aber ganz anders!",
+   "person": "Carsten Schneider",
+   "party": "SPD",
+   "to_speaker": "Christian Lindner",
+   "to_party": "FDP",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Verkehrssicherheit!",
+   "person": "Dr. Franziska Brantner",
+   "party": "Grüne",
+   "to_speaker": "Christian Lindner",
+   "to_party": "FDP",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Szenen einer Ehe!",
+   "person": "Dr. Marie-Agnes Strack-Zimmermann",
+   "party": "FDP",
+   "to_speaker": "Olaf Scholz",
+   "to_party": "Bundesminister BMF",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Ja, das ist halt ein bisschen wenig!",
+   "person": "Dr. Petra Sitte",
+   "party": "Linke",
+   "to_speaker": "Christian Lindner",
+   "to_party": "FDP",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Das stimmt!",
+   "person": "Dr. Dietmar Bartsch",
+   "party": "Linke",
+   "to_speaker": "Christian Lindner",
+   "to_party": "FDP",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Mit langem „U“!",
+   "person": "Jan Korte",
+   "party": "Linke",
+   "to_speaker": "Christian Lindner",
+   "to_party": "FDP",
+   "date": "2021-09-07"
+  },
+  {
+   "quote": "Sie wissen noch nicht einmal, wie man den Namen ausspricht!",
+   "person": "Dr. Franziska Brantner",
+   "party": "Grüne",
+   "to_speaker": "Christian Lindner",
+   "to_party": "FDP",
+   "date": "2021-09-07"
+  }
+ ]
+}

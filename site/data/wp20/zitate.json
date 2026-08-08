@@ -1,0 +1,215 @@
+{
+ "gesamt": 97943,
+ "haeufig": [
+  {
+   "quote": "So ist es!",
+   "n": 1085
+  },
+  {
+   "quote": "Genau!",
+   "n": 995
+  },
+  {
+   "quote": "Ja!",
+   "n": 857
+  },
+  {
+   "quote": "Hört! Hört!",
+   "n": 667
+  },
+  {
+   "quote": "Aha!",
+   "n": 495
+  },
+  {
+   "quote": "Richtig!",
+   "n": 464
+  },
+  {
+   "quote": "Nein!",
+   "n": 402
+  },
+  {
+   "quote": "Sehr gut!",
+   "n": 322
+  },
+  {
+   "quote": "Sehr richtig!",
+   "n": 278
+  },
+  {
+   "quote": "Was?",
+   "n": 244
+  },
+  {
+   "quote": "Unglaublich!",
+   "n": 223
+  },
+  {
+   "quote": "Das stimmt!",
+   "n": 221
+  }
+ ],
+ "zuletzt": [
+  {
+   "quote": "Und Schulden!",
+   "person": "Dr. Marcus Faber",
+   "party": "FDP",
+   "to_speaker": "Dennis Rohde",
+   "to_party": "SPD",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Einfach einsparen und für etwas anderes ausgeben! So einfach ist das!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Britta Haßelmann",
+   "to_party": "Grüne",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Fragen Sie mal die Wirtschaft, die Unternehmen!",
+   "person": "Dr. Bernd Baumann",
+   "party": "AfD",
+   "to_speaker": "Friedrich Merz",
+   "to_party": "CDU/CSU",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Ja, reißt ihr euch mal zusammen!",
+   "person": "Gegenruf des Abg. Dr. Bernd Baumann",
+   "party": "AfD",
+   "to_speaker": "Friedrich Merz",
+   "to_party": "CDU/CSU",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Jetzt reißt euch halt mal zusammen! Das ist ja Wahnsinn! Wirklich!",
+   "person": "Gegenruf der Abg. Dorothee Bär",
+   "party": "CDU/CSU",
+   "to_speaker": "Friedrich Merz",
+   "to_party": "CDU/CSU",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Was soll man Ihnen eigentlich noch glauben?",
+   "person": "Beatrix von Storch",
+   "party": "AfD",
+   "to_speaker": "Friedrich Merz",
+   "to_party": "CDU/CSU",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Lieber Pinocchio-Fritze!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Friedrich Merz",
+   "to_party": "CDU/CSU",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Das waren noch Zeiten!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lars Klingbeil",
+   "to_party": "SPD",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Dann müssen Sie AfD wählen!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lars Klingbeil",
+   "to_party": "SPD",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Kann so nicht klappen!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lars Klingbeil",
+   "to_party": "SPD",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Garantiert nicht!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lars Klingbeil",
+   "to_party": "SPD",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Und das Klima in der Welt retten!",
+   "person": "Beatrix von Storch",
+   "party": "AfD",
+   "to_speaker": "Lars Klingbeil",
+   "to_party": "SPD",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Ja, wer ist denn dafür verantwortlich?",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lars Klingbeil",
+   "to_party": "SPD",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Ja, wo kommt der denn her?",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lars Klingbeil",
+   "to_party": "SPD",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Ist gar nicht so, oder was?",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lars Klingbeil",
+   "to_party": "SPD",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Ach was!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lars Klingbeil",
+   "to_party": "SPD",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Das ist schön!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lars Klingbeil",
+   "to_party": "SPD",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Vor allem die Wähler!",
+   "person": "Bettina Stark-Watzinger",
+   "party": "FDP",
+   "to_speaker": "Lars Klingbeil",
+   "to_party": "SPD",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Nee, weiß Gott nicht!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lars Klingbeil",
+   "to_party": "SPD",
+   "date": "2025-03-18"
+  },
+  {
+   "quote": "Werden wir sehen!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lars Klingbeil",
+   "to_party": "SPD",
+   "date": "2025-03-18"
+  }
+ ]
+}

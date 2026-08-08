@@ -1,0 +1,215 @@
+{
+ "gesamt": 38074,
+ "haeufig": [
+  {
+   "quote": "Genau!",
+   "n": 356
+  },
+  {
+   "quote": "Ja!",
+   "n": 346
+  },
+  {
+   "quote": "So ist es!",
+   "n": 322
+  },
+  {
+   "quote": "Hört! Hört!",
+   "n": 250
+  },
+  {
+   "quote": "Richtig!",
+   "n": 200
+  },
+  {
+   "quote": "Nein!",
+   "n": 135
+  },
+  {
+   "quote": "Sehr gut!",
+   "n": 123
+  },
+  {
+   "quote": "Aha!",
+   "n": 117
+  },
+  {
+   "quote": "Sehr richtig!",
+   "n": 106
+  },
+  {
+   "quote": "Doch!",
+   "n": 100
+  },
+  {
+   "quote": "Quatsch!",
+   "n": 89
+  },
+  {
+   "quote": "Was?",
+   "n": 88
+  }
+ ],
+ "zuletzt": [
+  {
+   "quote": "Die werden sich bedanken für diesen Dank! Die werden sich bedanken!",
+   "person": "Dr. Janosch Dahmen",
+   "party": "Grüne",
+   "to_speaker": "Hülya Düber",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Einfach mal reinschauen, in die Unterlagen!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Das ist jetzt nicht Einfache Sprache!",
+   "person": "Jörn König",
+   "party": "AfD",
+   "to_speaker": "Adam Balten",
+   "to_party": "AfD",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Wir haben auch Damen!",
+   "person": "Jörn König",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Das wird auch so kommen!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Das ist alles unter Ihrer Regierung passiert! Wie konnte das passieren?",
+   "person": "Jörn König",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Sie müssen mal unseren Antrag lesen!",
+   "person": "Marc Bernhard",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Ja, das braucht kein Mensch!",
+   "person": "Marc Bernhard",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Sie wollen die Wirtschaft abschaffen!",
+   "person": "Marc Bernhard",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Das ist der Sargnagel für Millionen von Arbeitsplätzen!",
+   "person": "Marc Bernhard",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Nein, das ist der Sargnagel!",
+   "person": "Marc Bernhard",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Das hättet ihr machen können!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Ist das eine seriöse Schuldenpolitik? Ist das ernsthaft eine seriöse Schuldenpolitik, was Sie machen?",
+   "person": "Marc Bernhard",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Weniger Ausgaben!",
+   "person": "Marc Bernhard",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Wir haben im letzten Haushalt 120 Milliarden eingespart! Lesen Sie unsere Haushaltsanträge!",
+   "person": "Jörn König",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Ja, machen wir!",
+   "person": "Jörn König",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Weil das die Haushälter machen, Herr Kollege!",
+   "person": "Dr. Michael Espendiller",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Viel!",
+   "person": "Sven Lehmann",
+   "party": "Grüne",
+   "to_speaker": "Michael Hose",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "120 Milliarden haben wir vorgeschlagen! 120 Milliarden!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  },
+  {
+   "quote": "Doch! Genau so ist das!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Nicklas Kappe",
+   "to_party": "CDU/CSU",
+   "date": "2026-07-10"
+  }
+ ]
+}

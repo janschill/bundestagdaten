@@ -1,0 +1,171 @@
+{
+ "beifall": [
+  {
+   "speaker": "Katharina Dröge",
+   "party": "Grüne",
+   "rate": 30.3,
+   "n_reden": 23
+  },
+  {
+   "speaker": "Friedrich Merz",
+   "party": "CDU/CSU",
+   "rate": 29.5,
+   "n_reden": 50
+  },
+  {
+   "speaker": "Britta Haßelmann",
+   "party": "Grüne",
+   "rate": 29.0,
+   "n_reden": 27
+  },
+  {
+   "speaker": "Rolf Mützenich",
+   "party": "SPD",
+   "rate": 27.7,
+   "n_reden": 22
+  },
+  {
+   "speaker": "Dennis Rohde",
+   "party": "SPD",
+   "rate": 24.9,
+   "n_reden": 23
+  },
+  {
+   "speaker": "Lars Klingbeil",
+   "party": "SPD",
+   "rate": 23.0,
+   "n_reden": 16
+  },
+  {
+   "speaker": "Christian Dürr",
+   "party": "FDP",
+   "rate": 22.4,
+   "n_reden": 46
+  },
+  {
+   "speaker": "Sven-Christian Kindler",
+   "party": "Grüne",
+   "rate": 21.8,
+   "n_reden": 31
+  },
+  {
+   "speaker": "Matthias Miersch",
+   "party": "SPD",
+   "rate": 21.5,
+   "n_reden": 28
+  },
+  {
+   "speaker": "Bijan Djir-Sarai",
+   "party": "FDP",
+   "rate": 19.6,
+   "n_reden": 11
+  },
+  {
+   "speaker": "Sönke Rix",
+   "party": "SPD",
+   "rate": 19.6,
+   "n_reden": 16
+  },
+  {
+   "speaker": "Alice Weidel",
+   "party": "AfD",
+   "rate": 19.5,
+   "n_reden": 23
+  },
+  {
+   "speaker": "Achim Post",
+   "party": "SPD",
+   "rate": 19.1,
+   "n_reden": 18
+  },
+  {
+   "speaker": "Omid Nouripour",
+   "party": "Grüne",
+   "rate": 18.8,
+   "n_reden": 13
+  },
+  {
+   "speaker": "Claudia Roth",
+   "party": "Staatsministerin BK",
+   "rate": 18.7,
+   "n_reden": 12
+  }
+ ],
+ "zurufe": [
+  {
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "n": 5624
+  },
+  {
+   "person": "Beatrix von Storch",
+   "party": "AfD",
+   "n": 2577
+  },
+  {
+   "person": "Dr. Götz Frömming",
+   "party": "AfD",
+   "n": 2522
+  },
+  {
+   "person": "Jens Spahn",
+   "party": "CDU/CSU",
+   "n": 2370
+  },
+  {
+   "person": "Thorsten Frei",
+   "party": "CDU/CSU",
+   "n": 1980
+  },
+  {
+   "person": "Dr. Bernd Baumann",
+   "party": "AfD",
+   "n": 1601
+  },
+  {
+   "person": "Dorothee Bär",
+   "party": "CDU/CSU",
+   "n": 1368
+  },
+  {
+   "person": "Julia Klöckner",
+   "party": "CDU/CSU",
+   "n": 1207
+  },
+  {
+   "person": "Martin Reichardt",
+   "party": "AfD",
+   "n": 1145
+  },
+  {
+   "person": "Enrico Komning",
+   "party": "AfD",
+   "n": 1117
+  },
+  {
+   "person": "Dr. Günter Krings",
+   "party": "CDU/CSU",
+   "n": 1071
+  },
+  {
+   "person": "Patrick Schnieder",
+   "party": "CDU/CSU",
+   "n": 1062
+  },
+  {
+   "person": "Marianne Schieder",
+   "party": "SPD",
+   "n": 1036
+  },
+  {
+   "person": "Andrea Lindholz",
+   "party": "CDU/CSU",
+   "n": 1029
+  },
+  {
+   "person": "Dr. Rainer Kraft",
+   "party": "AfD",
+   "n": 1020
+  }
+ ]
+}

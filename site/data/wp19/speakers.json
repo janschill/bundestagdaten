@@ -1,0 +1,171 @@
+{
+ "beifall": [
+  {
+   "speaker": "Andrea Nahles",
+   "party": "SPD",
+   "rate": 27.8,
+   "n_reden": 15
+  },
+  {
+   "speaker": "Ralph Brinkhaus",
+   "party": "CDU/CSU",
+   "rate": 25.0,
+   "n_reden": 27
+  },
+  {
+   "speaker": "Sahra Wagenknecht",
+   "party": "Linke",
+   "rate": 20.6,
+   "n_reden": 10
+  },
+  {
+   "speaker": "Dietmar Bartsch",
+   "party": "Linke",
+   "rate": 19.6,
+   "n_reden": 41
+  },
+  {
+   "speaker": "Christian Lindner",
+   "party": "FDP",
+   "rate": 18.9,
+   "n_reden": 48
+  },
+  {
+   "speaker": "Volker Kauder",
+   "party": "CDU/CSU",
+   "rate": 17.9,
+   "n_reden": 19
+  },
+  {
+   "speaker": "Rolf Mützenich",
+   "party": "SPD",
+   "rate": 17.2,
+   "n_reden": 28
+  },
+  {
+   "speaker": "Katrin Göring-Eckardt",
+   "party": "Grüne",
+   "rate": 16.5,
+   "n_reden": 41
+  },
+  {
+   "speaker": "Stefan Ruppert",
+   "party": "FDP",
+   "rate": 15.7,
+   "n_reden": 34
+  },
+  {
+   "speaker": "Jan Korte",
+   "party": "Linke",
+   "rate": 15.5,
+   "n_reden": 28
+  },
+  {
+   "speaker": "Anton Hofreiter",
+   "party": "Grüne",
+   "rate": 14.7,
+   "n_reden": 31
+  },
+  {
+   "speaker": "Eckhardt Rehberg",
+   "party": "CDU/CSU",
+   "rate": 14.4,
+   "n_reden": 52
+  },
+  {
+   "speaker": "Michael Grosse-Brömer",
+   "party": "CDU/CSU",
+   "rate": 14.2,
+   "n_reden": 16
+  },
+  {
+   "speaker": "Cem Özdemir",
+   "party": "Grüne",
+   "rate": 14.2,
+   "n_reden": 24
+  },
+  {
+   "speaker": "Stephan Harbarth",
+   "party": "CDU/CSU",
+   "rate": 13.8,
+   "n_reden": 20
+  }
+ ],
+ "zurufe": [
+  {
+   "person": "Matthias W. Birkwald",
+   "party": "Linke",
+   "n": 2792
+  },
+  {
+   "person": "Michael Grosse-Brömer",
+   "party": "CDU/CSU",
+   "n": 1955
+  },
+  {
+   "person": "Steffi Lemke",
+   "party": "Grüne",
+   "n": 1750
+  },
+  {
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "n": 1624
+  },
+  {
+   "person": "Ulli Nissen",
+   "party": "SPD",
+   "n": 1591
+  },
+  {
+   "person": "Britta Haßelmann",
+   "party": "Grüne",
+   "n": 1276
+  },
+  {
+   "person": "Christian Dürr",
+   "party": "FDP",
+   "n": 1250
+  },
+  {
+   "person": "Jürgen Braun",
+   "party": "AfD",
+   "n": 1230
+  },
+  {
+   "person": "Dr. Alexander Gauland",
+   "party": "AfD",
+   "n": 1181
+  },
+  {
+   "person": "Marianne Schieder",
+   "party": "SPD",
+   "n": 1180
+  },
+  {
+   "person": "Beatrix von Storch",
+   "party": "AfD",
+   "n": 1117
+  },
+  {
+   "person": "Armin-Paulus Hampel",
+   "party": "AfD",
+   "n": 1024
+  },
+  {
+   "person": "Karsten Hilse",
+   "party": "AfD",
+   "n": 964
+  },
+  {
+   "person": "Dr. Franziska Brantner",
+   "party": "Grüne",
+   "n": 950
+  },
+  {
+   "person": "Otto Fricke",
+   "party": "FDP",
+   "n": 880
+  }
+ ]
+}
