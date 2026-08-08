@@ -24,6 +24,40 @@ def matrix_rows(matrix) -> list[list[float]]:
     return [[round(v, 2) for v in row] for row in matrix.to_numpy().tolist()]
 
 
+def quarterly_series(speeches: pd.DataFrame, events: pd.DataFrame) -> dict:
+    """Quarterly rates: weighted events per speech and the cross-fraktion
+    applause share (within attributed applause; government speeches carry a
+    role instead of a fraktion and are excluded from the share)."""
+    fraktionen = {p for parties in FRAKTIONEN_BY_WP.values() for p in parties}
+    quarter = lambda df: df["date"].dt.to_period("Q")  # noqa: E731
+
+    reden = speeches.groupby(quarter(speeches)).size()
+    by_kind = {
+        kind: events[events["kind"].isin(kinds)].groupby(quarter(events))["weight"].sum().reindex(reden.index, fill_value=0.0)
+        for kind, kinds in {
+            "beifall": ["beifall"],
+            "zurufe": ["zuruf"],
+            "lachen": ["lachen", "heiterkeit"],
+        }.items()
+    }
+
+    attributed = events[
+        (events["kind"] == "beifall") & events["party"].isin(fraktionen) & events["to_party"].isin(fraktionen)
+    ]
+    total = attributed.groupby(quarter(attributed))["weight"].sum().reindex(reden.index, fill_value=0.0)
+    fremd = attributed[attributed["party"] != attributed["to_party"]]
+    fremd_sum = fremd.groupby(quarter(fremd))["weight"].sum().reindex(reden.index, fill_value=0.0)
+
+    return {
+        "quartale": [str(q) for q in reden.index],
+        "reden": [int(n) for n in reden],
+        "beifall_fremd_anteil": [round(f / t, 3) if t else None for f, t in zip(fremd_sum, total)],
+        "beifall_pro_rede": [round(v / n, 2) for v, n in zip(by_kind["beifall"], reden)],
+        "zurufe_pro_rede": [round(v / n, 2) for v, n in zip(by_kind["zurufe"], reden)],
+        "lachen_pro_rede": [round(v / n, 2) for v, n in zip(by_kind["lachen"], reden)],
+    }
+
+
 def export_wahlperiode(wp: int, speeches: pd.DataFrame, events: pd.DataFrame) -> dict:
     fraktionen = FRAKTIONEN_BY_WP[wp]
     out = OUT_DIR / f"wp{wp}"
@@ -76,11 +110,12 @@ def export_wahlperiode(wp: int, speeches: pd.DataFrame, events: pd.DataFrame) ->
         for party, value in share.sort_values(ascending=False).items()
     ])
 
-    quotes = events[events["quote"] != ""]
+    quotes = events[events["quote"] != ""].dropna(subset=["date"])
     frequent = quotes["quote"].value_counts().head(12)
-    recent = quotes.dropna(subset=["date"]).sort_values("date").tail(20).iloc[::-1]
+    recent = quotes.sort_values("date").tail(20).iloc[::-1]
     write(out / "zitate.json", {
         "gesamt": int(len(quotes)),
+        "jahre": sorted(quotes["date"].dt.year.unique().tolist()),
         "haeufig": [{"quote": quote, "n": int(n)} for quote, n in frequent.items()],
         "zuletzt": [
             {
@@ -91,6 +126,57 @@ def export_wahlperiode(wp: int, speeches: pd.DataFrame, events: pd.DataFrame) ->
             for r in recent.itertuples()
         ],
     })
+
+    # drill-down page data: within-WP timeline, full person lists, the whole
+    # quote archive (one file per year, fetched on demand), per-sitting stats
+    write(out / "verlauf.json", quarterly_series(speeches, events))
+
+    all_speakers = (
+        events[events["kind"] == "beifall"]
+        .groupby(["to_speaker", "to_party"], as_index=False)["weight"].sum()
+        .merge(
+            speeches.groupby(["speaker", "party"]).size().rename("n_reden").reset_index(),
+            left_on=["to_speaker", "to_party"], right_on=["speaker", "party"], how="right",
+        )
+        .fillna({"weight": 0.0})
+    )
+    all_speakers = all_speakers[all_speakers["n_reden"] >= 5]
+    all_speakers["rate"] = all_speakers["weight"] / all_speakers["n_reden"]
+    write(out / "personen.json", {
+        "redner": [
+            {"name": r.speaker, "party": r.party, "reden": int(r.n_reden), "rate": round(r.rate, 1)}
+            for r in all_speakers.sort_values("rate", ascending=False).itertuples()
+        ],
+        "zwischenrufer": [
+            {"person": r.person, "party": r.party, "n": int(r.n)}
+            for r in named.groupby(["person", "party"]).size().rename("n").reset_index()
+            .sort_values("n", ascending=False).itertuples()
+        ],
+    })
+
+    # compact rows [quote, person, party, to_speaker, date] — these files are
+    # large (thousands of quotes per year), so no repeated object keys
+    for year, group in quotes.groupby(quotes["date"].dt.year):
+        chronological = group.sort_values("date", ascending=False)
+        write(out / f"zitate-{year}.json", [
+            [r.quote, r.person, r.party, r.to_speaker, r.date.strftime("%Y-%m-%d")]
+            for r in chronological.itertuples()
+        ])
+
+    per_sitting = speeches.groupby(["sitzung", "date"]).size().rename("reden").reset_index()
+    kind_counts = {
+        kind: events[events["kind"].isin(kinds)].groupby("sitzung")["weight"].sum()
+        for kind, kinds in {"beifall": ["beifall"], "zurufe": ["zuruf"], "lachen": ["lachen", "heiterkeit"]}.items()
+    }
+    write(out / "sitzungen.json", [
+        {
+            "nr": int(r.sitzung),
+            "datum": r.date.strftime("%Y-%m-%d"),
+            "reden": int(r.reden),
+            **{kind: int(kind_counts[kind].get(r.sitzung, 0)) for kind in kind_counts},
+        }
+        for r in per_sitting.sort_values("sitzung").itertuples()
+    ])
 
     return {
         "wp": wp,
@@ -103,39 +189,8 @@ def export_wahlperiode(wp: int, speeches: pd.DataFrame, events: pd.DataFrame) ->
 
 
 def export_trends(speeches: pd.DataFrame, events: pd.DataFrame) -> None:
-    """Quarterly series across all Wahlperioden.
-
-    Rates are weighted events per speech; the cross-fraktion share is measured
-    within applause where both source and target fraktion are known (which
-    excludes government speeches — their speakers carry a role, not a fraktion).
-    """
-    fraktionen = {p for parties in FRAKTIONEN_BY_WP.values() for p in parties}
-    quarter = lambda df: df["date"].dt.to_period("Q")  # noqa: E731
-
-    reden = speeches.groupby(quarter(speeches)).size()
-    by_kind = {
-        kind: events[events["kind"].isin(kinds)].groupby(quarter(events))["weight"].sum().reindex(reden.index, fill_value=0.0)
-        for kind, kinds in {
-            "beifall": ["beifall"],
-            "zurufe": ["zuruf"],
-            "lachen": ["lachen", "heiterkeit"],
-        }.items()
-    }
-
-    attributed = events[
-        (events["kind"] == "beifall") & events["party"].isin(fraktionen) & events["to_party"].isin(fraktionen)
-    ]
-    total = attributed.groupby(quarter(attributed))["weight"].sum().reindex(reden.index, fill_value=0.0)
-    fremd = attributed[attributed["party"] != attributed["to_party"]]
-    fremd_sum = fremd.groupby(quarter(fremd))["weight"].sum().reindex(reden.index, fill_value=0.0)
-
-    write(OUT_DIR / "trends.json", {
-        "quartale": [str(q) for q in reden.index],
-        "reden": [int(n) for n in reden],
-        "beifall_fremd_anteil": [round(f / t, 3) if t else None for f, t in zip(fremd_sum, total)],
-        "beifall_pro_rede": [round(v / n, 2) for v, n in zip(by_kind["beifall"], reden)],
-        "zurufe_pro_rede": [round(v / n, 2) for v, n in zip(by_kind["zurufe"], reden)],
-        "lachen_pro_rede": [round(v / n, 2) for v, n in zip(by_kind["lachen"], reden)],
+    """Quarterly series across all Wahlperioden."""
+    write(OUT_DIR / "trends.json", quarterly_series(speeches, events) | {
         "wp_marken": [
             {"wp": int(wp), "von": group["date"].min().strftime("%Y-%m-%d")}
             for wp, group in speeches.groupby("wahlperiode")
@@ -176,9 +231,20 @@ def export_history() -> None:
     })
 
 
+def export_pages(wahlperioden: list[int]) -> None:
+    """Stamp out the drill-down page per Wahlperiode from the template."""
+    template = (ROOT / "site" / "wp" / "template.html").read_text(encoding="utf-8")
+    for wp in wahlperioden:
+        page = ROOT / "site" / "wp" / str(wp) / "index.html"
+        page.parent.mkdir(parents=True, exist_ok=True)
+        page.write_text(template.replace("{{WP}}", str(wp)), encoding="utf-8")
+        print(f"wrote {page.relative_to(ROOT)}")
+
+
 def export() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     present = sorted({int(path.name[:2]) for path in DATA_DIR.glob("*.xml")})
+    export_pages(present)
 
     wahlperioden = []
     all_speeches, all_events = [], []

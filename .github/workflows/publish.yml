@@ -52,10 +52,10 @@ jobs:
       # pushes with GITHUB_TOKEN don't retrigger this workflow, so no loop
       - name: Commit updated data
         run: |
-          if [ -n "$(git status --porcelain site/data)" ]; then
+          if [ -n "$(git status --porcelain site/data site/wp)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add site/data
+            git add site/data site/wp
             git commit -m "Update data ($(date -u +%F))"
             git push
           fi

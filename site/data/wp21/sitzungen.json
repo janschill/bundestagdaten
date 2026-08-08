@@ -1,0 +1,722 @@
+[
+ {
+  "nr": 1,
+  "datum": "2025-03-25",
+  "reden": 17,
+  "beifall": 142,
+  "zurufe": 31,
+  "lachen": 5
+ },
+ {
+  "nr": 2,
+  "datum": "2025-05-06",
+  "reden": 24,
+  "beifall": 86,
+  "zurufe": 9,
+  "lachen": 3
+ },
+ {
+  "nr": 3,
+  "datum": "2025-05-14",
+  "reden": 153,
+  "beifall": 895,
+  "zurufe": 189,
+  "lachen": 19
+ },
+ {
+  "nr": 4,
+  "datum": "2025-05-15",
+  "reden": 145,
+  "beifall": 1304,
+  "zurufe": 276,
+  "lachen": 27
+ },
+ {
+  "nr": 5,
+  "datum": "2025-05-16",
+  "reden": 60,
+  "beifall": 558,
+  "zurufe": 124,
+  "lachen": 11
+ },
+ {
+  "nr": 6,
+  "datum": "2025-05-21",
+  "reden": 160,
+  "beifall": 558,
+  "zurufe": 186,
+  "lachen": 11
+ },
+ {
+  "nr": 7,
+  "datum": "2025-05-22",
+  "reden": 109,
+  "beifall": 907,
+  "zurufe": 226,
+  "lachen": 20
+ },
+ {
+  "nr": 8,
+  "datum": "2025-05-23",
+  "reden": 75,
+  "beifall": 678,
+  "zurufe": 251,
+  "lachen": 23
+ },
+ {
+  "nr": 9,
+  "datum": "2025-06-04",
+  "reden": 153,
+  "beifall": 433,
+  "zurufe": 122,
+  "lachen": 10
+ },
+ {
+  "nr": 10,
+  "datum": "2025-06-05",
+  "reden": 155,
+  "beifall": 1204,
+  "zurufe": 472,
+  "lachen": 35
+ },
+ {
+  "nr": 11,
+  "datum": "2025-06-06",
+  "reden": 66,
+  "beifall": 559,
+  "zurufe": 241,
+  "lachen": 18
+ },
+ {
+  "nr": 12,
+  "datum": "2025-06-24",
+  "reden": 16,
+  "beifall": 214,
+  "zurufe": 38,
+  "lachen": 2
+ },
+ {
+  "nr": 13,
+  "datum": "2025-06-25",
+  "reden": 172,
+  "beifall": 416,
+  "zurufe": 169,
+  "lachen": 9
+ },
+ {
+  "nr": 14,
+  "datum": "2025-06-26",
+  "reden": 220,
+  "beifall": 1498,
+  "zurufe": 484,
+  "lachen": 31
+ },
+ {
+  "nr": 15,
+  "datum": "2025-06-27",
+  "reden": 96,
+  "beifall": 563,
+  "zurufe": 177,
+  "lachen": 12
+ },
+ {
+  "nr": 16,
+  "datum": "2025-07-08",
+  "reden": 126,
+  "beifall": 1150,
+  "zurufe": 353,
+  "lachen": 22
+ },
+ {
+  "nr": 17,
+  "datum": "2025-07-09",
+  "reden": 155,
+  "beifall": 998,
+  "zurufe": 388,
+  "lachen": 36
+ },
+ {
+  "nr": 18,
+  "datum": "2025-07-10",
+  "reden": 156,
+  "beifall": 1310,
+  "zurufe": 384,
+  "lachen": 29
+ },
+ {
+  "nr": 19,
+  "datum": "2025-07-11",
+  "reden": 59,
+  "beifall": 545,
+  "zurufe": 158,
+  "lachen": 2
+ },
+ {
+  "nr": 20,
+  "datum": "2025-09-10",
+  "reden": 183,
+  "beifall": 356,
+  "zurufe": 146,
+  "lachen": 12
+ },
+ {
+  "nr": 21,
+  "datum": "2025-09-11",
+  "reden": 179,
+  "beifall": 1194,
+  "zurufe": 413,
+  "lachen": 33
+ },
+ {
+  "nr": 22,
+  "datum": "2025-09-12",
+  "reden": 85,
+  "beifall": 609,
+  "zurufe": 284,
+  "lachen": 18
+ },
+ {
+  "nr": 23,
+  "datum": "2025-09-16",
+  "reden": 148,
+  "beifall": 1176,
+  "zurufe": 351,
+  "lachen": 19
+ },
+ {
+  "nr": 24,
+  "datum": "2025-09-17",
+  "reden": 147,
+  "beifall": 1454,
+  "zurufe": 432,
+  "lachen": 39
+ },
+ {
+  "nr": 25,
+  "datum": "2025-09-18",
+  "reden": 52,
+  "beifall": 529,
+  "zurufe": 154,
+  "lachen": 12
+ },
+ {
+  "nr": 26,
+  "datum": "2025-09-23",
+  "reden": 103,
+  "beifall": 927,
+  "zurufe": 294,
+  "lachen": 22
+ },
+ {
+  "nr": 27,
+  "datum": "2025-09-24",
+  "reden": 87,
+  "beifall": 1014,
+  "zurufe": 361,
+  "lachen": 36
+ },
+ {
+  "nr": 28,
+  "datum": "2025-09-25",
+  "reden": 115,
+  "beifall": 992,
+  "zurufe": 340,
+  "lachen": 20
+ },
+ {
+  "nr": 29,
+  "datum": "2025-09-26",
+  "reden": 60,
+  "beifall": 601,
+  "zurufe": 162,
+  "lachen": 12
+ },
+ {
+  "nr": 30,
+  "datum": "2025-10-08",
+  "reden": 173,
+  "beifall": 405,
+  "zurufe": 186,
+  "lachen": 10
+ },
+ {
+  "nr": 31,
+  "datum": "2025-10-09",
+  "reden": 213,
+  "beifall": 1514,
+  "zurufe": 551,
+  "lachen": 38
+ },
+ {
+  "nr": 32,
+  "datum": "2025-10-10",
+  "reden": 79,
+  "beifall": 652,
+  "zurufe": 270,
+  "lachen": 20
+ },
+ {
+  "nr": 33,
+  "datum": "2025-10-15",
+  "reden": 189,
+  "beifall": 454,
+  "zurufe": 156,
+  "lachen": 12
+ },
+ {
+  "nr": 34,
+  "datum": "2025-10-16",
+  "reden": 186,
+  "beifall": 1527,
+  "zurufe": 614,
+  "lachen": 45
+ },
+ {
+  "nr": 35,
+  "datum": "2025-10-17",
+  "reden": 83,
+  "beifall": 572,
+  "zurufe": 244,
+  "lachen": 17
+ },
+ {
+  "nr": 36,
+  "datum": "2025-11-05",
+  "reden": 186,
+  "beifall": 500,
+  "zurufe": 239,
+  "lachen": 26
+ },
+ {
+  "nr": 37,
+  "datum": "2025-11-06",
+  "reden": 196,
+  "beifall": 1253,
+  "zurufe": 538,
+  "lachen": 40
+ },
+ {
+  "nr": 38,
+  "datum": "2025-11-07",
+  "reden": 88,
+  "beifall": 723,
+  "zurufe": 297,
+  "lachen": 13
+ },
+ {
+  "nr": 39,
+  "datum": "2025-11-12",
+  "reden": 169,
+  "beifall": 521,
+  "zurufe": 230,
+  "lachen": 23
+ },
+ {
+  "nr": 40,
+  "datum": "2025-11-13",
+  "reden": 241,
+  "beifall": 1523,
+  "zurufe": 579,
+  "lachen": 37
+ },
+ {
+  "nr": 41,
+  "datum": "2025-11-14",
+  "reden": 90,
+  "beifall": 557,
+  "zurufe": 226,
+  "lachen": 19
+ },
+ {
+  "nr": 42,
+  "datum": "2025-11-25",
+  "reden": 104,
+  "beifall": 837,
+  "zurufe": 231,
+  "lachen": 18
+ },
+ {
+  "nr": 43,
+  "datum": "2025-11-26",
+  "reden": 102,
+  "beifall": 923,
+  "zurufe": 421,
+  "lachen": 31
+ },
+ {
+  "nr": 44,
+  "datum": "2025-11-27",
+  "reden": 117,
+  "beifall": 1082,
+  "zurufe": 342,
+  "lachen": 22
+ },
+ {
+  "nr": 45,
+  "datum": "2025-11-28",
+  "reden": 66,
+  "beifall": 599,
+  "zurufe": 214,
+  "lachen": 22
+ },
+ {
+  "nr": 46,
+  "datum": "2025-12-03",
+  "reden": 197,
+  "beifall": 551,
+  "zurufe": 249,
+  "lachen": 9
+ },
+ {
+  "nr": 47,
+  "datum": "2025-12-04",
+  "reden": 197,
+  "beifall": 1450,
+  "zurufe": 554,
+  "lachen": 36
+ },
+ {
+  "nr": 48,
+  "datum": "2025-12-05",
+  "reden": 113,
+  "beifall": 737,
+  "zurufe": 267,
+  "lachen": 17
+ },
+ {
+  "nr": 49,
+  "datum": "2025-12-17",
+  "reden": 132,
+  "beifall": 596,
+  "zurufe": 236,
+  "lachen": 13
+ },
+ {
+  "nr": 50,
+  "datum": "2025-12-18",
+  "reden": 205,
+  "beifall": 1428,
+  "zurufe": 648,
+  "lachen": 43
+ },
+ {
+  "nr": 51,
+  "datum": "2025-12-19",
+  "reden": 94,
+  "beifall": 665,
+  "zurufe": 310,
+  "lachen": 17
+ },
+ {
+  "nr": 52,
+  "datum": "2026-01-14",
+  "reden": 164,
+  "beifall": 391,
+  "zurufe": 173,
+  "lachen": 13
+ },
+ {
+  "nr": 53,
+  "datum": "2026-01-15",
+  "reden": 183,
+  "beifall": 1296,
+  "zurufe": 468,
+  "lachen": 30
+ },
+ {
+  "nr": 54,
+  "datum": "2026-01-16",
+  "reden": 92,
+  "beifall": 661,
+  "zurufe": 254,
+  "lachen": 12
+ },
+ {
+  "nr": 55,
+  "datum": "2026-01-28",
+  "reden": 156,
+  "beifall": 454,
+  "zurufe": 130,
+  "lachen": 2
+ },
+ {
+  "nr": 56,
+  "datum": "2026-01-29",
+  "reden": 162,
+  "beifall": 1302,
+  "zurufe": 583,
+  "lachen": 57
+ },
+ {
+  "nr": 57,
+  "datum": "2026-01-30",
+  "reden": 76,
+  "beifall": 601,
+  "zurufe": 246,
+  "lachen": 16
+ },
+ {
+  "nr": 58,
+  "datum": "2026-02-25",
+  "reden": 180,
+  "beifall": 438,
+  "zurufe": 173,
+  "lachen": 5
+ },
+ {
+  "nr": 59,
+  "datum": "2026-02-26",
+  "reden": 208,
+  "beifall": 1367,
+  "zurufe": 586,
+  "lachen": 48
+ },
+ {
+  "nr": 60,
+  "datum": "2026-02-27",
+  "reden": 85,
+  "beifall": 770,
+  "zurufe": 306,
+  "lachen": 27
+ },
+ {
+  "nr": 61,
+  "datum": "2026-03-04",
+  "reden": 170,
+  "beifall": 378,
+  "zurufe": 144,
+  "lachen": 10
+ },
+ {
+  "nr": 62,
+  "datum": "2026-03-05",
+  "reden": 162,
+  "beifall": 1272,
+  "zurufe": 528,
+  "lachen": 40
+ },
+ {
+  "nr": 63,
+  "datum": "2026-03-06",
+  "reden": 72,
+  "beifall": 476,
+  "zurufe": 205,
+  "lachen": 8
+ },
+ {
+  "nr": 64,
+  "datum": "2026-03-18",
+  "reden": 171,
+  "beifall": 506,
+  "zurufe": 253,
+  "lachen": 22
+ },
+ {
+  "nr": 65,
+  "datum": "2026-03-19",
+  "reden": 177,
+  "beifall": 1345,
+  "zurufe": 621,
+  "lachen": 57
+ },
+ {
+  "nr": 66,
+  "datum": "2026-03-20",
+  "reden": 83,
+  "beifall": 624,
+  "zurufe": 273,
+  "lachen": 19
+ },
+ {
+  "nr": 67,
+  "datum": "2026-03-25",
+  "reden": 114,
+  "beifall": 442,
+  "zurufe": 123,
+  "lachen": 9
+ },
+ {
+  "nr": 68,
+  "datum": "2026-03-26",
+  "reden": 191,
+  "beifall": 1350,
+  "zurufe": 592,
+  "lachen": 48
+ },
+ {
+  "nr": 69,
+  "datum": "2026-03-27",
+  "reden": 84,
+  "beifall": 578,
+  "zurufe": 350,
+  "lachen": 22
+ },
+ {
+  "nr": 70,
+  "datum": "2026-04-15",
+  "reden": 178,
+  "beifall": 337,
+  "zurufe": 148,
+  "lachen": 14
+ },
+ {
+  "nr": 71,
+  "datum": "2026-04-16",
+  "reden": 136,
+  "beifall": 912,
+  "zurufe": 455,
+  "lachen": 36
+ },
+ {
+  "nr": 72,
+  "datum": "2026-04-17",
+  "reden": 63,
+  "beifall": 391,
+  "zurufe": 81,
+  "lachen": 7
+ },
+ {
+  "nr": 73,
+  "datum": "2026-04-22",
+  "reden": 165,
+  "beifall": 352,
+  "zurufe": 161,
+  "lachen": 17
+ },
+ {
+  "nr": 74,
+  "datum": "2026-04-23",
+  "reden": 148,
+  "beifall": 1028,
+  "zurufe": 485,
+  "lachen": 40
+ },
+ {
+  "nr": 75,
+  "datum": "2026-04-24",
+  "reden": 77,
+  "beifall": 531,
+  "zurufe": 254,
+  "lachen": 18
+ },
+ {
+  "nr": 76,
+  "datum": "2026-05-06",
+  "reden": 169,
+  "beifall": 465,
+  "zurufe": 199,
+  "lachen": 23
+ },
+ {
+  "nr": 77,
+  "datum": "2026-05-07",
+  "reden": 170,
+  "beifall": 1140,
+  "zurufe": 429,
+  "lachen": 34
+ },
+ {
+  "nr": 78,
+  "datum": "2026-05-08",
+  "reden": 78,
+  "beifall": 596,
+  "zurufe": 250,
+  "lachen": 11
+ },
+ {
+  "nr": 79,
+  "datum": "2026-05-20",
+  "reden": 174,
+  "beifall": 447,
+  "zurufe": 188,
+  "lachen": 9
+ },
+ {
+  "nr": 80,
+  "datum": "2026-05-21",
+  "reden": 190,
+  "beifall": 1230,
+  "zurufe": 489,
+  "lachen": 42
+ },
+ {
+  "nr": 81,
+  "datum": "2026-05-22",
+  "reden": 85,
+  "beifall": 594,
+  "zurufe": 319,
+  "lachen": 10
+ },
+ {
+  "nr": 82,
+  "datum": "2026-06-10",
+  "reden": 167,
+  "beifall": 621,
+  "zurufe": 235,
+  "lachen": 23
+ },
+ {
+  "nr": 83,
+  "datum": "2026-06-11",
+  "reden": 255,
+  "beifall": 1621,
+  "zurufe": 831,
+  "lachen": 48
+ },
+ {
+  "nr": 84,
+  "datum": "2026-06-12",
+  "reden": 99,
+  "beifall": 722,
+  "zurufe": 256,
+  "lachen": 15
+ },
+ {
+  "nr": 85,
+  "datum": "2026-06-24",
+  "reden": 128,
+  "beifall": 492,
+  "zurufe": 300,
+  "lachen": 17
+ },
+ {
+  "nr": 86,
+  "datum": "2026-06-25",
+  "reden": 198,
+  "beifall": 1556,
+  "zurufe": 627,
+  "lachen": 28
+ },
+ {
+  "nr": 87,
+  "datum": "2026-06-26",
+  "reden": 82,
+  "beifall": 692,
+  "zurufe": 278,
+  "lachen": 16
+ },
+ {
+  "nr": 88,
+  "datum": "2026-07-08",
+  "reden": 192,
+  "beifall": 595,
+  "zurufe": 286,
+  "lachen": 21
+ },
+ {
+  "nr": 89,
+  "datum": "2026-07-09",
+  "reden": 198,
+  "beifall": 1334,
+  "zurufe": 562,
+  "lachen": 40
+ },
+ {
+  "nr": 90,
+  "datum": "2026-07-10",
+  "reden": 112,
+  "beifall": 773,
+  "zurufe": 375,
+  "lachen": 13
+ }
+]
