@@ -22,9 +22,12 @@ jobs:
       # the download script only fetches what is missing
       - uses: actions/cache@v4
         with:
-          path: data/protocols
+          path: |
+            data/protocols
+            data/archives
           key: protocols-${{ github.run_id }}
           restore-keys: |
             protocols-
 
-      - run: uv run scripts/download_protocols.py 19 20 21
+      - run: uv run scripts/download_protocols.py {1..21}
+        shell: bash

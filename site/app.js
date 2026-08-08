@@ -230,7 +230,7 @@ function niceStep(max) {
 
 const quarterLabel = (q) => `Q${q.slice(5)} ${q.slice(0, 4)}`;
 
-function renderLineChart(containerId, { quarters, series, marks, reden, format }) {
+function renderLineChart(containerId, { labels, series, marks, xTick, tooltipTitle, format }) {
   const W = 680, H = 280, L = 46, R = 86, T = 16, B = 26;
   const container = document.getElementById(containerId);
   container.replaceChildren();
@@ -239,19 +239,20 @@ function renderLineChart(containerId, { quarters, series, marks, reden, format }
   const allValues = series.flatMap((s) => s.values.filter((v) => v != null));
   const step = niceStep(Math.max(...allValues));
   const yMax = step * Math.ceil(Math.max(...allValues) / step + 0.25);
-  const x = (i) => L + (i / (quarters.length - 1)) * (W - L - R);
+  const x = (i) => L + (i / (labels.length - 1)) * (W - L - R);
   const y = (v) => T + (1 - v / yMax) * (H - T - B);
 
   for (let v = 0; v <= yMax + 1e-9; v += step) {
     svg.append(svgEl("line", { class: "gridline", x1: L, x2: W - R, y1: y(v), y2: y(v) }));
     svg.append(svgEl("text", { class: "tick-label", x: L - 8, y: y(v) + 3.5, "text-anchor": "end" }, format(v)));
   }
-  quarters.forEach((q, i) => {
-    if (q.endsWith("Q1")) {
-      svg.append(svgEl("text", { class: "tick-label", x: x(i), y: H - 8, "text-anchor": "middle" }, q.slice(0, 4)));
+  labels.forEach((label, i) => {
+    const tick = xTick(label, i);
+    if (tick != null) {
+      svg.append(svgEl("text", { class: "tick-label", x: x(i), y: H - 8, "text-anchor": "middle" }, tick));
     }
   });
-  for (const mark of marks) {
+  for (const mark of marks ?? []) {
     if (mark.index <= 0) continue;
     svg.append(svgEl("line", { class: "wp-mark", x1: x(mark.index), x2: x(mark.index), y1: T, y2: H - B }));
     svg.append(svgEl("text", { class: "wp-label", x: x(mark.index) + 4, y: T + 9 }, `WP ${mark.wp}`));
@@ -301,7 +302,7 @@ function renderLineChart(containerId, { quarters, series, marks, reden, format }
     });
     showTooltipRows(
       [
-        { text: `${quarterLabel(quarters[i])} · ${fmtInt.format(reden[i])} Reden`, strong: true },
+        { text: tooltipTitle(i), strong: true },
         ...series.map((s) => ({
           text: s.values[i] == null ? `${s.name}: –` : `${format(s.values[i])} ${s.name}`,
           swatch: s.color,
@@ -312,7 +313,7 @@ function renderLineChart(containerId, { quarters, series, marks, reden, format }
     );
   };
 
-  let activeIndex = quarters.length - 1;
+  let activeIndex = labels.length - 1;
   const hide = () => {
     crosshair.style.visibility = "hidden";
     dots.forEach((d) => (d.style.visibility = "hidden"));
@@ -321,14 +322,14 @@ function renderLineChart(containerId, { quarters, series, marks, reden, format }
   svg.addEventListener("pointermove", (e) => {
     const rect = svg.getBoundingClientRect();
     const px = ((e.clientX - rect.left) / rect.width) * W;
-    activeIndex = Math.max(0, Math.min(quarters.length - 1, Math.round(((px - L) / (W - L - R)) * (quarters.length - 1))));
+    activeIndex = Math.max(0, Math.min(labels.length - 1, Math.round(((px - L) / (W - L - R)) * (labels.length - 1))));
     showIndex(activeIndex, e.clientX, e.clientY);
   });
   svg.addEventListener("pointerleave", hide);
   svg.addEventListener("keydown", (e) => {
     if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
     e.preventDefault();
-    activeIndex = Math.max(0, Math.min(quarters.length - 1, activeIndex + (e.key === "ArrowRight" ? 1 : -1)));
+    activeIndex = Math.max(0, Math.min(labels.length - 1, activeIndex + (e.key === "ArrowRight" ? 1 : -1)));
     const rect = svg.getBoundingClientRect();
     showIndex(activeIndex, rect.left + (x(activeIndex) / W) * rect.width, rect.top + rect.height / 2);
   });
@@ -440,7 +441,11 @@ async function loadWahlperiode(info) {
 // --- boot
 
 async function main() {
-  const [meta, trends] = await Promise.all([fetchJson("meta.json"), fetchJson("trends.json")]);
+  const [meta, trends, history] = await Promise.all([
+    fetchJson("meta.json"),
+    fetchJson("trends.json"),
+    fetchJson("seit1949.json"),
+  ]);
   const perioden = meta.wahlperioden;
   const current = perioden[perioden.length - 1];
 
@@ -468,17 +473,34 @@ async function main() {
     index: trends.quartale.indexOf(`${m.von.slice(0, 4)}Q${Math.floor((+m.von.slice(5, 7) - 1) / 3) + 1}`),
   }));
 
+  const quarterTick = (q) => (q.endsWith("Q1") ? q.slice(0, 4) : null);
+  const quarterTitle = (i) => `${quarterLabel(trends.quartale[i])} · ${fmtInt.format(trends.reden[i])} Reden`;
+
+  renderLineChart("chart-1949", {
+    labels: history.jahre,
+    xTick: (year) => (year % 10 === 0 ? String(year) : null),
+    tooltipTitle: (i) => `${history.jahre[i]} · ${fmtInt.format(history.sitzungen[i])} Sitzungen`,
+    format: (v) => fmt1.format(v),
+    series: [
+      { name: "Beifall", color: TREND_COLORS[0], values: history.beifall },
+      { name: "Zurufe", color: TREND_COLORS[1], values: history.zurufe },
+      { name: "Lachen", color: TREND_COLORS[2], values: history.lachen },
+    ],
+  });
+
   renderLineChart("chart-fremd", {
-    quarters: trends.quartale,
-    reden: trends.reden,
+    labels: trends.quartale,
+    xTick: quarterTick,
+    tooltipTitle: quarterTitle,
     marks,
     format: (v) => fmtPct.format(v),
     series: [{ name: "fraktionsübergreifend", color: TREND_COLORS[0], values: trends.beifall_fremd_anteil }],
   });
 
   renderLineChart("chart-reaktionen", {
-    quarters: trends.quartale,
-    reden: trends.reden,
+    labels: trends.quartale,
+    xTick: quarterTick,
+    tooltipTitle: quarterTitle,
     marks,
     format: (v) => fmt1.format(v),
     series: [

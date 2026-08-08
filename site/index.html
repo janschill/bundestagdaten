@@ -113,19 +113,27 @@
   </section>
 
   <section id="trends" aria-labelledby="trends-h">
-    <h2 id="trends-h">Trends seit 2017</h2>
+    <h2 id="trends-h">Trends</h2>
     <p class="section-sub">
-      Quartalsweise über alle ausgewerteten Wahlperioden hinweg — unabhängig von
-      der Auswahl oben.
+      Über die Wahlperioden hinweg — unabhängig von der Auswahl oben.
     </p>
     <div class="trend">
+      <h3>Reaktionen seit 1949</h3>
+      <p class="note">
+        Kommentar-Ereignisse pro 10.000 Wörter Protokoll, jährlich. Ältere
+        Protokolle nennen keine Redenzahl, daher die Wortnormierung; Lachen
+        umfasst auch die protokollierte „Heiterkeit“.
+      </p>
+      <div class="chart" id="chart-1949"></div>
+    </div>
+    <div class="trend">
       <h3>Fraktionsübergreifender Beifall</h3>
-      <p class="note">Anteil des zugeordneten Beifalls, der über Fraktionsgrenzen geht — je niedriger, desto stärker klatscht jede Fraktion nur für sich.</p>
+      <p class="note">Anteil des zugeordneten Beifalls, der über Fraktionsgrenzen geht — je niedriger, desto stärker klatscht jede Fraktion nur für sich. Quartalsweise seit 2017.</p>
       <div class="chart" id="chart-fremd"></div>
     </div>
     <div class="trend">
       <h3>Reaktionen pro Rede</h3>
-      <p class="note">Gewichtete Ereignisse pro Rede: Beifall, Zurufe sowie Lachen und Heiterkeit.</p>
+      <p class="note">Gewichtete Ereignisse pro Rede: Beifall, Zurufe sowie Lachen und Heiterkeit. Quartalsweise seit 2017.</p>
       <div class="chart" id="chart-reaktionen"></div>
     </div>
   </section>
@@ -135,8 +143,11 @@
     <p class="section-sub">
       Datengrundlage sind die amtlichen Plenarprotokoll-XMLs des
       <a href="https://www.bundestag.de/services/opendata">Open-Data-Portals des Deutschen Bundestages</a>
-      für die Wahlperioden 19 bis 21 (seit Oktober 2017; ältere Protokolle liegen
-      nur als unstrukturierter Text vor).
+      für die Wahlperioden 19 bis 21 (seit Oktober 2017). Die Wahlperioden 1
+      bis 18 liegen nur als unstrukturierter Text vor; sie fließen deshalb
+      allein in die Langzeitreihe „Reaktionen seit 1949“ ein — gezählt pro
+      Kommentar-Segment und normiert auf die Wortzahl des Protokolls, ohne
+      Zuordnung zu Fraktionen.
       Jede <code>&lt;kommentar&gt;</code>-Zeile wird in einzelne Ereignisse zerlegt und der
       Fraktion bzw. Person zugeordnet, von der sie ausging. „Beifall bei Abgeordneten
       der X“ (ein Teil der Fraktion) zählt mit Gewicht&nbsp;0,5, Beifall der ganzen

@@ -12,9 +12,11 @@ from pathlib import Path
 import pandas as pd
 
 from btd.frames import FRAKTIONEN_BY_WP, PARTY_COLORS, interaction_matrix, load_frames
+from btd.parse_legacy import load_archive, modern_sitting_counts
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data" / "protocols"
+ARCHIVE_DIR = ROOT / "data" / "archives"
 OUT_DIR = ROOT / "site" / "data"
 
 
@@ -141,6 +143,39 @@ def export_trends(speeches: pd.DataFrame, events: pd.DataFrame) -> None:
     })
 
 
+def export_history() -> None:
+    """Yearly kind counts per 10,000 words, 1949 to today, across both formats.
+
+    Counted once per kommentar segment (see btd.parse_legacy), so the
+    unattributed early decades and the structured present are comparable.
+    """
+    sittings = [s for zip_path in sorted(ARCHIVE_DIR.glob("pp*.zip")) for s in load_archive(zip_path)]
+    sittings += [modern_sitting_counts(path) for path in sorted(DATA_DIR.glob("*.xml"))]
+    if not sittings:
+        return
+    frame = pd.DataFrame(
+        {
+            "year": int(s.date[-4:]),
+            "words": s.words,
+            "beifall": s.counts["beifall"],
+            "zurufe": s.counts["zuruf"],
+            "lachen": s.counts["lachen"] + s.counts["heiterkeit"],
+        }
+        for s in sittings
+    )
+    yearly = frame.groupby("year").sum()
+    yearly["sitzungen"] = frame.groupby("year").size()
+    per10k = lambda kind: [round(v / w * 10_000, 2) for v, w in zip(yearly[kind], yearly["words"])]  # noqa: E731
+
+    write(OUT_DIR / "seit1949.json", {
+        "jahre": [int(y) for y in yearly.index],
+        "sitzungen": [int(n) for n in yearly["sitzungen"]],
+        "beifall": per10k("beifall"),
+        "zurufe": per10k("zurufe"),
+        "lachen": per10k("lachen"),
+    })
+
+
 def export() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     present = sorted({int(path.name[:2]) for path in DATA_DIR.glob("*.xml")})
@@ -154,6 +189,7 @@ def export() -> None:
         all_events.append(events)
 
     export_trends(pd.concat(all_speeches, ignore_index=True), pd.concat(all_events, ignore_index=True))
+    export_history()
 
     write(OUT_DIR / "meta.json", {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
