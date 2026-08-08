@@ -90,7 +90,7 @@ function setupArchive(zitate, fraktionen) {
     );
     count.textContent =
       matches.length > 100
-        ? `${fmtInt.format(matches.length)} Treffer in ${year} — die 100 jüngsten werden angezeigt.`
+        ? `${fmtInt.format(matches.length)} Treffer in ${year}, angezeigt werden die 100 jüngsten.`
         : `${fmtInt.format(matches.length)} Treffer in ${year}.`;
     list.replaceChildren();
     for (const [quote, person, rowParty, toSpeaker, date] of matches.slice(0, 100)) {
@@ -125,7 +125,7 @@ function renderSitzungen(sitzungen) {
     value.textContent = `${top.nr}. Sitzung · ${fmt1.format(rate(top, kind))}`;
     const label = document.createElement("div");
     label.className = "label";
-    label.textContent = `${title} — ${unit}, ${fmtDate.format(new Date(top.datum))}`;
+    label.textContent = `${title}: ${unit}, ${fmtDate.format(new Date(top.datum))}`;
     div.append(value, label);
     highlights.append(div);
   }

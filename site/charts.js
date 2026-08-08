@@ -317,7 +317,7 @@ export function renderLineChart(containerId, { labels, series, marks, xTick, too
       [
         { text: tooltipTitle(i), strong: true },
         ...series.map((s) => ({
-          text: s.values[i] == null ? `${s.name}: –` : `${format(s.values[i])} ${s.name}`,
+          text: s.values[i] == null ? `${s.name}: keine Daten` : `${format(s.values[i])} ${s.name}`,
           swatch: s.color,
         })),
       ],
