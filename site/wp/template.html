@@ -37,20 +37,20 @@
 
   <section aria-labelledby="beifall-h">
     <h2 id="beifall-h">Die Beifall-Matrix</h2>
-    <p class="section-sub">Gewichtete Beifall-Ereignisse pro Rede: wer applaudiert wem.</p>
+    <p class="section-sub">Gewichtete Beifall-Ereignisse je 1.000 Wörter Redetext: wer applaudiert wem.</p>
     <div class="matrix-wrap">
       <div class="matrix" id="matrix-beifall" aria-label="Beifall-Matrix"></div>
-      <p class="axis-hint">Zeile: Fraktion am Rednerpult · Spalte: applaudierende Fraktion · dunkler = mehr</p>
+      <p class="axis-hint">Zeile: Fraktion am Rednerpult · Spalte: applaudierende Fraktion · Ereignisse je 1.000 Wörter · dunkler = mehr</p>
     </div>
     <p class="reading" id="reading-beifall" aria-live="polite"></p>
   </section>
 
   <section aria-labelledby="zurufe-h">
     <h2 id="zurufe-h">Die Zuruf-Matrix</h2>
-    <p class="section-sub">Protokollierte Zurufe und Zwischenrufe pro Rede: wer stört wen.</p>
+    <p class="section-sub">Protokollierte Zurufe und Zwischenrufe je 1.000 Wörter: wer ruft bei wem dazwischen. Zurufe sind mehrdeutig, von Empörung bis Zustimmung.</p>
     <div class="matrix-wrap">
       <div class="matrix" id="matrix-zuruf" aria-label="Zuruf-Matrix"></div>
-      <p class="axis-hint">Zeile: Fraktion am Rednerpult · Spalte: rufende Fraktion · dunkler = mehr</p>
+      <p class="axis-hint">Zeile: Fraktion am Rednerpult · Spalte: rufende Fraktion · Ereignisse je 1.000 Wörter · dunkler = mehr</p>
     </div>
     <p class="reading" id="reading-zuruf" aria-live="polite"></p>
   </section>
@@ -69,6 +69,18 @@
       <div class="chart" id="chart-reaktionen"></div>
     </div>
     <div class="trend">
+      <h3>Wer beklatscht wen</h3>
+      <p class="note">
+        Beifall je 1.000 Wörter für Reden der ausgewählten Fraktion, monatlich
+        und nach applaudierender Fraktion. Die Lücke zwischen eigener Linie
+        und allen anderen zeigt Eigenapplaus, Koalitionsnähe und Ausgrenzung.
+      </p>
+      <fieldset class="wp-switch" id="dyade-select">
+        <legend>Reden von</legend>
+      </fieldset>
+      <div class="chart" id="chart-dyaden"></div>
+    </div>
+    <div class="trend">
       <h3>Zurufe nach Fraktion</h3>
       <p class="note">Gewichtete Zurufe aus jeder Fraktion, bezogen auf alle Reden des Monats: wer hält wie viel dazwischen.</p>
       <div class="chart" id="chart-fraktion"></div>
@@ -83,7 +95,7 @@
     </p>
     <div class="columns">
       <div>
-        <h3>Beifall pro Rede</h3>
+        <h3>Beifall je 1.000 Wörter</h3>
         <div class="table-scroll">
           <table class="data-table" id="table-redner"></table>
         </div>

@@ -1,94 +1,94 @@
 {
  "beifall": [
   {
-   "speaker": "Katharina Dröge",
+   "speaker": "Konstantin von Notz",
    "party": "Grüne",
-   "rate": 30.3,
-   "n_reden": 23
-  },
-  {
-   "speaker": "Friedrich Merz",
-   "party": "CDU/CSU",
-   "rate": 29.5,
-   "n_reden": 50
+   "rate": 35.7,
+   "n_reden": 32
   },
   {
    "speaker": "Britta Haßelmann",
    "party": "Grüne",
-   "rate": 29.0,
+   "rate": 33.6,
    "n_reden": 27
-  },
-  {
-   "speaker": "Rolf Mützenich",
-   "party": "SPD",
-   "rate": 27.7,
-   "n_reden": 22
-  },
-  {
-   "speaker": "Dennis Rohde",
-   "party": "SPD",
-   "rate": 24.9,
-   "n_reden": 23
-  },
-  {
-   "speaker": "Lars Klingbeil",
-   "party": "SPD",
-   "rate": 23.0,
-   "n_reden": 16
-  },
-  {
-   "speaker": "Christian Dürr",
-   "party": "FDP",
-   "rate": 22.4,
-   "n_reden": 46
-  },
-  {
-   "speaker": "Sven-Christian Kindler",
-   "party": "Grüne",
-   "rate": 21.8,
-   "n_reden": 31
   },
   {
    "speaker": "Matthias Miersch",
    "party": "SPD",
-   "rate": 21.5,
+   "rate": 31.4,
    "n_reden": 28
+  },
+  {
+   "speaker": "Renata Alt",
+   "party": "FDP",
+   "rate": 29.5,
+   "n_reden": 18
+  },
+  {
+   "speaker": "Kirsten Kappert-Gonther",
+   "party": "Grüne",
+   "rate": 29.0,
+   "n_reden": 31
+  },
+  {
+   "speaker": "Katja Mast",
+   "party": "SPD",
+   "rate": 28.9,
+   "n_reden": 15
+  },
+  {
+   "speaker": "Kai Gehring",
+   "party": "Grüne",
+   "rate": 28.7,
+   "n_reden": 36
+  },
+  {
+   "speaker": "Heike Baehrens",
+   "party": "SPD",
+   "rate": 27.8,
+   "n_reden": 44
   },
   {
    "speaker": "Bijan Djir-Sarai",
    "party": "FDP",
-   "rate": 19.6,
+   "rate": 27.6,
    "n_reden": 11
   },
   {
    "speaker": "Sönke Rix",
    "party": "SPD",
-   "rate": 19.6,
+   "rate": 27.3,
    "n_reden": 16
-  },
-  {
-   "speaker": "Alice Weidel",
-   "party": "AfD",
-   "rate": 19.5,
-   "n_reden": 23
-  },
-  {
-   "speaker": "Achim Post",
-   "party": "SPD",
-   "rate": 19.1,
-   "n_reden": 18
-  },
-  {
-   "speaker": "Omid Nouripour",
-   "party": "Grüne",
-   "rate": 18.8,
-   "n_reden": 13
   },
   {
    "speaker": "Claudia Roth",
    "party": "Staatsministerin BK",
-   "rate": 18.7,
+   "rate": 27.1,
    "n_reden": 12
+  },
+  {
+   "speaker": "Dennis Rohde",
+   "party": "SPD",
+   "rate": 27.0,
+   "n_reden": 23
+  },
+  {
+   "speaker": "Jasmina Hostert",
+   "party": "SPD",
+   "rate": 26.7,
+   "n_reden": 26
+  },
+  {
+   "speaker": "Katharina Dröge",
+   "party": "Grüne",
+   "rate": 26.2,
+   "n_reden": 23
+  },
+  {
+   "speaker": "Anke Hennig",
+   "party": "SPD",
+   "rate": 25.8,
+   "n_reden": 22
   }
  ],
  "zurufe": [

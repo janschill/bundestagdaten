@@ -64,6 +64,7 @@ class Speech:
     speaker: str
     party: str  # fraktion, or rolle for government members
     is_government: bool
+    words: int  # spoken words, excluding kommentar text
 
 
 @dataclass
@@ -157,6 +158,17 @@ def parse_kommentar(text: str, rede_id: str) -> list[KommentarEvent]:
     return events
 
 
+def _word_count(rede) -> int:
+    """Spoken words of a rede, excluding the kommentar interjections.
+
+    Rates per 1,000 words correct for unequal speaking time (bigger fraktionen
+    get longer slots), following Küpfer/Müller/Stecker 2025.
+    """
+    total = len(" ".join(rede.itertext()).split())
+    kommentare = sum(len(k.text.split()) for k in rede.iter("kommentar") if k.text)
+    return total - kommentare
+
+
 def _dedouble(text: str) -> str:
     """Fix a Bundestag XML data bug where text nodes are duplicated ("SPDSPD")."""
     half = len(text) // 2
@@ -195,6 +207,7 @@ def parse_protocol(path: Path) -> tuple[list[Speech], list[KommentarEvent]]:
                 speaker=f"{vorname} {nachname}".strip(),
                 party=canonical_party(fraktion) if fraktion else rolle,
                 is_government=bool(rolle and not fraktion),
+                words=_word_count(rede),
             )
         )
         for kommentar in rede.iter("kommentar"):

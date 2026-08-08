@@ -1,94 +1,94 @@
 {
  "beifall": [
   {
-   "speaker": "Jens Spahn",
-   "party": "CDU/CSU",
-   "rate": 25.4,
+   "speaker": "Nyke Slawik",
+   "party": "Grüne",
+   "rate": 24.9,
    "n_reden": 14
+  },
+  {
+   "speaker": "Simone Fischer",
+   "party": "Grüne",
+   "rate": 24.3,
+   "n_reden": 14
+  },
+  {
+   "speaker": "Maik Brückner",
+   "party": "Linke",
+   "rate": 24.3,
+   "n_reden": 21
   },
   {
    "speaker": "Matthias Miersch",
    "party": "SPD",
-   "rate": 25.3,
+   "rate": 23.7,
    "n_reden": 11
   },
   {
-   "speaker": "Britta Haßelmann",
-   "party": "Grüne",
-   "rate": 20.1,
-   "n_reden": 13
-  },
-  {
-   "speaker": "Alice Weidel",
-   "party": "AfD",
-   "rate": 19.9,
-   "n_reden": 12
-  },
-  {
-   "speaker": "Katharina Dröge",
-   "party": "Grüne",
-   "rate": 18.5,
-   "n_reden": 15
-  },
-  {
-   "speaker": "Alexander Hoffmann",
-   "party": "CDU/CSU",
-   "rate": 16.1,
-   "n_reden": 15
-  },
-  {
-   "speaker": "Norbert Röttgen",
-   "party": "CDU/CSU",
-   "rate": 15.7,
-   "n_reden": 15
-  },
-  {
-   "speaker": "Tino Chrupalla",
-   "party": "AfD",
-   "rate": 14.9,
-   "n_reden": 15
-  },
-  {
-   "speaker": "Mathias Middelberg",
-   "party": "CDU/CSU",
-   "rate": 12.3,
-   "n_reden": 10
-  },
-  {
-   "speaker": "Günter Krings",
-   "party": "CDU/CSU",
-   "rate": 12.0,
-   "n_reden": 12
-  },
-  {
-   "speaker": "Hülya Düber",
-   "party": "CDU/CSU",
-   "rate": 11.8,
-   "n_reden": 20
-  },
-  {
-   "speaker": "Ralf Stegner",
+   "speaker": "Jasmina Hostert",
    "party": "SPD",
-   "rate": 11.6,
-   "n_reden": 31
+   "rate": 23.7,
+   "n_reden": 27
   },
   {
-   "speaker": "Florian Oßner",
-   "party": "CDU/CSU",
-   "rate": 11.3,
-   "n_reden": 17
-  },
-  {
-   "speaker": "Johannes Fechner",
-   "party": "SPD",
-   "rate": 11.2,
-   "n_reden": 20
+   "speaker": "Marlene Schönberger",
+   "party": "Grüne",
+   "rate": 23.1,
+   "n_reden": 16
   },
   {
    "speaker": "Thomas Rachel",
    "party": "CDU/CSU",
-   "rate": 11.2,
+   "rate": 22.6,
    "n_reden": 10
+  },
+  {
+   "speaker": "Britta Haßelmann",
+   "party": "Grüne",
+   "rate": 22.5,
+   "n_reden": 13
+  },
+  {
+   "speaker": "Marc Biadacz",
+   "party": "CDU/CSU",
+   "rate": 22.3,
+   "n_reden": 13
+  },
+  {
+   "speaker": "Kirsten Kappert-Gonther",
+   "party": "Grüne",
+   "rate": 22.2,
+   "n_reden": 13
+  },
+  {
+   "speaker": "Alaa Alhamwi",
+   "party": "Grüne",
+   "rate": 21.7,
+   "n_reden": 25
+  },
+  {
+   "speaker": "Irene Mihalic",
+   "party": "Grüne",
+   "rate": 21.7,
+   "n_reden": 32
+  },
+  {
+   "speaker": "Heike Heubach",
+   "party": "SPD",
+   "rate": 21.6,
+   "n_reden": 13
+  },
+  {
+   "speaker": "Hülya Düber",
+   "party": "CDU/CSU",
+   "rate": 21.0,
+   "n_reden": 20
+  },
+  {
+   "speaker": "Schahina Gambir",
+   "party": "Grüne",
+   "rate": 20.5,
+   "n_reden": 24
   }
  ],
  "zurufe": [

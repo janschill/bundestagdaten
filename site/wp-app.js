@@ -202,13 +202,40 @@ async function main() {
     })),
   });
 
+  // who applauds whom: pick the speaking fraktion, lines per applauding fraktion
+  const renderDyaden = (toParty) =>
+    renderLineChart("chart-dyaden", {
+      labels: verlauf.monate,
+      xTick: monthTick,
+      tooltipTitle: (i) => `Reden ${GRAMMAR[toParty].gen} · ${fmtMonth.format(new Date(`${verlauf.monate[i]}-01`))}`,
+      format: (v) => fmt1.format(v),
+      series: verlauf.fraktionen.map((p) => ({
+        name: p === toParty ? `${p} (selbst)` : p,
+        color: matrices.colors[p],
+        values: verlauf.beifall_dyaden[toParty][p],
+      })),
+    });
+  const dyadeSelect = document.getElementById("dyade-select");
+  for (const p of verlauf.fraktionen) {
+    const label = document.createElement("label");
+    const input = document.createElement("input");
+    input.type = "radio";
+    input.name = "dyade";
+    input.value = p;
+    input.checked = p === verlauf.fraktionen[0];
+    input.addEventListener("change", () => renderDyaden(p));
+    label.append(input, document.createTextNode(p));
+    dyadeSelect.append(label);
+  }
+  renderDyaden(verlauf.fraktionen[0]);
+
   renderTable("table-redner", {
     defaultSort: "rate",
     columns: [
       { key: "name", title: "Name" },
       { key: "party", title: "Fraktion/Rolle" },
       { key: "reden", title: "Reden", numeric: true, format: (v) => fmtInt.format(v) },
-      { key: "rate", title: "Beifall/Rede", numeric: true, format: (v) => fmt1.format(v) },
+      { key: "rate", title: "Beifall/1000 W.", numeric: true, format: (v) => fmt1.format(v) },
     ],
     rows: personen.redner,
   });

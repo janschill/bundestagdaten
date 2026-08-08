@@ -48,26 +48,29 @@
     <h2 id="beifall-h">Die Beifall-Matrix</h2>
     <p class="section-sub">
       Wie oft applaudiert eine Fraktion bei Reden einer anderen, gemessen in
-      gewichteten Beifall-Ereignissen pro Rede. Die Diagonale ist der Applaus für die eigenen
-      Leute; interessant sind die Nebendiagonalen: Koalitionsapplaus und die
-      Ränder, auf denen es still bleibt.
+      gewichteten Beifall-Ereignissen je 1.000 Wörter Redetext. Die Diagonale
+      ist der Applaus für die eigenen Leute; interessant sind die
+      Nebendiagonalen: Koalitionsapplaus und die Ränder, auf denen es still
+      bleibt und die Forschung von Ausgrenzung spricht.
     </p>
     <div class="matrix-wrap">
       <div class="matrix" id="matrix-beifall" role="grid" aria-label="Beifall-Matrix: Reaktionen pro Rede nach Fraktion"></div>
-      <p class="axis-hint">Zeile: Fraktion am Rednerpult · Spalte: applaudierende Fraktion · dunkler = mehr</p>
+      <p class="axis-hint">Zeile: Fraktion am Rednerpult · Spalte: applaudierende Fraktion · Ereignisse je 1.000 Wörter · dunkler = mehr</p>
     </div>
     <p class="reading" id="reading-beifall" aria-live="polite"></p>
   </section>
 
   <section id="zurufe" aria-labelledby="zurufe-h">
-    <h2 id="zurufe-h">Die Zuruf-Matrix: wer stört wen?</h2>
+    <h2 id="zurufe-h">Die Zuruf-Matrix: wer ruft bei wem dazwischen?</h2>
     <p class="section-sub">
-      Dasselbe Bild für protokollierte Zurufe und Zwischenrufe: pro Rede, aus
-      welcher Fraktion sie kommen und wen sie treffen.
+      Dasselbe Bild für protokollierte Zurufe und Zwischenrufe: aus welcher
+      Fraktion sie kommen und wen sie treffen. Vorsicht bei der Lesart:
+      Zurufe sind mehrdeutig, von Empörung bis Zustimmung („Genau!“), die
+      Diagonale ist überwiegend Beipflichtung aus den eigenen Reihen.
     </p>
     <div class="matrix-wrap">
       <div class="matrix" id="matrix-zuruf" role="grid" aria-label="Zuruf-Matrix: Zwischenrufe pro Rede nach Fraktion"></div>
-      <p class="axis-hint">Zeile: Fraktion am Rednerpult · Spalte: rufende Fraktion · dunkler = mehr</p>
+      <p class="axis-hint">Zeile: Fraktion am Rednerpult · Spalte: rufende Fraktion · Ereignisse je 1.000 Wörter · dunkler = mehr</p>
     </div>
     <p class="reading" id="reading-zuruf" aria-live="polite"></p>
   </section>
@@ -75,13 +78,13 @@
   <section aria-labelledby="personen-h">
     <h2 id="personen-h">Personen</h2>
     <p class="section-sub">
-      Links: wessen Reden den meisten Beifall auslösen (gewichtete Beifall-Ereignisse
-      pro Rede, mindestens 10 Reden). Rechts: wer am häufigsten namentlich mit
-      Zwischenruf im Protokoll steht.
+      Links: wessen Reden den meisten Beifall auslösen (gewichtete
+      Beifall-Ereignisse je 1.000 Wörter Redetext, mindestens 10 Reden).
+      Rechts: wer am häufigsten namentlich mit Zwischenruf im Protokoll steht.
     </p>
     <div class="columns">
       <div>
-        <h3>Beifall pro Rede</h3>
+        <h3>Beifall je 1.000 Wörter</h3>
         <dl class="bars" id="bars-beifall"></dl>
       </div>
       <div>
@@ -155,8 +158,16 @@
       Jede <code>&lt;kommentar&gt;</code>-Zeile wird in einzelne Ereignisse zerlegt und der
       Fraktion bzw. Person zugeordnet, von der sie ausging. „Beifall bei Abgeordneten
       der X“ (ein Teil der Fraktion) zählt mit Gewicht&nbsp;0,5, Beifall der ganzen
-      Fraktion mit&nbsp;1. Die Matrizen normalisieren auf gehaltene Reden, damit
-      Fraktionen mit mehr Redezeit das Bild nicht dominieren.
+      Fraktion mit&nbsp;1. Matrizen und Personenlisten normalisieren auf 1.000
+      Wörter Redetext statt auf Reden, denn größere Fraktionen erhalten
+      längere Redezeiten; die Zeitreihen „pro Rede“ vergleichen nur innerhalb
+      gleicher Zeiträume. Zurufe behandeln wir als Aktivitätsmaß, nicht als
+      Ablehnung: handkodierte Stichproben zeigen, dass ein erheblicher Teil
+      dem Redner zustimmt. Methodik in Anlehnung an
+      <a href="https://doi.org/10.1080/01402382.2025.2549149">Küpfer, Müller
+      und Stecker (2025)</a>, die 750.000 Beifallsereignisse 1976 bis 2020
+      untersuchen und u.&nbsp;a. zeigen, dass Beifall um Wahltermine deutlich
+      zunimmt und ausbleibender Beifall Ausgrenzung markiert.
       Quellcode und Pipeline: <a href="https://github.com/janschill/bundestagdaten">github.com/janschill/bundestagdaten</a>.
     </p>
   </section>

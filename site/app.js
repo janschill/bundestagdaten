@@ -34,7 +34,7 @@ async function loadWahlperiode(info) {
     party: (s) => s.party,
     barColor: (s) => s.party,
     tip: (s) => ({
-      value: `${fmt1.format(s.rate)} Beifall pro Rede`,
+      value: `${fmt1.format(s.rate)} Beifall je 1.000 Wörter`,
       label: `${s.speaker} (${s.party}), ${fmtInt.format(s.n_reden)} Reden`,
     }),
   });

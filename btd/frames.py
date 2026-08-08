@@ -49,14 +49,15 @@ def load_frames(data_dir: Path, wahlperiode: int = 21) -> tuple[pd.DataFrame, pd
 def interaction_matrix(
     edf: pd.DataFrame, sdf: pd.DataFrame, kind: str, fraktionen: list[str] = FRAKTIONEN
 ) -> pd.DataFrame:
-    """Events of one kind, from-party × to-party, normalized per speech held.
+    """Events of one kind, from-party × to-party, per 1,000 spoken words.
 
     Rows: party of the speaker on the lectern. Columns: fraktion the reaction
-    came from. Values: weighted events per speech, so parties with more
-    speaking time don't dominate.
+    came from. Normalizing on words rather than speeches corrects for unequal
+    speaking time (bigger fraktionen get longer slots), following
+    Küpfer/Müller/Stecker 2025 (doi:10.1080/01402382.2025.2549149).
     """
     sub = edf[(edf["kind"] == kind) & edf["party"].isin(fraktionen) & edf["to_party"].isin(fraktionen)]
     counts = sub.pivot_table(index="to_party", columns="party", values="weight", aggfunc="sum", fill_value=0.0)
-    speeches_held = sdf[sdf["party"].isin(fraktionen)].groupby("party").size()
-    rate = counts.div(speeches_held, axis=0)
+    words_held = sdf[sdf["party"].isin(fraktionen)].groupby("party")["words"].sum() / 1000
+    rate = counts.div(words_held, axis=0)
     return rate.reindex(index=fraktionen, columns=fraktionen).fillna(0.0)

@@ -1,94 +1,94 @@
 {
  "beifall": [
   {
-   "speaker": "Andrea Nahles",
-   "party": "SPD",
-   "rate": 27.8,
-   "n_reden": 15
+   "speaker": "Britta Haßelmann",
+   "party": "Grüne",
+   "rate": 26.2,
+   "n_reden": 88
   },
   {
-   "speaker": "Ralph Brinkhaus",
-   "party": "CDU/CSU",
+   "speaker": "Petra Pau",
+   "party": "Linke",
    "rate": 25.0,
-   "n_reden": 27
-  },
-  {
-   "speaker": "Sahra Wagenknecht",
-   "party": "Linke",
-   "rate": 20.6,
-   "n_reden": 10
-  },
-  {
-   "speaker": "Dietmar Bartsch",
-   "party": "Linke",
-   "rate": 19.6,
-   "n_reden": 41
-  },
-  {
-   "speaker": "Christian Lindner",
-   "party": "FDP",
-   "rate": 18.9,
-   "n_reden": 48
-  },
-  {
-   "speaker": "Volker Kauder",
-   "party": "CDU/CSU",
-   "rate": 17.9,
-   "n_reden": 19
-  },
-  {
-   "speaker": "Rolf Mützenich",
-   "party": "SPD",
-   "rate": 17.2,
-   "n_reden": 28
-  },
-  {
-   "speaker": "Katrin Göring-Eckardt",
-   "party": "Grüne",
-   "rate": 16.5,
-   "n_reden": 41
-  },
-  {
-   "speaker": "Stefan Ruppert",
-   "party": "FDP",
-   "rate": 15.7,
-   "n_reden": 34
-  },
-  {
-   "speaker": "Jan Korte",
-   "party": "Linke",
-   "rate": 15.5,
-   "n_reden": 28
-  },
-  {
-   "speaker": "Anton Hofreiter",
-   "party": "Grüne",
-   "rate": 14.7,
-   "n_reden": 31
-  },
-  {
-   "speaker": "Eckhardt Rehberg",
-   "party": "CDU/CSU",
-   "rate": 14.4,
-   "n_reden": 52
+   "n_reden": 36
   },
   {
    "speaker": "Michael Grosse-Brömer",
    "party": "CDU/CSU",
-   "rate": 14.2,
+   "rate": 24.7,
    "n_reden": 16
+  },
+  {
+   "speaker": "Kai Gehring",
+   "party": "Grüne",
+   "rate": 24.6,
+   "n_reden": 65
+  },
+  {
+   "speaker": "Kirsten Kappert-Gonther",
+   "party": "Grüne",
+   "rate": 24.2,
+   "n_reden": 50
+  },
+  {
+   "speaker": "Marco Buschmann",
+   "party": "FDP",
+   "rate": 23.9,
+   "n_reden": 50
+  },
+  {
+   "speaker": "Stefan Ruppert",
+   "party": "FDP",
+   "rate": 23.7,
+   "n_reden": 34
+  },
+  {
+   "speaker": "Martina Renner",
+   "party": "Linke",
+   "rate": 23.4,
+   "n_reden": 12
+  },
+  {
+   "speaker": "Claudia Roth",
+   "party": "Grüne",
+   "rate": 22.9,
+   "n_reden": 13
+  },
+  {
+   "speaker": "Margarete Bause",
+   "party": "Grüne",
+   "rate": 22.9,
+   "n_reden": 23
+  },
+  {
+   "speaker": "Jessica Tatti",
+   "party": "Linke",
+   "rate": 22.8,
+   "n_reden": 18
   },
   {
    "speaker": "Cem Özdemir",
    "party": "Grüne",
-   "rate": 14.2,
+   "rate": 22.5,
    "n_reden": 24
   },
   {
-   "speaker": "Stephan Harbarth",
-   "party": "CDU/CSU",
-   "rate": 13.8,
+   "speaker": "Sven Lehmann",
+   "party": "Grüne",
+   "rate": 22.4,
+   "n_reden": 41
+  },
+  {
+   "speaker": "Renata Alt",
+   "party": "FDP",
+   "rate": 21.9,
    "n_reden": 20
+  },
+  {
+   "speaker": "Ulle Schauws",
+   "party": "Grüne",
+   "rate": 21.1,
+   "n_reden": 57
   }
  ],
  "zurufe": [

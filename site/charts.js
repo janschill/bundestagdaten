@@ -125,10 +125,10 @@ export function sentence(kind, from, to, value) {
   const g = GRAMMAR[from];
   const target = from === to ? "bei eigenen Reden" : `bei Reden ${GRAMMAR[to].gen}`;
   if (kind === "beifall") {
-    return `${g.subj} ${g.verb} ${target} im Schnitt ${fmt1.format(value)}-mal pro Rede.`;
+    return `${g.subj} ${g.verb} ${target} im Schnitt ${fmt1.format(value)}-mal je 1.000 Wörter Redetext.`;
   }
   const von = g.von[0].toUpperCase() + g.von.slice(1);
-  return `${von} kommen ${target} im Schnitt ${fmt1.format(value)} protokollierte Zwischenrufe pro Rede.`;
+  return `${von} kommen ${target} im Schnitt ${fmt1.format(value)} protokollierte Zwischenrufe je 1.000 Wörter Redetext.`;
 }
 
 export function renderMatrix(kind, matrices) {
@@ -139,7 +139,7 @@ export function renderMatrix(kind, matrices) {
   const max = Math.max(...rows.flat());
   const defaultReading =
     "Zelle berühren oder fokussieren, um den Wert im Klartext zu lesen. " +
-    "Werte sind gewichtete Ereignisse pro gehaltener Rede.";
+    "Werte sind gewichtete Ereignisse je 1.000 Wörter Redetext.";
 
   container.replaceChildren();
   container.style.gridTemplateColumns = `max-content repeat(${parties.length}, 1fr)`;
@@ -169,7 +169,7 @@ export function renderMatrix(kind, matrices) {
       cell.addEventListener("pointerenter", show);
       cell.addEventListener("focus", show);
       attachTooltip(cell, () => [
-        `${fmt1.format(value)} pro Rede`,
+        `${fmt1.format(value)} je 1.000 Wörter`,
         `${kind === "beifall" ? "Beifall" : "Zwischenrufe"} ${GRAMMAR[parties[j]].von} bei Reden ${GRAMMAR[parties[i]].gen}`,
       ]);
       container.append(cell);
@@ -244,7 +244,7 @@ function niceStep(max) {
 export const quarterLabel = (q) => `Q${q.slice(5)} ${q.slice(0, 4)}`;
 
 export function renderLineChart(containerId, { labels, series, marks, xTick, tooltipTitle, format }) {
-  const W = 680, H = 280, L = 46, R = 86, T = 16, B = 26;
+  const W = 680, H = 280, L = 46, R = 112, T = 16, B = 26;
   const container = document.getElementById(containerId);
   container.replaceChildren();
   const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, tabindex: "0", role: "img" });

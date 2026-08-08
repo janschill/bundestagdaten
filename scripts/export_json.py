@@ -71,16 +71,16 @@ def export_wahlperiode(wp: int, speeches: pd.DataFrame, events: pd.DataFrame) ->
         "zuruf": matrix_rows(interaction_matrix(events, speeches, "zuruf", fraktionen)),
     })
 
+    spoken = speeches.groupby(["speaker", "party"]).agg(
+        n_reden=("rede_id", "size"), woerter=("words", "sum")
+    ).reset_index()
     per_speaker = (
         events[events["kind"] == "beifall"]
         .groupby(["to_speaker", "to_party"], as_index=False)["weight"].sum()
-        .merge(
-            speeches.groupby(["speaker", "party"]).size().rename("n_reden").reset_index(),
-            left_on=["to_speaker", "to_party"], right_on=["speaker", "party"],
-        )
+        .merge(spoken, left_on=["to_speaker", "to_party"], right_on=["speaker", "party"])
     )
     per_speaker = per_speaker[per_speaker["n_reden"] >= 10]
-    per_speaker["rate"] = per_speaker["weight"] / per_speaker["n_reden"]
+    per_speaker["rate"] = per_speaker["weight"] / (per_speaker["woerter"] / 1000)
     top_beifall = per_speaker.nlargest(15, "rate")
 
     named = events[(events["kind"] == "zuruf") & (events["person"] != "")]
@@ -141,22 +141,42 @@ def export_wahlperiode(wp: int, speeches: pd.DataFrame, events: pd.DataFrame) ->
             .reindex(reden_je_monat.index, fill_value=0.0)
         )
         zurufe_je_fraktion[party] = [round(v / n, 2) for v, n in zip(summe, reden_je_monat)]
+    # who applauds whom, monthly, per 1,000 words spoken by the receiving
+    # fraktion (the dyadic view of Küpfer/Müller/Stecker 2025, fig. 2)
+    monat_woerter = (
+        speeches.assign(monat=speeches["date"].dt.to_period("M"))
+        .groupby(["monat", "party"])["words"].sum()
+    )
+    beifall = events[
+        (events["kind"] == "beifall") & events["party"].isin(fraktionen) & events["to_party"].isin(fraktionen)
+    ].copy()
+    beifall["monat"] = beifall["date"].dt.to_period("M")
+    beifall_sums = beifall.groupby(["monat", "to_party", "party"])["weight"].sum()
+    beifall_dyaden = {}
+    for to_party in fraktionen:
+        beifall_dyaden[to_party] = {}
+        for from_party in fraktionen:
+            rates = []
+            for monat in reden_je_monat.index:
+                woerter = monat_woerter.get((monat, to_party), 0)
+                summe = beifall_sums.get((monat, to_party, from_party), 0.0)
+                rates.append(round(summe / (woerter / 1000), 2) if woerter else None)
+            beifall_dyaden[to_party][from_party] = rates
+
     write(out / "verlauf.json", period_series(speeches, events, "M", "monate") | {
         "fraktionen": fraktionen,
         "zurufe_je_fraktion": zurufe_je_fraktion,
+        "beifall_dyaden": beifall_dyaden,
     })
 
     all_speakers = (
         events[events["kind"] == "beifall"]
         .groupby(["to_speaker", "to_party"], as_index=False)["weight"].sum()
-        .merge(
-            speeches.groupby(["speaker", "party"]).size().rename("n_reden").reset_index(),
-            left_on=["to_speaker", "to_party"], right_on=["speaker", "party"], how="right",
-        )
+        .merge(spoken, left_on=["to_speaker", "to_party"], right_on=["speaker", "party"], how="right")
         .fillna({"weight": 0.0})
     )
     all_speakers = all_speakers[all_speakers["n_reden"] >= 5]
-    all_speakers["rate"] = all_speakers["weight"] / all_speakers["n_reden"]
+    all_speakers["rate"] = all_speakers["weight"] / (all_speakers["woerter"] / 1000)
     write(out / "personen.json", {
         "redner": [
             {"name": r.speaker, "party": r.party, "reden": int(r.n_reden), "rate": round(r.rate, 1)}
