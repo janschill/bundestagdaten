@@ -24,16 +24,16 @@ def matrix_rows(matrix) -> list[list[float]]:
     return [[round(v, 2) for v in row] for row in matrix.to_numpy().tolist()]
 
 
-def quarterly_series(speeches: pd.DataFrame, events: pd.DataFrame) -> dict:
-    """Quarterly rates: weighted events per speech and the cross-fraktion
+def period_series(speeches: pd.DataFrame, events: pd.DataFrame, freq: str, label_key: str) -> dict:
+    """Per-period rates: weighted events per speech and the cross-fraktion
     applause share (within attributed applause; government speeches carry a
     role instead of a fraktion and are excluded from the share)."""
     fraktionen = {p for parties in FRAKTIONEN_BY_WP.values() for p in parties}
-    quarter = lambda df: df["date"].dt.to_period("Q")  # noqa: E731
+    period = lambda df: df["date"].dt.to_period(freq)  # noqa: E731
 
-    reden = speeches.groupby(quarter(speeches)).size()
+    reden = speeches.groupby(period(speeches)).size()
     by_kind = {
-        kind: events[events["kind"].isin(kinds)].groupby(quarter(events))["weight"].sum().reindex(reden.index, fill_value=0.0)
+        kind: events[events["kind"].isin(kinds)].groupby(period(events))["weight"].sum().reindex(reden.index, fill_value=0.0)
         for kind, kinds in {
             "beifall": ["beifall"],
             "zurufe": ["zuruf"],
@@ -44,12 +44,12 @@ def quarterly_series(speeches: pd.DataFrame, events: pd.DataFrame) -> dict:
     attributed = events[
         (events["kind"] == "beifall") & events["party"].isin(fraktionen) & events["to_party"].isin(fraktionen)
     ]
-    total = attributed.groupby(quarter(attributed))["weight"].sum().reindex(reden.index, fill_value=0.0)
+    total = attributed.groupby(period(attributed))["weight"].sum().reindex(reden.index, fill_value=0.0)
     fremd = attributed[attributed["party"] != attributed["to_party"]]
-    fremd_sum = fremd.groupby(quarter(fremd))["weight"].sum().reindex(reden.index, fill_value=0.0)
+    fremd_sum = fremd.groupby(period(fremd))["weight"].sum().reindex(reden.index, fill_value=0.0)
 
     return {
-        "quartale": [str(q) for q in reden.index],
+        label_key: [str(p) for p in reden.index],
         "reden": [int(n) for n in reden],
         "beifall_fremd_anteil": [round(f / t, 3) if t else None for f, t in zip(fremd_sum, total)],
         "beifall_pro_rede": [round(v / n, 2) for v, n in zip(by_kind["beifall"], reden)],
@@ -127,9 +127,24 @@ def export_wahlperiode(wp: int, speeches: pd.DataFrame, events: pd.DataFrame) ->
         ],
     })
 
-    # drill-down page data: within-WP timeline, full person lists, the whole
-    # quote archive (one file per year, fetched on demand), per-sitting stats
-    write(out / "verlauf.json", quarterly_series(speeches, events))
+    # drill-down page data: within-WP timeline (monthly, plus per-fraktion
+    # heckling), full person lists, the whole quote archive (one file per
+    # year, fetched on demand), per-sitting stats
+    reden_je_monat = speeches.groupby(speeches["date"].dt.to_period("M")).size()
+    zurufe = events[(events["kind"] == "zuruf") & events["party"].isin(fraktionen)].copy()
+    zurufe["monat"] = zurufe["date"].dt.to_period("M")
+    zurufe_je_fraktion = {}
+    for party in fraktionen:
+        summe = (
+            zurufe[zurufe["party"] == party]
+            .groupby("monat")["weight"].sum()
+            .reindex(reden_je_monat.index, fill_value=0.0)
+        )
+        zurufe_je_fraktion[party] = [round(v / n, 2) for v, n in zip(summe, reden_je_monat)]
+    write(out / "verlauf.json", period_series(speeches, events, "M", "monate") | {
+        "fraktionen": fraktionen,
+        "zurufe_je_fraktion": zurufe_je_fraktion,
+    })
 
     all_speakers = (
         events[events["kind"] == "beifall"]
@@ -190,7 +205,7 @@ def export_wahlperiode(wp: int, speeches: pd.DataFrame, events: pd.DataFrame) ->
 
 def export_trends(speeches: pd.DataFrame, events: pd.DataFrame) -> None:
     """Quarterly series across all Wahlperioden."""
-    write(OUT_DIR / "trends.json", quarterly_series(speeches, events) | {
+    write(OUT_DIR / "trends.json", period_series(speeches, events, "Q", "quartale") | {
         "wp_marken": [
             {"wp": int(wp), "von": group["date"].min().strftime("%Y-%m-%d")}
             for wp, group in speeches.groupby("wahlperiode")

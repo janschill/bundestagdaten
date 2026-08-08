@@ -4,7 +4,7 @@
 import {
   GRAMMAR, TREND_COLORS,
   fmt1, fmtInt, fmtPct, fmtDate, fmtMonth,
-  fetchJson, setDataBase, quarterLabel, quoteItem,
+  fetchJson, setDataBase, quoteItem,
   renderBars, renderLineChart, renderMatrix,
 } from "./charts.js";
 
@@ -165,27 +165,41 @@ async function main() {
   renderMatrix("beifall", matrices);
   renderMatrix("zuruf", matrices);
 
-  const quarterTick = (q) => (q.endsWith("Q1") ? q.slice(0, 4) : null);
-  const quarterTitle = (i) => `${quarterLabel(verlauf.quartale[i])} · ${fmtInt.format(verlauf.reden[i])} Reden`;
+  // labels are "YYYY-MM"; tick the first month and every January
+  const monthTick = (m, i) => (i === 0 || m.endsWith("-01") ? m.slice(0, 4) : null);
+  const monthTitle = (i) =>
+    `${fmtMonth.format(new Date(`${verlauf.monate[i]}-01`))} · ${fmtInt.format(verlauf.reden[i])} Reden`;
 
   renderLineChart("chart-fremd", {
-    labels: verlauf.quartale,
-    xTick: quarterTick,
-    tooltipTitle: quarterTitle,
+    labels: verlauf.monate,
+    xTick: monthTick,
+    tooltipTitle: monthTitle,
     format: (v) => fmtPct.format(v),
     series: [{ name: "fraktionsübergreifend", color: TREND_COLORS[0], values: verlauf.beifall_fremd_anteil }],
   });
 
   renderLineChart("chart-reaktionen", {
-    labels: verlauf.quartale,
-    xTick: quarterTick,
-    tooltipTitle: quarterTitle,
+    labels: verlauf.monate,
+    xTick: monthTick,
+    tooltipTitle: monthTitle,
     format: (v) => fmt1.format(v),
     series: [
       { name: "Beifall", color: TREND_COLORS[0], values: verlauf.beifall_pro_rede },
       { name: "Zurufe", color: TREND_COLORS[1], values: verlauf.zurufe_pro_rede },
       { name: "Lachen", color: TREND_COLORS[2], values: verlauf.lachen_pro_rede },
     ],
+  });
+
+  renderLineChart("chart-fraktion", {
+    labels: verlauf.monate,
+    xTick: monthTick,
+    tooltipTitle: monthTitle,
+    format: (v) => fmt1.format(v),
+    series: verlauf.fraktionen.map((p) => ({
+      name: p,
+      color: matrices.colors[p],
+      values: verlauf.zurufe_je_fraktion[p],
+    })),
   });
 
   renderTable("table-redner", {

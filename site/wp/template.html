@@ -7,6 +7,7 @@
 <meta name="description" content="Beifall, Zwischenrufe und Zitate der {{WP}}. Wahlperiode des Deutschen Bundestages im Detail — Matrizen, Verlauf, Personen und Sitzungen.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%234a5590'/%3E%3Ctext x='8' y='12' font-family='sans-serif' font-size='11' font-weight='700' fill='%23fcfcfb' text-anchor='middle'%3EB%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../../style.css">
+<script defer data-domain="bundestagsdaten.de" src="https://nsa.janschill.de/js/script.js"></script>
 </head>
 <body data-wp="{{WP}}">
 
@@ -56,7 +57,7 @@
 
   <section aria-labelledby="verlauf-h">
     <h2 id="verlauf-h">Verlauf</h2>
-    <p class="section-sub">Quartalsweise innerhalb der Wahlperiode.</p>
+    <p class="section-sub">Monatsweise innerhalb der Wahlperiode.</p>
     <div class="trend">
       <h3>Fraktionsübergreifender Beifall</h3>
       <p class="note">Anteil des zugeordneten Beifalls über Fraktionsgrenzen hinweg.</p>
@@ -66,6 +67,11 @@
       <h3>Reaktionen pro Rede</h3>
       <p class="note">Gewichtete Ereignisse pro Rede: Beifall, Zurufe sowie Lachen und Heiterkeit.</p>
       <div class="chart" id="chart-reaktionen"></div>
+    </div>
+    <div class="trend">
+      <h3>Zurufe nach Fraktion</h3>
+      <p class="note">Gewichtete Zurufe aus jeder Fraktion, bezogen auf alle Reden des Monats — wer hält wie viel dazwischen.</p>
+      <div class="chart" id="chart-fraktion"></div>
     </div>
   </section>
 
