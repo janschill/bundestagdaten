@@ -31,6 +31,8 @@ jobs:
 
       - run: uv sync
 
+      - run: uv run scripts/make_images.py
+
       # the download workflow maintains the protocol cache; publish only reads it
       - uses: actions/cache/restore@v4
         with:

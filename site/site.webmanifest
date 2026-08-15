@@ -1,0 +1,15 @@
+{
+  "name": "bundestagsdaten.de",
+  "short_name": "bundestagsdaten",
+  "description": "Beifall, Zwischenrufe und Lachen im Deutschen Bundestag, ausgewertet aus den amtlichen Plenarprotokollen seit 1949.",
+  "lang": "de",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#fcfcfb",
+  "theme_color": "#4a5590",
+  "icons": [
+    { "src": "img/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "img/favicon-16.png", "sizes": "16x16", "type": "image/png" },
+    { "src": "img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
