@@ -95,12 +95,17 @@
   {
    "person": "Stephan Brandner",
    "party": "AfD",
-   "n": 2302
+   "n": 2316
   },
   {
    "person": "Dr. Götz Frömming",
    "party": "AfD",
-   "n": 1095
+   "n": 1099
+  },
+  {
+   "person": "Jörn König",
+   "party": "AfD",
+   "n": 903
   },
   {
    "person": "Martin Reichardt",
@@ -108,9 +113,9 @@
    "n": 898
   },
   {
-   "person": "Jörn König",
+   "person": "Dr. Bernd Baumann",
    "party": "AfD",
-   "n": 884
+   "n": 819
   },
   {
    "person": "Beatrix von Storch",
@@ -123,11 +128,6 @@
    "n": 795
   },
   {
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "n": 784
-  },
-  {
    "person": "Dr. Johannes Fechner",
    "party": "SPD",
    "n": 727
@@ -135,7 +135,12 @@
   {
    "person": "Kay Gottschalk",
    "party": "AfD",
-   "n": 566
+   "n": 567
+  },
+  {
+   "person": "Lisa Badum",
+   "party": "Grüne",
+   "n": 557
   },
   {
    "person": "Markus Frohnmaier",
@@ -143,9 +148,9 @@
    "n": 542
   },
   {
-   "person": "Lisa Badum",
-   "party": "Grüne",
-   "n": 538
+   "person": "Enrico Komning",
+   "party": "AfD",
+   "n": 507
   },
   {
    "person": "Marc Bernhard",
@@ -153,19 +158,14 @@
    "n": 499
   },
   {
-   "person": "Enrico Komning",
+   "person": "Dr. Rainer Kraft",
    "party": "AfD",
-   "n": 498
+   "n": 489
   },
   {
-   "person": "Claudia Roth",
-   "party": "Grüne",
-   "n": 469
-  },
-  {
-   "person": "Filiz Polat",
-   "party": "Grüne",
-   "n": 466
+   "person": "Dr. Alice Weidel",
+   "party": "AfD",
+   "n": 480
   }
  ]
 }
