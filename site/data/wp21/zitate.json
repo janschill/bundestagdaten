@@ -1,5 +1,5 @@
 {
- "gesamt": 38521,
+ "gesamt": 39014,
  "jahre": [
   2025,
   2026
@@ -7,15 +7,15 @@
  "haeufig": [
   {
    "quote": "Genau!",
-   "n": 358
+   "n": 364
   },
   {
    "quote": "Ja!",
-   "n": 348
+   "n": 353
   },
   {
    "quote": "So ist es!",
-   "n": 325
+   "n": 329
   },
   {
    "quote": "Hört! Hört!",
@@ -27,27 +27,27 @@
   },
   {
    "quote": "Nein!",
-   "n": 141
-  },
-  {
-   "quote": "Aha!",
-   "n": 123
+   "n": 145
   },
   {
    "quote": "Sehr gut!",
-   "n": 123
+   "n": 126
+  },
+  {
+   "quote": "Aha!",
+   "n": 125
   },
   {
    "quote": "Sehr richtig!",
-   "n": 110
+   "n": 113
   },
   {
    "quote": "Doch!",
-   "n": 101
+   "n": 105
   },
   {
    "quote": "Quatsch!",
-   "n": 90
+   "n": 93
   },
   {
    "quote": "Was?",
@@ -56,164 +56,164 @@
  ],
  "zuletzt": [
   {
-   "quote": "Dann können Sie den Mindestlohn erhöhen!",
-   "person": "Janine Wissler",
+   "quote": "Das ist gar kein „Tiefststand“!",
+   "person": "Dr. Jan-Niclas Gesenhues",
+   "party": "Grüne",
+   "to_speaker": "Jens Spahn",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-09"
+  },
+  {
+   "quote": "Lassen Sie uns doch über den Haushalt reden!",
+   "person": "Ates Gürpinar",
    "party": "Linke",
-   "to_speaker": "Carl-Philipp Sassenrath",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-08"
-  },
-  {
-   "quote": "Und die Zeit ist zu Ende!",
-   "person": "Uwe Schmidt",
-   "party": "SPD",
-   "to_speaker": "Uwe Schmidt",
+   "to_speaker": "Matthias Miersch",
    "to_party": "SPD",
-   "date": "2026-09-08"
+   "date": "2026-09-09"
   },
   {
-   "quote": "Frau Präsidentin, mal was zum Thema!",
-   "person": "Dr. Bernd Baumann",
+   "quote": "Spezialdemokraten!",
+   "person": "Stephan Brandner",
    "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
+   "to_speaker": "Matthias Miersch",
+   "to_party": "SPD",
+   "date": "2026-09-09"
   },
   {
-   "quote": "Kandidieren Sie doch für den Landtag in Sachsen-Anhalt!",
-   "person": "Maximilian Kneller",
+   "quote": "Dann macht doch mal!",
+   "person": "Enrico Komning",
    "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
+   "to_speaker": "Matthias Miersch",
+   "to_party": "SPD",
+   "date": "2026-09-09"
   },
   {
-   "quote": "Ich glaube, die Grünen waren kurz an der Regierung, ne?",
-   "person": "Dr. Michael Espendiller",
+   "quote": "Landesverteidigung!",
+   "person": "Dr. Alice Weidel",
    "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
+   "to_speaker": "Sören Pellmann",
+   "to_party": "Linke",
+   "date": "2026-09-09"
   },
   {
-   "quote": "Na selbstverständlich! Weil wir ja da sind! Deswegen gibt es demokratische Mehrheiten!",
-   "person": "Georg Schroeter",
-   "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
+   "quote": "Genau!",
+   "person": "Ates Gürpinar",
+   "party": "Linke",
+   "to_speaker": "Sören Pellmann",
+   "to_party": "Linke",
+   "date": "2026-09-09"
   },
   {
-   "quote": "Sagen Sie mal was zum Haushalt!",
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
+   "quote": "Italien!",
+   "person": "Claudia Roth",
+   "party": "Grüne",
+   "to_speaker": "Sören Pellmann",
+   "to_party": "Linke",
+   "date": "2026-09-09"
   },
   {
-   "quote": "Zum Thema!",
-   "person": "Dr. Michael Espendiller",
-   "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
+   "quote": "Es war Italien!",
+   "person": "Omid Nouripour",
+   "party": "Grüne",
+   "to_speaker": "Sören Pellmann",
+   "to_party": "Linke",
+   "date": "2026-09-09"
   },
   {
-   "quote": "Zum Thema muss sie aber reden!",
-   "person": "Dr. Michael Espendiller",
+   "quote": "Wie lange noch?",
+   "person": "Stephan Brandner",
    "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
-  },
-  {
-   "quote": "Nee!",
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
-  },
-  {
-   "quote": "Nee!",
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
-  },
-  {
-   "quote": "Wollen Sie die Wähler kaufen?",
-   "person": "Jörn König",
-   "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
-  },
-  {
-   "quote": "… Wir werden gewählt, Sie nicht!",
-   "person": "Dr. Michael Espendiller",
-   "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
-  },
-  {
-   "quote": "Das sieht der Wähler anders! Da sind Sie instabil!",
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
-  },
-  {
-   "quote": "Nicht in der Europäischen Union?",
-   "person": "Dr. Michael Espendiller",
-   "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
-  },
-  {
-   "quote": "Wäre es Soros gewesen, wäre es okay gewesen!",
-   "person": "Dr. Michael Espendiller",
-   "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
-  },
-  {
-   "quote": "Das sieht der Wähler anders!",
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
-  },
-  {
-   "quote": "Kein Wort zum Haushalt!",
-   "person": "Dr. Michael Espendiller",
-   "party": "AfD",
-   "to_speaker": "Claudia Müller",
-   "to_party": "Grüne",
-   "date": "2026-09-08"
-  },
-  {
-   "quote": "Richtig!",
-   "person": "Georg Schroeter",
-   "party": "AfD",
-   "to_speaker": "Florian Oßner",
+   "to_speaker": "Thorsten Frei",
    "to_party": "CDU/CSU",
-   "date": "2026-09-08"
+   "date": "2026-09-09"
   },
   {
-   "quote": "Sollen wir mal klatschen?",
-   "person": "Dr. Michael Espendiller",
+   "quote": "Die war super!",
+   "person": "Stephan Brandner",
    "party": "AfD",
-   "to_speaker": "Florian Oßner",
+   "to_speaker": "Thorsten Frei",
    "to_party": "CDU/CSU",
-   "date": "2026-09-08"
+   "date": "2026-09-09"
+  },
+  {
+   "quote": "Unsinn!",
+   "person": "Dr. Bernd Baumann",
+   "party": "AfD",
+   "to_speaker": "Thorsten Frei",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-09"
+  },
+  {
+   "quote": "Welche?",
+   "person": "Dr. Alice Weidel",
+   "party": "AfD",
+   "to_speaker": "Thorsten Frei",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-09"
+  },
+  {
+   "quote": "Quatsch!",
+   "person": "Dr. Bernd Baumann",
+   "party": "AfD",
+   "to_speaker": "Thorsten Frei",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-09"
+  },
+  {
+   "quote": "Realität heißt das!",
+   "person": "Dr. Bernd Baumann",
+   "party": "AfD",
+   "to_speaker": "Thorsten Frei",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-09"
+  },
+  {
+   "quote": "Das sieht man ja an den Zahlen!",
+   "person": "Dr. Bernd Baumann",
+   "party": "AfD",
+   "to_speaker": "Thorsten Frei",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-09"
+  },
+  {
+   "quote": "Nein!",
+   "person": "Dr. Bernd Baumann",
+   "party": "AfD",
+   "to_speaker": "Thorsten Frei",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-09"
+  },
+  {
+   "quote": "Katastrophe!",
+   "person": "Dr. Bernd Baumann",
+   "party": "AfD",
+   "to_speaker": "Thorsten Frei",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-09"
+  },
+  {
+   "quote": "Von wem denn?",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Thorsten Frei",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-09"
+  },
+  {
+   "quote": "Das Problem der Kommunen ist, dass das Geld hier oben verpulvert wird und nichts mehr dort ankommt!",
+   "person": "Martin Reichardt",
+   "party": "AfD",
+   "to_speaker": "Thorsten Frei",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-09"
+  },
+  {
+   "quote": "Das ist doch Unsinn!",
+   "person": "Dr. Bernd Baumann",
+   "party": "AfD",
+   "to_speaker": "Thorsten Frei",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-09"
   }
  ]
 }

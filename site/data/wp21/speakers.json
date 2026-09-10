@@ -19,34 +19,34 @@
    "n_reden": 21
   },
   {
-   "speaker": "Matthias Miersch",
-   "party": "SPD",
-   "rate": 23.7,
-   "n_reden": 11
-  },
-  {
    "speaker": "Jasmina Hostert",
    "party": "SPD",
    "rate": 23.7,
    "n_reden": 27
   },
   {
-   "speaker": "Marlene Schönberger",
-   "party": "Grüne",
-   "rate": 23.1,
-   "n_reden": 16
+   "speaker": "Matthias Miersch",
+   "party": "SPD",
+   "rate": 23.3,
+   "n_reden": 12
   },
   {
-   "speaker": "Thomas Rachel",
-   "party": "CDU/CSU",
-   "rate": 22.6,
-   "n_reden": 10
+   "speaker": "Marlene Schönberger",
+   "party": "Grüne",
+   "rate": 22.8,
+   "n_reden": 17
   },
   {
    "speaker": "Britta Haßelmann",
    "party": "Grüne",
    "rate": 22.5,
    "n_reden": 13
+  },
+  {
+   "speaker": "Thomas Rachel",
+   "party": "CDU/CSU",
+   "rate": 22.4,
+   "n_reden": 11
   },
   {
    "speaker": "Marc Biadacz",
@@ -87,50 +87,55 @@
   {
    "speaker": "Schahina Gambir",
    "party": "Grüne",
-   "rate": 20.5,
-   "n_reden": 24
+   "rate": 20.3,
+   "n_reden": 25
   }
  ],
  "zurufe": [
   {
    "person": "Stephan Brandner",
    "party": "AfD",
-   "n": 2316
+   "n": 2365
   },
   {
    "person": "Dr. Götz Frömming",
    "party": "AfD",
-   "n": 1099
-  },
-  {
-   "person": "Jörn König",
-   "party": "AfD",
-   "n": 903
+   "n": 1108
   },
   {
    "person": "Martin Reichardt",
    "party": "AfD",
-   "n": 898
+   "n": 929
+  },
+  {
+   "person": "Jörn König",
+   "party": "AfD",
+   "n": 909
   },
   {
    "person": "Dr. Bernd Baumann",
    "party": "AfD",
-   "n": 819
+   "n": 891
   },
   {
    "person": "Beatrix von Storch",
    "party": "AfD",
-   "n": 802
+   "n": 829
   },
   {
    "person": "Britta Haßelmann",
    "party": "Grüne",
-   "n": 795
+   "n": 802
   },
   {
    "person": "Dr. Johannes Fechner",
    "party": "SPD",
    "n": 727
+  },
+  {
+   "person": "Markus Frohnmaier",
+   "party": "AfD",
+   "n": 570
   },
   {
    "person": "Kay Gottschalk",
@@ -143,12 +148,12 @@
    "n": 557
   },
   {
-   "person": "Markus Frohnmaier",
+   "person": "Enrico Komning",
    "party": "AfD",
-   "n": 542
+   "n": 509
   },
   {
-   "person": "Enrico Komning",
+   "person": "Dr. Alice Weidel",
    "party": "AfD",
    "n": 507
   },
@@ -158,14 +163,9 @@
    "n": 499
   },
   {
-   "person": "Dr. Rainer Kraft",
-   "party": "AfD",
+   "person": "Claudia Roth",
+   "party": "Grüne",
    "n": 489
-  },
-  {
-   "person": "Dr. Alice Weidel",
-   "party": "AfD",
-   "n": 480
   }
  ]
 }
