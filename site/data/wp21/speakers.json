@@ -57,8 +57,8 @@
   {
    "speaker": "Kirsten Kappert-Gonther",
    "party": "Grüne",
-   "rate": 22.2,
-   "n_reden": 13
+   "rate": 22.3,
+   "n_reden": 14
   },
   {
    "speaker": "Alaa Alhamwi",
@@ -95,12 +95,12 @@
   {
    "person": "Stephan Brandner",
    "party": "AfD",
-   "n": 2365
+   "n": 2393
   },
   {
    "person": "Dr. Götz Frömming",
    "party": "AfD",
-   "n": 1108
+   "n": 1121
   },
   {
    "person": "Martin Reichardt",
@@ -120,12 +120,12 @@
   {
    "person": "Beatrix von Storch",
    "party": "AfD",
-   "n": 829
+   "n": 851
   },
   {
    "person": "Britta Haßelmann",
    "party": "Grüne",
-   "n": 802
+   "n": 812
   },
   {
    "person": "Dr. Johannes Fechner",
@@ -145,12 +145,12 @@
   {
    "person": "Lisa Badum",
    "party": "Grüne",
-   "n": 557
+   "n": 562
   },
   {
    "person": "Enrico Komning",
    "party": "AfD",
-   "n": 509
+   "n": 511
   },
   {
    "person": "Dr. Alice Weidel",
@@ -160,7 +160,7 @@
   {
    "person": "Marc Bernhard",
    "party": "AfD",
-   "n": 499
+   "n": 505
   },
   {
    "person": "Claudia Roth",

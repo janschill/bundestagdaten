@@ -1,5 +1,5 @@
 {
- "gesamt": 39014,
+ "gesamt": 39320,
  "jahre": [
   2025,
   2026
@@ -7,39 +7,39 @@
  "haeufig": [
   {
    "quote": "Genau!",
-   "n": 364
+   "n": 368
   },
   {
    "quote": "Ja!",
-   "n": 353
+   "n": 358
   },
   {
    "quote": "So ist es!",
-   "n": 329
+   "n": 339
   },
   {
    "quote": "Hört! Hört!",
-   "n": 252
+   "n": 257
   },
   {
    "quote": "Richtig!",
-   "n": 202
+   "n": 205
   },
   {
    "quote": "Nein!",
    "n": 145
   },
   {
+   "quote": "Aha!",
+   "n": 126
+  },
+  {
    "quote": "Sehr gut!",
    "n": 126
   },
   {
-   "quote": "Aha!",
-   "n": 125
-  },
-  {
    "quote": "Sehr richtig!",
-   "n": 113
+   "n": 114
   },
   {
    "quote": "Doch!",
@@ -56,164 +56,164 @@
  ],
  "zuletzt": [
   {
-   "quote": "Das ist gar kein „Tiefststand“!",
-   "person": "Dr. Jan-Niclas Gesenhues",
+   "quote": "Jetzt kommt der Winter der Reformen!",
+   "person": "Dr. Götz Frömming",
+   "party": "AfD",
+   "to_speaker": "Peter Aumer",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-10"
+  },
+  {
+   "quote": "So ein Glück!",
+   "person": "Knuth Meyer-Soltau",
+   "party": "AfD",
+   "to_speaker": "Helge Limburg",
+   "to_party": "Grüne",
+   "date": "2026-09-10"
+  },
+  {
+   "quote": "Welche Menschen? Ihre paar Wähler, oder wer?",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Helge Limburg",
+   "to_party": "Grüne",
+   "date": "2026-09-10"
+  },
+  {
+   "quote": "Aha! Plötzlich geht das!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Helge Limburg",
+   "to_party": "Grüne",
+   "date": "2026-09-10"
+  },
+  {
+   "quote": "Das ist voll unser Programm!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Helge Limburg",
+   "to_party": "Grüne",
+   "date": "2026-09-10"
+  },
+  {
+   "quote": "Die Rechtslage gibt’s doch schon!",
+   "person": "Knuth Meyer-Soltau",
+   "party": "AfD",
+   "to_speaker": "Helge Limburg",
+   "to_party": "Grüne",
+   "date": "2026-09-10"
+  },
+  {
+   "quote": "Wen diskriminieren Sie denn?",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Helge Limburg",
+   "to_party": "Grüne",
+   "date": "2026-09-10"
+  },
+  {
+   "quote": "Welche Menschen denn? Die Wähler der SPD, oder wie?",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Helge Limburg",
+   "to_party": "Grüne",
+   "date": "2026-09-10"
+  },
+  {
+   "quote": "Ui!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Helge Limburg",
+   "to_party": "Grüne",
+   "date": "2026-09-10"
+  },
+  {
+   "quote": "Richtig!",
+   "person": "Helge Limburg",
    "party": "Grüne",
-   "to_speaker": "Jens Spahn",
+   "to_speaker": "Axel Müller",
    "to_party": "CDU/CSU",
-   "date": "2026-09-09"
+   "date": "2026-09-10"
   },
   {
-   "quote": "Lassen Sie uns doch über den Haushalt reden!",
-   "person": "Ates Gürpinar",
-   "party": "Linke",
-   "to_speaker": "Matthias Miersch",
-   "to_party": "SPD",
-   "date": "2026-09-09"
-  },
-  {
-   "quote": "Spezialdemokraten!",
+   "quote": "Ja! Das ist doch super, oder nicht?",
    "person": "Stephan Brandner",
    "party": "AfD",
-   "to_speaker": "Matthias Miersch",
+   "to_speaker": "Esther Dilcher",
    "to_party": "SPD",
-   "date": "2026-09-09"
+   "date": "2026-09-10"
   },
   {
-   "quote": "Dann macht doch mal!",
-   "person": "Enrico Komning",
-   "party": "AfD",
-   "to_speaker": "Matthias Miersch",
-   "to_party": "SPD",
-   "date": "2026-09-09"
-  },
-  {
-   "quote": "Landesverteidigung!",
-   "person": "Dr. Alice Weidel",
-   "party": "AfD",
-   "to_speaker": "Sören Pellmann",
-   "to_party": "Linke",
-   "date": "2026-09-09"
-  },
-  {
-   "quote": "Genau!",
-   "person": "Ates Gürpinar",
-   "party": "Linke",
-   "to_speaker": "Sören Pellmann",
-   "to_party": "Linke",
-   "date": "2026-09-09"
-  },
-  {
-   "quote": "Italien!",
-   "person": "Claudia Roth",
+   "quote": "Ich dachte, das wäre Justitia!",
+   "person": "Helge Limburg",
    "party": "Grüne",
-   "to_speaker": "Sören Pellmann",
-   "to_party": "Linke",
-   "date": "2026-09-09"
+   "to_speaker": "Axel Müller",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-10"
   },
   {
-   "quote": "Es war Italien!",
-   "person": "Omid Nouripour",
-   "party": "Grüne",
-   "to_speaker": "Sören Pellmann",
-   "to_party": "Linke",
-   "date": "2026-09-09"
+   "quote": "Guter Mann!",
+   "person": "Sebastian Steineke",
+   "party": "CDU/CSU",
+   "to_speaker": "Stephan Brandner",
+   "to_party": "AfD",
+   "date": "2026-09-10"
   },
   {
-   "quote": "Wie lange noch?",
+   "quote": "Danke!",
+   "person": "Gegenruf des Abg. Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Stephan Brandner",
+   "to_party": "AfD",
+   "date": "2026-09-10"
+  },
+  {
+   "quote": "Habe ich gemacht!",
+   "person": "Thomas Fetsch",
+   "party": "AfD",
+   "to_speaker": "Uwe Feiler",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-10"
+  },
+  {
+   "quote": "Wir finden die nicht so gut!",
+   "person": "Knuth Meyer-Soltau",
+   "party": "AfD",
+   "to_speaker": "Uwe Feiler",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-10"
+  },
+  {
+   "quote": "Tun wir doch!",
+   "person": "Albert Stegemann",
+   "party": "CDU/CSU",
+   "to_speaker": "Julian Schmidt",
+   "to_party": "AfD",
+   "date": "2026-09-10"
+  },
+  {
+   "quote": "Alles, was möglich ist, tun wir!",
+   "person": "Albert Stegemann",
+   "party": "CDU/CSU",
+   "to_speaker": "Julian Schmidt",
+   "to_party": "AfD",
+   "date": "2026-09-10"
+  },
+  {
+   "quote": "Was für eine Rede für die Blase!",
+   "person": "Tobias Matthias Peterka",
+   "party": "AfD",
+   "to_speaker": "Helge Limburg",
+   "to_party": "Grüne",
+   "date": "2026-09-10"
+  },
+  {
+   "quote": "Welche denn?",
    "person": "Stephan Brandner",
    "party": "AfD",
-   "to_speaker": "Thorsten Frei",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-09"
-  },
-  {
-   "quote": "Die war super!",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Thorsten Frei",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-09"
-  },
-  {
-   "quote": "Unsinn!",
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "to_speaker": "Thorsten Frei",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-09"
-  },
-  {
-   "quote": "Welche?",
-   "person": "Dr. Alice Weidel",
-   "party": "AfD",
-   "to_speaker": "Thorsten Frei",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-09"
-  },
-  {
-   "quote": "Quatsch!",
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "to_speaker": "Thorsten Frei",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-09"
-  },
-  {
-   "quote": "Realität heißt das!",
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "to_speaker": "Thorsten Frei",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-09"
-  },
-  {
-   "quote": "Das sieht man ja an den Zahlen!",
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "to_speaker": "Thorsten Frei",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-09"
-  },
-  {
-   "quote": "Nein!",
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "to_speaker": "Thorsten Frei",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-09"
-  },
-  {
-   "quote": "Katastrophe!",
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "to_speaker": "Thorsten Frei",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-09"
-  },
-  {
-   "quote": "Von wem denn?",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Thorsten Frei",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-09"
-  },
-  {
-   "quote": "Das Problem der Kommunen ist, dass das Geld hier oben verpulvert wird und nichts mehr dort ankommt!",
-   "person": "Martin Reichardt",
-   "party": "AfD",
-   "to_speaker": "Thorsten Frei",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-09"
-  },
-  {
-   "quote": "Das ist doch Unsinn!",
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "to_speaker": "Thorsten Frei",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-09"
+   "to_speaker": "Helge Limburg",
+   "to_party": "Grüne",
+   "date": "2026-09-10"
   }
  ]
 }
