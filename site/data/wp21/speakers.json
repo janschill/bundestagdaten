@@ -49,15 +49,15 @@
    "n_reden": 11
   },
   {
-   "speaker": "Marc Biadacz",
-   "party": "CDU/CSU",
-   "rate": 22.3,
-   "n_reden": 13
-  },
-  {
    "speaker": "Kirsten Kappert-Gonther",
    "party": "Grüne",
    "rate": 22.3,
+   "n_reden": 14
+  },
+  {
+   "speaker": "Marc Biadacz",
+   "party": "CDU/CSU",
+   "rate": 22.2,
    "n_reden": 14
   },
   {
@@ -95,7 +95,7 @@
   {
    "person": "Stephan Brandner",
    "party": "AfD",
-   "n": 2393
+   "n": 2413
   },
   {
    "person": "Dr. Götz Frömming",
@@ -110,7 +110,7 @@
   {
    "person": "Jörn König",
    "party": "AfD",
-   "n": 909
+   "n": 911
   },
   {
    "person": "Dr. Bernd Baumann",
@@ -133,14 +133,14 @@
    "n": 727
   },
   {
+   "person": "Kay Gottschalk",
+   "party": "AfD",
+   "n": 599
+  },
+  {
    "person": "Markus Frohnmaier",
    "party": "AfD",
    "n": 570
-  },
-  {
-   "person": "Kay Gottschalk",
-   "party": "AfD",
-   "n": 567
   },
   {
    "person": "Lisa Badum",
@@ -148,14 +148,14 @@
    "n": 562
   },
   {
-   "person": "Enrico Komning",
-   "party": "AfD",
-   "n": 511
-  },
-  {
    "person": "Dr. Alice Weidel",
    "party": "AfD",
-   "n": 507
+   "n": 518
+  },
+  {
+   "person": "Enrico Komning",
+   "party": "AfD",
+   "n": 512
   },
   {
    "person": "Marc Bernhard",
@@ -163,9 +163,9 @@
    "n": 505
   },
   {
-   "person": "Claudia Roth",
+   "person": "Filiz Polat",
    "party": "Grüne",
-   "n": 489
+   "n": 494
   }
  ]
 }
