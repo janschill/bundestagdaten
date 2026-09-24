@@ -1,5 +1,5 @@
 {
- "gesamt": 39601,
+ "gesamt": 39824,
  "jahre": [
   2025,
   2026
@@ -7,15 +7,15 @@
  "haeufig": [
   {
    "quote": "Genau!",
-   "n": 372
+   "n": 378
   },
   {
    "quote": "Ja!",
-   "n": 362
+   "n": 363
   },
   {
    "quote": "So ist es!",
-   "n": 340
+   "n": 343
   },
   {
    "quote": "Hört! Hört!",
@@ -23,7 +23,7 @@
   },
   {
    "quote": "Richtig!",
-   "n": 206
+   "n": 207
   },
   {
    "quote": "Nein!",
@@ -31,11 +31,11 @@
   },
   {
    "quote": "Sehr gut!",
-   "n": 127
+   "n": 128
   },
   {
    "quote": "Aha!",
-   "n": 126
+   "n": 127
   },
   {
    "quote": "Sehr richtig!",
@@ -47,173 +47,173 @@
   },
   {
    "quote": "Quatsch!",
-   "n": 95
+   "n": 97
   },
   {
    "quote": "Was?",
-   "n": 90
+   "n": 91
   }
  ],
  "zuletzt": [
   {
-   "quote": "200 Milliarden Euro Schulden, und Sie reden von der Schaumweinsteuer!",
-   "person": "Dr. Sebastian Schäfer",
-   "party": "Grüne",
-   "to_speaker": "Philip M. A. Hoffmann",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-11"
+   "quote": "Das sagt ja der Richtige hier! In vielen Ländern sind Sie als gesichert rechtsextrem eingestuft! Ihre Partei!",
+   "person": "Caren Lay",
+   "party": "Linke",
+   "to_speaker": "Rainer Groß",
+   "to_party": "AfD",
+   "date": "2026-09-23"
   },
   {
-   "quote": "Was hat das in der Hightech Agenda zu suchen?",
-   "person": "Dr. Christoph Birghan",
+   "quote": "Heute haben Sie Ihr Andenken zerstört, Herr Gysi!",
+   "person": "Dr. Gottfried Curio",
    "party": "AfD",
-   "to_speaker": "Inge Gräßle",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-11"
-  },
-  {
-   "quote": "Sie haben keine Ahnung, was das ist!",
-   "person": "Sergej Minich",
-   "party": "AfD",
-   "to_speaker": "Inge Gräßle",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-11"
-  },
-  {
-   "quote": "So als Außenstehende, oder was?",
-   "person": "Dr. Christoph Birghan",
-   "party": "AfD",
-   "to_speaker": "Inge Gräßle",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-11"
-  },
-  {
-   "quote": "Sie haben doch noch nie geforscht!",
-   "person": "Dr. Christoph Birghan",
-   "party": "AfD",
-   "to_speaker": "Inge Gräßle",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-11"
-  },
-  {
-   "quote": "Geben Sie sie mir! Gerne!",
-   "person": "Dr. Christoph Birghan",
-   "party": "AfD",
-   "to_speaker": "Inge Gräßle",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-11"
-  },
-  {
-   "quote": "Die ist aber nicht so wie die vom Kollegen Voigt, oder?",
-   "person": "Stefan Schröder",
-   "party": "AfD",
-   "to_speaker": "Inge Gräßle",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-11"
-  },
-  {
-   "quote": "Na ja, aber die globale Minderausgabe kann man nicht einfach wegdiskutieren!",
-   "person": "Dr. Paula Piechotta",
-   "party": "Grüne",
-   "to_speaker": "Inge Gräßle",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-11"
-  },
-  {
-   "quote": "Was heißt denn „anders“? Was ist denn dann die Norm für Sie, wenn das „anders“ ist? Was ist denn Ihre Norm? Denken Sie mal darüber nach, was Sie sagen! „Anders“ in Bezug worauf? Für Sie ist die Norm der Mann, oder was? Nichts anderes heißt das!",
-   "person": "Dr. Christoph Birghan",
-   "party": "AfD",
-   "to_speaker": "Inge Gräßle",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-11"
-  },
-  {
-   "quote": "Sie müssen den Haushalt nicht loben! Aber das machen Sie wirklich gut!",
-   "person": "Florian Müller",
-   "party": "CDU/CSU",
-   "to_speaker": "Isabelle Vandre",
+   "to_speaker": "Gregor Gysi",
    "to_party": "Linke",
-   "date": "2026-09-11"
+   "date": "2026-09-23"
   },
   {
-   "quote": "Uns erst ansprechen, und dann keine Zwischenfrage zulassen!",
-   "person": "Dr. Paul Schmidt",
-   "party": "AfD",
-   "to_speaker": "Inge Gräßle",
+   "quote": "Darum geht’s euch! Darum geht’s euch! Mit der AfD kuscheln, aber hier groß Theater machen!",
+   "person": "Luigi Pantisano",
+   "party": "Linke",
+   "to_speaker": "Ottilie Klein",
    "to_party": "CDU/CSU",
-   "date": "2026-09-11"
+   "date": "2026-09-23"
   },
   {
-   "quote": "Was machen wir denn? Hunderttausende gehen aus unserem Land! Unterhalten Sie sich mal mit den Leuten!",
-   "person": "Dr. Christoph Birghan",
+   "quote": "Aber in Thüringen schon, oder wie? In Thüringen geht das?",
+   "person": "Stephan Brandner",
    "party": "AfD",
-   "to_speaker": "Inge Gräßle",
+   "to_speaker": "Ottilie Klein",
    "to_party": "CDU/CSU",
-   "date": "2026-09-11"
+   "date": "2026-09-23"
   },
   {
-   "quote": "Ja, klar!",
-   "person": "Sergej Minich",
-   "party": "AfD",
-   "to_speaker": "Inge Gräßle",
+   "quote": "Sie springen auch über jedes Stöckchen!",
+   "person": "Heidi Reichinnek",
+   "party": "Linke",
+   "to_speaker": "Ottilie Klein",
    "to_party": "CDU/CSU",
-   "date": "2026-09-11"
+   "date": "2026-09-23"
   },
   {
-   "quote": "Und was macht ihr bis dahin?",
-   "person": "Adam Balten",
-   "party": "AfD",
-   "to_speaker": "Inge Gräßle",
+   "quote": "O Gott!",
+   "person": "Luigi Pantisano",
+   "party": "Linke",
+   "to_speaker": "Ottilie Klein",
    "to_party": "CDU/CSU",
-   "date": "2026-09-11"
+   "date": "2026-09-23"
   },
   {
-   "quote": "Bei eurem System niemals!",
-   "person": "Dr. Christoph Birghan",
+   "quote": "Ihre Koalitionspartner in Thüringen faktisch, Frau Klein! Reden Sie mal mit Dr. Mario Voigt!",
+   "person": "Stephan Brandner",
    "party": "AfD",
-   "to_speaker": "Inge Gräßle",
+   "to_speaker": "Ottilie Klein",
    "to_party": "CDU/CSU",
-   "date": "2026-09-11"
+   "date": "2026-09-23"
   },
   {
-   "quote": "Die Realität regelt das, Herr Kollege!",
-   "person": "Nicole Höchst",
-   "party": "AfD",
-   "to_speaker": "Ruppert Stüwe",
-   "to_party": "SPD",
-   "date": "2026-09-11"
+   "quote": "Ja! Spahn-Kriminalität!",
+   "person": "Mirze Edis",
+   "party": "Linke",
+   "to_speaker": "Ottilie Klein",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-23"
   },
   {
-   "quote": "Die Zuständigkeit für die Hochschulen liegt bei den Ländern!",
-   "person": "Dr. Wiebke Esdar",
-   "party": "SPD",
-   "to_speaker": "Isabelle Vandre",
-   "to_party": "Linke",
-   "date": "2026-09-11"
+   "quote": "Schöne Grüße an den Herrn Spahn!",
+   "person": "Mirze Edis",
+   "party": "Linke",
+   "to_speaker": "Ottilie Klein",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-23"
   },
   {
-   "quote": "Das ist doch super!",
-   "person": "Stephan Albani",
+   "quote": "Ihr seid doch ein Witz!",
+   "person": "Gegenruf des Abg. Siegfried Walch",
    "party": "CDU/CSU",
-   "to_speaker": "Isabelle Vandre",
-   "to_party": "Linke",
-   "date": "2026-09-11"
+   "to_speaker": "Ottilie Klein",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-23"
   },
   {
-   "quote": "Wir wollen ja auch noch!",
-   "person": "Florian Müller",
+   "quote": "Ja! So wie das die CDU letztes Jahr gemacht hat, ne?",
+   "person": "Mirze Edis",
+   "party": "Linke",
+   "to_speaker": "Ottilie Klein",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-23"
+  },
+  {
+   "quote": "Wo ist eigentlich Jens Spahn? Wo ist er?",
+   "person": "Luigi Pantisano",
+   "party": "Linke",
+   "to_speaker": "Ottilie Klein",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-23"
+  },
+  {
+   "quote": "Was denn jetzt? Soll er hier sein, oder soll er sein Mandat niederlegen?",
+   "person": "Heidi Reichinnek",
+   "party": "Linke",
+   "to_speaker": "Ottilie Klein",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-23"
+  },
+  {
+   "quote": "Der macht gerade Sonderurlaub!",
+   "person": "Alexander Throm",
    "party": "CDU/CSU",
-   "to_speaker": "Dorothee Bär",
-   "to_party": "Bundesministerin BMFTR",
-   "date": "2026-09-11"
+   "to_speaker": "Ottilie Klein",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-23"
   },
   {
-   "quote": "…, die abwandern!",
-   "person": "Dr. Christoph Birghan",
+   "quote": "Er wurde von ihnen gewählt!",
+   "person": "Ines Schwerdtner",
+   "party": "Linke",
+   "to_speaker": "Ottilie Klein",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-23"
+  },
+  {
+   "quote": "Genau so machen die das!",
+   "person": "Stephan Brandner",
    "party": "AfD",
-   "to_speaker": "Wiebke Esdar",
-   "to_party": "SPD",
-   "date": "2026-09-11"
+   "to_speaker": "Ottilie Klein",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-23"
+  },
+  {
+   "quote": "Nein! Schrecklich!",
+   "person": "Luigi Pantisano",
+   "party": "Linke",
+   "to_speaker": "Ottilie Klein",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-23"
+  },
+  {
+   "quote": "Nee! Das war ein Wahrheitsfilm!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Ottilie Klein",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-23"
+  },
+  {
+   "quote": "Ein guter Rat von der AfD!",
+   "person": "Ines Schwerdtner",
+   "party": "Linke",
+   "to_speaker": "Gottfried Curio",
+   "to_party": "AfD",
+   "date": "2026-09-23"
+  },
+  {
+   "quote": "Purer Rassismus, was Sie da sagen!",
+   "person": "Luigi Pantisano",
+   "party": "Linke",
+   "to_speaker": "Gottfried Curio",
+   "to_party": "AfD",
+   "date": "2026-09-23"
   }
  ]
 }
