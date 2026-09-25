@@ -55,22 +55,22 @@
    "n_reden": 14
   },
   {
+   "speaker": "Heike Heubach",
+   "party": "SPD",
+   "rate": 22.0,
+   "n_reden": 14
+  },
+  {
    "speaker": "Irene Mihalic",
    "party": "Grüne",
    "rate": 21.8,
-   "n_reden": 34
+   "n_reden": 35
   },
   {
    "speaker": "Alaa Alhamwi",
    "party": "Grüne",
-   "rate": 21.7,
-   "n_reden": 25
-  },
-  {
-   "speaker": "Heike Heubach",
-   "party": "SPD",
-   "rate": 21.6,
-   "n_reden": 13
+   "rate": 21.5,
+   "n_reden": 26
   },
   {
    "speaker": "Kirsten Kappert-Gonther",
@@ -95,32 +95,32 @@
   {
    "person": "Stephan Brandner",
    "party": "AfD",
-   "n": 2437
+   "n": 2459
   },
   {
    "person": "Dr. Götz Frömming",
    "party": "AfD",
-   "n": 1121
+   "n": 1172
   },
   {
    "person": "Martin Reichardt",
    "party": "AfD",
-   "n": 929
+   "n": 949
   },
   {
    "person": "Jörn König",
    "party": "AfD",
-   "n": 917
+   "n": 918
   },
   {
    "person": "Dr. Bernd Baumann",
    "party": "AfD",
-   "n": 912
+   "n": 915
   },
   {
    "person": "Beatrix von Storch",
    "party": "AfD",
-   "n": 855
+   "n": 864
   },
   {
    "person": "Britta Haßelmann",
@@ -138,14 +138,19 @@
    "n": 621
   },
   {
-   "person": "Markus Frohnmaier",
-   "party": "AfD",
-   "n": 570
-  },
-  {
    "person": "Lisa Badum",
    "party": "Grüne",
-   "n": 562
+   "n": 581
+  },
+  {
+   "person": "Markus Frohnmaier",
+   "party": "AfD",
+   "n": 578
+  },
+  {
+   "person": "Marc Bernhard",
+   "party": "AfD",
+   "n": 525
   },
   {
    "person": "Dr. Alice Weidel",
@@ -158,14 +163,9 @@
    "n": 512
   },
   {
-   "person": "Marc Bernhard",
+   "person": "Dr. Rainer Kraft",
    "party": "AfD",
-   "n": 505
-  },
-  {
-   "person": "Filiz Polat",
-   "party": "Grüne",
-   "n": 494
+   "n": 507
   }
  ]
 }

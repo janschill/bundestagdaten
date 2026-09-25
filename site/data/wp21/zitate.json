@@ -1,5 +1,5 @@
 {
- "gesamt": 39824,
+ "gesamt": 40501,
  "jahre": [
   2025,
   2026
@@ -7,35 +7,35 @@
  "haeufig": [
   {
    "quote": "Genau!",
-   "n": 378
+   "n": 383
   },
   {
    "quote": "Ja!",
-   "n": 363
+   "n": 373
   },
   {
    "quote": "So ist es!",
-   "n": 343
+   "n": 357
   },
   {
    "quote": "Hört! Hört!",
-   "n": 259
+   "n": 264
   },
   {
    "quote": "Richtig!",
-   "n": 207
+   "n": 209
   },
   {
    "quote": "Nein!",
-   "n": 146
+   "n": 148
   },
   {
    "quote": "Sehr gut!",
-   "n": 128
+   "n": 130
   },
   {
    "quote": "Aha!",
-   "n": 127
+   "n": 128
   },
   {
    "quote": "Sehr richtig!",
@@ -47,7 +47,7 @@
   },
   {
    "quote": "Quatsch!",
-   "n": 97
+   "n": 98
   },
   {
    "quote": "Was?",
@@ -56,164 +56,164 @@
  ],
  "zuletzt": [
   {
-   "quote": "Das sagt ja der Richtige hier! In vielen Ländern sind Sie als gesichert rechtsextrem eingestuft! Ihre Partei!",
-   "person": "Caren Lay",
+   "quote": "Man muss halt mal fragen, welche Unternehmen dieser Herr vertritt!",
+   "person": "Dr. Christoph Birghan",
+   "party": "AfD",
+   "to_speaker": "Michael Breilmann",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-24"
+  },
+  {
+   "quote": "Sie verhindern doch jetzt die Anpassung!",
+   "person": "Dr. Fabian Fahl",
    "party": "Linke",
-   "to_speaker": "Rainer Groß",
+   "to_speaker": "Ingo Hahn",
    "to_party": "AfD",
-   "date": "2026-09-23"
+   "date": "2026-09-24"
   },
   {
-   "quote": "Heute haben Sie Ihr Andenken zerstört, Herr Gysi!",
-   "person": "Dr. Gottfried Curio",
+   "quote": "Warum sind denn die Kassen leer?",
+   "person": "Dr. Rainer Kraft",
    "party": "AfD",
-   "to_speaker": "Gregor Gysi",
-   "to_party": "Linke",
-   "date": "2026-09-23"
+   "to_speaker": "Karoline Otte",
+   "to_party": "Grüne",
+   "date": "2026-09-24"
   },
   {
-   "quote": "Darum geht’s euch! Darum geht’s euch! Mit der AfD kuscheln, aber hier groß Theater machen!",
-   "person": "Luigi Pantisano",
-   "party": "Linke",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
-  },
-  {
-   "quote": "Aber in Thüringen schon, oder wie? In Thüringen geht das?",
-   "person": "Stephan Brandner",
+   "quote": "Das wissen Sie doch gar nicht! Das ist eine Schätzung!",
+   "person": "Carolin Bachmann",
    "party": "AfD",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
+   "to_speaker": "Karoline Otte",
+   "to_party": "Grüne",
+   "date": "2026-09-24"
   },
   {
-   "quote": "Sie springen auch über jedes Stöckchen!",
-   "person": "Heidi Reichinnek",
-   "party": "Linke",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
+   "quote": "Wir sind gespannt! Es wird nur Zeit! Es eilt! Der nächste Sommer kommt!",
+   "person": "Dr. Julia Verlinden",
+   "party": "Grüne",
+   "to_speaker": "Angelika Glöckner",
+   "to_party": "SPD",
+   "date": "2026-09-24"
   },
   {
-   "quote": "O Gott!",
-   "person": "Luigi Pantisano",
-   "party": "Linke",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
+   "quote": "Ja, eben!",
+   "person": "Dr. Julia Verlinden",
+   "party": "Grüne",
+   "to_speaker": "Angelika Glöckner",
+   "to_party": "SPD",
+   "date": "2026-09-24"
   },
   {
-   "quote": "Ihre Koalitionspartner in Thüringen faktisch, Frau Klein! Reden Sie mal mit Dr. Mario Voigt!",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
-  },
-  {
-   "quote": "Ja! Spahn-Kriminalität!",
-   "person": "Mirze Edis",
-   "party": "Linke",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
-  },
-  {
-   "quote": "Schöne Grüße an den Herrn Spahn!",
-   "person": "Mirze Edis",
-   "party": "Linke",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
-  },
-  {
-   "quote": "Ihr seid doch ein Witz!",
-   "person": "Gegenruf des Abg. Siegfried Walch",
-   "party": "CDU/CSU",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
-  },
-  {
-   "quote": "Ja! So wie das die CDU letztes Jahr gemacht hat, ne?",
-   "person": "Mirze Edis",
-   "party": "Linke",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
-  },
-  {
-   "quote": "Wo ist eigentlich Jens Spahn? Wo ist er?",
-   "person": "Luigi Pantisano",
-   "party": "Linke",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
-  },
-  {
-   "quote": "Was denn jetzt? Soll er hier sein, oder soll er sein Mandat niederlegen?",
-   "person": "Heidi Reichinnek",
-   "party": "Linke",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
-  },
-  {
-   "quote": "Der macht gerade Sonderurlaub!",
-   "person": "Alexander Throm",
-   "party": "CDU/CSU",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
-  },
-  {
-   "quote": "Er wurde von ihnen gewählt!",
-   "person": "Ines Schwerdtner",
-   "party": "Linke",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
-  },
-  {
-   "quote": "Genau so machen die das!",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
-  },
-  {
-   "quote": "Nein! Schrecklich!",
-   "person": "Luigi Pantisano",
-   "party": "Linke",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
-  },
-  {
-   "quote": "Nee! Das war ein Wahrheitsfilm!",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Ottilie Klein",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-23"
-  },
-  {
-   "quote": "Ein guter Rat von der AfD!",
-   "person": "Ines Schwerdtner",
-   "party": "Linke",
-   "to_speaker": "Gottfried Curio",
+   "quote": "Mit welchem Geld denn?",
+   "person": "Lisa Badum",
+   "party": "Grüne",
+   "to_speaker": "Ingo Hahn",
    "to_party": "AfD",
-   "date": "2026-09-23"
+   "date": "2026-09-24"
   },
   {
-   "quote": "Purer Rassismus, was Sie da sagen!",
-   "person": "Luigi Pantisano",
-   "party": "Linke",
-   "to_speaker": "Gottfried Curio",
+   "quote": "Kläglich versagt!",
+   "person": "Stefan Keuter",
+   "party": "AfD",
+   "to_speaker": "Ingo Hahn",
    "to_party": "AfD",
-   "date": "2026-09-23"
+   "date": "2026-09-24"
+  },
+  {
+   "quote": "So ist es!",
+   "person": "Karsten Hilse",
+   "party": "AfD",
+   "to_speaker": "Ingo Hahn",
+   "to_party": "AfD",
+   "date": "2026-09-24"
+  },
+  {
+   "quote": "Dann geben Sie doch Geld dafür! Das verhindern Sie doch gerade!",
+   "person": "Dr. Fabian Fahl",
+   "party": "Linke",
+   "to_speaker": "Ingo Hahn",
+   "to_party": "AfD",
+   "date": "2026-09-24"
+  },
+  {
+   "quote": "Ohne Geld können Sie nichts machen!",
+   "person": "Dr. Julia Verlinden",
+   "party": "Grüne",
+   "to_speaker": "Josef Oster",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-24"
+  },
+  {
+   "quote": "Was soll man denn auf so einen Schwachsinn antworten?",
+   "person": "Rasha Nasr",
+   "party": "SPD",
+   "to_speaker": "Ingo Hahn",
+   "to_party": "AfD",
+   "date": "2026-09-24"
+  },
+  {
+   "quote": "Hört! Hört!",
+   "person": "Filiz Polat",
+   "party": "Grüne",
+   "to_speaker": "Josef Oster",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-24"
+  },
+  {
+   "quote": "Also!",
+   "person": "Dr. Julia Verlinden",
+   "party": "Grüne",
+   "to_speaker": "Josef Oster",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-24"
+  },
+  {
+   "quote": "Aber sie haben die Gemeinschaftsaufgabe gefordert!",
+   "person": "Dr. Julia Verlinden",
+   "party": "Grüne",
+   "to_speaker": "Josef Oster",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-24"
+  },
+  {
+   "quote": "Nein!",
+   "person": "Harald Ebner",
+   "party": "Grüne",
+   "to_speaker": "Josef Oster",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-24"
+  },
+  {
+   "quote": "Aber die Menschen in den Städten und Gemeinden fordern die Gemeinschaftsaufgabe!",
+   "person": "Dr. Julia Verlinden",
+   "party": "Grüne",
+   "to_speaker": "Josef Oster",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-24"
+  },
+  {
+   "quote": "Die wollen die Gemeinschaftsaufgabe!",
+   "person": "Dr. Julia Verlinden",
+   "party": "Grüne",
+   "to_speaker": "Josef Oster",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-24"
+  },
+  {
+   "quote": "Aber dann schaffen Sie doch den finanziellen Handlungsspielraum! Das tun Sie nicht! Das ist ja das Problem!",
+   "person": "Dr. Julia Verlinden",
+   "party": "Grüne",
+   "to_speaker": "Josef Oster",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-24"
+  },
+  {
+   "quote": "Ja, aber den haben sie gerade nicht!",
+   "person": "Dr. Julia Verlinden",
+   "party": "Grüne",
+   "to_speaker": "Josef Oster",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-24"
   }
  ]
 }
