@@ -973,15 +973,15 @@
    "rate": 14.5
   },
   {
-   "name": "Sepp Müller",
-   "party": "CDU/CSU",
-   "reden": 22,
-   "rate": 14.5
-  },
-  {
    "name": "Lena Gumnior",
    "party": "Grüne",
    "reden": 24,
+   "rate": 14.5
+  },
+  {
+   "name": "Sepp Müller",
+   "party": "CDU/CSU",
+   "reden": 22,
    "rate": 14.5
   },
   {
@@ -3163,15 +3163,15 @@
    "rate": 9.0
   },
   {
-   "name": "Sebastian Münzenmaier",
-   "party": "AfD",
-   "reden": 8,
-   "rate": 9.0
-  },
-  {
    "name": "Norbert Maria Altenkamp",
    "party": "CDU/CSU",
    "reden": 5,
+   "rate": 9.0
+  },
+  {
+   "name": "Sebastian Münzenmaier",
+   "party": "AfD",
+   "reden": 8,
    "rate": 9.0
   },
   {
@@ -3651,13 +3651,13 @@
    "n": 291
   },
   {
-   "person": "Derya Türk-Nachbaur",
-   "party": "SPD",
+   "person": "Jens Spahn",
+   "party": "CDU/CSU",
    "n": 290
   },
   {
-   "person": "Jens Spahn",
-   "party": "CDU/CSU",
+   "person": "Derya Türk-Nachbaur",
+   "party": "SPD",
    "n": 290
   },
   {
@@ -3736,13 +3736,13 @@
    "n": 217
   },
   {
-   "person": "Felix Schreiner",
-   "party": "CDU/CSU",
+   "person": "Dr. Malte Kaufmann",
+   "party": "AfD",
    "n": 212
   },
   {
-   "person": "Dr. Malte Kaufmann",
-   "party": "AfD",
+   "person": "Felix Schreiner",
+   "party": "CDU/CSU",
    "n": 212
   },
   {
@@ -3811,6 +3811,11 @@
    "n": 172
   },
   {
+   "person": "Sören Pellmann",
+   "party": "Linke",
+   "n": 166
+  },
+  {
    "person": "Agnieszka Brugger",
    "party": "Grüne",
    "n": 166
@@ -3818,11 +3823,6 @@
   {
    "person": "Steffen Janich",
    "party": "AfD",
-   "n": 166
-  },
-  {
-   "person": "Sören Pellmann",
-   "party": "Linke",
    "n": 166
   },
   {
@@ -3836,13 +3836,13 @@
    "n": 164
   },
   {
-   "person": "Albert Stegemann",
-   "party": "CDU/CSU",
+   "person": "Leon Eckert",
+   "party": "Grüne",
    "n": 163
   },
   {
-   "person": "Leon Eckert",
-   "party": "Grüne",
+   "person": "Albert Stegemann",
+   "party": "CDU/CSU",
    "n": 163
   },
   {
@@ -3876,13 +3876,13 @@
    "n": 156
   },
   {
-   "person": "Dr. Konstantin von Notz",
-   "party": "Grüne",
+   "person": "Tilman Kuban",
+   "party": "CDU/CSU",
    "n": 153
   },
   {
-   "person": "Tilman Kuban",
-   "party": "CDU/CSU",
+   "person": "Dr. Konstantin von Notz",
+   "party": "Grüne",
    "n": 153
   },
   {
@@ -3916,6 +3916,11 @@
    "n": 146
   },
   {
+   "person": "Dr. Anja Weisgerber",
+   "party": "CDU/CSU",
+   "n": 145
+  },
+  {
    "person": "Swantje Henrike Michaelsen",
    "party": "Grüne",
    "n": 145
@@ -3926,13 +3931,8 @@
    "n": 145
   },
   {
-   "person": "Dr. Anja Weisgerber",
-   "party": "CDU/CSU",
-   "n": 145
-  },
-  {
-   "person": "Heidi Reichinnek",
-   "party": "Linke",
+   "person": "Nicole Höchst",
+   "party": "AfD",
    "n": 143
   },
   {
@@ -3941,18 +3941,18 @@
    "n": 143
   },
   {
-   "person": "Nicole Höchst",
-   "party": "AfD",
-   "n": 143
-  },
-  {
-   "person": "Nicole Gohlke",
+   "person": "Heidi Reichinnek",
    "party": "Linke",
-   "n": 142
+   "n": 143
   },
   {
    "person": "Deborah Düring",
    "party": "Grüne",
+   "n": 142
+  },
+  {
+   "person": "Nicole Gohlke",
+   "party": "Linke",
    "n": 142
   },
   {
@@ -4006,13 +4006,13 @@
    "n": 130
   },
   {
-   "person": "Sebastian Fiedler",
-   "party": "SPD",
+   "person": "Andreas Bleck",
+   "party": "AfD",
    "n": 128
   },
   {
-   "person": "Andreas Bleck",
-   "party": "AfD",
+   "person": "Ines Schwerdtner",
+   "party": "Linke",
    "n": 128
   },
   {
@@ -4021,13 +4021,13 @@
    "n": 128
   },
   {
-   "person": "Lisa Paus",
-   "party": "Grüne",
+   "person": "Sebastian Fiedler",
+   "party": "SPD",
    "n": 128
   },
   {
-   "person": "Ines Schwerdtner",
-   "party": "Linke",
+   "person": "Lisa Paus",
+   "party": "Grüne",
    "n": 128
   },
   {
@@ -4081,6 +4081,11 @@
    "n": 111
   },
   {
+   "person": "Dr. Till Steffen",
+   "party": "Grüne",
+   "n": 110
+  },
+  {
    "person": "Adam Balten",
    "party": "AfD",
    "n": 110
@@ -4088,11 +4093,6 @@
   {
    "person": "Desiree Becker",
    "party": "Linke",
-   "n": 110
-  },
-  {
-   "person": "Dr. Till Steffen",
-   "party": "Grüne",
    "n": 110
   },
   {
@@ -4111,13 +4111,13 @@
    "n": 105
   },
   {
-   "person": "Max Lucks",
-   "party": "Grüne",
+   "person": "Dirk Wiese",
+   "party": "SPD",
    "n": 104
   },
   {
-   "person": "Dirk Wiese",
-   "party": "SPD",
+   "person": "Max Lucks",
+   "party": "Grüne",
    "n": 104
   },
   {
@@ -4136,13 +4136,13 @@
    "n": 101
   },
   {
-   "person": "Johannes Steiniger",
-   "party": "CDU/CSU",
+   "person": "Cansin Köktürk",
+   "party": "Linke",
    "n": 101
   },
   {
-   "person": "Cansin Köktürk",
-   "party": "Linke",
+   "person": "Johannes Steiniger",
+   "party": "CDU/CSU",
    "n": 101
   },
   {
@@ -4151,13 +4151,13 @@
    "n": 100
   },
   {
-   "person": "Daniel Rinkert",
-   "party": "SPD",
+   "person": "Axel Müller",
+   "party": "CDU/CSU",
    "n": 99
   },
   {
-   "person": "Axel Müller",
-   "party": "CDU/CSU",
+   "person": "Daniel Rinkert",
+   "party": "SPD",
    "n": 99
   },
   {
@@ -4166,13 +4166,13 @@
    "n": 98
   },
   {
-   "person": "Peter Aumer",
-   "party": "CDU/CSU",
+   "person": "Caren Lay",
+   "party": "Linke",
    "n": 97
   },
   {
-   "person": "Caren Lay",
-   "party": "Linke",
+   "person": "Peter Aumer",
+   "party": "CDU/CSU",
    "n": 97
   },
   {
@@ -4186,19 +4186,14 @@
    "n": 95
   },
   {
-   "person": "Dr. Christina Baum",
-   "party": "AfD",
-   "n": 93
-  },
-  {
    "person": "Dr. Carolin Wagner",
    "party": "SPD",
    "n": 93
   },
   {
-   "person": "Sven Wendorf",
+   "person": "Dr. Christina Baum",
    "party": "AfD",
-   "n": 92
+   "n": 93
   },
   {
    "person": "Sebastian Münzenmaier",
@@ -4207,6 +4202,11 @@
   },
   {
    "person": "Udo Theodor Hemmelgarn",
+   "party": "AfD",
+   "n": 92
+  },
+  {
+   "person": "Sven Wendorf",
    "party": "AfD",
    "n": 92
   },
@@ -4221,13 +4221,13 @@
    "n": 90
   },
   {
-   "person": "Jamila Schäfer",
-   "party": "Grüne",
+   "person": "Diana Zimmer",
+   "party": "AfD",
    "n": 89
   },
   {
-   "person": "Diana Zimmer",
-   "party": "AfD",
+   "person": "Jamila Schäfer",
+   "party": "Grüne",
    "n": 89
   },
   {
@@ -4236,19 +4236,24 @@
    "n": 89
   },
   {
-   "person": "Jürgen Hardt",
-   "party": "CDU/CSU",
+   "person": "Cem Ince",
+   "party": "Linke",
    "n": 88
   },
   {
-   "person": "Cem Ince",
-   "party": "Linke",
+   "person": "Jürgen Hardt",
+   "party": "CDU/CSU",
    "n": 88
   },
   {
    "person": "Dr. Lena Gumnior",
    "party": "Grüne",
    "n": 88
+  },
+  {
+   "person": "Alexander Throm",
+   "party": "CDU/CSU",
+   "n": 87
   },
   {
    "person": "Kassem Taher Saleh",
@@ -4261,17 +4266,12 @@
    "n": 87
   },
   {
-   "person": "Alexander Throm",
-   "party": "CDU/CSU",
-   "n": 87
-  },
-  {
-   "person": "Mechthilde Wittmann",
+   "person": "Stephan Albani",
    "party": "CDU/CSU",
    "n": 85
   },
   {
-   "person": "Stephan Albani",
+   "person": "Mechthilde Wittmann",
    "party": "CDU/CSU",
    "n": 85
   },
@@ -4286,12 +4286,12 @@
    "n": 84
   },
   {
-   "person": "Catarina dos Santos-Wintz",
+   "person": "Dr. Reinhard Brandl",
    "party": "CDU/CSU",
    "n": 83
   },
   {
-   "person": "Dr. Reinhard Brandl",
+   "person": "Catarina dos Santos-Wintz",
    "party": "CDU/CSU",
    "n": 83
   },
@@ -4311,13 +4311,13 @@
    "n": 82
   },
   {
-   "person": "Lorenz Gösta Beutin",
-   "party": "Linke",
+   "person": "Claudia Moll",
+   "party": "SPD",
    "n": 79
   },
   {
-   "person": "Claudia Moll",
-   "party": "SPD",
+   "person": "Lorenz Gösta Beutin",
+   "party": "Linke",
    "n": 79
   },
   {
@@ -4341,13 +4341,13 @@
    "n": 76
   },
   {
-   "person": "Dr. Martin Plum",
-   "party": "CDU/CSU",
+   "person": "Daniel Baldy",
+   "party": "SPD",
    "n": 76
   },
   {
-   "person": "Daniel Baldy",
-   "party": "SPD",
+   "person": "Dr. Martin Plum",
+   "party": "CDU/CSU",
    "n": 76
   },
   {
@@ -4366,7 +4366,22 @@
    "n": 72
   },
   {
+   "person": "Isabelle Vandre",
+   "party": "Linke",
+   "n": 72
+  },
+  {
+   "person": "Holger Mann",
+   "party": "SPD",
+   "n": 72
+  },
+  {
    "person": "Florian Oßner",
+   "party": "CDU/CSU",
+   "n": 72
+  },
+  {
+   "person": "Johannes Winkel",
    "party": "CDU/CSU",
    "n": 72
   },
@@ -4376,23 +4391,8 @@
    "n": 72
   },
   {
-   "person": "Holger Mann",
-   "party": "SPD",
-   "n": 72
-  },
-  {
    "person": "Alexander Arpaschi",
    "party": "AfD",
-   "n": 72
-  },
-  {
-   "person": "Isabelle Vandre",
-   "party": "Linke",
-   "n": 72
-  },
-  {
-   "person": "Johannes Winkel",
-   "party": "CDU/CSU",
    "n": 72
   },
   {
@@ -4411,13 +4411,13 @@
    "n": 67
   },
   {
-   "person": "Thomas Stephan",
-   "party": "AfD",
+   "person": "Dr. Inge Gräßle",
+   "party": "CDU/CSU",
    "n": 66
   },
   {
-   "person": "Dr. Inge Gräßle",
-   "party": "CDU/CSU",
+   "person": "Thomas Stephan",
+   "party": "AfD",
    "n": 66
   },
   {
@@ -4446,11 +4446,6 @@
    "n": 63
   },
   {
-   "person": "Björn Simon",
-   "party": "CDU/CSU",
-   "n": 62
-  },
-  {
    "person": "Armand Zorn",
    "party": "SPD",
    "n": 62
@@ -4458,6 +4453,11 @@
   {
    "person": "Siemtje Möller",
    "party": "SPD",
+   "n": 62
+  },
+  {
+   "person": "Björn Simon",
+   "party": "CDU/CSU",
    "n": 62
   },
   {
@@ -4471,14 +4471,19 @@
    "n": 58
   },
   {
+   "person": "Knuth Meyer-Soltau",
+   "party": "AfD",
+   "n": 57
+  },
+  {
    "person": "Andreas Audretsch",
    "party": "Grüne",
    "n": 57
   },
   {
-   "person": "Knuth Meyer-Soltau",
+   "person": "Stefan Schröder",
    "party": "AfD",
-   "n": 57
+   "n": 56
   },
   {
    "person": "Felix Banaszak",
@@ -4486,9 +4491,9 @@
    "n": 56
   },
   {
-   "person": "Stefan Schröder",
-   "party": "AfD",
-   "n": 56
+   "person": "Franziska Hoppermann",
+   "party": "CDU/CSU",
+   "n": 53
   },
   {
    "person": "Carmen Wegge",
@@ -4501,19 +4506,9 @@
    "n": 53
   },
   {
-   "person": "Franziska Hoppermann",
-   "party": "CDU/CSU",
-   "n": 53
-  },
-  {
    "person": "Jens Behrens",
    "party": "SPD",
    "n": 50
-  },
-  {
-   "person": "Nadine Heselhaus",
-   "party": "SPD",
-   "n": 49
   },
   {
    "person": "Martin Erwin Renner",
@@ -4521,9 +4516,9 @@
    "n": 49
   },
   {
-   "person": "Johannes Volkmann",
-   "party": "CDU/CSU",
-   "n": 48
+   "person": "Nadine Heselhaus",
+   "party": "SPD",
+   "n": 49
   },
   {
    "person": "Hanna Steinmüller",
@@ -4531,14 +4526,9 @@
    "n": 48
   },
   {
-   "person": "Luke Hoß",
-   "party": "Linke",
-   "n": 47
-  },
-  {
-   "person": "Dr. Zoe Mayer",
-   "party": "Grüne",
-   "n": 47
+   "person": "Johannes Volkmann",
+   "party": "CDU/CSU",
+   "n": 48
   },
   {
    "person": "Marcel Bauer",
@@ -4548,6 +4538,16 @@
   {
    "person": "Gegenruf des Abg. Stephan Brandner",
    "party": "AfD",
+   "n": 47
+  },
+  {
+   "person": "Dr. Zoe Mayer",
+   "party": "Grüne",
+   "n": 47
+  },
+  {
+   "person": "Luke Hoß",
+   "party": "Linke",
    "n": 47
   },
   {
@@ -4566,24 +4566,19 @@
    "n": 45
   },
   {
-   "person": "Katrin Uhlig",
-   "party": "Grüne",
+   "person": "Lars Rohwer",
+   "party": "CDU/CSU",
    "n": 44
   },
   {
-   "person": "Lars Rohwer",
-   "party": "CDU/CSU",
+   "person": "Katrin Uhlig",
+   "party": "Grüne",
    "n": 44
   },
   {
    "person": "Marc Henrichmann",
    "party": "CDU/CSU",
    "n": 44
-  },
-  {
-   "person": "Mandy Eißing",
-   "party": "Linke",
-   "n": 43
   },
   {
    "person": "Violetta Bock",
@@ -4593,6 +4588,11 @@
   {
    "person": "Hannes Gnauck",
    "party": "AfD",
+   "n": 43
+  },
+  {
+   "person": "Mandy Eißing",
+   "party": "Linke",
    "n": 43
   },
   {
@@ -4631,7 +4631,12 @@
    "n": 38
   },
   {
-   "person": "Otto Strauß",
+   "person": "Ayse Asar",
+   "party": "Grüne",
+   "n": 38
+  },
+  {
+   "person": "Arne Raue",
    "party": "AfD",
    "n": 38
   },
@@ -4641,17 +4646,22 @@
    "n": 38
   },
   {
-   "person": "Arne Raue",
+   "person": "Otto Strauß",
    "party": "AfD",
    "n": 38
   },
   {
-   "person": "Ayse Asar",
-   "party": "Grüne",
-   "n": 38
+   "person": "Helge Lindh",
+   "party": "SPD",
+   "n": 37
   },
   {
-   "person": "Helge Lindh",
+   "person": "Dieter Stier",
+   "party": "CDU/CSU",
+   "n": 37
+  },
+  {
+   "person": "Bernd Rützel",
    "party": "SPD",
    "n": 37
   },
@@ -4666,16 +4676,6 @@
    "n": 37
   },
   {
-   "person": "Bernd Rützel",
-   "party": "SPD",
-   "n": 37
-  },
-  {
-   "person": "Dieter Stier",
-   "party": "CDU/CSU",
-   "n": 37
-  },
-  {
    "person": "Stephan Stracke",
    "party": "CDU/CSU",
    "n": 36
@@ -4686,18 +4686,18 @@
    "n": 36
   },
   {
-   "person": "Victoria Broßart",
-   "party": "Grüne",
-   "n": 35
-  },
-  {
    "person": "Nyke Slawik",
    "party": "Grüne",
    "n": 35
   },
   {
-   "person": "Kathrin Michel",
-   "party": "SPD",
+   "person": "Victoria Broßart",
+   "party": "Grüne",
+   "n": 35
+  },
+  {
+   "person": "Robin Wagener",
+   "party": "Grüne",
    "n": 34
   },
   {
@@ -4706,14 +4706,9 @@
    "n": 34
   },
   {
-   "person": "Robin Wagener",
-   "party": "Grüne",
+   "person": "Kathrin Michel",
+   "party": "SPD",
    "n": 34
-  },
-  {
-   "person": "Jörg Cezanne",
-   "party": "Linke",
-   "n": 33
   },
   {
    "person": "Tijen Ataoğlu",
@@ -4726,8 +4721,8 @@
    "n": 33
   },
   {
-   "person": "Dr. Carsten Brodesser",
-   "party": "CDU/CSU",
+   "person": "Rocco Kever",
+   "party": "AfD",
    "n": 33
   },
   {
@@ -4736,13 +4731,18 @@
    "n": 33
   },
   {
-   "person": "Rocco Kever",
-   "party": "AfD",
+   "person": "Jörg Cezanne",
+   "party": "Linke",
    "n": 33
   },
   {
-   "person": "Linda Heitmann",
-   "party": "Grüne",
+   "person": "Dr. Carsten Brodesser",
+   "party": "CDU/CSU",
+   "n": 33
+  },
+  {
+   "person": "Svenja Schulze",
+   "party": "SPD",
    "n": 32
   },
   {
@@ -4751,8 +4751,8 @@
    "n": 32
   },
   {
-   "person": "Svenja Schulze",
-   "party": "SPD",
+   "person": "Linda Heitmann",
+   "party": "Grüne",
    "n": 32
   },
   {
@@ -4761,23 +4761,13 @@
    "n": 32
   },
   {
-   "person": "Dr. Jonas Geissler",
+   "person": "Dr. Ottilie Klein",
    "party": "CDU/CSU",
    "n": 31
   },
   {
    "person": "Sascha Müller",
    "party": "Grüne",
-   "n": 31
-  },
-  {
-   "person": "Dr. Ottilie Klein",
-   "party": "CDU/CSU",
-   "n": 31
-  },
-  {
-   "person": "Gegenruf des Abg. Marcel Queckemeyer",
-   "party": "AfD",
    "n": 31
   },
   {
@@ -4791,8 +4781,18 @@
    "n": 31
   },
   {
+   "person": "Gegenruf des Abg. Marcel Queckemeyer",
+   "party": "AfD",
+   "n": 31
+  },
+  {
    "person": "Metin Hakverdi",
    "party": "SPD",
+   "n": 31
+  },
+  {
+   "person": "Dr. Jonas Geissler",
+   "party": "CDU/CSU",
    "n": 31
   },
   {
@@ -4801,19 +4801,14 @@
    "n": 30
   },
   {
-   "person": "Jan Feser",
-   "party": "AfD",
-   "n": 29
-  },
-  {
    "person": "Dr. Michael Kaufmann",
    "party": "AfD",
    "n": 29
   },
   {
-   "person": "Ronald Gläser",
+   "person": "Jan Feser",
    "party": "AfD",
-   "n": 28
+   "n": 29
   },
   {
    "person": "Jeanne Dillschneider",
@@ -4821,13 +4816,33 @@
    "n": 28
   },
   {
+   "person": "Ronald Gläser",
+   "party": "AfD",
+   "n": 28
+  },
+  {
+   "person": "Sylvia Rietenberg",
+   "party": "Grüne",
+   "n": 27
+  },
+  {
    "person": "Sonja Eichwede",
    "party": "SPD",
    "n": 27
   },
   {
+   "person": "Dr. Katja Strauss-Köster",
+   "party": "CDU/CSU",
+   "n": 27
+  },
+  {
    "person": "Gereon Bollmann",
    "party": "AfD",
+   "n": 27
+  },
+  {
+   "person": "Hubertus Heil",
+   "party": "SPD",
    "n": 27
   },
   {
@@ -4841,21 +4856,6 @@
    "n": 27
   },
   {
-   "person": "Dr. Katja Strauss-Köster",
-   "party": "CDU/CSU",
-   "n": 27
-  },
-  {
-   "person": "Hubertus Heil",
-   "party": "SPD",
-   "n": 27
-  },
-  {
-   "person": "Sylvia Rietenberg",
-   "party": "Grüne",
-   "n": 27
-  },
-  {
    "person": "Jens Peick",
    "party": "SPD",
    "n": 26
@@ -4866,23 +4866,13 @@
    "n": 26
   },
   {
-   "person": "Thomas Erndl",
-   "party": "CDU/CSU",
-   "n": 25
-  },
-  {
-   "person": "Katrin Göring-Eckardt",
-   "party": "Grüne",
-   "n": 25
-  },
-  {
    "person": "Karoline Otte",
    "party": "Grüne",
    "n": 25
   },
   {
-   "person": "Denise Loop",
-   "party": "Grüne",
+   "person": "Thomas Erndl",
+   "party": "CDU/CSU",
    "n": 25
   },
   {
@@ -4896,14 +4886,19 @@
    "n": 25
   },
   {
+   "person": "Denise Loop",
+   "party": "Grüne",
+   "n": 25
+  },
+  {
    "person": "Gegenruf des Abg. Martin Reichardt",
    "party": "AfD",
    "n": 25
   },
   {
-   "person": "Lukas Benner",
+   "person": "Katrin Göring-Eckardt",
    "party": "Grüne",
-   "n": 24
+   "n": 25
   },
   {
    "person": "Gegenruf der Abg. Beatrix von Storch",
@@ -4916,22 +4911,37 @@
    "n": 24
   },
   {
-   "person": "Dr. Anna Rathert",
-   "party": "AfD",
-   "n": 24
-  },
-  {
    "person": "Artur Auernhammer",
    "party": "CDU/CSU",
    "n": 24
   },
   {
-   "person": "Sebastian Steineke",
-   "party": "CDU/CSU",
+   "person": "Lukas Benner",
+   "party": "Grüne",
+   "n": 24
+  },
+  {
+   "person": "Dr. Anna Rathert",
+   "party": "AfD",
+   "n": 24
+  },
+  {
+   "person": "Awet Tesfaiesus",
+   "party": "Grüne",
    "n": 23
   },
   {
-   "person": "Wolfgang Dahler",
+   "person": "Lars Haise",
+   "party": "AfD",
+   "n": 23
+  },
+  {
+   "person": "Rebecca Lenhard",
+   "party": "Grüne",
+   "n": 23
+  },
+  {
+   "person": "Sebastian Steineke",
    "party": "CDU/CSU",
    "n": 23
   },
@@ -4946,8 +4956,8 @@
    "n": 23
   },
   {
-   "person": "Lars Haise",
-   "party": "AfD",
+   "person": "Wolfgang Dahler",
+   "party": "CDU/CSU",
    "n": 23
   },
   {
@@ -4956,13 +4966,8 @@
    "n": 23
   },
   {
-   "person": "Awet Tesfaiesus",
-   "party": "Grüne",
-   "n": 23
-  },
-  {
-   "person": "Rebecca Lenhard",
-   "party": "Grüne",
+   "person": "Stella Merendino",
+   "party": "Linke",
    "n": 23
   },
   {
@@ -4971,12 +4976,17 @@
    "n": 23
   },
   {
-   "person": "Stella Merendino",
-   "party": "Linke",
-   "n": 23
+   "person": "Thomas Bareiß",
+   "party": "CDU/CSU",
+   "n": 22
   },
   {
    "person": "Gegenruf des Abg. Dr. Götz Frömming",
+   "party": "AfD",
+   "n": 22
+  },
+  {
+   "person": "René Bochmann",
    "party": "AfD",
    "n": 22
   },
@@ -4986,14 +4996,9 @@
    "n": 22
   },
   {
-   "person": "René Bochmann",
+   "person": "René Springer",
    "party": "AfD",
-   "n": 22
-  },
-  {
-   "person": "Thomas Bareiß",
-   "party": "CDU/CSU",
-   "n": 22
+   "n": 21
   },
   {
    "person": "Aydan Özoğuz",
@@ -5006,37 +5011,7 @@
    "n": 21
   },
   {
-   "person": "René Springer",
-   "party": "AfD",
-   "n": 21
-  },
-  {
-   "person": "Ricarda Lang",
-   "party": "Grüne",
-   "n": 20
-  },
-  {
-   "person": "Dr. Dietmar Bartsch",
-   "party": "Linke",
-   "n": 20
-  },
-  {
-   "person": "Gegenruf der Abg. Ulle Schauws",
-   "party": "Grüne",
-   "n": 20
-  },
-  {
-   "person": "Andreas Paul",
-   "party": "AfD",
-   "n": 20
-  },
-  {
-   "person": "Gegenruf des Abg. Kay Gottschalk",
-   "party": "AfD",
-   "n": 20
-  },
-  {
-   "person": "Hans Koller",
+   "person": "Michael Frieser",
    "party": "CDU/CSU",
    "n": 20
   },
@@ -5046,9 +5021,39 @@
    "n": 20
   },
   {
-   "person": "Michael Frieser",
+   "person": "Hans Koller",
    "party": "CDU/CSU",
    "n": 20
+  },
+  {
+   "person": "Gegenruf des Abg. Kay Gottschalk",
+   "party": "AfD",
+   "n": 20
+  },
+  {
+   "person": "Ricarda Lang",
+   "party": "Grüne",
+   "n": 20
+  },
+  {
+   "person": "Gegenruf der Abg. Ulle Schauws",
+   "party": "Grüne",
+   "n": 20
+  },
+  {
+   "person": "Dr. Dietmar Bartsch",
+   "party": "Linke",
+   "n": 20
+  },
+  {
+   "person": "Andreas Paul",
+   "party": "AfD",
+   "n": 20
+  },
+  {
+   "person": "Kurt Kleinschmidt",
+   "party": "AfD",
+   "n": 19
   },
   {
    "person": "Johannes Schätzl",
@@ -5056,17 +5061,7 @@
    "n": 19
   },
   {
-   "person": "Mathias Weiser",
-   "party": "AfD",
-   "n": 19
-  },
-  {
    "person": "Dirk Brandes",
-   "party": "AfD",
-   "n": 19
-  },
-  {
-   "person": "Kurt Kleinschmidt",
    "party": "AfD",
    "n": 19
   },
@@ -5076,27 +5071,12 @@
    "n": 19
   },
   {
-   "person": "Johannes Wiegelmann",
-   "party": "CDU/CSU",
-   "n": 18
-  },
-  {
-   "person": "Günter Baumgartner",
-   "party": "CDU/CSU",
-   "n": 18
+   "person": "Mathias Weiser",
+   "party": "AfD",
+   "n": 19
   },
   {
    "person": "Lea Reisner",
-   "party": "Linke",
-   "n": 18
-  },
-  {
-   "person": "Stefan Henze",
-   "party": "AfD",
-   "n": 18
-  },
-  {
-   "person": "Sahra Mirow",
    "party": "Linke",
    "n": 18
   },
@@ -5106,9 +5086,24 @@
    "n": 18
   },
   {
-   "person": "Ulrich Thoden",
+   "person": "Günter Baumgartner",
+   "party": "CDU/CSU",
+   "n": 18
+  },
+  {
+   "person": "Sahra Mirow",
    "party": "Linke",
-   "n": 17
+   "n": 18
+  },
+  {
+   "person": "Johannes Wiegelmann",
+   "party": "CDU/CSU",
+   "n": 18
+  },
+  {
+   "person": "Stefan Henze",
+   "party": "AfD",
+   "n": 18
   },
   {
    "person": "Andrea Lindholz",
@@ -5116,13 +5111,8 @@
    "n": 17
   },
   {
-   "person": "Rainer Galla",
-   "party": "AfD",
-   "n": 17
-  },
-  {
-   "person": "Gegenruf des Abg. Markus Frohnmaier",
-   "party": "AfD",
+   "person": "Ulrich Thoden",
+   "party": "Linke",
    "n": 17
   },
   {
@@ -5131,12 +5121,37 @@
    "n": 17
   },
   {
+   "person": "Dr. Anton Hofreiter",
+   "party": "Grüne",
+   "n": 17
+  },
+  {
+   "person": "Sebastian Maack",
+   "party": "AfD",
+   "n": 17
+  },
+  {
    "person": "Sarah Vollath",
    "party": "Linke",
    "n": 17
   },
   {
+   "person": "Rainer Galla",
+   "party": "AfD",
+   "n": 17
+  },
+  {
    "person": "Christian Reck",
+   "party": "AfD",
+   "n": 17
+  },
+  {
+   "person": "Mareike Hermeier",
+   "party": "Linke",
+   "n": 17
+  },
+  {
+   "person": "Gegenruf des Abg. Markus Frohnmaier",
    "party": "AfD",
    "n": 17
   },
@@ -5146,19 +5161,14 @@
    "n": 17
   },
   {
-   "person": "Dr. Anton Hofreiter",
+   "person": "Omid Nouripour",
    "party": "Grüne",
-   "n": 17
+   "n": 16
   },
   {
-   "person": "Mareike Hermeier",
-   "party": "Linke",
-   "n": 17
-  },
-  {
-   "person": "Sebastian Maack",
-   "party": "AfD",
-   "n": 17
+   "person": "Christina Stumpp",
+   "party": "CDU/CSU",
+   "n": 16
   },
   {
    "person": "Dr. Franziska Brantner",
@@ -5171,18 +5181,13 @@
    "n": 16
   },
   {
-   "person": "Omid Nouripour",
-   "party": "Grüne",
+   "person": "Klaus-Peter Willsch",
+   "party": "CDU/CSU",
    "n": 16
   },
   {
    "person": "Michael Schrodi",
    "party": "SPD",
-   "n": 16
-  },
-  {
-   "person": "Christina Stumpp",
-   "party": "CDU/CSU",
    "n": 16
   },
   {
@@ -5196,58 +5201,8 @@
    "n": 16
   },
   {
-   "person": "Klaus-Peter Willsch",
-   "party": "CDU/CSU",
-   "n": 16
-  },
-  {
-   "person": "Julia-Christina Stange",
-   "party": "Linke",
-   "n": 15
-  },
-  {
-   "person": "Ruppert Stüwe",
+   "person": "Hakan Demir",
    "party": "SPD",
-   "n": 15
-  },
-  {
-   "person": "Rüdiger Lucassen",
-   "party": "AfD",
-   "n": 15
-  },
-  {
-   "person": "Sergej Minich",
-   "party": "AfD",
-   "n": 15
-  },
-  {
-   "person": "Christian Freiherr von Stetten",
-   "party": "CDU/CSU",
-   "n": 15
-  },
-  {
-   "person": "Paul Ziemiak",
-   "party": "CDU/CSU",
-   "n": 15
-  },
-  {
-   "person": "Gegenruf der Abg. Simone Borchardt",
-   "party": "CDU/CSU",
-   "n": 15
-  },
-  {
-   "person": "Tamara Mazzi",
-   "party": "Linke",
-   "n": 15
-  },
-  {
-   "person": "Anne Zerr",
-   "party": "Linke",
-   "n": 15
-  },
-  {
-   "person": "Dr. Yannick Bury",
-   "party": "CDU/CSU",
    "n": 15
   },
   {
@@ -5256,28 +5211,23 @@
    "n": 15
   },
   {
-   "person": "Josef Oster",
+   "person": "Paul Ziemiak",
    "party": "CDU/CSU",
    "n": 15
   },
   {
-   "person": "Hakan Demir",
-   "party": "SPD",
-   "n": 15
-  },
-  {
-   "person": "David Mandrella",
-   "party": "SPD",
-   "n": 15
-  },
-  {
-   "person": "Angelika Glöckner",
-   "party": "SPD",
-   "n": 15
-  },
-  {
-   "person": "Andreas Mayer",
+   "person": "Sergej Minich",
    "party": "AfD",
+   "n": 15
+  },
+  {
+   "person": "Ruppert Stüwe",
+   "party": "SPD",
+   "n": 15
+  },
+  {
+   "person": "Tamara Mazzi",
+   "party": "Linke",
    "n": 15
   },
   {
@@ -5286,18 +5236,83 @@
    "n": 15
   },
   {
+   "person": "Andreas Mayer",
+   "party": "AfD",
+   "n": 15
+  },
+  {
+   "person": "Angelika Glöckner",
+   "party": "SPD",
+   "n": 15
+  },
+  {
+   "person": "Anne Zerr",
+   "party": "Linke",
+   "n": 15
+  },
+  {
+   "person": "Josef Oster",
+   "party": "CDU/CSU",
+   "n": 15
+  },
+  {
+   "person": "Dr. Yannick Bury",
+   "party": "CDU/CSU",
+   "n": 15
+  },
+  {
+   "person": "Christian Freiherr von Stetten",
+   "party": "CDU/CSU",
+   "n": 15
+  },
+  {
+   "person": "David Mandrella",
+   "party": "SPD",
+   "n": 15
+  },
+  {
+   "person": "Gegenruf der Abg. Simone Borchardt",
+   "party": "CDU/CSU",
+   "n": 15
+  },
+  {
+   "person": "Rüdiger Lucassen",
+   "party": "AfD",
+   "n": 15
+  },
+  {
+   "person": "Julia-Christina Stange",
+   "party": "Linke",
+   "n": 15
+  },
+  {
+   "person": "Johann Saathoff",
+   "party": "SPD",
+   "n": 14
+  },
+  {
+   "person": "Sascha Lensing",
+   "party": "AfD",
+   "n": 14
+  },
+  {
    "person": "Stefan Zierke",
    "party": "SPD",
    "n": 14
   },
   {
-   "person": "Mechthild Heil",
-   "party": "CDU/CSU",
+   "person": "Jan Wenzel Schmidt",
+   "party": "AfD",
    "n": 14
   },
   {
-   "person": "Jan Wenzel Schmidt",
-   "party": "AfD",
+   "person": "Donata Vogtschmidt",
+   "party": "Linke",
+   "n": 14
+  },
+  {
+   "person": "Christian Haase",
+   "party": "CDU/CSU",
    "n": 14
   },
   {
@@ -5307,16 +5322,6 @@
   },
   {
    "person": "Gegenruf des Abg. Jörn König",
-   "party": "AfD",
-   "n": 14
-  },
-  {
-   "person": "Christian Haase",
-   "party": "CDU/CSU",
-   "n": 14
-  },
-  {
-   "person": "Sascha Lensing",
    "party": "AfD",
    "n": 14
   },
@@ -5331,37 +5336,17 @@
    "n": 14
   },
   {
-   "person": "Donata Vogtschmidt",
-   "party": "Linke",
-   "n": 14
-  },
-  {
-   "person": "Johann Saathoff",
-   "party": "SPD",
-   "n": 14
-  },
-  {
-   "person": "Armin Laschet",
+   "person": "Mechthild Heil",
    "party": "CDU/CSU",
-   "n": 13
-  },
-  {
-   "person": "Dr. Armin Grau",
-   "party": "Grüne",
-   "n": 13
-  },
-  {
-   "person": "Gegenruf des Abg. Alexander Hoffmann",
-   "party": "CDU/CSU",
-   "n": 13
-  },
-  {
-   "person": "Annika Klose",
-   "party": "SPD",
-   "n": 13
+   "n": 14
   },
   {
    "person": "Dr. Hülya Düber",
+   "party": "CDU/CSU",
+   "n": 13
+  },
+  {
+   "person": "Armin Laschet",
    "party": "CDU/CSU",
    "n": 13
   },
@@ -5371,18 +5356,23 @@
    "n": 13
   },
   {
+   "person": "Dr. Armin Grau",
+   "party": "Grüne",
+   "n": 13
+  },
+  {
+   "person": "Annika Klose",
+   "party": "SPD",
+   "n": 13
+  },
+  {
+   "person": "Gegenruf des Abg. Alexander Hoffmann",
+   "party": "CDU/CSU",
+   "n": 13
+  },
+  {
    "person": "Erhard Brucker",
    "party": "AfD",
-   "n": 12
-  },
-  {
-   "person": "Dr. Thorsten Rudolph",
-   "party": "SPD",
-   "n": 12
-  },
-  {
-   "person": "Isabel Cademartori",
-   "party": "SPD",
    "n": 12
   },
   {
@@ -5396,13 +5386,8 @@
    "n": 12
   },
   {
-   "person": "Dr. Franziska Kersten",
+   "person": "Isabel Cademartori",
    "party": "SPD",
-   "n": 12
-  },
-  {
-   "person": "Gegenruf der Abg. Diana Zimmer",
-   "party": "AfD",
    "n": 12
   },
   {
@@ -5411,43 +5396,23 @@
    "n": 12
   },
   {
-   "person": "Heiko Hain",
-   "party": "CDU/CSU",
-   "n": 11
+   "person": "Gegenruf der Abg. Diana Zimmer",
+   "party": "AfD",
+   "n": 12
   },
   {
-   "person": "Daniela Ludwig",
-   "party": "CDU/CSU",
-   "n": 11
-  },
-  {
-   "person": "Hermann Färber",
-   "party": "CDU/CSU",
-   "n": 11
-  },
-  {
-   "person": "Dr. Matthias Miersch",
+   "person": "Dr. Thorsten Rudolph",
    "party": "SPD",
-   "n": 11
+   "n": 12
   },
   {
-   "person": "Kerstin Vieregge",
-   "party": "CDU/CSU",
-   "n": 11
+   "person": "Dr. Franziska Kersten",
+   "party": "SPD",
+   "n": 12
   },
   {
-   "person": "Gegenruf des Abg. Bernd Schattner",
-   "party": "AfD",
-   "n": 11
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Paula Piechotta",
+   "person": "Steffi Lemke",
    "party": "Grüne",
-   "n": 11
-  },
-  {
-   "person": "Wolfgang Wiehle",
-   "party": "AfD",
    "n": 11
   },
   {
@@ -5461,6 +5426,41 @@
    "n": 11
   },
   {
+   "person": "Wolfgang Wiehle",
+   "party": "AfD",
+   "n": 11
+  },
+  {
+   "person": "Alexander Engelhard",
+   "party": "CDU/CSU",
+   "n": 11
+  },
+  {
+   "person": "Heiko Hain",
+   "party": "CDU/CSU",
+   "n": 11
+  },
+  {
+   "person": "Kerstin Vieregge",
+   "party": "CDU/CSU",
+   "n": 11
+  },
+  {
+   "person": "Gegenruf des Abg. Bernd Schattner",
+   "party": "AfD",
+   "n": 11
+  },
+  {
+   "person": "Dr. Matthias Miersch",
+   "party": "SPD",
+   "n": 11
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Paula Piechotta",
+   "party": "Grüne",
+   "n": 11
+  },
+  {
    "person": "Philipp Amthor",
    "party": "CDU/CSU",
    "n": 11
@@ -5471,13 +5471,13 @@
    "n": 11
   },
   {
-   "person": "Alexander Engelhard",
+   "person": "Daniela Ludwig",
    "party": "CDU/CSU",
    "n": 11
   },
   {
-   "person": "Steffi Lemke",
-   "party": "Grüne",
+   "person": "Hermann Färber",
+   "party": "CDU/CSU",
    "n": 11
   },
   {
@@ -5486,7 +5486,7 @@
    "n": 10
   },
   {
-   "person": "Gegenruf des Abg. Enrico Komning",
+   "person": "Gegenruf des Abg. Dr. Bernd Baumann",
    "party": "AfD",
    "n": 10
   },
@@ -5496,8 +5496,13 @@
    "n": 10
   },
   {
-   "person": "Gegenruf des Abg. Marc Bernhard",
+   "person": "Gegenruf des Abg. Enrico Komning",
    "party": "AfD",
+   "n": 10
+  },
+  {
+   "person": "Misbah Khan",
+   "party": "Grüne",
    "n": 10
   },
   {
@@ -5506,7 +5511,17 @@
    "n": 10
   },
   {
-   "person": "Gegenruf des Abg. Dr. Bernd Baumann",
+   "person": "Dr. Norbert Röttgen",
+   "party": "CDU/CSU",
+   "n": 10
+  },
+  {
+   "person": "Gegenruf des Abg. Marc Bernhard",
+   "party": "AfD",
+   "n": 10
+  },
+  {
+   "person": "Gegenruf des Abg. Maximilian Kneller",
    "party": "AfD",
    "n": 10
   },
@@ -5516,38 +5531,38 @@
    "n": 10
   },
   {
-   "person": "Hendrik Bollmann",
-   "party": "SPD",
-   "n": 10
-  },
-  {
-   "person": "Misbah Khan",
-   "party": "Grüne",
-   "n": 10
-  },
-  {
    "person": "Zada Salihović",
    "party": "Linke",
    "n": 10
   },
   {
-   "person": "Gegenruf des Abg. Maximilian Kneller",
-   "party": "AfD",
+   "person": "Hendrik Bollmann",
+   "party": "SPD",
    "n": 10
   },
   {
-   "person": "Dr. Norbert Röttgen",
-   "party": "CDU/CSU",
-   "n": 10
+   "person": "Gegenruf des Abg. Boris Mijatović",
+   "party": "Grüne",
+   "n": 9
   },
   {
-   "person": "Thorsten Frei",
+   "person": "Anne-Mieke Bremer",
+   "party": "Linke",
+   "n": 9
+  },
+  {
+   "person": "Gitta Connemann",
    "party": "CDU/CSU",
    "n": 9
   },
   {
-   "person": "Christin Willnat",
-   "party": "Linke",
+   "person": "Gegenruf des Abg. Steffen Bilger",
+   "party": "CDU/CSU",
+   "n": 9
+  },
+  {
+   "person": "Julian Schmidt",
+   "party": "AfD",
    "n": 9
   },
   {
@@ -5556,12 +5571,7 @@
    "n": 9
   },
   {
-   "person": "Gegenruf der Abg. Rasha Nasr",
-   "party": "SPD",
-   "n": 9
-  },
-  {
-   "person": "Julian Schmidt",
+   "person": "Christian Douglas",
    "party": "AfD",
    "n": 9
   },
@@ -5571,32 +5581,7 @@
    "n": 9
   },
   {
-   "person": "Gegenruf des Abg. Karsten Hilse",
-   "party": "AfD",
-   "n": 9
-  },
-  {
-   "person": "Christian Douglas",
-   "party": "AfD",
-   "n": 9
-  },
-  {
    "person": "Jörg Zirwes",
-   "party": "AfD",
-   "n": 9
-  },
-  {
-   "person": "Gegenruf des Abg. Michael Kellner",
-   "party": "Grüne",
-   "n": 9
-  },
-  {
-   "person": "Gegenruf des Abg. Boris Mijatović",
-   "party": "Grüne",
-   "n": 9
-  },
-  {
-   "person": "Dr. Alexander Gauland",
    "party": "AfD",
    "n": 9
   },
@@ -5611,13 +5596,33 @@
    "n": 9
   },
   {
-   "person": "Gegenruf des Abg. Steffen Bilger",
+   "person": "Christin Willnat",
+   "party": "Linke",
+   "n": 9
+  },
+  {
+   "person": "Gegenruf des Abg. Karsten Hilse",
+   "party": "AfD",
+   "n": 9
+  },
+  {
+   "person": "Gegenruf der Abg. Rasha Nasr",
+   "party": "SPD",
+   "n": 9
+  },
+  {
+   "person": "Gegenruf des Abg. Michael Kellner",
+   "party": "Grüne",
+   "n": 9
+  },
+  {
+   "person": "Thorsten Frei",
    "party": "CDU/CSU",
    "n": 9
   },
   {
-   "person": "Gitta Connemann",
-   "party": "CDU/CSU",
+   "person": "Dr. Alexander Gauland",
+   "party": "AfD",
    "n": 9
   },
   {
@@ -5626,13 +5631,8 @@
    "n": 9
   },
   {
-   "person": "Anne-Mieke Bremer",
-   "party": "Linke",
-   "n": 9
-  },
-  {
-   "person": "Janina Böttger",
-   "party": "Linke",
+   "person": "Gegenruf des Abg. Dr. Johannes Fechner",
+   "party": "SPD",
    "n": 8
   },
   {
@@ -5641,42 +5641,7 @@
    "n": 8
   },
   {
-   "person": "Gegenruf des Abg. Sebastian Münzenmaier",
-   "party": "AfD",
-   "n": 8
-  },
-  {
-   "person": "Gegenruf des Abg. Siegfried Walch",
-   "party": "CDU/CSU",
-   "n": 8
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Alice Weidel",
-   "party": "AfD",
-   "n": 8
-  },
-  {
    "person": "Carsten Körber",
-   "party": "CDU/CSU",
-   "n": 8
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Johannes Fechner",
-   "party": "SPD",
-   "n": 8
-  },
-  {
-   "person": "Gegenruf der Abg. Filiz Polat",
-   "party": "Grüne",
-   "n": 8
-  },
-  {
-   "person": "Gegenruf der Abg. Sara Nanni",
-   "party": "Grüne",
-   "n": 8
-  },
-  {
-   "person": "Olav Gutting",
    "party": "CDU/CSU",
    "n": 8
   },
@@ -5686,17 +5651,57 @@
    "n": 8
   },
   {
-   "person": "Matthias Helferich",
+   "person": "Gegenruf des Abg. Siegfried Walch",
+   "party": "CDU/CSU",
+   "n": 8
+  },
+  {
+   "person": "Janina Böttger",
+   "party": "Linke",
+   "n": 8
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Alice Weidel",
+   "party": "AfD",
+   "n": 8
+  },
+  {
+   "person": "Gegenruf der Abg. Sara Nanni",
+   "party": "Grüne",
+   "n": 8
+  },
+  {
+   "person": "Gegenruf des Abg. Sebastian Münzenmaier",
+   "party": "AfD",
+   "n": 8
+  },
+  {
+   "person": "Gegenruf der Abg. Filiz Polat",
+   "party": "Grüne",
+   "n": 8
+  },
+  {
+   "person": "Olav Gutting",
+   "party": "CDU/CSU",
+   "n": 8
+  },
+  {
+   "person": "Cansu Özdemir",
+   "party": "Linke",
+   "n": 7
+  },
+  {
+   "person": "Gegenruf des Abg. Alexander Arpaschi",
    "party": "AfD",
    "n": 7
   },
   {
-   "person": "Truels Reichardt",
-   "party": "SPD",
+   "person": "Roderich Kiesewetter",
+   "party": "CDU/CSU",
    "n": 7
   },
   {
-   "person": "Gegenruf der Abg. Luise Amtsberg",
+   "person": "Gegenruf des Abg. Stefan Schmidt",
    "party": "Grüne",
    "n": 7
   },
@@ -5706,18 +5711,8 @@
    "n": 7
   },
   {
-   "person": "Gegenruf des Abg. Alexander Arpaschi",
-   "party": "AfD",
-   "n": 7
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Anja Weisgerber",
-   "party": "CDU/CSU",
-   "n": 7
-  },
-  {
-   "person": "Gegenruf des Abg. Martin Hess",
-   "party": "AfD",
+   "person": "Gegenruf des Abg. Jürgen Coße",
+   "party": "SPD",
    "n": 7
   },
   {
@@ -5726,23 +5721,18 @@
    "n": 7
   },
   {
-   "person": "Gegenruf des Abg. Stefan Schmidt",
-   "party": "Grüne",
-   "n": 7
-  },
-  {
-   "person": "Roderich Kiesewetter",
-   "party": "CDU/CSU",
-   "n": 7
-  },
-  {
-   "person": "Cansu Özdemir",
-   "party": "Linke",
-   "n": 7
-  },
-  {
-   "person": "Dr. Lina Seitzl",
+   "person": "Truels Reichardt",
    "party": "SPD",
+   "n": 7
+  },
+  {
+   "person": "Matthias Helferich",
+   "party": "AfD",
+   "n": 7
+  },
+  {
+   "person": "Gegenruf des Abg. Martin Hess",
+   "party": "AfD",
    "n": 7
   },
   {
@@ -5751,7 +5741,7 @@
    "n": 7
   },
   {
-   "person": "Gegenruf des Abg. Jürgen Coße",
+   "person": "Dr. Lina Seitzl",
    "party": "SPD",
    "n": 7
   },
@@ -5761,92 +5751,17 @@
    "n": 7
   },
   {
-   "person": "Gegenruf der Abg. Dr. Irene Mihalic",
-   "party": "Grüne",
-   "n": 6
+   "person": "Gegenruf der Abg. Dr. Anja Weisgerber",
+   "party": "CDU/CSU",
+   "n": 7
   },
   {
-   "person": "Serap Güler",
-   "party": "CDU/CSU",
-   "n": 6
+   "person": "Gegenruf der Abg. Luise Amtsberg",
+   "party": "Grüne",
+   "n": 7
   },
   {
    "person": "Martina Kempf",
-   "party": "AfD",
-   "n": 6
-  },
-  {
-   "person": "Katrin Staffler",
-   "party": "CDU/CSU",
-   "n": 6
-  },
-  {
-   "person": "Kay-Uwe Ziegler",
-   "party": "AfD",
-   "n": 6
-  },
-  {
-   "person": "Gegenruf des Abg. Jens Spahn",
-   "party": "CDU/CSU",
-   "n": 6
-  },
-  {
-   "person": "Christoph Schmid",
-   "party": "SPD",
-   "n": 6
-  },
-  {
-   "person": "Sandra Carstensen",
-   "party": "CDU/CSU",
-   "n": 6
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Klaus Wiener",
-   "party": "CDU/CSU",
-   "n": 6
-  },
-  {
-   "person": "Gegenruf des Abg. Mirze Edis",
-   "party": "Linke",
-   "n": 6
-  },
-  {
-   "person": "Gegenruf der Abg. Dunja Kreiser",
-   "party": "SPD",
-   "n": 6
-  },
-  {
-   "person": "Gegenruf der Abg. Swantje Henrike Michaelsen",
-   "party": "Grüne",
-   "n": 6
-  },
-  {
-   "person": "Nicolas Zippelius",
-   "party": "CDU/CSU",
-   "n": 6
-  },
-  {
-   "person": "Isabel Mackensen-Geis",
-   "party": "SPD",
-   "n": 6
-  },
-  {
-   "person": "Gegenruf des Abg. Daniel Rinkert",
-   "party": "SPD",
-   "n": 6
-  },
-  {
-   "person": "Dorothee Bär",
-   "party": "CDU/CSU",
-   "n": 6
-  },
-  {
-   "person": "Nancy Faeser",
-   "party": "SPD",
-   "n": 6
-  },
-  {
-   "person": "Thomas Korell",
    "party": "AfD",
    "n": 6
   },
@@ -5861,8 +5776,48 @@
    "n": 6
   },
   {
-   "person": "Gegenruf des Abg. Stefan Keuter",
+   "person": "Gegenruf des Abg. Dr. Klaus Wiener",
+   "party": "CDU/CSU",
+   "n": 6
+  },
+  {
+   "person": "Nancy Faeser",
+   "party": "SPD",
+   "n": 6
+  },
+  {
+   "person": "Nicolas Zippelius",
+   "party": "CDU/CSU",
+   "n": 6
+  },
+  {
+   "person": "Isabel Mackensen-Geis",
+   "party": "SPD",
+   "n": 6
+  },
+  {
+   "person": "Katrin Staffler",
+   "party": "CDU/CSU",
+   "n": 6
+  },
+  {
+   "person": "Kay-Uwe Ziegler",
    "party": "AfD",
+   "n": 6
+  },
+  {
+   "person": "Thomas Korell",
+   "party": "AfD",
+   "n": 6
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Irene Mihalic",
+   "party": "Grüne",
+   "n": 6
+  },
+  {
+   "person": "Sandra Carstensen",
+   "party": "CDU/CSU",
    "n": 6
   },
   {
@@ -5871,14 +5826,49 @@
    "n": 6
   },
   {
-   "person": "Gegenruf der Abg. Dr. Carolin Wagner",
-   "party": "SPD",
-   "n": 5
+   "person": "Dorothee Bär",
+   "party": "CDU/CSU",
+   "n": 6
   },
   {
-   "person": "Thomas Silberhorn",
+   "person": "Gegenruf der Abg. Dunja Kreiser",
+   "party": "SPD",
+   "n": 6
+  },
+  {
+   "person": "Gegenruf der Abg. Swantje Henrike Michaelsen",
+   "party": "Grüne",
+   "n": 6
+  },
+  {
+   "person": "Serap Güler",
    "party": "CDU/CSU",
-   "n": 5
+   "n": 6
+  },
+  {
+   "person": "Gegenruf des Abg. Daniel Rinkert",
+   "party": "SPD",
+   "n": 6
+  },
+  {
+   "person": "Gegenruf des Abg. Jens Spahn",
+   "party": "CDU/CSU",
+   "n": 6
+  },
+  {
+   "person": "Gegenruf des Abg. Mirze Edis",
+   "party": "Linke",
+   "n": 6
+  },
+  {
+   "person": "Gegenruf des Abg. Stefan Keuter",
+   "party": "AfD",
+   "n": 6
+  },
+  {
+   "person": "Christoph Schmid",
+   "party": "SPD",
+   "n": 6
   },
   {
    "person": "Anja Troff-Schaffarzyk",
@@ -5886,32 +5876,12 @@
    "n": 5
   },
   {
-   "person": "Tim Klüssendorf",
-   "party": "SPD",
+   "person": "Gegenruf der Abg. Deborah Düring",
+   "party": "Grüne",
    "n": 5
   },
   {
-   "person": "Parsa Marvi",
-   "party": "SPD",
-   "n": 5
-  },
-  {
-   "person": "Serdar Yüksel",
-   "party": "SPD",
-   "n": 5
-  },
-  {
-   "person": "Leif Erik Bodin",
-   "party": "CDU/CSU",
-   "n": 5
-  },
-  {
-   "person": "Gegenruf der Abg. Saskia Esken",
-   "party": "SPD",
-   "n": 5
-  },
-  {
-   "person": "Gegenruf des Abg. Felix Schreiner",
+   "person": "Thomas Silberhorn",
    "party": "CDU/CSU",
    "n": 5
   },
@@ -5921,32 +5891,17 @@
    "n": 5
   },
   {
+   "person": "Gegenruf des Abg. Harald Ebner",
+   "party": "Grüne",
+   "n": 5
+  },
+  {
    "person": "Christian Zaum",
    "party": "AfD",
    "n": 5
   },
   {
-   "person": "Gegenruf der Abg. Deborah Düring",
-   "party": "Grüne",
-   "n": 5
-  },
-  {
-   "person": "Gegenruf des Abg. Tilman Kuban",
-   "party": "CDU/CSU",
-   "n": 5
-  },
-  {
-   "person": "Gegenruf des Abg. Kai Whittaker",
-   "party": "CDU/CSU",
-   "n": 5
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Anna Rathert",
-   "party": "AfD",
-   "n": 5
-  },
-  {
-   "person": "Christoph Frauenpreiß",
+   "person": "Gegenruf des Abg. Felix Schreiner",
    "party": "CDU/CSU",
    "n": 5
   },
@@ -5961,74 +5916,59 @@
    "n": 5
   },
   {
+   "person": "Gegenruf des Abg. Kai Whittaker",
+   "party": "CDU/CSU",
+   "n": 5
+  },
+  {
+   "person": "Christoph Frauenpreiß",
+   "party": "CDU/CSU",
+   "n": 5
+  },
+  {
+   "person": "Tim Klüssendorf",
+   "party": "SPD",
+   "n": 5
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Carolin Wagner",
+   "party": "SPD",
+   "n": 5
+  },
+  {
+   "person": "Serdar Yüksel",
+   "party": "SPD",
+   "n": 5
+  },
+  {
+   "person": "Gegenruf des Abg. Tilman Kuban",
+   "party": "CDU/CSU",
+   "n": 5
+  },
+  {
+   "person": "Leif Erik Bodin",
+   "party": "CDU/CSU",
+   "n": 5
+  },
+  {
    "person": "Gegenruf des Abg. Dr. Hendrik Hoppenstedt",
    "party": "CDU/CSU",
    "n": 5
   },
   {
-   "person": "Gegenruf des Abg. Harald Ebner",
-   "party": "Grüne",
+   "person": "Gegenruf der Abg. Saskia Esken",
+   "party": "SPD",
    "n": 5
   },
   {
-   "person": "Lars Schieske",
+   "person": "Parsa Marvi",
+   "party": "SPD",
+   "n": 5
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Anna Rathert",
    "party": "AfD",
-   "n": 4
-  },
-  {
-   "person": "Gegenruf der Abg. Claudia Moll",
-   "party": "SPD",
-   "n": 4
-  },
-  {
-   "person": "Gegenruf der Abg. Sanae Abdi",
-   "party": "SPD",
-   "n": 4
-  },
-  {
-   "person": "Gegenruf der Abg. Lisa Badum",
-   "party": "Grüne",
-   "n": 4
-  },
-  {
-   "person": "Gegenruf des Abg. Dirk Wiese",
-   "party": "SPD",
-   "n": 4
-  },
-  {
-   "person": "Gegenruf des Abg. Julian Joswig",
-   "party": "Grüne",
-   "n": 4
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Ingo Hahn",
-   "party": "AfD",
-   "n": 4
-  },
-  {
-   "person": "Daniel Bettermann",
-   "party": "SPD",
-   "n": 4
-  },
-  {
-   "person": "Gegenruf des Abg. Holger Mann",
-   "party": "SPD",
-   "n": 4
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Michael Blos",
-   "party": "AfD",
-   "n": 4
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Fabian Fahl",
-   "party": "Linke",
-   "n": 4
-  },
-  {
-   "person": "Dr. Silke Launert",
-   "party": "CDU/CSU",
-   "n": 4
+   "n": 5
   },
   {
    "person": "Gegenruf der Abg. Katalin Gennburg",
@@ -6036,37 +5976,17 @@
    "n": 4
   },
   {
-   "person": "Gegenruf der Abg. Mechthilde Wittmann",
-   "party": "CDU/CSU",
+   "person": "Stefan Möller",
+   "party": "AfD",
    "n": 4
   },
   {
-   "person": "Dr. Cornell-Anette Babendererde",
-   "party": "CDU/CSU",
+   "person": "(Britta Haßelmann",
+   "party": "Grüne",
    "n": 4
   },
   {
-   "person": "Gegenruf des Abg. Marc Biadacz",
-   "party": "CDU/CSU",
-   "n": 4
-  },
-  {
-   "person": "Gegenruf des Abg. Peter Beyer",
-   "party": "CDU/CSU",
-   "n": 4
-  },
-  {
-   "person": "Dr. Hendrik Streeck",
-   "party": "CDU/CSU",
-   "n": 4
-  },
-  {
-   "person": "Gegenruf der Abg. Mareike Hermeier",
-   "party": "Linke",
-   "n": 4
-  },
-  {
-   "person": "Markus Töns",
+   "person": "Gegenruf der Abg. Claudia Moll",
    "party": "SPD",
    "n": 4
   },
@@ -6076,13 +5996,28 @@
    "n": 4
   },
   {
+   "person": "Gegenruf des Abg. Peter Beyer",
+   "party": "CDU/CSU",
+   "n": 4
+  },
+  {
+   "person": "Anne König",
+   "party": "CDU/CSU",
+   "n": 4
+  },
+  {
    "person": "Gegenruf des Abg. Dr. Christian Wirth",
    "party": "AfD",
    "n": 4
   },
   {
-   "person": "Hauke Finger",
-   "party": "AfD",
+   "person": "Gegenruf des Abg. Holger Mann",
+   "party": "SPD",
+   "n": 4
+  },
+  {
+   "person": "Markus Töns",
+   "party": "SPD",
    "n": 4
   },
   {
@@ -6091,8 +6026,68 @@
    "n": 4
   },
   {
-   "person": "Gegenruf des Abg. Andreas Mattfeldt",
+   "person": "Dr. Silke Launert",
    "party": "CDU/CSU",
+   "n": 4
+  },
+  {
+   "person": "Wilhelm Gebhard",
+   "party": "CDU/CSU",
+   "n": 4
+  },
+  {
+   "person": "Hauke Finger",
+   "party": "AfD",
+   "n": 4
+  },
+  {
+   "person": "Dr. Hendrik Streeck",
+   "party": "CDU/CSU",
+   "n": 4
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Michael Blos",
+   "party": "AfD",
+   "n": 4
+  },
+  {
+   "person": "Gegenruf der Abg. Mareike Hermeier",
+   "party": "Linke",
+   "n": 4
+  },
+  {
+   "person": "Gegenruf der Abg. Lisa Badum",
+   "party": "Grüne",
+   "n": 4
+  },
+  {
+   "person": "Dr. Cornell-Anette Babendererde",
+   "party": "CDU/CSU",
+   "n": 4
+  },
+  {
+   "person": "Gegenruf der Abg. Mechthilde Wittmann",
+   "party": "CDU/CSU",
+   "n": 4
+  },
+  {
+   "person": "Daniel Bettermann",
+   "party": "SPD",
+   "n": 4
+  },
+  {
+   "person": "Gegenruf des Abg. Julian Joswig",
+   "party": "Grüne",
+   "n": 4
+  },
+  {
+   "person": "Gegenruf des Abg. Kassem Taher Saleh",
+   "party": "Grüne",
+   "n": 4
+  },
+  {
+   "person": "Gegenruf des Abg. Knuth Meyer-Soltau",
+   "party": "AfD",
    "n": 4
   },
   {
@@ -6106,17 +6101,42 @@
    "n": 4
   },
   {
-   "person": "(Britta Haßelmann",
-   "party": "Grüne",
+   "person": "Gegenruf des Abg. Marc Biadacz",
+   "party": "CDU/CSU",
    "n": 4
   },
   {
-   "person": "Gegenruf des Abg. Knuth Meyer-Soltau",
+   "person": "Gegenruf des Abg. Dr. Ingo Hahn",
    "party": "AfD",
    "n": 4
   },
   {
+   "person": "Gegenruf des Abg. Dr. Fabian Fahl",
+   "party": "Linke",
+   "n": 4
+  },
+  {
    "person": "Gegenruf des Abg. Mahmut Özdemir",
+   "party": "SPD",
+   "n": 4
+  },
+  {
+   "person": "Lars Schieske",
+   "party": "AfD",
+   "n": 4
+  },
+  {
+   "person": "Gegenruf des Abg. Andreas Mattfeldt",
+   "party": "CDU/CSU",
+   "n": 4
+  },
+  {
+   "person": "Gegenruf der Abg. Sanae Abdi",
+   "party": "SPD",
+   "n": 4
+  },
+  {
+   "person": "Gegenruf des Abg. Dirk Wiese",
    "party": "SPD",
    "n": 4
   },
@@ -6126,112 +6146,12 @@
    "n": 4
   },
   {
-   "person": "Gegenruf des Abg. Kassem Taher Saleh",
-   "party": "Grüne",
-   "n": 4
-  },
-  {
-   "person": "Stefan Möller",
-   "party": "AfD",
-   "n": 4
-  },
-  {
-   "person": "Wilhelm Gebhard",
-   "party": "CDU/CSU",
-   "n": 4
-  },
-  {
-   "person": "Anne König",
-   "party": "CDU/CSU",
-   "n": 4
-  },
-  {
-   "person": "David Gregosz",
-   "party": "CDU/CSU",
-   "n": 3
-  },
-  {
-   "person": "Gegenruf des Abg. Christian Görke",
-   "party": "Linke",
-   "n": 3
-  },
-  {
-   "person": "Uwe Schmidt",
+   "person": "Gegenruf des Abg. Falko Droßmann",
    "party": "SPD",
    "n": 3
   },
   {
-   "person": "Tina Winklmann",
-   "party": "Grüne",
-   "n": 3
-  },
-  {
-   "person": "Gegenruf des Abg. Jürgen Hardt",
-   "party": "CDU/CSU",
-   "n": 3
-  },
-  {
-   "person": "Gegenruf des Abg. Denis Pauli",
-   "party": "AfD",
-   "n": 3
-  },
-  {
-   "person": "Daniel Kölbl",
-   "party": "CDU/CSU",
-   "n": 3
-  },
-  {
-   "person": "Gegenruf der Abg. Nadine Heselhaus",
-   "party": "SPD",
-   "n": 3
-  },
-  {
-   "person": "Abg. Dr. Bernd Baumann",
-   "party": "AfD",
-   "n": 3
-  },
-  {
-   "person": "Achim Köhler",
-   "party": "AfD",
-   "n": 3
-  },
-  {
-   "person": "Susanne Hierl",
-   "party": "CDU/CSU",
-   "n": 3
-  },
-  {
-   "person": "Boris Mijatovic",
-   "party": "Grüne",
-   "n": 3
-  },
-  {
-   "person": "Gegenruf des Abg. Stefan Henze",
-   "party": "AfD",
-   "n": 3
-  },
-  {
-   "person": "Michael Breilmann",
-   "party": "CDU/CSU",
-   "n": 3
-  },
-  {
-   "person": "Gegenruf der Abg. Birgit Bessin",
-   "party": "AfD",
-   "n": 3
-  },
-  {
-   "person": "Michael Kießling",
-   "party": "CDU/CSU",
-   "n": 3
-  },
-  {
-   "person": "Gegenruf des Abg. Sascha Müller",
-   "party": "Grüne",
-   "n": 3
-  },
-  {
-   "person": "Gegenruf des Abg. Stephan Protschka",
+   "person": "Gegenruf des Abg. Fabian Jacobi",
    "party": "AfD",
    "n": 3
   },
@@ -6241,13 +6161,33 @@
    "n": 3
   },
   {
-   "person": "Ralph Edelhäußer",
+   "person": "Abg. Dr. Bernd Baumann",
+   "party": "AfD",
+   "n": 3
+  },
+  {
+   "person": "Gegenruf des Abg. Jürgen Hardt",
    "party": "CDU/CSU",
    "n": 3
   },
   {
-   "person": "Gabriela Heinrich",
-   "party": "SPD",
+   "person": "Chantal Kopf",
+   "party": "Grüne",
+   "n": 3
+  },
+  {
+   "person": "Christian Moser",
+   "party": "CDU/CSU",
+   "n": 3
+  },
+  {
+   "person": "Michael Kießling",
+   "party": "CDU/CSU",
+   "n": 3
+  },
+  {
+   "person": "Michael Breilmann",
+   "party": "CDU/CSU",
    "n": 3
   },
   {
@@ -6256,18 +6196,13 @@
    "n": 3
   },
   {
-   "person": "Gegenruf des Abg. Sören Pellmann",
-   "party": "Linke",
+   "person": "Gegenruf des Abg. Dr. Malte Kaufmann",
+   "party": "AfD",
    "n": 3
   },
   {
-   "person": "Gegenruf des Abg. Sven Lehmann",
+   "person": "Boris Mijatovic",
    "party": "Grüne",
-   "n": 3
-  },
-  {
-   "person": "Gegenruf der Abg. Catarina dos Santos-Wintz",
-   "party": "CDU/CSU",
    "n": 3
   },
   {
@@ -6276,43 +6211,18 @@
    "n": 3
   },
   {
-   "person": "Gegenruf des Abg. Dr. Andreas Lenz",
+   "person": "Susanne Hierl",
    "party": "CDU/CSU",
    "n": 3
   },
   {
-   "person": "Gegenruf des Abg. Timon Dzienus",
-   "party": "Grüne",
-   "n": 3
-  },
-  {
-   "person": "Gegenruf der Abg. Katharina Dröge",
-   "party": "Grüne",
-   "n": 3
-  },
-  {
-   "person": "Dr. Carsten Linnemann",
+   "person": "Christoph de Vries",
    "party": "CDU/CSU",
    "n": 3
   },
   {
-   "person": "Dr. Daniel Zerbin",
+   "person": "Gegenruf des Abg. Denis Pauli",
    "party": "AfD",
-   "n": 3
-  },
-  {
-   "person": "Danny Meiners",
-   "party": "AfD",
-   "n": 3
-  },
-  {
-   "person": "Pierre Lamely",
-   "party": "AfD",
-   "n": 3
-  },
-  {
-   "person": "Gegenruf des Abg. Pascal Reddig",
-   "party": "CDU/CSU",
    "n": 3
   },
   {
@@ -6326,63 +6236,18 @@
    "n": 3
   },
   {
-   "person": "Christian Moser",
-   "party": "CDU/CSU",
-   "n": 3
-  },
-  {
-   "person": "Chantal Kopf",
-   "party": "Grüne",
-   "n": 3
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Sandra Detzer",
-   "party": "Grüne",
-   "n": 3
-  },
-  {
-   "person": "Sebastian Schmidt",
-   "party": "CDU/CSU",
-   "n": 3
-  },
-  {
    "person": "Bastian Ernst",
    "party": "CDU/CSU",
    "n": 3
   },
   {
-   "person": "Gegenruf des Abg. Fabian Jacobi",
-   "party": "AfD",
-   "n": 3
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Malte Kaufmann",
-   "party": "AfD",
-   "n": 3
-  },
-  {
-   "person": "Christoph de Vries",
+   "person": "Gegenruf des Abg. Pascal Reddig",
    "party": "CDU/CSU",
    "n": 3
   },
   {
-   "person": "Florian Bilic",
-   "party": "CDU/CSU",
-   "n": 3
-  },
-  {
-   "person": "Gegenruf der Abg. Clara Bünger",
-   "party": "Linke",
-   "n": 3
-  },
-  {
-   "person": "Josephine Ortleb",
+   "person": "Gegenruf der Abg. Nadine Heselhaus",
    "party": "SPD",
-   "n": 3
-  },
-  {
-   "person": "Gegenruf der Abg. Nicole Hess",
-   "party": "AfD",
    "n": 3
   },
   {
@@ -6391,19 +6256,224 @@
    "n": 3
   },
   {
-   "person": "Florian Hahn",
+   "person": "Gegenruf der Abg. Nicole Hess",
+   "party": "AfD",
+   "n": 3
+  },
+  {
+   "person": "David Gregosz",
    "party": "CDU/CSU",
    "n": 3
   },
   {
-   "person": "Gegenruf des Abg. Falko Droßmann",
-   "party": "SPD",
+   "person": "Gegenruf der Abg. Katharina Dröge",
+   "party": "Grüne",
+   "n": 3
+  },
+  {
+   "person": "Pierre Lamely",
+   "party": "AfD",
+   "n": 3
+  },
+  {
+   "person": "Danny Meiners",
+   "party": "AfD",
+   "n": 3
+  },
+  {
+   "person": "Gegenruf des Abg. Sascha Müller",
+   "party": "Grüne",
    "n": 3
   },
   {
    "person": "Gegenruf des Abg. Dr. Jan-Niclas Gesenhues",
    "party": "Grüne",
    "n": 3
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Andreas Lenz",
+   "party": "CDU/CSU",
+   "n": 3
+  },
+  {
+   "person": "Gegenruf des Abg. Christian Görke",
+   "party": "Linke",
+   "n": 3
+  },
+  {
+   "person": "Daniel Kölbl",
+   "party": "CDU/CSU",
+   "n": 3
+  },
+  {
+   "person": "Gegenruf des Abg. Stephan Protschka",
+   "party": "AfD",
+   "n": 3
+  },
+  {
+   "person": "Sebastian Schmidt",
+   "party": "CDU/CSU",
+   "n": 3
+  },
+  {
+   "person": "Gegenruf des Abg. Sören Pellmann",
+   "party": "Linke",
+   "n": 3
+  },
+  {
+   "person": "Gegenruf des Abg. Stefan Henze",
+   "party": "AfD",
+   "n": 3
+  },
+  {
+   "person": "Dr. Carsten Linnemann",
+   "party": "CDU/CSU",
+   "n": 3
+  },
+  {
+   "person": "Gegenruf der Abg. Catarina dos Santos-Wintz",
+   "party": "CDU/CSU",
+   "n": 3
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Sandra Detzer",
+   "party": "Grüne",
+   "n": 3
+  },
+  {
+   "person": "Gegenruf des Abg. Sven Lehmann",
+   "party": "Grüne",
+   "n": 3
+  },
+  {
+   "person": "Ralph Edelhäußer",
+   "party": "CDU/CSU",
+   "n": 3
+  },
+  {
+   "person": "Josephine Ortleb",
+   "party": "SPD",
+   "n": 3
+  },
+  {
+   "person": "Dr. Daniel Zerbin",
+   "party": "AfD",
+   "n": 3
+  },
+  {
+   "person": "Florian Hahn",
+   "party": "CDU/CSU",
+   "n": 3
+  },
+  {
+   "person": "Achim Köhler",
+   "party": "AfD",
+   "n": 3
+  },
+  {
+   "person": "Gegenruf der Abg. Clara Bünger",
+   "party": "Linke",
+   "n": 3
+  },
+  {
+   "person": "Florian Bilic",
+   "party": "CDU/CSU",
+   "n": 3
+  },
+  {
+   "person": "Gabriela Heinrich",
+   "party": "SPD",
+   "n": 3
+  },
+  {
+   "person": "Gegenruf des Abg. Timon Dzienus",
+   "party": "Grüne",
+   "n": 3
+  },
+  {
+   "person": "Gegenruf der Abg. Birgit Bessin",
+   "party": "AfD",
+   "n": 3
+  },
+  {
+   "person": "Tina Winklmann",
+   "party": "Grüne",
+   "n": 3
+  },
+  {
+   "person": "Uwe Schmidt",
+   "party": "SPD",
+   "n": 3
+  },
+  {
+   "person": "Weiterer Gegenruf des Abg. Jörn König",
+   "party": "AfD",
+   "n": 2
+  },
+  {
+   "person": "Thomas Dietz",
+   "party": "AfD",
+   "n": 2
+  },
+  {
+   "person": "Weiterer Gegenruf des Abg. Stephan Brandner",
+   "party": "AfD",
+   "n": 2
+  },
+  {
+   "person": "Weiterer Gegenruf des Abg. Martin Reichardt",
+   "party": "AfD",
+   "n": 2
+  },
+  {
+   "person": "Jan van Aken",
+   "party": "Linke",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Udo Theodor Hemmelgarn",
+   "party": "AfD",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Tobias Ebenberger",
+   "party": "AfD",
+   "n": 2
+  },
+  {
+   "person": "Dr. Markus Reichel",
+   "party": "CDU/CSU",
+   "n": 2
+  },
+  {
+   "person": "Dr. Lars Castellucci",
+   "party": "SPD",
+   "n": 2
+  },
+  {
+   "person": "Weiterer Gegenruf des Abg. Dr. Ralf Stegner",
+   "party": "SPD",
+   "n": 2
+  },
+  {
+   "person": "Andreas Jung",
+   "party": "CDU/CSU",
+   "n": 2
+  },
+  {
+   "person": "Agnes Conrad",
+   "party": "Linke",
+   "n": 2
+  },
+  {
+   "person": "Ellen Demuth",
+   "party": "CDU/CSU",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf der Abg. Cansin Köktürk",
+   "party": "Linke",
+   "n": 2
   },
   {
    "person": "Thomas Röwekamp",
@@ -6416,102 +6486,22 @@
    "n": 2
   },
   {
-   "person": "Anna Aeikens",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Torben Braga",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Oliver Kaczmarek",
+   "person": "Gegenruf der Abg. Dr. Lina Seitzl",
    "party": "SPD",
    "n": 2
   },
   {
-   "person": "Niklas Wagener",
+   "person": "Gegenruf der Abg. Dr. Kirsten Kappert-Gonther",
    "party": "Grüne",
    "n": 2
   },
   {
-   "person": "Gegenruf des Abg. Andreas Bleck",
+   "person": "Gegenruf des Abg. Stefan Schröder",
    "party": "AfD",
    "n": 2
   },
   {
-   "person": "Gegenruf des Abg. Peter Bohnhof",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Andreas Jung",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Johann Martel",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Jan van Aken",
-   "party": "Linke",
-   "n": 2
-  },
-  {
-   "person": "Jasmina Hostert",
-   "party": "SPD",
-   "n": 2
-  },
-  {
-   "person": "Dr. Andrea Lübcke",
-   "party": "Grüne",
-   "n": 2
-  },
-  {
-   "person": "Dirk Vöpel",
-   "party": "SPD",
-   "n": 2
-  },
-  {
-   "person": "Weiterer Gegenruf der Abg. Beatrix von Storch",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Volker Scheurell",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Mareike Lotte Wulf",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Tobias Ebenberger",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Udo Theodor Hemmelgarn",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf der Abg. Cansin Köktürk",
-   "party": "Linke",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Björn Simon",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Heinrich Koch",
+   "person": "Iris Nieland",
    "party": "AfD",
    "n": 2
   },
@@ -6521,13 +6511,13 @@
    "n": 2
   },
   {
-   "person": "Iris Nieland",
-   "party": "AfD",
+   "person": "Jasmina Hostert",
+   "party": "SPD",
    "n": 2
   },
   {
-   "person": "Maren Kaminski",
-   "party": "Linke",
+   "person": "Anna Aeikens",
+   "party": "CDU/CSU",
    "n": 2
   },
   {
@@ -6536,27 +6526,52 @@
    "n": 2
   },
   {
-   "person": "Dr. Lars Castellucci",
+   "person": "Gegenruf der Abg. Denise Loop",
+   "party": "Grüne",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf der Abg. Dagmar Schmidt",
    "party": "SPD",
    "n": 2
   },
   {
-   "person": "Gegenruf des Abg. Sebastian Steineke",
+   "person": "Gegenruf der Abg. Katharina Beck",
+   "party": "Grüne",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf der Abg. Jamila Schäfer",
+   "party": "Grüne",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Ottilie Klein",
    "party": "CDU/CSU",
    "n": 2
   },
   {
-   "person": "Gegenruf des Abg. Stephan Albani",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Stefan Schröder",
+   "person": "Gegenruf der Abg. Ulrike Schielke-Ziesing",
    "party": "AfD",
    "n": 2
   },
   {
-   "person": "Gegenruf des Abg. Maik Brückner",
+   "person": "Gegenruf der Abg. Franziska Hoppermann",
+   "party": "CDU/CSU",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Saskia Ludwig",
+   "party": "CDU/CSU",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf der Abg. Nyke Slawik",
+   "party": "Grüne",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Ates Gürpinar",
    "party": "Linke",
    "n": 2
   },
@@ -6566,187 +6581,17 @@
    "n": 2
   },
   {
-   "person": "Oliver Pöpsel",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Philip M. A. Hoffmann",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Mirco Hanker",
+   "person": "Heinrich Koch",
    "party": "AfD",
    "n": 2
   },
   {
-   "person": "Ellen Demuth",
+   "person": "Gegenruf des Abg. Stephan Albani",
    "party": "CDU/CSU",
    "n": 2
   },
   {
-   "person": "Gegenruf der Abg. Jamila Schäfer",
-   "party": "Grüne",
-   "n": 2
-  },
-  {
-   "person": "Weiterer Gegenruf des Abg. Martin Reichardt",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Bettina Lugk",
-   "party": "SPD",
-   "n": 2
-  },
-  {
-   "person": "Thomas Dietz",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Albert Stegemann",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Ruben Rupp",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf der Abg. Ulrike Schielke-Ziesing",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Agnes Conrad",
-   "party": "Linke",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf der Abg. Katharina Beck",
-   "party": "Grüne",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Ferat Koçak",
-   "party": "Linke",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Hannes Gnauck",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Marc Henrichmann",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Jörg Zirwes",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Dietmar Bartsch",
-   "party": "Linke",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Jorrit Bosch",
-   "party": "Linke",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Jan Feser",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Dr. Mathias Middelberg",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Dr. Markus Reichel",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Ottilie Klein",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Lina Seitzl",
-   "party": "SPD",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Ates Gürpinar",
-   "party": "Linke",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Kirsten Kappert-Gonther",
-   "party": "Grüne",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Nicklas Kappe",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Christoph Ploß",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Matthias David Mieves",
-   "party": "SPD",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Saskia Ludwig",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf der Abg. Franziska Hoppermann",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Christopher Drößler",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Weiterer Gegenruf des Abg. Jörn König",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Michael Espendiller",
-   "party": "AfD",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Konrad Körner",
-   "party": "CDU/CSU",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Konstantin von Notz",
-   "party": "Grüne",
-   "n": 2
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Rainer Kraft",
+   "person": "Gegenruf des Abg. Andreas Bleck",
    "party": "AfD",
    "n": 2
   },
@@ -6761,8 +6606,118 @@
    "n": 2
   },
   {
-   "person": "Weiterer Gegenruf des Abg. Stephan Brandner",
+   "person": "Philip M. A. Hoffmann",
+   "party": "CDU/CSU",
+   "n": 2
+  },
+  {
+   "person": "Oliver Pöpsel",
+   "party": "CDU/CSU",
+   "n": 2
+  },
+  {
+   "person": "Oliver Kaczmarek",
+   "party": "SPD",
+   "n": 2
+  },
+  {
+   "person": "Niklas Wagener",
+   "party": "Grüne",
+   "n": 2
+  },
+  {
+   "person": "Mirco Hanker",
    "party": "AfD",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Björn Simon",
+   "party": "CDU/CSU",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Konrad Körner",
+   "party": "CDU/CSU",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Dietmar Bartsch",
+   "party": "Linke",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Albert Stegemann",
+   "party": "CDU/CSU",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Hannes Gnauck",
+   "party": "AfD",
+   "n": 2
+  },
+  {
+   "person": "Maren Kaminski",
+   "party": "Linke",
+   "n": 2
+  },
+  {
+   "person": "Bettina Lugk",
+   "party": "SPD",
+   "n": 2
+  },
+  {
+   "person": "Matthias David Mieves",
+   "party": "SPD",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Sebastian Steineke",
+   "party": "CDU/CSU",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Ruben Rupp",
+   "party": "AfD",
+   "n": 2
+  },
+  {
+   "person": "Johann Martel",
+   "party": "AfD",
+   "n": 2
+  },
+  {
+   "person": "Dr. Andrea Lübcke",
+   "party": "Grüne",
+   "n": 2
+  },
+  {
+   "person": "Dirk Vöpel",
+   "party": "SPD",
+   "n": 2
+  },
+  {
+   "person": "Dr. Mathias Middelberg",
+   "party": "CDU/CSU",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Christoph Ploß",
+   "party": "CDU/CSU",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Ferat Koçak",
+   "party": "Linke",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Rainer Kraft",
+   "party": "AfD",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Jorrit Bosch",
+   "party": "Linke",
    "n": 2
   },
   {
@@ -6771,8 +6726,38 @@
    "n": 2
   },
   {
-   "person": "Weiterer Gegenruf des Abg. Dr. Ralf Stegner",
-   "party": "SPD",
+   "person": "Gegenruf des Abg. Dr. Michael Espendiller",
+   "party": "AfD",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Konstantin von Notz",
+   "party": "Grüne",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Jan Feser",
+   "party": "AfD",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Marc Henrichmann",
+   "party": "CDU/CSU",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Maik Brückner",
+   "party": "Linke",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Nicklas Kappe",
+   "party": "CDU/CSU",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Peter Bohnhof",
+   "party": "AfD",
    "n": 2
   },
   {
@@ -6781,23 +6766,28 @@
    "n": 2
   },
   {
-   "person": "Gegenruf der Abg. Nyke Slawik",
-   "party": "Grüne",
-   "n": 2
-  },
-  {
    "person": "Katrin Zschau",
    "party": "SPD",
    "n": 2
   },
   {
-   "person": "Gegenruf der Abg. Dagmar Schmidt",
-   "party": "SPD",
+   "person": "Mareike Lotte Wulf",
+   "party": "CDU/CSU",
    "n": 2
   },
   {
-   "person": "Gegenruf der Abg. Denise Loop",
-   "party": "Grüne",
+   "person": "Christopher Drößler",
+   "party": "AfD",
+   "n": 2
+  },
+  {
+   "person": "Gegenruf des Abg. Jörg Zirwes",
+   "party": "AfD",
+   "n": 2
+  },
+  {
+   "person": "Torben Braga",
+   "party": "AfD",
    "n": 2
   },
   {
@@ -6806,14 +6796,14 @@
    "n": 2
   },
   {
-   "person": "(Ayse Asar",
-   "party": "Grüne",
-   "n": 1
+   "person": "Volker Scheurell",
+   "party": "AfD",
+   "n": 2
   },
   {
-   "person": "(Beatrix von Storch",
+   "person": "Weiterer Gegenruf der Abg. Beatrix von Storch",
    "party": "AfD",
-   "n": 1
+   "n": 2
   },
   {
    "person": "(Boris Mijatović",
@@ -6821,8 +6811,33 @@
    "n": 1
   },
   {
-   "person": "(Clara Bünger",
+   "person": "Weiterer Gegenruf der Abg. Claudia Roth",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Gegenruf der Abg. Clara Bünger",
    "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Abg. Dr. Armin Grau",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "(Heidi Reichinnek",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Zuruf des Abg. Dr. Till Steffen",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "(Ayse Asar",
+   "party": "Grüne",
    "n": 1
   },
   {
@@ -6836,73 +6851,33 @@
    "n": 1
   },
   {
-   "person": "Sören Bartol",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Theodor Hemmelgarn",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Adrian Grasse",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Alexander Jordan",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Caroline Bosbach",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Svenja Stadler",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Benedikt Büdenbender",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Bernd Baumann",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Brandner",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Thomas Fetsch",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Alexander Radwan",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Andreas Schwarz",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Angela Rudzka",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Gegenruf der Abg. Claudia Roth",
+   "person": "(Dr. Jan-Niclas Gesenhues",
    "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Gegenruf der Abg. Kathrin Gebel",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Gegenruf der Abg. Sara Nanni",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Gegenruf der Abg. Simone Borchardt",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Gegenruf des Abg. Mahmut Özdemir",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Gegenruf des Abg. Marc Bernhard",
+   "party": "AfD",
    "n": 1
   },
   {
@@ -6931,23 +6906,28 @@
    "n": 1
   },
   {
-   "person": "Weiterer Gegenruf der Abg. Kathrin Gebel",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Gegenruf der Abg. Sara Nanni",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Abg. Dr. Rainer Rothfuß",
+   "person": "(Adam Balten",
    "party": "AfD",
    "n": 1
   },
   {
-   "person": "Abg. Johannes Schätzl",
+   "person": "(Clara Bünger",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Zuruf des Abg. Kay Gottschalk",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Wiebke Esdar",
    "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Elisabeth Winkelmeier-Becker",
+   "party": "CDU/CSU",
    "n": 1
   },
   {
@@ -6966,8 +6946,983 @@
    "n": 1
   },
   {
-   "person": "Weiterer Gegenruf der Abg. Clara Bünger",
+   "person": "Gegenruf des Abg. Lamya Kaddor",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Lorenz Gösta Beutin",
    "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Daniel Walter",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Lisa Schubert",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Kassem Taher Saleh",
+   "party": "BÜNDNIS 90/DIE GÜNEN",
+   "n": 1
+  },
+  {
+   "person": "Katalin Gennburg",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Rainer Galla",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. René Bochmann",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Karl Bär",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Florian Oest",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Frederik Bouffier",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Günter Baumgartner",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Coinna Rüffer",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Matthias Gastel",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Dr. Michael Arndt",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Dr. Moritz Heuberger",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Peter Aumer",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Peter Boehringer",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Johannes Wagner",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Max Lucks",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Michael Brand",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Michael Thews",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Olaf Hilmer",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Oliver Pöpsel",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Kurt Kleinschmidt",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Luigi Pantisano",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Manuel Krauthausen",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Markus Matzerath",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Jens Peick",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Johannes Steiniger",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Johannes Volkmann",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Jakob Blankenburg",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Jan Köstering",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Jan Wenzel Schmidt",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Jens Behrens",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Martin Plum",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Martin",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Caroline Bosbach",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Carsten Becker",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Catharina dos Santos-Wintz",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Macit Karaahmetoğlu",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Jörg Cezanne",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Reinhard Brandl",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Till Steffen",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Esra Limbacher",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Felix Banaszak",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Daniel Zerbin",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Dr. Matthias Hiller",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Jürgen Koegel",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Johannes Rothenberger",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Uwe Schulz",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. René Springer",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Robin Wagener",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Rocco Kever",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Sebastian Maack",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Markus Töns",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Martin Kröber",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Matthias Hauer",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Marja-Liisa Völlers",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Heiko Hain",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Hendrik Bollmann",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Alexander Gauland",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Adis Ahmetovic",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Alexander Throm",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Florian Dorn",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Gottfried Curio",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Britta Haßelmann",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Christian Freiherr von Stetten",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Michael Espendiller",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Michael Hose",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Christian Hirte",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Paul Schmidt",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Bastian Treuheit",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Benedikt Büdenbender",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Bernd Baumann",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Norbert Maria Altenkamp",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Brandner",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Micha Fehre",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Christoph Frauenpreiß",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. David Mandrella",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Detlef Seif",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Dr. Alaa Alhamwi",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Adam Balten",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Kathrin Gebel",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Kathrin Michel",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Katrin Fey",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Andreas Audretsch",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Andreas Paul",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Arne Raue",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Steffen Janich",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Steffen Kotré",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Dr. Bärbel Kofler",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Jan Dieren",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Jan Krampe",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Dr. Karl Lauterbach",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Thomas Dietz",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Thomas Fetsch",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Thomas Korell",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Thomas Rachel",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Thomas Stephan",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Thorsten Frei",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Sergej Minich",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Artur Auernhammer",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Axel Müller",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Bernd Rützel",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Bernd Schuhmann",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Sarah Vollath",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Schahina Gambir",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Siemtje Möller",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Reinhard Brandl",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Nancy Faeser",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Sandra Stein",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Wiebke Esdar",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Rita Schwarzelühr-Sutter",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Ansgar Heveling",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Simone Fischer",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Svenja Schulze",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Svenja Stadler",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Violetta Bock",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Beatrix von Storch",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Dr. Wiebke Esdar",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Carolin Bachmann",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Caroline Bosbach",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Christina Stumpp",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Hedi Reichinnek",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Heidi Reichinnek",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Ines Schwerdtner",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Isabelle Vandre",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Janina Böttger",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Jasmina Hostert",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Julia Schneider",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Andrea Lübcke",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Anja Reinalter",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Schmidt",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Corinna Rüffer",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Frank Junge",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Andreas Schwarz",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Angela Rudzka",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Janosch Dahmen",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Helmut Kleebank",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Ingo Hahn",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Dr. Irene Mihalic",
+   "party": "BÜNDNIS 90/DIE GRÜEN",
+   "n": 1
+  },
+  {
+   "person": "(Dr. Sebastian Schäfer",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Vinzenz Glaser",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Wolfgang Dahler",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Dr. Jan-Niclas Gesenhues",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Steffen Bilger",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Georg Günther",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gerrit Huy",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Götz Frömming",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Anne Janssen",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Franziska Kersten",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Hülya Düber",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Julia Verlinden",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Lena Gumnior",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Dr. Nina Scheer",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Friedrich Merz",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf Dr. Anja Weisgerber",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Agnieszka Brugger",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Andrea Lindholz",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Annika Klose",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf der Abg. Caren Lay",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Fabian Fahl",
+   "party": "Linke",
+   "n": 1
+  },
+  {
+   "person": "Adrian Grasse",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Alexander Jordan",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Alexander Radwan",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Abg. Dr. Rainer Rothfuß",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Abg. Johannes Schätzl",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Svenja Stadler",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Sören Bartol",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Dr. Reza Asghari",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Dr. Roland Theis",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Dr. Stefan Korbach",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Dr. Thomas Gebhart",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Gegenruf der Abg. Sylvia Rietenberg",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Gegenruf des Abg. Christoph Naser",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Gegenruf des Abg. Dr. Ingo Hahn",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Gegenruf des Abg. Dr. Jan-Niclas Gesenhues",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "(Lisa Badum",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "(Manuel Krauthausen",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Ulrich Lange",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Dr. Kirsten Kappert-Gother",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "Dr. Marlon Bröhr",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Gegenruf des Abg. Ulrich von Zons",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Gegenruf des Abg. Marcel Queckemeyer",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Gegenruf des Abg. Martin Rabanus",
+   "party": "SPD",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Gegenruf des Abg. Sebastian Münzenmaier",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Theodor Hemmelgarn",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Thomas Fetsch",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Zuruf des Abg. Jörn König",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "(Jens Spahn",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "(Karsten Hilse",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "(Lamya Kaddor",
+   "party": "Grüne",
+   "n": 1
+  },
+  {
+   "person": "(Leif-Erik Holm",
+   "party": "AfD",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Gegenruf des Abg. Felix Schreiner",
+   "party": "CDU/CSU",
+   "n": 1
+  },
+  {
+   "person": "Weiterer Gegenruf des Abg. Kay Gottschalk",
+   "party": "AfD",
    "n": 1
   },
   {
@@ -7006,962 +7961,7 @@
    "n": 1
   },
   {
-   "person": "Janosch Dahmen",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Johannes Rothenberger",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Corinna Rüffer",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Andrea Lübcke",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Katalin Gennburg",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Christina Stumpp",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Schahina Gambir",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Jürgen Koegel",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Kassem Taher Saleh",
-   "party": "BÜNDNIS 90/DIE GÜNEN",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Sandra Stein",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Sarah Vollath",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Lisa Schubert",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Macit Karaahmetoğlu",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Frank Junge",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Wiebke Esdar",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Lena Gumnior",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Nina Scheer",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Andreas Paul",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Arne Raue",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Artur Auernhammer",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Axel Müller",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Bernd Rützel",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Bernd Schuhmann",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Katrin Fey",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Nancy Faeser",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Janina Böttger",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Jasmina Hostert",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Julia Schneider",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Kathrin Gebel",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Kathrin Michel",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Hedi Reichinnek",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Heidi Reichinnek",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Ines Schwerdtner",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Isabelle Vandre",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Anja Reinalter",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Franziska Kersten",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Hülya Düber",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Dr. Julia Verlinden",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Dr. Reza Asghari",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Dr. Roland Theis",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Dr. Stefan Korbach",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Marja-Liisa Völlers",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Martin",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Matthias Hauer",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Caren Lay",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Carolin Bachmann",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Caroline Bosbach",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Simone Fischer",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Thorsten Frei",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Ulrich von Zons",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Uwe Schulz",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Ingo Hahn",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Jan Dieren",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Jan Krampe",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Helmut Kleebank",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Britta Haßelmann",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gerrit Huy",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Götz Frömming",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Friedrich Merz",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf Dr. Anja Weisgerber",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Agnieszka Brugger",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Andrea Lindholz",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Annika Klose",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Dr. Karl Lauterbach",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Dr. Kirsten Kappert-Gother",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Norbert Maria Altenkamp",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Fabian Fahl",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Micha Fehre",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Michael Espendiller",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Michael Hose",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Rainer Galla",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. René Bochmann",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. René Springer",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Robin Wagener",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Rocco Kever",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Adis Ahmetovic",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Alexander Throm",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Andreas Audretsch",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Svenja Schulze",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Svenja Stadler",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Violetta Bock",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Beatrix von Storch",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Dr. Wiebke Esdar",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Adam Balten",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Vinzenz Glaser",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Wolfgang Dahler",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Dr. Jan-Niclas Gesenhues",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Steffen Bilger",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Georg Günther",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf der Abg. Siemtje Möller",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Kurt Kleinschmidt",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Lamya Kaddor",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Lorenz Gösta Beutin",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Luigi Pantisano",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Thomas Dietz",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Thomas Fetsch",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Thomas Korell",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Thomas Rachel",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Thomas Stephan",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Steffen Janich",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Steffen Kotré",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Sebastian Maack",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Sergej Minich",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Dr. Thomas Gebhart",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Elisabeth Winkelmeier-Becker",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Reinhard Brandl",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Rita Schwarzelühr-Sutter",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Daniel Walter",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Dr. Irene Mihalic",
-   "party": "BÜNDNIS 90/DIE GRÜEN",
-   "n": 1
-  },
-  {
-   "person": "Dr. Bärbel Kofler",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Jan Wenzel Schmidt",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Florian Oest",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Frederik Bouffier",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Günter Baumgartner",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Olaf Hilmer",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Oliver Pöpsel",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Peter Aumer",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Peter Boehringer",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Martin Kröber",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Matthias Gastel",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Max Lucks",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Michael Brand",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Michael Thews",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Manuel Krauthausen",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Markus Matzerath",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Markus Töns",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Alexander Gauland",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Daniel Zerbin",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Jörg Cezanne",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Karl Bär",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Jens Behrens",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Jens Peick",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Johannes Steiniger",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Johannes Volkmann",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Johannes Wagner",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Heiko Hain",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Hendrik Bollmann",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Jakob Blankenburg",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Jan Köstering",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Dr. Marlon Bröhr",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Dr. Matthias Hiller",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Dr. Michael Arndt",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "Dr. Moritz Heuberger",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Christian Hirte",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Carsten Becker",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Catharina dos Santos-Wintz",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Schmidt",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Gegenruf der Abg. Simone Borchardt",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Gegenruf der Abg. Sylvia Rietenberg",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Gegenruf des Abg. Christoph Naser",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Gegenruf des Abg. Dr. Ingo Hahn",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Gegenruf des Abg. Dr. Jan-Niclas Gesenhues",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Gegenruf des Abg. Felix Schreiner",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Reinhard Brandl",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Till Steffen",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Esra Limbacher",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Felix Banaszak",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Martin Plum",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Paul Schmidt",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Florian Dorn",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Gottfried Curio",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Coinna Rüffer",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Bastian Treuheit",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Christoph Frauenpreiß",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. David Mandrella",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Detlef Seif",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Dr. Alaa Alhamwi",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Zuruf des Abg. Dr. Till Steffen",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Zuruf des Abg. Jörn König",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Zuruf des Abg. Kay Gottschalk",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Wiebke Esdar",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "(Adam Balten",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Gegenruf des Abg. Christian Freiherr von Stetten",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Gegenruf des Abg. Kay Gottschalk",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Gegenruf des Abg. Mahmut Özdemir",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Gegenruf des Abg. Marc Bernhard",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Gegenruf des Abg. Marcel Queckemeyer",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Gegenruf des Abg. Martin Rabanus",
-   "party": "SPD",
-   "n": 1
-  },
-  {
-   "person": "Weiterer Gegenruf des Abg. Sebastian Münzenmaier",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "Ulrich Lange",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "(Dr. Jan-Niclas Gesenhues",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "Anne Janssen",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Ansgar Heveling",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "Abg. Dr. Armin Grau",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "(Dr. Sebastian Schäfer",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "(Heidi Reichinnek",
-   "party": "Linke",
-   "n": 1
-  },
-  {
-   "person": "(Jens Spahn",
-   "party": "CDU/CSU",
-   "n": 1
-  },
-  {
-   "person": "(Karsten Hilse",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "(Lamya Kaddor",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "(Leif-Erik Holm",
-   "party": "AfD",
-   "n": 1
-  },
-  {
-   "person": "(Lisa Badum",
-   "party": "Grüne",
-   "n": 1
-  },
-  {
-   "person": "(Manuel Krauthausen",
+   "person": "(Beatrix von Storch",
    "party": "AfD",
    "n": 1
   }
