@@ -81,31 +81,31 @@
   {
    "speaker": "Hülya Düber",
    "party": "CDU/CSU",
-   "rate": 21.0,
-   "n_reden": 20
+   "rate": 20.6,
+   "n_reden": 23
   },
   {
-   "speaker": "Schahina Gambir",
+   "speaker": "Franziska Brantner",
    "party": "Grüne",
-   "rate": 20.3,
-   "n_reden": 25
+   "rate": 20.4,
+   "n_reden": 10
   }
  ],
  "zurufe": [
   {
    "person": "Stephan Brandner",
    "party": "AfD",
-   "n": 2459
+   "n": 2529
   },
   {
    "person": "Dr. Götz Frömming",
    "party": "AfD",
-   "n": 1172
+   "n": 1189
   },
   {
    "person": "Martin Reichardt",
    "party": "AfD",
-   "n": 949
+   "n": 979
   },
   {
    "person": "Jörn König",
@@ -125,7 +125,7 @@
   {
    "person": "Britta Haßelmann",
    "party": "Grüne",
-   "n": 813
+   "n": 814
   },
   {
    "person": "Dr. Johannes Fechner",
@@ -140,7 +140,7 @@
   {
    "person": "Lisa Badum",
    "party": "Grüne",
-   "n": 581
+   "n": 582
   },
   {
    "person": "Markus Frohnmaier",
@@ -160,12 +160,12 @@
   {
    "person": "Enrico Komning",
    "party": "AfD",
-   "n": 512
+   "n": 515
   },
   {
-   "person": "Dr. Rainer Kraft",
-   "party": "AfD",
-   "n": 507
+   "person": "Filiz Polat",
+   "party": "Grüne",
+   "n": 510
   }
  ]
 }

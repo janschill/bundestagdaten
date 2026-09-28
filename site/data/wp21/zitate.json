@@ -1,5 +1,5 @@
 {
- "gesamt": 40501,
+ "gesamt": 40815,
  "jahre": [
   2025,
   2026
@@ -7,15 +7,15 @@
  "haeufig": [
   {
    "quote": "Genau!",
-   "n": 383
+   "n": 387
   },
   {
    "quote": "Ja!",
-   "n": 373
+   "n": 376
   },
   {
    "quote": "So ist es!",
-   "n": 357
+   "n": 358
   },
   {
    "quote": "Hört! Hört!",
@@ -23,23 +23,23 @@
   },
   {
    "quote": "Richtig!",
-   "n": 209
+   "n": 213
   },
   {
    "quote": "Nein!",
-   "n": 148
-  },
-  {
-   "quote": "Sehr gut!",
-   "n": 130
+   "n": 150
   },
   {
    "quote": "Aha!",
-   "n": 128
+   "n": 131
+  },
+  {
+   "quote": "Sehr gut!",
+   "n": 131
   },
   {
    "quote": "Sehr richtig!",
-   "n": 114
+   "n": 115
   },
   {
    "quote": "Doch!",
@@ -51,169 +51,169 @@
   },
   {
    "quote": "Was?",
-   "n": 91
+   "n": 95
   }
  ],
  "zuletzt": [
   {
-   "quote": "Man muss halt mal fragen, welche Unternehmen dieser Herr vertritt!",
-   "person": "Dr. Christoph Birghan",
+   "quote": "„Chance stellen“! Eine Chance nutzt man!",
+   "person": "Dr. Götz Frömming",
    "party": "AfD",
-   "to_speaker": "Michael Breilmann",
+   "to_speaker": "Konrad Körner",
    "to_party": "CDU/CSU",
-   "date": "2026-09-24"
-  },
-  {
-   "quote": "Sie verhindern doch jetzt die Anpassung!",
-   "person": "Dr. Fabian Fahl",
-   "party": "Linke",
-   "to_speaker": "Ingo Hahn",
-   "to_party": "AfD",
-   "date": "2026-09-24"
-  },
-  {
-   "quote": "Warum sind denn die Kassen leer?",
-   "person": "Dr. Rainer Kraft",
-   "party": "AfD",
-   "to_speaker": "Karoline Otte",
-   "to_party": "Grüne",
-   "date": "2026-09-24"
-  },
-  {
-   "quote": "Das wissen Sie doch gar nicht! Das ist eine Schätzung!",
-   "person": "Carolin Bachmann",
-   "party": "AfD",
-   "to_speaker": "Karoline Otte",
-   "to_party": "Grüne",
-   "date": "2026-09-24"
-  },
-  {
-   "quote": "Wir sind gespannt! Es wird nur Zeit! Es eilt! Der nächste Sommer kommt!",
-   "person": "Dr. Julia Verlinden",
-   "party": "Grüne",
-   "to_speaker": "Angelika Glöckner",
-   "to_party": "SPD",
-   "date": "2026-09-24"
-  },
-  {
-   "quote": "Ja, eben!",
-   "person": "Dr. Julia Verlinden",
-   "party": "Grüne",
-   "to_speaker": "Angelika Glöckner",
-   "to_party": "SPD",
-   "date": "2026-09-24"
-  },
-  {
-   "quote": "Mit welchem Geld denn?",
-   "person": "Lisa Badum",
-   "party": "Grüne",
-   "to_speaker": "Ingo Hahn",
-   "to_party": "AfD",
-   "date": "2026-09-24"
-  },
-  {
-   "quote": "Kläglich versagt!",
-   "person": "Stefan Keuter",
-   "party": "AfD",
-   "to_speaker": "Ingo Hahn",
-   "to_party": "AfD",
-   "date": "2026-09-24"
-  },
-  {
-   "quote": "So ist es!",
-   "person": "Karsten Hilse",
-   "party": "AfD",
-   "to_speaker": "Ingo Hahn",
-   "to_party": "AfD",
-   "date": "2026-09-24"
-  },
-  {
-   "quote": "Dann geben Sie doch Geld dafür! Das verhindern Sie doch gerade!",
-   "person": "Dr. Fabian Fahl",
-   "party": "Linke",
-   "to_speaker": "Ingo Hahn",
-   "to_party": "AfD",
-   "date": "2026-09-24"
-  },
-  {
-   "quote": "Ohne Geld können Sie nichts machen!",
-   "person": "Dr. Julia Verlinden",
-   "party": "Grüne",
-   "to_speaker": "Josef Oster",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-24"
-  },
-  {
-   "quote": "Was soll man denn auf so einen Schwachsinn antworten?",
-   "person": "Rasha Nasr",
-   "party": "SPD",
-   "to_speaker": "Ingo Hahn",
-   "to_party": "AfD",
-   "date": "2026-09-24"
-  },
-  {
-   "quote": "Hört! Hört!",
-   "person": "Filiz Polat",
-   "party": "Grüne",
-   "to_speaker": "Josef Oster",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-24"
-  },
-  {
-   "quote": "Also!",
-   "person": "Dr. Julia Verlinden",
-   "party": "Grüne",
-   "to_speaker": "Josef Oster",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-24"
-  },
-  {
-   "quote": "Aber sie haben die Gemeinschaftsaufgabe gefordert!",
-   "person": "Dr. Julia Verlinden",
-   "party": "Grüne",
-   "to_speaker": "Josef Oster",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-24"
+   "date": "2026-09-25"
   },
   {
    "quote": "Nein!",
-   "person": "Harald Ebner",
-   "party": "Grüne",
-   "to_speaker": "Josef Oster",
+   "person": "Thomas Rachel",
+   "party": "CDU/CSU",
+   "to_speaker": "Florian Dorn",
    "to_party": "CDU/CSU",
-   "date": "2026-09-24"
+   "date": "2026-09-25"
   },
   {
-   "quote": "Aber die Menschen in den Städten und Gemeinden fordern die Gemeinschaftsaufgabe!",
-   "person": "Dr. Julia Verlinden",
-   "party": "Grüne",
-   "to_speaker": "Josef Oster",
+   "quote": "Die werden nicht ausgegeben, die werden nicht eingenommen! Wenn Sozialisten über Wirtschaft reden!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Florian Dorn",
    "to_party": "CDU/CSU",
-   "date": "2026-09-24"
+   "date": "2026-09-25"
   },
   {
-   "quote": "Die wollen die Gemeinschaftsaufgabe!",
-   "person": "Dr. Julia Verlinden",
+   "quote": "Ja!",
+   "person": "Lisa Badum",
    "party": "Grüne",
-   "to_speaker": "Josef Oster",
+   "to_speaker": "Florian Dorn",
    "to_party": "CDU/CSU",
-   "date": "2026-09-24"
+   "date": "2026-09-25"
   },
   {
-   "quote": "Aber dann schaffen Sie doch den finanziellen Handlungsspielraum! Das tun Sie nicht! Das ist ja das Problem!",
-   "person": "Dr. Julia Verlinden",
-   "party": "Grüne",
-   "to_speaker": "Josef Oster",
+   "quote": "Wie Frau Reichinneks Karre, oder?",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Florian Dorn",
    "to_party": "CDU/CSU",
-   "date": "2026-09-24"
+   "date": "2026-09-25"
   },
   {
-   "quote": "Ja, aber den haben sie gerade nicht!",
-   "person": "Dr. Julia Verlinden",
-   "party": "Grüne",
-   "to_speaker": "Josef Oster",
+   "quote": "Ja, die müssen entlastet werden!",
+   "person": "Lorenz Gösta Beutin",
+   "party": "Linke",
+   "to_speaker": "Florian Dorn",
    "to_party": "CDU/CSU",
-   "date": "2026-09-24"
+   "date": "2026-09-25"
+  },
+  {
+   "quote": "Doch, müssen wir!",
+   "person": "Lorenz Gösta Beutin",
+   "party": "Linke",
+   "to_speaker": "Florian Dorn",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-25"
+  },
+  {
+   "quote": "Aus! Aus!",
+   "person": "Thomas Rachel",
+   "party": "CDU/CSU",
+   "to_speaker": "Florian Dorn",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-25"
+  },
+  {
+   "quote": "Das wäre schön!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Florian Dorn",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-25"
+  },
+  {
+   "quote": "Offenbar nicht!",
+   "person": "Johannes Schraps",
+   "party": "SPD",
+   "to_speaker": "Florian Dorn",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-25"
+  },
+  {
+   "quote": "Da hat er absolut recht!",
+   "person": "Johannes Schraps",
+   "party": "SPD",
+   "to_speaker": "Florian Dorn",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-25"
+  },
+  {
+   "quote": "So ist es!",
+   "person": "Johannes Schraps",
+   "party": "SPD",
+   "to_speaker": "Florian Dorn",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-25"
+  },
+  {
+   "quote": "So ein Quatsch!",
+   "person": "Katharina Beck",
+   "party": "Grüne",
+   "to_speaker": "Rainer Groß",
+   "to_party": "AfD",
+   "date": "2026-09-25"
+  },
+  {
+   "quote": "Ja! Das ist aber eine gute Idee!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Rainer Groß",
+   "to_party": "AfD",
+   "date": "2026-09-25"
+  },
+  {
+   "quote": "Für Sie ist das doch höchstens eine Lehre aus der Scharia und nicht aus der Geschichte!",
+   "person": "Martin Reichardt",
+   "party": "AfD",
+   "to_speaker": "Lamya Kaddor",
+   "to_party": "Grüne",
+   "date": "2026-09-25"
+  },
+  {
+   "quote": "Ich bin entspannt genug!",
+   "person": "Martin Reichardt",
+   "party": "AfD",
+   "to_speaker": "Lamya Kaddor",
+   "to_party": "Grüne",
+   "date": "2026-09-25"
+  },
+  {
+   "quote": "Die kennen Sie ja noch nicht mal!",
+   "person": "Martin Reichardt",
+   "party": "AfD",
+   "to_speaker": "Lamya Kaddor",
+   "to_party": "Grüne",
+   "date": "2026-09-25"
+  },
+  {
+   "quote": "Die Verfassungsfeinde reden gerade!",
+   "person": "Martin Reichardt",
+   "party": "AfD",
+   "to_speaker": "Lamya Kaddor",
+   "to_party": "Grüne",
+   "date": "2026-09-25"
+  },
+  {
+   "quote": "Genau!",
+   "person": "Derya Türk-Nachbaur",
+   "party": "SPD",
+   "to_speaker": "Florian Dorn",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-25"
+  },
+  {
+   "quote": "Sie haben schon eine Minute geredet!",
+   "person": "Katharina Dröge",
+   "party": "Grüne",
+   "to_speaker": "Florian Dorn",
+   "to_party": "CDU/CSU",
+   "date": "2026-09-25"
   }
  ]
 }
