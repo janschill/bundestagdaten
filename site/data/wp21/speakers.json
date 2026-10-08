@@ -25,16 +25,16 @@
    "n_reden": 27
   },
   {
+   "speaker": "Marlene Schönberger",
+   "party": "Grüne",
+   "rate": 23.6,
+   "n_reden": 18
+  },
+  {
    "speaker": "Matthias Miersch",
    "party": "SPD",
    "rate": 23.3,
    "n_reden": 12
-  },
-  {
-   "speaker": "Marlene Schönberger",
-   "party": "Grüne",
-   "rate": 22.8,
-   "n_reden": 17
   },
   {
    "speaker": "Britta Haßelmann",
@@ -45,8 +45,8 @@
   {
    "speaker": "Thomas Rachel",
    "party": "CDU/CSU",
-   "rate": 22.4,
-   "n_reden": 11
+   "rate": 22.5,
+   "n_reden": 12
   },
   {
    "speaker": "Marc Biadacz",
@@ -67,40 +67,40 @@
    "n_reden": 35
   },
   {
-   "speaker": "Alaa Alhamwi",
-   "party": "Grüne",
-   "rate": 21.5,
-   "n_reden": 26
-  },
-  {
    "speaker": "Kirsten Kappert-Gonther",
    "party": "Grüne",
    "rate": 21.4,
    "n_reden": 16
   },
   {
+   "speaker": "Alaa Alhamwi",
+   "party": "Grüne",
+   "rate": 21.2,
+   "n_reden": 28
+  },
+  {
+   "speaker": "Knut Abraham",
+   "party": "CDU/CSU",
+   "rate": 20.8,
+   "n_reden": 17
+  },
+  {
    "speaker": "Hülya Düber",
    "party": "CDU/CSU",
    "rate": 20.6,
    "n_reden": 23
-  },
-  {
-   "speaker": "Franziska Brantner",
-   "party": "Grüne",
-   "rate": 20.4,
-   "n_reden": 10
   }
  ],
  "zurufe": [
   {
    "person": "Stephan Brandner",
    "party": "AfD",
-   "n": 2529
+   "n": 2569
   },
   {
    "person": "Dr. Götz Frömming",
    "party": "AfD",
-   "n": 1189
+   "n": 1213
   },
   {
    "person": "Martin Reichardt",
@@ -108,19 +108,19 @@
    "n": 979
   },
   {
+   "person": "Dr. Bernd Baumann",
+   "party": "AfD",
+   "n": 930
+  },
+  {
    "person": "Jörn König",
    "party": "AfD",
    "n": 918
   },
   {
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "n": 915
-  },
-  {
    "person": "Beatrix von Storch",
    "party": "AfD",
-   "n": 864
+   "n": 865
   },
   {
    "person": "Britta Haßelmann",
@@ -133,6 +133,11 @@
    "n": 728
   },
   {
+   "person": "Markus Frohnmaier",
+   "party": "AfD",
+   "n": 626
+  },
+  {
    "person": "Kay Gottschalk",
    "party": "AfD",
    "n": 621
@@ -141,11 +146,6 @@
    "person": "Lisa Badum",
    "party": "Grüne",
    "n": 582
-  },
-  {
-   "person": "Markus Frohnmaier",
-   "party": "AfD",
-   "n": 578
   },
   {
    "person": "Marc Bernhard",

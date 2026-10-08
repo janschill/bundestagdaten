@@ -1,5 +1,5 @@
 {
- "gesamt": 40815,
+ "gesamt": 41149,
  "jahre": [
   2025,
   2026
@@ -7,43 +7,43 @@
  "haeufig": [
   {
    "quote": "Genau!",
-   "n": 387
+   "n": 395
   },
   {
    "quote": "Ja!",
-   "n": 376
+   "n": 382
   },
   {
    "quote": "So ist es!",
-   "n": 358
+   "n": 359
   },
   {
    "quote": "Hört! Hört!",
-   "n": 264
+   "n": 266
   },
   {
    "quote": "Richtig!",
-   "n": 213
+   "n": 214
   },
   {
    "quote": "Nein!",
-   "n": 150
+   "n": 153
   },
   {
    "quote": "Aha!",
-   "n": 131
+   "n": 132
   },
   {
    "quote": "Sehr gut!",
-   "n": 131
+   "n": 132
   },
   {
    "quote": "Sehr richtig!",
-   "n": 115
+   "n": 116
   },
   {
    "quote": "Doch!",
-   "n": 105
+   "n": 107
   },
   {
    "quote": "Quatsch!",
@@ -56,164 +56,164 @@
  ],
  "zuletzt": [
   {
-   "quote": "„Chance stellen“! Eine Chance nutzt man!",
-   "person": "Dr. Götz Frömming",
+   "quote": "Das ist ja nur noch beschämend, wie die CDU hier rumsitzt!",
+   "person": "Steffen Janich",
    "party": "AfD",
-   "to_speaker": "Konrad Körner",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-25"
-  },
-  {
-   "quote": "Nein!",
-   "person": "Thomas Rachel",
-   "party": "CDU/CSU",
-   "to_speaker": "Florian Dorn",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-25"
-  },
-  {
-   "quote": "Die werden nicht ausgegeben, die werden nicht eingenommen! Wenn Sozialisten über Wirtschaft reden!",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Florian Dorn",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-25"
-  },
-  {
-   "quote": "Ja!",
-   "person": "Lisa Badum",
-   "party": "Grüne",
-   "to_speaker": "Florian Dorn",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-25"
-  },
-  {
-   "quote": "Wie Frau Reichinneks Karre, oder?",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Florian Dorn",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-25"
-  },
-  {
-   "quote": "Ja, die müssen entlastet werden!",
-   "person": "Lorenz Gösta Beutin",
-   "party": "Linke",
-   "to_speaker": "Florian Dorn",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-25"
-  },
-  {
-   "quote": "Doch, müssen wir!",
-   "person": "Lorenz Gösta Beutin",
-   "party": "Linke",
-   "to_speaker": "Florian Dorn",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-25"
-  },
-  {
-   "quote": "Aus! Aus!",
-   "person": "Thomas Rachel",
-   "party": "CDU/CSU",
-   "to_speaker": "Florian Dorn",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-25"
-  },
-  {
-   "quote": "Das wäre schön!",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Florian Dorn",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-25"
-  },
-  {
-   "quote": "Offenbar nicht!",
-   "person": "Johannes Schraps",
-   "party": "SPD",
-   "to_speaker": "Florian Dorn",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-25"
-  },
-  {
-   "quote": "Da hat er absolut recht!",
-   "person": "Johannes Schraps",
-   "party": "SPD",
-   "to_speaker": "Florian Dorn",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-25"
-  },
-  {
-   "quote": "So ist es!",
-   "person": "Johannes Schraps",
-   "party": "SPD",
-   "to_speaker": "Florian Dorn",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-25"
-  },
-  {
-   "quote": "So ein Quatsch!",
-   "person": "Katharina Beck",
-   "party": "Grüne",
-   "to_speaker": "Rainer Groß",
+   "to_speaker": "Carolin Bachmann",
    "to_party": "AfD",
-   "date": "2026-09-25"
+   "date": "2026-10-07"
   },
   {
-   "quote": "Ja! Das ist aber eine gute Idee!",
+   "quote": "Wir sind die Partei der politischen Klugheit!",
    "person": "Stephan Brandner",
    "party": "AfD",
-   "to_speaker": "Rainer Groß",
-   "to_party": "AfD",
-   "date": "2026-09-25"
+   "to_speaker": "Lea Reisner",
+   "to_party": "Linke",
+   "date": "2026-10-07"
   },
   {
-   "quote": "Für Sie ist das doch höchstens eine Lehre aus der Scharia und nicht aus der Geschichte!",
-   "person": "Martin Reichardt",
+   "quote": "Das finde ich auch unverschämt! Wir wollen nicht mit Ihnen in eine Reihe gestellt werden! Wir sind keine Clanpartei!",
+   "person": "Markus Frohnmaier",
    "party": "AfD",
-   "to_speaker": "Lamya Kaddor",
-   "to_party": "Grüne",
-   "date": "2026-09-25"
+   "to_speaker": "Lea Reisner",
+   "to_party": "Linke",
+   "date": "2026-10-07"
   },
   {
-   "quote": "Ich bin entspannt genug!",
-   "person": "Martin Reichardt",
+   "quote": "Maßgeblich waren unsere Leute dafür verantwortlich!",
+   "person": "Stephan Brandner",
    "party": "AfD",
-   "to_speaker": "Lamya Kaddor",
-   "to_party": "Grüne",
-   "date": "2026-09-25"
+   "to_speaker": "Lea Reisner",
+   "to_party": "Linke",
+   "date": "2026-10-07"
   },
   {
-   "quote": "Die kennen Sie ja noch nicht mal!",
-   "person": "Martin Reichardt",
+   "quote": "Hat Ihnen Herr Rammo das aufgeschrieben?",
+   "person": "Markus Frohnmaier",
    "party": "AfD",
-   "to_speaker": "Lamya Kaddor",
-   "to_party": "Grüne",
-   "date": "2026-09-25"
-  },
-  {
-   "quote": "Die Verfassungsfeinde reden gerade!",
-   "person": "Martin Reichardt",
-   "party": "AfD",
-   "to_speaker": "Lamya Kaddor",
-   "to_party": "Grüne",
-   "date": "2026-09-25"
+   "to_speaker": "Lea Reisner",
+   "to_party": "Linke",
+   "date": "2026-10-07"
   },
   {
    "quote": "Genau!",
-   "person": "Derya Türk-Nachbaur",
-   "party": "SPD",
-   "to_speaker": "Florian Dorn",
-   "to_party": "CDU/CSU",
-   "date": "2026-09-25"
+   "person": "Nicole Gohlke",
+   "party": "Linke",
+   "to_speaker": "Lea Reisner",
+   "to_party": "Linke",
+   "date": "2026-10-07"
   },
   {
-   "quote": "Sie haben schon eine Minute geredet!",
-   "person": "Katharina Dröge",
-   "party": "Grüne",
-   "to_speaker": "Florian Dorn",
+   "quote": "Wen meinen Sie denn?",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lea Reisner",
+   "to_party": "Linke",
+   "date": "2026-10-07"
+  },
+  {
+   "quote": "Rot-Rot-Grün!",
+   "person": "Markus Frohnmaier",
+   "party": "AfD",
+   "to_speaker": "Lea Reisner",
+   "to_party": "Linke",
+   "date": "2026-10-07"
+  },
+  {
+   "quote": "Unglaublich!",
+   "person": "Nicole Gohlke",
+   "party": "Linke",
+   "to_speaker": "Lea Reisner",
+   "to_party": "Linke",
+   "date": "2026-10-07"
+  },
+  {
+   "quote": "Ist der nicht festgenommen worden?",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Nicolas Zippelius",
    "to_party": "CDU/CSU",
-   "date": "2026-09-25"
+   "date": "2026-10-07"
+  },
+  {
+   "quote": "Der Vergleich hinkt aber auch, oder?",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Nicolas Zippelius",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-07"
+  },
+  {
+   "quote": "Ja, richtig!",
+   "person": "Markus Frohnmaier",
+   "party": "AfD",
+   "to_speaker": "Nicolas Zippelius",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-07"
+  },
+  {
+   "quote": "Nee, nee!",
+   "person": "Markus Frohnmaier",
+   "party": "AfD",
+   "to_speaker": "Nicolas Zippelius",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-07"
+  },
+  {
+   "quote": "Ach so! Wir lassen uns erpressen, ja?",
+   "person": "Markus Frohnmaier",
+   "party": "AfD",
+   "to_speaker": "Nicolas Zippelius",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-07"
+  },
+  {
+   "quote": "Es kostet nur den Grenzschutz!",
+   "person": "Steffen Kotré",
+   "party": "AfD",
+   "to_speaker": "Nicolas Zippelius",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-07"
+  },
+  {
+   "quote": "Dann macht doch einfach mal die Grenzen zu!",
+   "person": "Markus Frohnmaier",
+   "party": "AfD",
+   "to_speaker": "Nicolas Zippelius",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-07"
+  },
+  {
+   "quote": "Der hat doch gar nichts zu melden dort!",
+   "person": "Markus Frohnmaier",
+   "party": "AfD",
+   "to_speaker": "Nicolas Zippelius",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-07"
+  },
+  {
+   "quote": "Doch, doch!",
+   "person": "Markus Frohnmaier",
+   "party": "AfD",
+   "to_speaker": "Nicolas Zippelius",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-07"
+  },
+  {
+   "quote": "Sie hetzen den Steuerzahler auf die Opfer!",
+   "person": "Knut Abraham",
+   "party": "CDU/CSU",
+   "to_speaker": "Steffen Kotré",
+   "to_party": "AfD",
+   "date": "2026-10-07"
+  },
+  {
+   "quote": "Unverschämtheit!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lea Reisner",
+   "to_party": "Linke",
+   "date": "2026-10-07"
   }
  ]
 }
