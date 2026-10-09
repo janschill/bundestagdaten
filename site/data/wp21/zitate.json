@@ -1,5 +1,5 @@
 {
- "gesamt": 41149,
+ "gesamt": 41710,
  "jahre": [
   2025,
   2026
@@ -7,43 +7,43 @@
  "haeufig": [
   {
    "quote": "Genau!",
-   "n": 395
+   "n": 400
   },
   {
    "quote": "Ja!",
-   "n": 382
+   "n": 395
   },
   {
    "quote": "So ist es!",
-   "n": 359
+   "n": 363
   },
   {
    "quote": "Hört! Hört!",
-   "n": 266
+   "n": 270
   },
   {
    "quote": "Richtig!",
-   "n": 214
+   "n": 216
   },
   {
    "quote": "Nein!",
-   "n": 153
-  },
-  {
-   "quote": "Aha!",
-   "n": 132
+   "n": 158
   },
   {
    "quote": "Sehr gut!",
-   "n": 132
+   "n": 134
+  },
+  {
+   "quote": "Aha!",
+   "n": 133
   },
   {
    "quote": "Sehr richtig!",
-   "n": 116
+   "n": 121
   },
   {
    "quote": "Doch!",
-   "n": 107
+   "n": 110
   },
   {
    "quote": "Quatsch!",
@@ -56,164 +56,164 @@
  ],
  "zuletzt": [
   {
-   "quote": "Das ist ja nur noch beschämend, wie die CDU hier rumsitzt!",
-   "person": "Steffen Janich",
+   "quote": "Jetzt kommt wieder Kommunismus pur!",
+   "person": "Bernd Schattner",
    "party": "AfD",
-   "to_speaker": "Carolin Bachmann",
-   "to_party": "AfD",
-   "date": "2026-10-07"
+   "to_speaker": "Karl Bär",
+   "to_party": "Grüne",
+   "date": "2026-10-08"
   },
   {
-   "quote": "Wir sind die Partei der politischen Klugheit!",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Lea Reisner",
-   "to_party": "Linke",
-   "date": "2026-10-07"
+   "quote": "Machen Sie mal ein konkretes Beispiel!",
+   "person": "Klaus Mack",
+   "party": "CDU/CSU",
+   "to_speaker": "Johannes Wagner",
+   "to_party": "Grüne",
+   "date": "2026-10-08"
   },
   {
-   "quote": "Das finde ich auch unverschämt! Wir wollen nicht mit Ihnen in eine Reihe gestellt werden! Wir sind keine Clanpartei!",
-   "person": "Markus Frohnmaier",
+   "quote": "Da hat er recht!",
+   "person": "Dr. Christoph Birghan",
    "party": "AfD",
-   "to_speaker": "Lea Reisner",
-   "to_party": "Linke",
-   "date": "2026-10-07"
+   "to_speaker": "Ralph Brinkhaus",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-08"
   },
   {
-   "quote": "Maßgeblich waren unsere Leute dafür verantwortlich!",
-   "person": "Stephan Brandner",
+   "quote": "Wir halten nur Ihre Maßnahmen für falsch!",
+   "person": "Dr. Christoph Birghan",
    "party": "AfD",
-   "to_speaker": "Lea Reisner",
-   "to_party": "Linke",
-   "date": "2026-10-07"
+   "to_speaker": "Ralph Brinkhaus",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-08"
   },
   {
-   "quote": "Hat Ihnen Herr Rammo das aufgeschrieben?",
-   "person": "Markus Frohnmaier",
-   "party": "AfD",
-   "to_speaker": "Lea Reisner",
-   "to_party": "Linke",
-   "date": "2026-10-07"
-  },
-  {
-   "quote": "Genau!",
-   "person": "Nicole Gohlke",
+   "quote": "„Multilateral“ wäre richtig gewesen!",
+   "person": "Dr. Fabian Fahl",
    "party": "Linke",
-   "to_speaker": "Lea Reisner",
-   "to_party": "Linke",
-   "date": "2026-10-07"
+   "to_speaker": "Matthias Rentzsch",
+   "to_party": "AfD",
+   "date": "2026-10-08"
   },
   {
-   "quote": "Wen meinen Sie denn?",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Lea Reisner",
-   "to_party": "Linke",
-   "date": "2026-10-07"
+   "quote": "Wer viel hat, wächst langsam!",
+   "person": "Dr. Fabian Fahl",
+   "party": "Linke",
+   "to_speaker": "Matthias Rentzsch",
+   "to_party": "AfD",
+   "date": "2026-10-08"
   },
   {
-   "quote": "Rot-Rot-Grün!",
-   "person": "Markus Frohnmaier",
+   "quote": "Wer wenig hat, kann schnell wachsen!",
+   "person": "Dr. Fabian Fahl",
+   "party": "Linke",
+   "to_speaker": "Matthias Rentzsch",
+   "to_party": "AfD",
+   "date": "2026-10-08"
+  },
+  {
+   "quote": "Uijuijui!",
+   "person": "Felix Schreiner",
+   "party": "CDU/CSU",
+   "to_speaker": "Matthias Rentzsch",
+   "to_party": "AfD",
+   "date": "2026-10-08"
+  },
+  {
+   "quote": "Woran das wohl liegt?",
+   "person": "Dr. Christoph Birghan",
    "party": "AfD",
-   "to_speaker": "Lea Reisner",
-   "to_party": "Linke",
-   "date": "2026-10-07"
+   "to_speaker": "Johannes Wagner",
+   "to_party": "Grüne",
+   "date": "2026-10-08"
+  },
+  {
+   "quote": "Frau Kofler ist auch weg!",
+   "person": "Dr. Christoph Birghan",
+   "party": "AfD",
+   "to_speaker": "Ralph Brinkhaus",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-08"
+  },
+  {
+   "quote": "Das ist doch noch gar nicht beschlossen!",
+   "person": "Esra Limbacher",
+   "party": "SPD",
+   "to_speaker": "Johannes Wagner",
+   "to_party": "Grüne",
+   "date": "2026-10-08"
+  },
+  {
+   "quote": "Ja!",
+   "person": "Dr. Rainer Kraft",
+   "party": "AfD",
+   "to_speaker": "Johannes Wagner",
+   "to_party": "Grüne",
+   "date": "2026-10-08"
+  },
+  {
+   "quote": "Den Menschen, die Auto fahren müssen! Denen kann man das ganz gut erklären!",
+   "person": "Esra Limbacher",
+   "party": "SPD",
+   "to_speaker": "Johannes Wagner",
+   "to_party": "Grüne",
+   "date": "2026-10-08"
   },
   {
    "quote": "Unglaublich!",
-   "person": "Nicole Gohlke",
-   "party": "Linke",
-   "to_speaker": "Lea Reisner",
-   "to_party": "Linke",
-   "date": "2026-10-07"
+   "person": "Dr. Alaa Alhamwi",
+   "party": "Grüne",
+   "to_speaker": "Johannes Wagner",
+   "to_party": "Grüne",
+   "date": "2026-10-08"
   },
   {
-   "quote": "Ist der nicht festgenommen worden?",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Nicolas Zippelius",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-07"
+   "quote": "Wir versuchen, Menschen zu helfen! Das ist doch gut!",
+   "person": "Esra Limbacher",
+   "party": "SPD",
+   "to_speaker": "Johannes Wagner",
+   "to_party": "Grüne",
+   "date": "2026-10-08"
   },
   {
-   "quote": "Der Vergleich hinkt aber auch, oder?",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Nicolas Zippelius",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-07"
-  },
-  {
-   "quote": "Ja, richtig!",
-   "person": "Markus Frohnmaier",
-   "party": "AfD",
-   "to_speaker": "Nicolas Zippelius",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-07"
-  },
-  {
-   "quote": "Nee, nee!",
-   "person": "Markus Frohnmaier",
-   "party": "AfD",
-   "to_speaker": "Nicolas Zippelius",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-07"
-  },
-  {
-   "quote": "Ach so! Wir lassen uns erpressen, ja?",
-   "person": "Markus Frohnmaier",
-   "party": "AfD",
-   "to_speaker": "Nicolas Zippelius",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-07"
-  },
-  {
-   "quote": "Es kostet nur den Grenzschutz!",
-   "person": "Steffen Kotré",
-   "party": "AfD",
-   "to_speaker": "Nicolas Zippelius",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-07"
-  },
-  {
-   "quote": "Dann macht doch einfach mal die Grenzen zu!",
-   "person": "Markus Frohnmaier",
-   "party": "AfD",
-   "to_speaker": "Nicolas Zippelius",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-07"
-  },
-  {
-   "quote": "Der hat doch gar nichts zu melden dort!",
-   "person": "Markus Frohnmaier",
-   "party": "AfD",
-   "to_speaker": "Nicolas Zippelius",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-07"
-  },
-  {
-   "quote": "Doch, doch!",
-   "person": "Markus Frohnmaier",
-   "party": "AfD",
-   "to_speaker": "Nicolas Zippelius",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-07"
-  },
-  {
-   "quote": "Sie hetzen den Steuerzahler auf die Opfer!",
-   "person": "Knut Abraham",
+   "quote": "Na ja, also, der Stellvertreter sitzt hier, und ich sitze hier!",
+   "person": "Felix Schreiner",
    "party": "CDU/CSU",
-   "to_speaker": "Steffen Kotré",
-   "to_party": "AfD",
-   "date": "2026-10-07"
+   "to_speaker": "Johannes Wagner",
+   "to_party": "Grüne",
+   "date": "2026-10-08"
   },
   {
-   "quote": "Unverschämtheit!",
-   "person": "Stephan Brandner",
+   "quote": "Kollege Amthor ist schon weg!",
+   "person": "Dr. Rainer Kraft",
    "party": "AfD",
-   "to_speaker": "Lea Reisner",
-   "to_party": "Linke",
-   "date": "2026-10-07"
+   "to_speaker": "Ralph Brinkhaus",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-08"
+  },
+  {
+   "quote": "Jetzt wird wieder zurückgerudert!",
+   "person": "Dr. Christoph Birghan",
+   "party": "AfD",
+   "to_speaker": "Ralph Brinkhaus",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-08"
+  },
+  {
+   "quote": "So ist es!",
+   "person": "Dr. Rainer Rothfuß",
+   "party": "AfD",
+   "to_speaker": "Christoph Birghan",
+   "to_party": "AfD",
+   "date": "2026-10-08"
+  },
+  {
+   "quote": "Das Problem ist in Sachsen-Anhalt!",
+   "person": "Clara Bünger",
+   "party": "Linke",
+   "to_speaker": "Martin Hess",
+   "to_party": "AfD",
+   "date": "2026-10-08"
   }
  ]
 }
