@@ -762,10 +762,10 @@
  {
   "nr": 96,
   "datum": "2026-09-24",
-  "reden": 167,
-  "beifall": 1174,
-  "zurufe": 482,
-  "lachen": 30
+  "reden": 240,
+  "beifall": 1441,
+  "zurufe": 532,
+  "lachen": 34
  },
  {
   "nr": 97,
@@ -786,9 +786,41 @@
  {
   "nr": 99,
   "datum": "2026-10-08",
-  "reden": 152,
-  "beifall": 1105,
-  "zurufe": 411,
-  "lachen": 20
+  "reden": 249,
+  "beifall": 1460,
+  "zurufe": 565,
+  "lachen": 32
+ },
+ {
+  "nr": 100,
+  "datum": "2026-10-09",
+  "reden": 91,
+  "beifall": 678,
+  "zurufe": 316,
+  "lachen": 23
+ },
+ {
+  "nr": 101,
+  "datum": "2026-10-14",
+  "reden": 187,
+  "beifall": 756,
+  "zurufe": 347,
+  "lachen": 17
+ },
+ {
+  "nr": 102,
+  "datum": "2026-10-15",
+  "reden": 151,
+  "beifall": 1242,
+  "zurufe": 481,
+  "lachen": 30
+ },
+ {
+  "nr": 103,
+  "datum": "2026-10-16",
+  "reden": 63,
+  "beifall": 400,
+  "zurufe": 142,
+  "lachen": 10
  }
 ]

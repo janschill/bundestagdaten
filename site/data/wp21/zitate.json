@@ -1,219 +1,219 @@
 {
- "gesamt": 41710,
+ "gesamt": 43786,
  "jahre": [
   2025,
   2026
  ],
  "haeufig": [
   {
-   "quote": "Genau!",
-   "n": 400
+   "quote": "Ja!",
+   "n": 429
   },
   {
-   "quote": "Ja!",
-   "n": 395
+   "quote": "Genau!",
+   "n": 428
   },
   {
    "quote": "So ist es!",
-   "n": 363
+   "n": 384
   },
   {
    "quote": "Hört! Hört!",
-   "n": 270
+   "n": 281
   },
   {
    "quote": "Richtig!",
-   "n": 216
+   "n": 230
   },
   {
    "quote": "Nein!",
-   "n": 158
+   "n": 172
   },
   {
    "quote": "Sehr gut!",
-   "n": 134
+   "n": 147
   },
   {
    "quote": "Aha!",
-   "n": 133
+   "n": 140
   },
   {
    "quote": "Sehr richtig!",
-   "n": 121
+   "n": 131
   },
   {
    "quote": "Doch!",
-   "n": 110
-  },
-  {
-   "quote": "Quatsch!",
-   "n": 98
+   "n": 118
   },
   {
    "quote": "Was?",
-   "n": 95
+   "n": 103
+  },
+  {
+   "quote": "Quatsch!",
+   "n": 102
   }
  ],
  "zuletzt": [
   {
-   "quote": "Jetzt kommt wieder Kommunismus pur!",
-   "person": "Bernd Schattner",
-   "party": "AfD",
-   "to_speaker": "Karl Bär",
-   "to_party": "Grüne",
-   "date": "2026-10-08"
-  },
-  {
-   "quote": "Machen Sie mal ein konkretes Beispiel!",
-   "person": "Klaus Mack",
-   "party": "CDU/CSU",
-   "to_speaker": "Johannes Wagner",
-   "to_party": "Grüne",
-   "date": "2026-10-08"
-  },
-  {
-   "quote": "Da hat er recht!",
-   "person": "Dr. Christoph Birghan",
-   "party": "AfD",
-   "to_speaker": "Ralph Brinkhaus",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-08"
-  },
-  {
-   "quote": "Wir halten nur Ihre Maßnahmen für falsch!",
-   "person": "Dr. Christoph Birghan",
-   "party": "AfD",
-   "to_speaker": "Ralph Brinkhaus",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-08"
-  },
-  {
-   "quote": "„Multilateral“ wäre richtig gewesen!",
-   "person": "Dr. Fabian Fahl",
-   "party": "Linke",
-   "to_speaker": "Matthias Rentzsch",
+   "quote": "Sie machen Politik für Russland! Was ein Quatsch, ey! Jetzt erst mal schön Herbsturlaub in Russland in der Datscha!",
+   "person": "Julian Joswig",
+   "party": "Grüne",
+   "to_speaker": "Marc Bernhard",
    "to_party": "AfD",
-   "date": "2026-10-08"
+   "date": "2026-10-16"
   },
   {
-   "quote": "Wer viel hat, wächst langsam!",
-   "person": "Dr. Fabian Fahl",
-   "party": "Linke",
-   "to_speaker": "Matthias Rentzsch",
-   "to_party": "AfD",
-   "date": "2026-10-08"
-  },
-  {
-   "quote": "Wer wenig hat, kann schnell wachsen!",
-   "person": "Dr. Fabian Fahl",
-   "party": "Linke",
-   "to_speaker": "Matthias Rentzsch",
-   "to_party": "AfD",
-   "date": "2026-10-08"
-  },
-  {
-   "quote": "Uijuijui!",
-   "person": "Felix Schreiner",
-   "party": "CDU/CSU",
-   "to_speaker": "Matthias Rentzsch",
-   "to_party": "AfD",
-   "date": "2026-10-08"
-  },
-  {
-   "quote": "Woran das wohl liegt?",
-   "person": "Dr. Christoph Birghan",
-   "party": "AfD",
-   "to_speaker": "Johannes Wagner",
-   "to_party": "Grüne",
-   "date": "2026-10-08"
-  },
-  {
-   "quote": "Frau Kofler ist auch weg!",
-   "person": "Dr. Christoph Birghan",
-   "party": "AfD",
-   "to_speaker": "Ralph Brinkhaus",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-08"
-  },
-  {
-   "quote": "Das ist doch noch gar nicht beschlossen!",
-   "person": "Esra Limbacher",
+   "quote": "Whoo-hoo!",
+   "person": "Claudia Moll",
    "party": "SPD",
-   "to_speaker": "Johannes Wagner",
+   "to_speaker": "Simone Fischer",
    "to_party": "Grüne",
-   "date": "2026-10-08"
+   "date": "2026-10-16"
+  },
+  {
+   "quote": "Welcher denn genau von den beiden?",
+   "person": "Katrin Staffler",
+   "party": "CDU/CSU",
+   "to_speaker": "Serdar Yüksel",
+   "to_party": "SPD",
+   "date": "2026-10-16"
+  },
+  {
+   "quote": "2025er- oder 2026er-Antrag?",
+   "person": "Dr. Hendrik Streeck",
+   "party": "CDU/CSU",
+   "to_speaker": "Serdar Yüksel",
+   "to_party": "SPD",
+   "date": "2026-10-16"
+  },
+  {
+   "quote": "Genau!",
+   "person": "Simone Borchardt",
+   "party": "CDU/CSU",
+   "to_speaker": "Serdar Yüksel",
+   "to_party": "SPD",
+   "date": "2026-10-16"
+  },
+  {
+   "quote": "Richtig!",
+   "person": "Simone Borchardt",
+   "party": "CDU/CSU",
+   "to_speaker": "Serdar Yüksel",
+   "to_party": "SPD",
+   "date": "2026-10-16"
+  },
+  {
+   "quote": "Genau!",
+   "person": "Simone Borchardt",
+   "party": "CDU/CSU",
+   "to_speaker": "Serdar Yüksel",
+   "to_party": "SPD",
+   "date": "2026-10-16"
   },
   {
    "quote": "Ja!",
-   "person": "Dr. Rainer Kraft",
-   "party": "AfD",
-   "to_speaker": "Johannes Wagner",
-   "to_party": "Grüne",
-   "date": "2026-10-08"
-  },
-  {
-   "quote": "Den Menschen, die Auto fahren müssen! Denen kann man das ganz gut erklären!",
-   "person": "Esra Limbacher",
-   "party": "SPD",
-   "to_speaker": "Johannes Wagner",
-   "to_party": "Grüne",
-   "date": "2026-10-08"
-  },
-  {
-   "quote": "Unglaublich!",
-   "person": "Dr. Alaa Alhamwi",
-   "party": "Grüne",
-   "to_speaker": "Johannes Wagner",
-   "to_party": "Grüne",
-   "date": "2026-10-08"
-  },
-  {
-   "quote": "Wir versuchen, Menschen zu helfen! Das ist doch gut!",
-   "person": "Esra Limbacher",
-   "party": "SPD",
-   "to_speaker": "Johannes Wagner",
-   "to_party": "Grüne",
-   "date": "2026-10-08"
-  },
-  {
-   "quote": "Na ja, also, der Stellvertreter sitzt hier, und ich sitze hier!",
-   "person": "Felix Schreiner",
+   "person": "Simone Borchardt",
    "party": "CDU/CSU",
-   "to_speaker": "Johannes Wagner",
+   "to_speaker": "Serdar Yüksel",
+   "to_party": "SPD",
+   "date": "2026-10-16"
+  },
+  {
+   "quote": "Ich habe von Ihnen aber auch keine Lösung gehört!",
+   "person": "Simone Borchardt",
+   "party": "CDU/CSU",
+   "to_speaker": "Nicole Hess",
+   "to_party": "AfD",
+   "date": "2026-10-16"
+  },
+  {
+   "quote": "Sehr gut!",
+   "person": "Simone Borchardt",
+   "party": "CDU/CSU",
+   "to_speaker": "Hendrik Streeck",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-16"
+  },
+  {
+   "quote": "Genau so!",
+   "person": "Simone Borchardt",
+   "party": "CDU/CSU",
+   "to_speaker": "Hendrik Streeck",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-16"
+  },
+  {
+   "quote": "Richtig!",
+   "person": "Simone Borchardt",
+   "party": "CDU/CSU",
+   "to_speaker": "Hendrik Streeck",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-16"
+  },
+  {
+   "quote": "Hört! Hört!",
+   "person": "Simone Borchardt",
+   "party": "CDU/CSU",
+   "to_speaker": "Hendrik Streeck",
+   "to_party": "CDU/CSU",
+   "date": "2026-10-16"
+  },
+  {
+   "quote": "Wer soll das bezahlen?",
+   "person": "Claudia Moll",
+   "party": "SPD",
+   "to_speaker": "Simone Fischer",
    "to_party": "Grüne",
-   "date": "2026-10-08"
+   "date": "2026-10-16"
   },
   {
-   "quote": "Kollege Amthor ist schon weg!",
-   "person": "Dr. Rainer Kraft",
-   "party": "AfD",
-   "to_speaker": "Ralph Brinkhaus",
+   "quote": "Genau so ist es!",
+   "person": "Simone Borchardt",
+   "party": "CDU/CSU",
+   "to_speaker": "Emmi Zeulner",
    "to_party": "CDU/CSU",
-   "date": "2026-10-08"
+   "date": "2026-10-16"
   },
   {
-   "quote": "Jetzt wird wieder zurückgerudert!",
-   "person": "Dr. Christoph Birghan",
-   "party": "AfD",
-   "to_speaker": "Ralph Brinkhaus",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-08"
+   "quote": "Wollen wir auch!",
+   "person": "Claudia Moll",
+   "party": "SPD",
+   "to_speaker": "Simone Fischer",
+   "to_party": "Grüne",
+   "date": "2026-10-16"
   },
   {
-   "quote": "So ist es!",
-   "person": "Dr. Rainer Rothfuß",
-   "party": "AfD",
-   "to_speaker": "Christoph Birghan",
-   "to_party": "AfD",
-   "date": "2026-10-08"
+   "quote": "Das ist falsch! Das ist fachlich einfach falsch!",
+   "person": "Simone Borchardt",
+   "party": "CDU/CSU",
+   "to_speaker": "Simone Fischer",
+   "to_party": "Grüne",
+   "date": "2026-10-16"
   },
   {
-   "quote": "Das Problem ist in Sachsen-Anhalt!",
-   "person": "Clara Bünger",
-   "party": "Linke",
-   "to_speaker": "Martin Hess",
-   "to_party": "AfD",
-   "date": "2026-10-08"
+   "quote": "Dafür sind die Länder verantwortlich!",
+   "person": "Claudia Moll",
+   "party": "SPD",
+   "to_speaker": "Simone Fischer",
+   "to_party": "Grüne",
+   "date": "2026-10-16"
+  },
+  {
+   "quote": "Das stimmt doch gar nicht!",
+   "person": "Claudia Moll",
+   "party": "SPD",
+   "to_speaker": "Simone Fischer",
+   "to_party": "Grüne",
+   "date": "2026-10-16"
+  },
+  {
+   "quote": "Richtig!",
+   "person": "Catarina dos Santos-Wintz",
+   "party": "CDU/CSU",
+   "to_speaker": "Claudia Moll",
+   "to_party": "SPD",
+   "date": "2026-10-16"
   }
  ]
 }

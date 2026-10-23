@@ -15,14 +15,8 @@
   {
    "speaker": "Simone Fischer",
    "party": "Grüne",
-   "rate": 23.9,
-   "n_reden": 16
-  },
-  {
-   "speaker": "Jasmina Hostert",
-   "party": "SPD",
-   "rate": 23.7,
-   "n_reden": 27
+   "rate": 24.2,
+   "n_reden": 18
   },
   {
    "speaker": "Marlene Schönberger",
@@ -33,24 +27,30 @@
   {
    "speaker": "Matthias Miersch",
    "party": "SPD",
-   "rate": 23.3,
-   "n_reden": 12
-  },
-  {
-   "speaker": "Britta Haßelmann",
-   "party": "Grüne",
-   "rate": 22.5,
+   "rate": 23.4,
    "n_reden": 13
   },
   {
    "speaker": "Thomas Rachel",
    "party": "CDU/CSU",
-   "rate": 22.5,
-   "n_reden": 12
+   "rate": 23.3,
+   "n_reden": 14
+  },
+  {
+   "speaker": "Jasmina Hostert",
+   "party": "SPD",
+   "rate": 22.9,
+   "n_reden": 29
   },
   {
    "speaker": "Marc Biadacz",
    "party": "CDU/CSU",
+   "rate": 22.2,
+   "n_reden": 14
+  },
+  {
+   "speaker": "Britta Haßelmann",
+   "party": "Grüne",
    "rate": 22.2,
    "n_reden": 14
   },
@@ -64,108 +64,108 @@
    "speaker": "Irene Mihalic",
    "party": "Grüne",
    "rate": 21.8,
-   "n_reden": 35
+   "n_reden": 36
   },
   {
-   "speaker": "Kirsten Kappert-Gonther",
+   "speaker": "Schahina Gambir",
    "party": "Grüne",
-   "rate": 21.4,
-   "n_reden": 16
+   "rate": 21.6,
+   "n_reden": 27
   },
   {
    "speaker": "Alaa Alhamwi",
    "party": "Grüne",
-   "rate": 21.2,
-   "n_reden": 28
+   "rate": 21.0,
+   "n_reden": 30
   },
   {
-   "speaker": "Knut Abraham",
-   "party": "CDU/CSU",
-   "rate": 20.8,
-   "n_reden": 17
+   "speaker": "Kirsten Kappert-Gonther",
+   "party": "Grüne",
+   "rate": 20.9,
+   "n_reden": 18
   },
   {
    "speaker": "Hülya Düber",
    "party": "CDU/CSU",
-   "rate": 20.6,
-   "n_reden": 23
+   "rate": 20.9,
+   "n_reden": 24
   }
  ],
  "zurufe": [
   {
    "person": "Stephan Brandner",
    "party": "AfD",
-   "n": 2638
+   "n": 2703
   },
   {
    "person": "Dr. Götz Frömming",
    "party": "AfD",
-   "n": 1224
+   "n": 1260
   },
   {
    "person": "Martin Reichardt",
    "party": "AfD",
-   "n": 980
-  },
-  {
-   "person": "Jörn König",
-   "party": "AfD",
-   "n": 939
+   "n": 1059
   },
   {
    "person": "Dr. Bernd Baumann",
    "party": "AfD",
-   "n": 931
+   "n": 1000
+  },
+  {
+   "person": "Jörn König",
+   "party": "AfD",
+   "n": 947
   },
   {
    "person": "Beatrix von Storch",
    "party": "AfD",
-   "n": 868
+   "n": 882
   },
   {
    "person": "Britta Haßelmann",
    "party": "Grüne",
-   "n": 817
+   "n": 832
   },
   {
    "person": "Dr. Johannes Fechner",
    "party": "SPD",
-   "n": 733
+   "n": 789
   },
   {
    "person": "Kay Gottschalk",
    "party": "AfD",
-   "n": 646
+   "n": 648
   },
   {
    "person": "Markus Frohnmaier",
    "party": "AfD",
-   "n": 626
+   "n": 638
   },
   {
    "person": "Lisa Badum",
    "party": "Grüne",
-   "n": 584
+   "n": 636
+  },
+  {
+   "person": "Claudia Roth",
+   "party": "Grüne",
+   "n": 564
   },
   {
    "person": "Marc Bernhard",
    "party": "AfD",
+   "n": 564
+  },
+  {
+   "person": "Filiz Polat",
+   "party": "Grüne",
    "n": 557
   },
   {
    "person": "Dr. Alice Weidel",
    "party": "AfD",
-   "n": 521
-  },
-  {
-   "person": "Enrico Komning",
-   "party": "AfD",
-   "n": 517
-  },
-  {
-   "person": "Dr. Rainer Kraft",
-   "party": "AfD",
-   "n": 515
+   "n": 537
   }
  ]
 }
