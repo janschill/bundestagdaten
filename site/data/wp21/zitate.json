@@ -1,5 +1,5 @@
 {
- "gesamt": 43786,
+ "gesamt": 44093,
  "jahre": [
   2025,
   2026
@@ -7,15 +7,15 @@
  "haeufig": [
   {
    "quote": "Ja!",
-   "n": 429
+   "n": 439
   },
   {
    "quote": "Genau!",
-   "n": 428
+   "n": 430
   },
   {
    "quote": "So ist es!",
-   "n": 384
+   "n": 387
   },
   {
    "quote": "Hört! Hört!",
@@ -23,11 +23,11 @@
   },
   {
    "quote": "Richtig!",
-   "n": 230
+   "n": 235
   },
   {
    "quote": "Nein!",
-   "n": 172
+   "n": 173
   },
   {
    "quote": "Sehr gut!",
@@ -35,7 +35,7 @@
   },
   {
    "quote": "Aha!",
-   "n": 140
+   "n": 142
   },
   {
    "quote": "Sehr richtig!",
@@ -43,11 +43,11 @@
   },
   {
    "quote": "Doch!",
-   "n": 118
+   "n": 121
   },
   {
    "quote": "Was?",
-   "n": 103
+   "n": 104
   },
   {
    "quote": "Quatsch!",
@@ -56,164 +56,164 @@
  ],
  "zuletzt": [
   {
-   "quote": "Sie machen Politik für Russland! Was ein Quatsch, ey! Jetzt erst mal schön Herbsturlaub in Russland in der Datscha!",
-   "person": "Julian Joswig",
+   "quote": "Fangen Sie mal in Ihrem eigenen Stall in Niedersachsen an, Frau Kollegin, bevor Sie hier so groß den Mund aufreißen!",
+   "person": "(Kay Gottschalk",
+   "party": "AfD",
+   "to_speaker": "Frauke Heiligenstadt",
+   "to_party": "SPD",
+   "date": "2026-11-04"
+  },
+  {
+   "quote": "Klimaschutzgesetz!",
+   "person": "Dr. Johannes Fechner",
+   "party": "SPD",
+   "to_speaker": "Luke Hoß",
+   "to_party": "Linke",
+   "date": "2026-11-04"
+  },
+  {
+   "quote": "Dass das alles gute Menschen sind!",
+   "person": "Gegenruf des Abg. Martin Hess",
+   "party": "AfD",
+   "to_speaker": "Sebastian Fiedler",
+   "to_party": "SPD",
+   "date": "2026-11-04"
+  },
+  {
+   "quote": "Wir haben doch gerade die Lösung vorgeschlagen!",
+   "person": "Lamya Kaddor",
    "party": "Grüne",
-   "to_speaker": "Marc Bernhard",
-   "to_party": "AfD",
-   "date": "2026-10-16"
+   "to_speaker": "Sebastian Fiedler",
+   "to_party": "SPD",
+   "date": "2026-11-04"
   },
   {
-   "quote": "Whoo-hoo!",
-   "person": "Claudia Moll",
+   "quote": "Aha!",
+   "person": "Dr. Johannes Fechner",
    "party": "SPD",
-   "to_speaker": "Simone Fischer",
-   "to_party": "Grüne",
-   "date": "2026-10-16"
-  },
-  {
-   "quote": "Welcher denn genau von den beiden?",
-   "person": "Katrin Staffler",
-   "party": "CDU/CSU",
-   "to_speaker": "Serdar Yüksel",
+   "to_speaker": "Sebastian Fiedler",
    "to_party": "SPD",
-   "date": "2026-10-16"
+   "date": "2026-11-04"
   },
   {
-   "quote": "2025er- oder 2026er-Antrag?",
-   "person": "Dr. Hendrik Streeck",
+   "quote": "Unser bester Mann!",
+   "person": "Detlef Seif",
    "party": "CDU/CSU",
-   "to_speaker": "Serdar Yüksel",
+   "to_speaker": "Sebastian Fiedler",
    "to_party": "SPD",
-   "date": "2026-10-16"
+   "date": "2026-11-04"
   },
   {
-   "quote": "Genau!",
-   "person": "Simone Borchardt",
-   "party": "CDU/CSU",
-   "to_speaker": "Serdar Yüksel",
+   "quote": "Wir wollen noch etwas zur Polizeigewalt gegen Kinder und Jugendliche am Samstag hören!",
+   "person": "Vinzenz Glaser",
+   "party": "Linke",
+   "to_speaker": "Sebastian Fiedler",
    "to_party": "SPD",
-   "date": "2026-10-16"
+   "date": "2026-11-04"
   },
   {
-   "quote": "Richtig!",
-   "person": "Simone Borchardt",
-   "party": "CDU/CSU",
-   "to_speaker": "Serdar Yüksel",
-   "to_party": "SPD",
-   "date": "2026-10-16"
-  },
-  {
-   "quote": "Genau!",
-   "person": "Simone Borchardt",
-   "party": "CDU/CSU",
-   "to_speaker": "Serdar Yüksel",
-   "to_party": "SPD",
-   "date": "2026-10-16"
-  },
-  {
-   "quote": "Ja!",
-   "person": "Simone Borchardt",
-   "party": "CDU/CSU",
-   "to_speaker": "Serdar Yüksel",
-   "to_party": "SPD",
-   "date": "2026-10-16"
-  },
-  {
-   "quote": "Ich habe von Ihnen aber auch keine Lösung gehört!",
-   "person": "Simone Borchardt",
-   "party": "CDU/CSU",
-   "to_speaker": "Nicole Hess",
-   "to_party": "AfD",
-   "date": "2026-10-16"
-  },
-  {
-   "quote": "Sehr gut!",
-   "person": "Simone Borchardt",
-   "party": "CDU/CSU",
-   "to_speaker": "Hendrik Streeck",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-16"
-  },
-  {
-   "quote": "Genau so!",
-   "person": "Simone Borchardt",
-   "party": "CDU/CSU",
-   "to_speaker": "Hendrik Streeck",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-16"
-  },
-  {
-   "quote": "Richtig!",
-   "person": "Simone Borchardt",
-   "party": "CDU/CSU",
-   "to_speaker": "Hendrik Streeck",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-16"
-  },
-  {
-   "quote": "Hört! Hört!",
-   "person": "Simone Borchardt",
-   "party": "CDU/CSU",
-   "to_speaker": "Hendrik Streeck",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-16"
-  },
-  {
-   "quote": "Wer soll das bezahlen?",
-   "person": "Claudia Moll",
+   "quote": "Wir auch!",
+   "person": "Dr. Johannes Fechner",
    "party": "SPD",
-   "to_speaker": "Simone Fischer",
-   "to_party": "Grüne",
-   "date": "2026-10-16"
+   "to_speaker": "Luke Hoß",
+   "to_party": "Linke",
+   "date": "2026-11-04"
   },
   {
-   "quote": "Genau so ist es!",
-   "person": "Simone Borchardt",
-   "party": "CDU/CSU",
-   "to_speaker": "Emmi Zeulner",
-   "to_party": "CDU/CSU",
-   "date": "2026-10-16"
-  },
-  {
-   "quote": "Wollen wir auch!",
-   "person": "Claudia Moll",
+   "quote": "War sehr gut!",
+   "person": "Dr. Johannes Fechner",
    "party": "SPD",
-   "to_speaker": "Simone Fischer",
-   "to_party": "Grüne",
-   "date": "2026-10-16"
+   "to_speaker": "Luke Hoß",
+   "to_party": "Linke",
+   "date": "2026-11-04"
   },
   {
-   "quote": "Das ist falsch! Das ist fachlich einfach falsch!",
-   "person": "Simone Borchardt",
-   "party": "CDU/CSU",
-   "to_speaker": "Simone Fischer",
-   "to_party": "Grüne",
-   "date": "2026-10-16"
-  },
-  {
-   "quote": "Dafür sind die Länder verantwortlich!",
-   "person": "Claudia Moll",
+   "quote": "Stimmt ja nicht! So ein Quatsch!",
+   "person": "Dr. Johannes Fechner",
    "party": "SPD",
-   "to_speaker": "Simone Fischer",
-   "to_party": "Grüne",
-   "date": "2026-10-16"
+   "to_speaker": "Luke Hoß",
+   "to_party": "Linke",
+   "date": "2026-11-04"
   },
   {
-   "quote": "Das stimmt doch gar nicht!",
-   "person": "Claudia Moll",
+   "quote": "Ja, wer denn?",
+   "person": "Dr. Johannes Fechner",
    "party": "SPD",
-   "to_speaker": "Simone Fischer",
-   "to_party": "Grüne",
-   "date": "2026-10-16"
+   "to_speaker": "Luke Hoß",
+   "to_party": "Linke",
+   "date": "2026-11-04"
   },
   {
-   "quote": "Richtig!",
-   "person": "Catarina dos Santos-Wintz",
+   "quote": "Das ist doch totaler Blödsinn, was Sie da erzählen!",
+   "person": "Dr. Katja Strauss-Köster",
    "party": "CDU/CSU",
-   "to_speaker": "Claudia Moll",
+   "to_speaker": "Luke Hoß",
+   "to_party": "Linke",
+   "date": "2026-11-04"
+  },
+  {
+   "quote": "Auch hinter der Polizeigewalt?",
+   "person": "Dr. Katja Strauss-Köster",
+   "party": "CDU/CSU",
+   "to_speaker": "Luke Hoß",
+   "to_party": "Linke",
+   "date": "2026-11-04"
+  },
+  {
+   "quote": "Ja, dann geh mal nach Moskau!",
+   "person": "Detlef Seif",
+   "party": "CDU/CSU",
+   "to_speaker": "Luke Hoß",
+   "to_party": "Linke",
+   "date": "2026-11-04"
+  },
+  {
+   "quote": "Völliger Quatsch! Absoluter Blödsinn, was Sie erzählen!",
+   "person": "Detlef Seif",
+   "party": "CDU/CSU",
+   "to_speaker": "Luke Hoß",
+   "to_party": "Linke",
+   "date": "2026-11-04"
+  },
+  {
+   "quote": "So ein Blödsinn!",
+   "person": "Dr. Katja Strauss-Köster",
+   "party": "CDU/CSU",
+   "to_speaker": "Luke Hoß",
+   "to_party": "Linke",
+   "date": "2026-11-04"
+  },
+  {
+   "quote": "So ein Quatsch!",
+   "person": "Detlef Seif",
+   "party": "CDU/CSU",
+   "to_speaker": "Luke Hoß",
+   "to_party": "Linke",
+   "date": "2026-11-04"
+  },
+  {
+   "quote": "Haben Sie denn ein Wort zum 7. Oktober gefunden?",
+   "person": "Detlef Seif",
+   "party": "CDU/CSU",
+   "to_speaker": "Luke Hoß",
+   "to_party": "Linke",
+   "date": "2026-11-04"
+  },
+  {
+   "quote": "Ja, aber außer benennen, was schließen wir denn daraus? Was ist die Handlungsempfehlung?",
+   "person": "Lamya Kaddor",
+   "party": "Grüne",
+   "to_speaker": "Sebastian Fiedler",
    "to_party": "SPD",
-   "date": "2026-10-16"
+   "date": "2026-11-04"
+  },
+  {
+   "quote": "Aber was schließen wir daraus? Was schließen wir denn daraus?",
+   "person": "Lamya Kaddor",
+   "party": "Grüne",
+   "to_speaker": "Sebastian Fiedler",
+   "to_party": "SPD",
+   "date": "2026-11-04"
   }
  ]
 }

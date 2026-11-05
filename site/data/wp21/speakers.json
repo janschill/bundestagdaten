@@ -7,16 +7,16 @@
    "n_reden": 14
   },
   {
-   "speaker": "Maik Brückner",
-   "party": "Linke",
-   "rate": 24.3,
-   "n_reden": 21
-  },
-  {
    "speaker": "Simone Fischer",
    "party": "Grüne",
    "rate": 24.2,
    "n_reden": 18
+  },
+  {
+   "speaker": "Maik Brückner",
+   "party": "Linke",
+   "rate": 24.0,
+   "n_reden": 22
   },
   {
    "speaker": "Marlene Schönberger",
@@ -61,16 +61,16 @@
    "n_reden": 14
   },
   {
-   "speaker": "Irene Mihalic",
-   "party": "Grüne",
-   "rate": 21.8,
-   "n_reden": 36
-  },
-  {
    "speaker": "Schahina Gambir",
    "party": "Grüne",
    "rate": 21.6,
    "n_reden": 27
+  },
+  {
+   "speaker": "Irene Mihalic",
+   "party": "Grüne",
+   "rate": 21.6,
+   "n_reden": 38
   },
   {
    "speaker": "Alaa Alhamwi",
@@ -110,12 +110,12 @@
   {
    "person": "Dr. Bernd Baumann",
    "party": "AfD",
-   "n": 1000
+   "n": 1017
   },
   {
    "person": "Jörn König",
    "party": "AfD",
-   "n": 947
+   "n": 967
   },
   {
    "person": "Beatrix von Storch",
@@ -130,12 +130,12 @@
   {
    "person": "Dr. Johannes Fechner",
    "party": "SPD",
-   "n": 789
+   "n": 817
   },
   {
    "person": "Kay Gottschalk",
    "party": "AfD",
-   "n": 648
+   "n": 661
   },
   {
    "person": "Markus Frohnmaier",
@@ -148,19 +148,19 @@
    "n": 636
   },
   {
+   "person": "Filiz Polat",
+   "party": "Grüne",
+   "n": 566
+  },
+  {
    "person": "Claudia Roth",
    "party": "Grüne",
-   "n": 564
+   "n": 565
   },
   {
    "person": "Marc Bernhard",
    "party": "AfD",
    "n": 564
-  },
-  {
-   "person": "Filiz Polat",
-   "party": "Grüne",
-   "n": 557
   },
   {
    "person": "Dr. Alice Weidel",
