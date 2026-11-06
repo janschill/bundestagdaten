@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T14:23:55Z",
+ "generated_at": "2026-11-06T14:00:04Z",
  "wahlperioden": [
   {
    "wp": 19,
@@ -19,11 +19,11 @@
   },
   {
    "wp": 21,
-   "sitzungen": 104,
-   "reden": 14071,
-   "ereignisse": 165009,
+   "sitzungen": 105,
+   "reden": 14226,
+   "ereignisse": 166955,
    "von": "2025-03-25",
-   "bis": "2026-11-04"
+   "bis": "2026-11-05"
   }
  ]
 }
