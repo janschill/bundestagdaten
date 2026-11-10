@@ -1,5 +1,5 @@
 {
- "gesamt": 44563,
+ "gesamt": 45018,
  "jahre": [
   2025,
   2026
@@ -7,39 +7,39 @@
  "haeufig": [
   {
    "quote": "Ja!",
-   "n": 446
+   "n": 453
   },
   {
    "quote": "Genau!",
-   "n": 438
+   "n": 445
   },
   {
    "quote": "So ist es!",
-   "n": 392
+   "n": 395
   },
   {
    "quote": "Hört! Hört!",
-   "n": 281
+   "n": 284
   },
   {
    "quote": "Richtig!",
-   "n": 238
+   "n": 241
   },
   {
    "quote": "Nein!",
-   "n": 174
+   "n": 176
   },
   {
    "quote": "Sehr gut!",
-   "n": 148
+   "n": 149
   },
   {
    "quote": "Aha!",
-   "n": 142
+   "n": 143
   },
   {
    "quote": "Sehr richtig!",
-   "n": 131
+   "n": 132
   },
   {
    "quote": "Doch!",
@@ -56,164 +56,164 @@
  ],
  "zuletzt": [
   {
-   "quote": "Die der Linkspartei auch!",
-   "person": "Siegfried Walch",
+   "quote": "Richtig!",
+   "person": "Dr. Katja Strauss-Köster",
    "party": "CDU/CSU",
-   "to_speaker": "Jan Krampe",
-   "to_party": "Linke",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Für welche Kinder sind Sie denn eigentlich Vorbild?",
-   "person": "Martin Reichardt",
-   "party": "AfD",
-   "to_speaker": "Helge Lindh",
-   "to_party": "SPD",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Auf die kaputten Fenster?",
-   "person": "Steffen Janich",
-   "party": "AfD",
-   "to_speaker": "Luke Hoß",
-   "to_party": "Linke",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Und dafür plündert ihr Geschäfte, oder was?",
-   "person": "Dr. Christoph Birghan",
-   "party": "AfD",
-   "to_speaker": "Luke Hoß",
-   "to_party": "Linke",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Das stimmt doch gar nicht! Die wählen uns doch alle!",
-   "person": "Tobias Matthias Peterka",
-   "party": "AfD",
-   "to_speaker": "Luke Hoß",
-   "to_party": "Linke",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Sie sprechen nicht für diese Generation! Ganz sicher nicht!",
-   "person": "Dr. Christoph Birghan",
-   "party": "AfD",
-   "to_speaker": "Luke Hoß",
-   "to_party": "Linke",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Schau mal in die Wahlumfragen!",
-   "person": "Tobias Matthias Peterka",
-   "party": "AfD",
-   "to_speaker": "Luke Hoß",
-   "to_party": "Linke",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Räumt erst mal eure Zimmer auf!",
-   "person": "Sven Wendorf",
-   "party": "AfD",
-   "to_speaker": "Luke Hoß",
-   "to_party": "Linke",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Unsere Fans?",
-   "person": "Reinhard Mixl",
-   "party": "AfD",
-   "to_speaker": "Helge Lindh",
-   "to_party": "SPD",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Ich zeige Ihre Fans gar nicht an, obwohl ich es könnte!",
-   "person": "Martin Reichardt",
-   "party": "AfD",
-   "to_speaker": "Helge Lindh",
-   "to_party": "SPD",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Die Studien sind von vor 13 Jahren!",
-   "person": "Tobias Matthias Peterka",
-   "party": "AfD",
-   "to_speaker": "Helge Lindh",
-   "to_party": "SPD",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Das ist alles von der Kunstfreiheit gedeckt, würden Sie sagen!",
-   "person": "Dr. Christoph Birghan",
-   "party": "AfD",
-   "to_speaker": "Helge Lindh",
-   "to_party": "SPD",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Und Sie legen Wert auf Kunstfreiheit, oder?",
-   "person": "Dr. Christoph Birghan",
-   "party": "AfD",
-   "to_speaker": "Helge Lindh",
-   "to_party": "SPD",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Ach so!",
-   "person": "Tobias Matthias Peterka",
-   "party": "AfD",
-   "to_speaker": "Helge Lindh",
-   "to_party": "SPD",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Sie hören ja nicht zu! Das ist das Problem!",
-   "person": "Maja Wallstein",
-   "party": "SPD",
-   "to_speaker": "Rainer Galla",
-   "to_party": "AfD",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Antworten!",
-   "person": "Georg Schroeter",
-   "party": "AfD",
-   "to_speaker": "Maja Wallstein",
-   "to_party": "SPD",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Das scheinen ja nicht alle Ihrer Fraktion zu wissen!",
-   "person": "Dr. Lena Gumnior",
-   "party": "Grüne",
-   "to_speaker": "Rainer Galla",
-   "to_party": "AfD",
-   "date": "2026-11-05"
-  },
-  {
-   "quote": "Einfach wieder schlecht gearbeitet!",
-   "person": "Dr. Konrad Körner",
-   "party": "CDU/CSU",
-   "to_speaker": "Axel Müller",
+   "to_speaker": "Ellen Demuth",
    "to_party": "CDU/CSU",
-   "date": "2026-11-05"
+   "date": "2026-11-06"
   },
   {
-   "quote": "…, aber der Wahrheit entspricht!",
-   "person": "Gereon Bollmann",
-   "party": "AfD",
-   "to_speaker": "Lamya Kaddor",
-   "to_party": "Grüne",
-   "date": "2026-11-05"
+   "quote": "Champagnerfreunde!",
+   "person": "Tilman Kuban",
+   "party": "CDU/CSU",
+   "to_speaker": "Tobias Teich",
+   "to_party": "AfD",
+   "date": "2026-11-06"
   },
   {
-   "quote": "Das darf man nicht sagen, ja?",
-   "person": "Tobias Matthias Peterka",
+   "quote": "Hört! Hört!",
+   "person": "Dr. Reinhard Brandl",
+   "party": "CDU/CSU",
+   "to_speaker": "Tobias Teich",
+   "to_party": "AfD",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Den hast du rasiert! Sehr gut!",
+   "person": "Stephan Brandner",
    "party": "AfD",
-   "to_speaker": "Lamya Kaddor",
+   "to_speaker": "Tobias Teich",
+   "to_party": "AfD",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Champagnerfreunde!",
+   "person": "Tilman Kuban",
+   "party": "CDU/CSU",
+   "to_speaker": "Tobias Teich",
+   "to_party": "AfD",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Nur peinlich!",
+   "person": "Peter Beyer",
+   "party": "CDU/CSU",
+   "to_speaker": "Tobias Teich",
+   "to_party": "AfD",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Sie sind das Problem!",
+   "person": "Markus Töns",
+   "party": "SPD",
+   "to_speaker": "Tobias Teich",
+   "to_party": "AfD",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Ganz schwach!",
+   "person": "Peter Beyer",
+   "party": "CDU/CSU",
+   "to_speaker": "Tobias Teich",
+   "to_party": "AfD",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Na, das sagt ja der Richtige!",
+   "person": "Peter Beyer",
+   "party": "CDU/CSU",
+   "to_speaker": "Karsten Hilse",
+   "to_party": "AfD",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Die Rechnung ist falsch!",
+   "person": "Dr. Fabian Fahl",
+   "party": "Linke",
+   "to_speaker": "Karsten Hilse",
+   "to_party": "AfD",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Steile These!",
+   "person": "Lisa Badum",
+   "party": "Grüne",
+   "to_speaker": "Karsten Hilse",
+   "to_party": "AfD",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Was ist das denn für ein Anfang? Um Gottes willen!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lisa Badum",
    "to_party": "Grüne",
-   "date": "2026-11-05"
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Wir haben gar nicht kandidiert!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lisa Badum",
+   "to_party": "Grüne",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Siehe Sachsen-Anhalt! Herrlich!",
+   "person": "Karsten Hilse",
+   "party": "AfD",
+   "to_speaker": "Lisa Badum",
+   "to_party": "Grüne",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Schöne Grüße von Uli!",
+   "person": "Marcel Queckemeyer",
+   "party": "AfD",
+   "to_speaker": "Lisa Badum",
+   "to_party": "Grüne",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Oh, „Klimakiller“! Hat das das Klima ganz gekillt, oder was?",
+   "person": "Dr. Ingo Hahn",
+   "party": "AfD",
+   "to_speaker": "Lisa Badum",
+   "to_party": "Grüne",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Was ist denn eigentlich, wenn das Klima tot ist? Was passiert denn dann?",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lisa Badum",
+   "to_party": "Grüne",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Das ist ja nur ein Bruchteil des SED-Vermögens!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Lisa Badum",
+   "to_party": "Grüne",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "„Besiegbar“!",
+   "person": "Marcel Queckemeyer",
+   "party": "AfD",
+   "to_speaker": "Lisa Badum",
+   "to_party": "Grüne",
+   "date": "2026-11-06"
+  },
+  {
+   "quote": "Welche Macht?",
+   "person": "Marcel Queckemeyer",
+   "party": "AfD",
+   "to_speaker": "Lisa Badum",
+   "to_party": "Grüne",
+   "date": "2026-11-06"
   }
  ]
 }

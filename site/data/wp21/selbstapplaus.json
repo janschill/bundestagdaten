@@ -1,15 +1,15 @@
 [
  {
   "party": "AfD",
-  "share": 0.781
+  "share": 0.78
  },
  {
   "party": "Linke",
-  "share": 0.704
+  "share": 0.703
  },
  {
   "party": "Grüne",
-  "share": 0.674
+  "share": 0.673
  },
  {
   "party": "CDU/CSU",
@@ -17,6 +17,6 @@
  },
  {
   "party": "SPD",
-  "share": 0.479
+  "share": 0.478
  }
 ]

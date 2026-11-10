@@ -3,8 +3,8 @@
   {
    "speaker": "Nyke Slawik",
    "party": "Grüne",
-   "rate": 24.9,
-   "n_reden": 14
+   "rate": 24.3,
+   "n_reden": 15
   },
   {
    "speaker": "Maik Brückner",
@@ -95,17 +95,17 @@
   {
    "person": "Stephan Brandner",
    "party": "AfD",
-   "n": 2746
+   "n": 2779
   },
   {
    "person": "Dr. Götz Frömming",
    "party": "AfD",
-   "n": 1270
+   "n": 1284
   },
   {
    "person": "Martin Reichardt",
    "party": "AfD",
-   "n": 1072
+   "n": 1083
   },
   {
    "person": "Dr. Bernd Baumann",
@@ -120,22 +120,22 @@
   {
    "person": "Beatrix von Storch",
    "party": "AfD",
-   "n": 883
+   "n": 891
   },
   {
    "person": "Britta Haßelmann",
    "party": "Grüne",
-   "n": 835
+   "n": 841
   },
   {
    "person": "Dr. Johannes Fechner",
    "party": "SPD",
-   "n": 818
+   "n": 824
   },
   {
    "person": "Kay Gottschalk",
    "party": "AfD",
-   "n": 661
+   "n": 662
   },
   {
    "person": "Markus Frohnmaier",
@@ -145,12 +145,12 @@
   {
    "person": "Lisa Badum",
    "party": "Grüne",
-   "n": 636
+   "n": 645
   },
   {
    "person": "Filiz Polat",
    "party": "Grüne",
-   "n": 571
+   "n": 585
   },
   {
    "person": "Marc Bernhard",
@@ -165,7 +165,7 @@
   {
    "person": "Enrico Komning",
    "party": "AfD",
-   "n": 540
+   "n": 545
   }
  ]
 }
