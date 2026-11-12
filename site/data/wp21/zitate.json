@@ -1,5 +1,5 @@
 {
- "gesamt": 45018,
+ "gesamt": 45329,
  "jahre": [
   2025,
   2026
@@ -7,27 +7,27 @@
  "haeufig": [
   {
    "quote": "Ja!",
-   "n": 453
+   "n": 456
   },
   {
    "quote": "Genau!",
-   "n": 445
+   "n": 447
   },
   {
    "quote": "So ist es!",
-   "n": 395
+   "n": 396
   },
   {
    "quote": "Hört! Hört!",
-   "n": 284
+   "n": 285
   },
   {
    "quote": "Richtig!",
-   "n": 241
+   "n": 243
   },
   {
    "quote": "Nein!",
-   "n": 176
+   "n": 178
   },
   {
    "quote": "Sehr gut!",
@@ -35,11 +35,11 @@
   },
   {
    "quote": "Aha!",
-   "n": 143
+   "n": 146
   },
   {
    "quote": "Sehr richtig!",
-   "n": 132
+   "n": 133
   },
   {
    "quote": "Doch!",
@@ -47,173 +47,173 @@
   },
   {
    "quote": "Was?",
-   "n": 106
+   "n": 107
   },
   {
    "quote": "Quatsch!",
-   "n": 103
+   "n": 104
   }
  ],
  "zuletzt": [
   {
-   "quote": "Richtig!",
-   "person": "Dr. Katja Strauss-Köster",
-   "party": "CDU/CSU",
-   "to_speaker": "Ellen Demuth",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-06"
-  },
-  {
-   "quote": "Champagnerfreunde!",
-   "person": "Tilman Kuban",
-   "party": "CDU/CSU",
-   "to_speaker": "Tobias Teich",
-   "to_party": "AfD",
-   "date": "2026-11-06"
-  },
-  {
-   "quote": "Hört! Hört!",
-   "person": "Dr. Reinhard Brandl",
-   "party": "CDU/CSU",
-   "to_speaker": "Tobias Teich",
-   "to_party": "AfD",
-   "date": "2026-11-06"
-  },
-  {
-   "quote": "Den hast du rasiert! Sehr gut!",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Tobias Teich",
-   "to_party": "AfD",
-   "date": "2026-11-06"
-  },
-  {
-   "quote": "Champagnerfreunde!",
-   "person": "Tilman Kuban",
-   "party": "CDU/CSU",
-   "to_speaker": "Tobias Teich",
-   "to_party": "AfD",
-   "date": "2026-11-06"
-  },
-  {
-   "quote": "Nur peinlich!",
-   "person": "Peter Beyer",
-   "party": "CDU/CSU",
-   "to_speaker": "Tobias Teich",
-   "to_party": "AfD",
-   "date": "2026-11-06"
-  },
-  {
-   "quote": "Sie sind das Problem!",
-   "person": "Markus Töns",
-   "party": "SPD",
-   "to_speaker": "Tobias Teich",
-   "to_party": "AfD",
-   "date": "2026-11-06"
-  },
-  {
-   "quote": "Ganz schwach!",
-   "person": "Peter Beyer",
-   "party": "CDU/CSU",
-   "to_speaker": "Tobias Teich",
-   "to_party": "AfD",
-   "date": "2026-11-06"
-  },
-  {
-   "quote": "Na, das sagt ja der Richtige!",
-   "person": "Peter Beyer",
-   "party": "CDU/CSU",
-   "to_speaker": "Karsten Hilse",
-   "to_party": "AfD",
-   "date": "2026-11-06"
-  },
-  {
-   "quote": "Die Rechnung ist falsch!",
-   "person": "Dr. Fabian Fahl",
+   "quote": "Haben Sie jetzt gerade in den Spiegel geguckt, oder was?",
+   "person": "Ina Latendorf",
    "party": "Linke",
-   "to_speaker": "Karsten Hilse",
+   "to_speaker": "Götz Frömming",
    "to_party": "AfD",
-   "date": "2026-11-06"
+   "date": "2026-11-11"
   },
   {
-   "quote": "Steile These!",
-   "person": "Lisa Badum",
+   "quote": "Das ist ein ganz schlechter Einstieg!",
+   "person": "Peter Boehringer",
+   "party": "AfD",
+   "to_speaker": "Mahmut Özdemir",
+   "to_party": "SPD",
+   "date": "2026-11-11"
+  },
+  {
+   "quote": "Ist das vom Kreml abgesegnet?",
+   "person": "Sebastian Fiedler",
+   "party": "SPD",
+   "to_speaker": "Beatrix von Storch",
+   "to_party": "AfD",
+   "date": "2026-11-11"
+  },
+  {
+   "quote": "Zum Thema, Frau Storch!",
+   "person": "Vinzenz Glaser",
+   "party": "Linke",
+   "to_speaker": "Beatrix von Storch",
+   "to_party": "AfD",
+   "date": "2026-11-11"
+  },
+  {
+   "quote": "Beschäftigen Sie sich mal mit Geschichte!",
+   "person": "Christoph Birghan",
+   "party": "AfD",
+   "to_speaker": "Lamya Kaddor",
+   "to_party": "Grüne",
+   "date": "2026-11-11"
+  },
+  {
+   "quote": "Ich hoffe, Sie haben sie verstanden!",
+   "person": "Lamya Kaddor",
    "party": "Grüne",
-   "to_speaker": "Karsten Hilse",
+   "to_speaker": "Beatrix von Storch",
    "to_party": "AfD",
-   "date": "2026-11-06"
+   "date": "2026-11-11"
   },
   {
-   "quote": "Was ist das denn für ein Anfang? Um Gottes willen!",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Lisa Badum",
-   "to_party": "Grüne",
-   "date": "2026-11-06"
+   "quote": "Ich glaube, Sie haben meine Frage nicht verstanden!",
+   "person": "Lamya Kaddor",
+   "party": "Grüne",
+   "to_speaker": "Beatrix von Storch",
+   "to_party": "AfD",
+   "date": "2026-11-11"
   },
   {
-   "quote": "Wir haben gar nicht kandidiert!",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Lisa Badum",
-   "to_party": "Grüne",
-   "date": "2026-11-06"
+   "quote": "Sie haben meine Frage nicht verstanden! Sie haben die Frage nicht verstanden!",
+   "person": "Lamya Kaddor",
+   "party": "Grüne",
+   "to_speaker": "Beatrix von Storch",
+   "to_party": "AfD",
+   "date": "2026-11-11"
   },
   {
-   "quote": "Siehe Sachsen-Anhalt! Herrlich!",
-   "person": "Karsten Hilse",
-   "party": "AfD",
-   "to_speaker": "Lisa Badum",
-   "to_party": "Grüne",
-   "date": "2026-11-06"
+   "quote": "Sie haben die Frage leider gar nicht verstanden!",
+   "person": "Lamya Kaddor",
+   "party": "Grüne",
+   "to_speaker": "Beatrix von Storch",
+   "to_party": "AfD",
+   "date": "2026-11-11"
   },
   {
-   "quote": "Schöne Grüße von Uli!",
-   "person": "Marcel Queckemeyer",
+   "quote": "Es bleibt ein ganz schlechter Einstieg! Unglaublich!",
+   "person": "(Peter Boehringer",
    "party": "AfD",
-   "to_speaker": "Lisa Badum",
-   "to_party": "Grüne",
-   "date": "2026-11-06"
+   "to_speaker": "Mahmut Özdemir",
+   "to_party": "SPD",
+   "date": "2026-11-11"
   },
   {
-   "quote": "Oh, „Klimakiller“! Hat das das Klima ganz gekillt, oder was?",
-   "person": "Dr. Ingo Hahn",
+   "quote": "Es gibt keine Sippenhaft in Deutschland!",
+   "person": "Gegenruf des Abg. Jörn König",
    "party": "AfD",
-   "to_speaker": "Lisa Badum",
-   "to_party": "Grüne",
-   "date": "2026-11-06"
+   "to_speaker": "Beatrix von Storch",
+   "to_party": "AfD",
+   "date": "2026-11-11"
   },
   {
-   "quote": "Was ist denn eigentlich, wenn das Klima tot ist? Was passiert denn dann?",
-   "person": "Stephan Brandner",
+   "quote": "Danke! Ist aber nicht nötig!",
+   "person": "Jörn König",
    "party": "AfD",
-   "to_speaker": "Lisa Badum",
-   "to_party": "Grüne",
-   "date": "2026-11-06"
+   "to_speaker": "Mahmut Özdemir",
+   "to_party": "SPD",
+   "date": "2026-11-11"
   },
   {
-   "quote": "Das ist ja nur ein Bruchteil des SED-Vermögens!",
-   "person": "Stephan Brandner",
+   "quote": "Das ist ja an Niedertracht nicht mehr zu überbieten!",
+   "person": "Martin Hess",
    "party": "AfD",
-   "to_speaker": "Lisa Badum",
-   "to_party": "Grüne",
-   "date": "2026-11-06"
+   "to_speaker": "Mahmut Özdemir",
+   "to_party": "SPD",
+   "date": "2026-11-11"
   },
   {
-   "quote": "„Besiegbar“!",
-   "person": "Marcel Queckemeyer",
+   "quote": "Ich lade Sie in mein Büro ein!",
+   "person": "Jörn König",
    "party": "AfD",
-   "to_speaker": "Lisa Badum",
-   "to_party": "Grüne",
-   "date": "2026-11-06"
+   "to_speaker": "Mahmut Özdemir",
+   "to_party": "SPD",
+   "date": "2026-11-11"
   },
   {
-   "quote": "Welche Macht?",
-   "person": "Marcel Queckemeyer",
+   "quote": "Herr Özdemir, ich lade Sie in mein Büro ein!",
+   "person": "Jörn König",
    "party": "AfD",
-   "to_speaker": "Lisa Badum",
-   "to_party": "Grüne",
-   "date": "2026-11-06"
+   "to_speaker": "Mahmut Özdemir",
+   "to_party": "SPD",
+   "date": "2026-11-11"
+  },
+  {
+   "quote": "Machen Sie jetzt Freud’sche Psychoanalyse, oder wie?",
+   "person": "Jörn König",
+   "party": "AfD",
+   "to_speaker": "Mahmut Özdemir",
+   "to_party": "SPD",
+   "date": "2026-11-11"
+  },
+  {
+   "quote": "1945 waren noch gar keine Gastarbeitende hier, Mensch! Was erzählen Sie denn für einen Unsinn!",
+   "person": "Martin Hess",
+   "party": "AfD",
+   "to_speaker": "Mahmut Özdemir",
+   "to_party": "SPD",
+   "date": "2026-11-11"
+  },
+  {
+   "quote": "Herr Özdemir, Sie sind ein übler Hetzer! Nichts anderes sind Sie!",
+   "person": "Martin Hess",
+   "party": "AfD",
+   "to_speaker": "Mahmut Özdemir",
+   "to_party": "SPD",
+   "date": "2026-11-11"
+  },
+  {
+   "quote": "Ich bezweifle, dass Sie das auswendig können!",
+   "person": "Dunja Kreiser",
+   "party": "SPD",
+   "to_speaker": "Beatrix von Storch",
+   "to_party": "AfD",
+   "date": "2026-11-11"
+  },
+  {
+   "quote": "Ihre Familie war beteiligt an den NS-Verbrechen! Hören Sie auf, darüber zu reden!",
+   "person": "Clara Bünger",
+   "party": "Linke",
+   "to_speaker": "Beatrix von Storch",
+   "to_party": "AfD",
+   "date": "2026-11-11"
   }
  ]
 }

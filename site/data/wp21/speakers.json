@@ -19,16 +19,16 @@
    "n_reden": 19
   },
   {
-   "speaker": "Marlene Schönberger",
-   "party": "Grüne",
-   "rate": 23.6,
-   "n_reden": 18
-  },
-  {
    "speaker": "Matthias Miersch",
    "party": "SPD",
    "rate": 23.4,
    "n_reden": 13
+  },
+  {
+   "speaker": "Josephine Ortleb",
+   "party": "SPD",
+   "rate": 23.3,
+   "n_reden": 12
   },
   {
    "speaker": "Thomas Rachel",
@@ -41,6 +41,12 @@
    "party": "SPD",
    "rate": 22.9,
    "n_reden": 29
+  },
+  {
+   "speaker": "Marlene Schönberger",
+   "party": "Grüne",
+   "rate": 22.7,
+   "n_reden": 19
   },
   {
    "speaker": "Marc Biadacz",
@@ -83,29 +89,23 @@
    "party": "Grüne",
    "rate": 20.9,
    "n_reden": 19
-  },
-  {
-   "speaker": "Hülya Düber",
-   "party": "CDU/CSU",
-   "rate": 20.9,
-   "n_reden": 24
   }
  ],
  "zurufe": [
   {
    "person": "Stephan Brandner",
    "party": "AfD",
-   "n": 2779
+   "n": 2826
   },
   {
    "person": "Dr. Götz Frömming",
    "party": "AfD",
-   "n": 1284
+   "n": 1297
   },
   {
    "person": "Martin Reichardt",
    "party": "AfD",
-   "n": 1083
+   "n": 1098
   },
   {
    "person": "Dr. Bernd Baumann",
@@ -115,7 +115,7 @@
   {
    "person": "Jörn König",
    "party": "AfD",
-   "n": 969
+   "n": 982
   },
   {
    "person": "Beatrix von Storch",
@@ -123,14 +123,14 @@
    "n": 891
   },
   {
+   "person": "Dr. Johannes Fechner",
+   "party": "SPD",
+   "n": 863
+  },
+  {
    "person": "Britta Haßelmann",
    "party": "Grüne",
    "n": 841
-  },
-  {
-   "person": "Dr. Johannes Fechner",
-   "party": "SPD",
-   "n": 824
   },
   {
    "person": "Kay Gottschalk",
