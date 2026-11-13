@@ -45,8 +45,8 @@
   {
    "speaker": "Marlene Schönberger",
    "party": "Grüne",
-   "rate": 22.7,
-   "n_reden": 19
+   "rate": 22.6,
+   "n_reden": 20
   },
   {
    "speaker": "Marc Biadacz",
@@ -95,12 +95,12 @@
   {
    "person": "Stephan Brandner",
    "party": "AfD",
-   "n": 2826
+   "n": 2847
   },
   {
    "person": "Dr. Götz Frömming",
    "party": "AfD",
-   "n": 1297
+   "n": 1305
   },
   {
    "person": "Martin Reichardt",
@@ -110,17 +110,17 @@
   {
    "person": "Dr. Bernd Baumann",
    "party": "AfD",
-   "n": 1023
+   "n": 1041
   },
   {
    "person": "Jörn König",
    "party": "AfD",
-   "n": 982
+   "n": 990
   },
   {
    "person": "Beatrix von Storch",
    "party": "AfD",
-   "n": 891
+   "n": 893
   },
   {
    "person": "Dr. Johannes Fechner",
@@ -135,27 +135,27 @@
   {
    "person": "Kay Gottschalk",
    "party": "AfD",
-   "n": 662
+   "n": 701
   },
   {
    "person": "Markus Frohnmaier",
    "party": "AfD",
-   "n": 655
+   "n": 666
   },
   {
    "person": "Lisa Badum",
    "party": "Grüne",
-   "n": 645
-  },
-  {
-   "person": "Filiz Polat",
-   "party": "Grüne",
-   "n": 585
+   "n": 657
   },
   {
    "person": "Marc Bernhard",
    "party": "AfD",
-   "n": 570
+   "n": 604
+  },
+  {
+   "person": "Filiz Polat",
+   "party": "Grüne",
+   "n": 587
   },
   {
    "person": "Claudia Roth",
@@ -165,7 +165,7 @@
   {
    "person": "Enrico Komning",
    "party": "AfD",
-   "n": 545
+   "n": 547
   }
  ]
 }

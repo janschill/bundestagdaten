@@ -1,5 +1,5 @@
 {
- "gesamt": 45329,
+ "gesamt": 45840,
  "jahre": [
   2025,
   2026
@@ -7,27 +7,27 @@
  "haeufig": [
   {
    "quote": "Ja!",
-   "n": 456
+   "n": 460
   },
   {
    "quote": "Genau!",
-   "n": 447
+   "n": 451
   },
   {
    "quote": "So ist es!",
-   "n": 396
+   "n": 403
   },
   {
    "quote": "Hört! Hört!",
-   "n": 285
+   "n": 290
   },
   {
    "quote": "Richtig!",
-   "n": 243
+   "n": 247
   },
   {
    "quote": "Nein!",
-   "n": 178
+   "n": 179
   },
   {
    "quote": "Sehr gut!",
@@ -39,15 +39,15 @@
   },
   {
    "quote": "Sehr richtig!",
-   "n": 133
+   "n": 136
   },
   {
    "quote": "Doch!",
-   "n": 122
+   "n": 125
   },
   {
    "quote": "Was?",
-   "n": 107
+   "n": 110
   },
   {
    "quote": "Quatsch!",
@@ -56,164 +56,164 @@
  ],
  "zuletzt": [
   {
-   "quote": "Haben Sie jetzt gerade in den Spiegel geguckt, oder was?",
-   "person": "Ina Latendorf",
-   "party": "Linke",
-   "to_speaker": "Götz Frömming",
-   "to_party": "AfD",
-   "date": "2026-11-11"
-  },
-  {
-   "quote": "Das ist ein ganz schlechter Einstieg!",
-   "person": "Peter Boehringer",
+   "quote": "Dann fangen Sie mal endlich an!",
+   "person": "Dr. Götz Frömming",
    "party": "AfD",
-   "to_speaker": "Mahmut Özdemir",
+   "to_speaker": "Karl Lauterbach",
    "to_party": "SPD",
-   "date": "2026-11-11"
+   "date": "2026-11-12"
   },
   {
-   "quote": "Ist das vom Kreml abgesegnet?",
-   "person": "Sebastian Fiedler",
-   "party": "SPD",
-   "to_speaker": "Beatrix von Storch",
-   "to_party": "AfD",
-   "date": "2026-11-11"
-  },
-  {
-   "quote": "Zum Thema, Frau Storch!",
-   "person": "Vinzenz Glaser",
-   "party": "Linke",
-   "to_speaker": "Beatrix von Storch",
-   "to_party": "AfD",
-   "date": "2026-11-11"
-  },
-  {
-   "quote": "Beschäftigen Sie sich mal mit Geschichte!",
-   "person": "Christoph Birghan",
-   "party": "AfD",
-   "to_speaker": "Lamya Kaddor",
+   "quote": "Er hatte Geburtstag! Vielleicht deshalb!",
+   "person": "Agnieszka Brugger",
+   "party": "Grüne",
+   "to_speaker": "Sara Nanni",
    "to_party": "Grüne",
-   "date": "2026-11-11"
+   "date": "2026-11-12"
   },
   {
-   "quote": "Ich hoffe, Sie haben sie verstanden!",
-   "person": "Lamya Kaddor",
+   "quote": "Was ist dann mit den Speichern, die wir dringend brauchen?",
+   "person": "Lars Rohwer",
+   "party": "CDU/CSU",
+   "to_speaker": "Katrin Uhlig",
+   "to_party": "Grüne",
+   "date": "2026-11-12"
+  },
+  {
+   "quote": "Dieses Netz braucht Speicher! Die haben Sie nicht geschaffen!",
+   "person": "Lars Rohwer",
+   "party": "CDU/CSU",
+   "to_speaker": "Katrin Uhlig",
+   "to_party": "Grüne",
+   "date": "2026-11-12"
+  },
+  {
+   "quote": "Das hat man vor zehn Jahren schon gesagt! Es ist gar nichts passiert!",
+   "person": "Dr. Rainer Kraft",
+   "party": "AfD",
+   "to_speaker": "Jörg Cezanne",
+   "to_party": "Linke",
+   "date": "2026-11-12"
+  },
+  {
+   "quote": "Bei 600 Euro pro Megawattstunde ist das ein richtig großer Wurf!",
+   "person": "Raimond Scheirich",
+   "party": "AfD",
+   "to_speaker": "Jörg Cezanne",
+   "to_party": "Linke",
+   "date": "2026-11-12"
+  },
+  {
+   "quote": "Sie wollen also nicht!",
+   "person": "Michael Kellner",
    "party": "Grüne",
-   "to_speaker": "Beatrix von Storch",
-   "to_party": "AfD",
-   "date": "2026-11-11"
+   "to_speaker": "Hans Koller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-12"
   },
   {
-   "quote": "Ich glaube, Sie haben meine Frage nicht verstanden!",
-   "person": "Lamya Kaddor",
+   "quote": "Und die Genehmigung auch?",
+   "person": "Katrin Uhlig",
    "party": "Grüne",
-   "to_speaker": "Beatrix von Storch",
-   "to_party": "AfD",
-   "date": "2026-11-11"
+   "to_speaker": "Hans Koller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-12"
   },
   {
-   "quote": "Sie haben meine Frage nicht verstanden! Sie haben die Frage nicht verstanden!",
-   "person": "Lamya Kaddor",
+   "quote": "Mit Genehmigung?",
+   "person": "Katrin Uhlig",
    "party": "Grüne",
-   "to_speaker": "Beatrix von Storch",
-   "to_party": "AfD",
-   "date": "2026-11-11"
+   "to_speaker": "Hans Koller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-12"
   },
   {
-   "quote": "Sie haben die Frage leider gar nicht verstanden!",
-   "person": "Lamya Kaddor",
-   "party": "Grüne",
-   "to_speaker": "Beatrix von Storch",
-   "to_party": "AfD",
-   "date": "2026-11-11"
-  },
-  {
-   "quote": "Es bleibt ein ganz schlechter Einstieg! Unglaublich!",
-   "person": "(Peter Boehringer",
-   "party": "AfD",
-   "to_speaker": "Mahmut Özdemir",
-   "to_party": "SPD",
-   "date": "2026-11-11"
-  },
-  {
-   "quote": "Es gibt keine Sippenhaft in Deutschland!",
-   "person": "Gegenruf des Abg. Jörn König",
-   "party": "AfD",
-   "to_speaker": "Beatrix von Storch",
-   "to_party": "AfD",
-   "date": "2026-11-11"
-  },
-  {
-   "quote": "Danke! Ist aber nicht nötig!",
-   "person": "Jörn König",
-   "party": "AfD",
-   "to_speaker": "Mahmut Özdemir",
-   "to_party": "SPD",
-   "date": "2026-11-11"
-  },
-  {
-   "quote": "Das ist ja an Niedertracht nicht mehr zu überbieten!",
-   "person": "Martin Hess",
-   "party": "AfD",
-   "to_speaker": "Mahmut Özdemir",
-   "to_party": "SPD",
-   "date": "2026-11-11"
-  },
-  {
-   "quote": "Ich lade Sie in mein Büro ein!",
-   "person": "Jörn König",
-   "party": "AfD",
-   "to_speaker": "Mahmut Özdemir",
-   "to_party": "SPD",
-   "date": "2026-11-11"
-  },
-  {
-   "quote": "Herr Özdemir, ich lade Sie in mein Büro ein!",
-   "person": "Jörn König",
-   "party": "AfD",
-   "to_speaker": "Mahmut Özdemir",
-   "to_party": "SPD",
-   "date": "2026-11-11"
-  },
-  {
-   "quote": "Machen Sie jetzt Freud’sche Psychoanalyse, oder wie?",
-   "person": "Jörn König",
-   "party": "AfD",
-   "to_speaker": "Mahmut Özdemir",
-   "to_party": "SPD",
-   "date": "2026-11-11"
-  },
-  {
-   "quote": "1945 waren noch gar keine Gastarbeitende hier, Mensch! Was erzählen Sie denn für einen Unsinn!",
-   "person": "Martin Hess",
-   "party": "AfD",
-   "to_speaker": "Mahmut Özdemir",
-   "to_party": "SPD",
-   "date": "2026-11-11"
-  },
-  {
-   "quote": "Herr Özdemir, Sie sind ein übler Hetzer! Nichts anderes sind Sie!",
-   "person": "Martin Hess",
-   "party": "AfD",
-   "to_speaker": "Mahmut Özdemir",
-   "to_party": "SPD",
-   "date": "2026-11-11"
-  },
-  {
-   "quote": "Ich bezweifle, dass Sie das auswendig können!",
-   "person": "Dunja Kreiser",
-   "party": "SPD",
-   "to_speaker": "Beatrix von Storch",
-   "to_party": "AfD",
-   "date": "2026-11-11"
-  },
-  {
-   "quote": "Ihre Familie war beteiligt an den NS-Verbrechen! Hören Sie auf, darüber zu reden!",
-   "person": "Clara Bünger",
+   "quote": "Sie bauen doch Gaskraftwerke aus!",
+   "person": "Dr. Fabian Fahl",
    "party": "Linke",
-   "to_speaker": "Beatrix von Storch",
-   "to_party": "AfD",
-   "date": "2026-11-11"
+   "to_speaker": "Hans Koller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-12"
+  },
+  {
+   "quote": "Brauchen wir nicht!",
+   "person": "Raimond Scheirich",
+   "party": "AfD",
+   "to_speaker": "Hans Koller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-12"
+  },
+  {
+   "quote": "Natürlich!",
+   "person": "Dr. Klaus Wiener",
+   "party": "CDU/CSU",
+   "to_speaker": "Hans Koller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-12"
+  },
+  {
+   "quote": "An den Steuern und an der Bürokratie, die Sie alle nach oben treiben!",
+   "person": "Marc Bernhard",
+   "party": "AfD",
+   "to_speaker": "Hans Koller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-12"
+  },
+  {
+   "quote": "„Auch“! „Auch“! „Auch“!",
+   "person": "Marc Bernhard",
+   "party": "AfD",
+   "to_speaker": "Hans Koller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-12"
+  },
+  {
+   "quote": "Das war jetzt aber sehr platt!",
+   "person": "Stefan Keuter",
+   "party": "AfD",
+   "to_speaker": "Hans Koller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-12"
+  },
+  {
+   "quote": "Aber das ist nicht zum Thema, ne?",
+   "person": "Steffen Kotré",
+   "party": "AfD",
+   "to_speaker": "Hans Koller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-12"
+  },
+  {
+   "quote": "Sie auch nicht, oder?",
+   "person": "Raimond Scheirich",
+   "party": "AfD",
+   "to_speaker": "Hans Koller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-12"
+  },
+  {
+   "quote": "Reaktivieren Sie unsere Kernkraftwerke endlich!",
+   "person": "Raimond Scheirich",
+   "party": "AfD",
+   "to_speaker": "Hans Koller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-12"
+  },
+  {
+   "quote": "Jetzt haben Sie ja noch keine tragende Funktion! In der Zukunft wird’s vielleicht was, wenn man noch ein paar Hundert Milliarden reinsteckt!",
+   "person": "Raimond Scheirich",
+   "party": "AfD",
+   "to_speaker": "Hans Koller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-12"
+  },
+  {
+   "quote": "Ach? Haben Sie Angst davor? So haben Sie das doch immer versprochen! Ziehen Sie jetzt den Schwanz ein? Mensch! Ich dachte, Sie kommen mit der Kettensäge und fällen die Windräder!",
+   "person": "Helge Limburg",
+   "party": "Grüne",
+   "to_speaker": "Hans Koller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-12"
   }
  ]
 }
