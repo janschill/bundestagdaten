@@ -67,16 +67,16 @@
    "n_reden": 27
   },
   {
-   "speaker": "Irene Mihalic",
-   "party": "Grüne",
-   "rate": 21.4,
-   "n_reden": 39
-  },
-  {
    "speaker": "Heike Heubach",
    "party": "SPD",
    "rate": 21.4,
    "n_reden": 15
+  },
+  {
+   "speaker": "Irene Mihalic",
+   "party": "Grüne",
+   "rate": 21.3,
+   "n_reden": 40
   },
   {
    "speaker": "Alaa Alhamwi",
@@ -95,12 +95,12 @@
   {
    "person": "Stephan Brandner",
    "party": "AfD",
-   "n": 2847
+   "n": 2883
   },
   {
    "person": "Dr. Götz Frömming",
    "party": "AfD",
-   "n": 1305
+   "n": 1328
   },
   {
    "person": "Martin Reichardt",
@@ -110,12 +110,12 @@
   {
    "person": "Dr. Bernd Baumann",
    "party": "AfD",
-   "n": 1041
+   "n": 1045
   },
   {
    "person": "Jörn König",
    "party": "AfD",
-   "n": 990
+   "n": 991
   },
   {
    "person": "Beatrix von Storch",
@@ -150,12 +150,12 @@
   {
    "person": "Marc Bernhard",
    "party": "AfD",
-   "n": 604
+   "n": 605
   },
   {
    "person": "Filiz Polat",
    "party": "Grüne",
-   "n": 587
+   "n": 590
   },
   {
    "person": "Claudia Roth",
@@ -163,9 +163,9 @@
    "n": 568
   },
   {
-   "person": "Enrico Komning",
+   "person": "Dr. Alice Weidel",
    "party": "AfD",
-   "n": 547
+   "n": 563
   }
  ]
 }

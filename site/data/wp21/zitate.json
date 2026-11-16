@@ -1,5 +1,5 @@
 {
- "gesamt": 45840,
+ "gesamt": 46159,
  "jahre": [
   2025,
   2026
@@ -7,27 +7,27 @@
  "haeufig": [
   {
    "quote": "Ja!",
-   "n": 460
+   "n": 465
   },
   {
    "quote": "Genau!",
-   "n": 451
+   "n": 456
   },
   {
    "quote": "So ist es!",
-   "n": 403
+   "n": 413
   },
   {
    "quote": "Hört! Hört!",
-   "n": 290
+   "n": 295
   },
   {
    "quote": "Richtig!",
-   "n": 247
+   "n": 249
   },
   {
    "quote": "Nein!",
-   "n": 179
+   "n": 181
   },
   {
    "quote": "Sehr gut!",
@@ -35,7 +35,7 @@
   },
   {
    "quote": "Aha!",
-   "n": 146
+   "n": 147
   },
   {
    "quote": "Sehr richtig!",
@@ -43,7 +43,7 @@
   },
   {
    "quote": "Doch!",
-   "n": 125
+   "n": 127
   },
   {
    "quote": "Was?",
@@ -51,169 +51,169 @@
   },
   {
    "quote": "Quatsch!",
-   "n": 104
+   "n": 106
   }
  ],
  "zuletzt": [
   {
-   "quote": "Dann fangen Sie mal endlich an!",
-   "person": "Dr. Götz Frömming",
+   "quote": "… wirkt nicht!",
+   "person": "Stephan Brandner",
    "party": "AfD",
-   "to_speaker": "Karl Lauterbach",
+   "to_speaker": "Stephan Mayer",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-13"
+  },
+  {
+   "quote": "Das hört man aber gar nicht!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Christian Moser",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-13"
+  },
+  {
+   "quote": "Irgendwas aussprechen und dann keine Fragen beantworten wollen! Das ist die AfD!",
+   "person": "Alexander Hoffmann",
+   "party": "CDU/CSU",
+   "to_speaker": "Alexander Wolf",
+   "to_party": "AfD",
+   "date": "2026-11-13"
+  },
+  {
+   "quote": "Schauen Sie mal in Ihre Reihen!",
+   "person": "Sebastian Fiedler",
+   "party": "SPD",
+   "to_speaker": "Alexander Wolf",
+   "to_party": "AfD",
+   "date": "2026-11-13"
+  },
+  {
+   "quote": "Haben Sie doch gemacht!",
+   "person": "Dr. Alexander Wolf",
+   "party": "AfD",
+   "to_speaker": "Ralf Stegner",
    "to_party": "SPD",
-   "date": "2026-11-12"
+   "date": "2026-11-13"
   },
   {
-   "quote": "Er hatte Geburtstag! Vielleicht deshalb!",
-   "person": "Agnieszka Brugger",
-   "party": "Grüne",
-   "to_speaker": "Sara Nanni",
-   "to_party": "Grüne",
-   "date": "2026-11-12"
-  },
-  {
-   "quote": "Was ist dann mit den Speichern, die wir dringend brauchen?",
-   "person": "Lars Rohwer",
-   "party": "CDU/CSU",
-   "to_speaker": "Katrin Uhlig",
-   "to_party": "Grüne",
-   "date": "2026-11-12"
-  },
-  {
-   "quote": "Dieses Netz braucht Speicher! Die haben Sie nicht geschaffen!",
-   "person": "Lars Rohwer",
-   "party": "CDU/CSU",
-   "to_speaker": "Katrin Uhlig",
-   "to_party": "Grüne",
-   "date": "2026-11-12"
-  },
-  {
-   "quote": "Das hat man vor zehn Jahren schon gesagt! Es ist gar nichts passiert!",
-   "person": "Dr. Rainer Kraft",
+   "quote": "Der Kollege Gnauck wurde persönlich angesprochen!",
+   "person": "Jörn König",
    "party": "AfD",
-   "to_speaker": "Jörg Cezanne",
-   "to_party": "Linke",
-   "date": "2026-11-12"
+   "to_speaker": "Ralf Stegner",
+   "to_party": "SPD",
+   "date": "2026-11-13"
   },
   {
-   "quote": "Bei 600 Euro pro Megawattstunde ist das ein richtig großer Wurf!",
-   "person": "Raimond Scheirich",
+   "quote": "Was soll das denn?",
+   "person": "Dr. Bernd Baumann",
    "party": "AfD",
-   "to_speaker": "Jörg Cezanne",
-   "to_party": "Linke",
-   "date": "2026-11-12"
+   "to_speaker": "Ralf Stegner",
+   "to_party": "SPD",
+   "date": "2026-11-13"
   },
   {
-   "quote": "Sie wollen also nicht!",
-   "person": "Michael Kellner",
+   "quote": "Was soll das? Die anderen rufen andauernd rein!",
+   "person": "Dr. Bernd Baumann",
+   "party": "AfD",
+   "to_speaker": "Ralf Stegner",
+   "to_party": "SPD",
+   "date": "2026-11-13"
+  },
+  {
+   "quote": "Die anderen rufen andauernd rein!",
+   "person": "Dr. Alice Weidel",
+   "party": "AfD",
+   "to_speaker": "Ralf Stegner",
+   "to_party": "SPD",
+   "date": "2026-11-13"
+  },
+  {
+   "quote": "Sie machen sich lächerlich!",
+   "person": "Dr. Alice Weidel",
+   "party": "AfD",
+   "to_speaker": "Ralf Stegner",
+   "to_party": "SPD",
+   "date": "2026-11-13"
+  },
+  {
+   "quote": "Ja!",
+   "person": "Dr. Alice Weidel",
+   "party": "AfD",
+   "to_speaker": "Alexander Wolf",
+   "to_party": "AfD",
+   "date": "2026-11-13"
+  },
+  {
+   "quote": "Die Entscheidungen der Präsidentin werden nicht kommentiert!",
+   "person": "Dr. Günter Krings",
+   "party": "CDU/CSU",
+   "to_speaker": "Alexander Wolf",
+   "to_party": "AfD",
+   "date": "2026-11-13"
+  },
+  {
+   "quote": "War das eine Kommentierung der Sitzungsleitung?",
+   "person": "Catarina dos Santos-Wintz",
+   "party": "CDU/CSU",
+   "to_speaker": "Alexander Wolf",
+   "to_party": "AfD",
+   "date": "2026-11-13"
+  },
+  {
+   "quote": "Der 13.!",
+   "person": "Tino Sorge",
+   "party": "CDU/CSU",
+   "to_speaker": "Alexander Wolf",
+   "to_party": "AfD",
+   "date": "2026-11-13"
+  },
+  {
+   "quote": "Auch am Freitag!",
+   "person": "Dr. Konstantin von Notz",
    "party": "Grüne",
-   "to_speaker": "Hans Koller",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-12"
+   "to_speaker": "Alexander Wolf",
+   "to_party": "AfD",
+   "date": "2026-11-13"
   },
   {
-   "quote": "Und die Genehmigung auch?",
-   "person": "Katrin Uhlig",
+   "quote": "Das machen Sie doch!",
+   "person": "Mayra Vriesema",
    "party": "Grüne",
-   "to_speaker": "Hans Koller",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-12"
+   "to_speaker": "Alexander Wolf",
+   "to_party": "AfD",
+   "date": "2026-11-13"
   },
   {
-   "quote": "Mit Genehmigung?",
-   "person": "Katrin Uhlig",
+   "quote": "Vor dem Gericht, das Sie gerade kritisiert haben, ne?",
+   "person": "Sonja Eichwede",
+   "party": "SPD",
+   "to_speaker": "Alexander Wolf",
+   "to_party": "AfD",
+   "date": "2026-11-13"
+  },
+  {
+   "quote": "Sie müssen sich auch mal entscheiden, was Sie von Karlsruhe halten!",
+   "person": "Marcel Emmerich",
    "party": "Grüne",
-   "to_speaker": "Hans Koller",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-12"
+   "to_speaker": "Alexander Wolf",
+   "to_party": "AfD",
+   "date": "2026-11-13"
   },
   {
-   "quote": "Sie bauen doch Gaskraftwerke aus!",
-   "person": "Dr. Fabian Fahl",
+   "quote": "Aber ihr macht es trotzdem! Ihr macht es trotzdem!",
+   "person": "Janine Wissler",
    "party": "Linke",
-   "to_speaker": "Hans Koller",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-12"
+   "to_speaker": "Daniel Baldy",
+   "to_party": "SPD",
+   "date": "2026-11-13"
   },
   {
-   "quote": "Brauchen wir nicht!",
-   "person": "Raimond Scheirich",
-   "party": "AfD",
-   "to_speaker": "Hans Koller",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-12"
-  },
-  {
-   "quote": "Natürlich!",
-   "person": "Dr. Klaus Wiener",
+   "quote": "Das passt nicht zu Ihrem Vorredner!]",
+   "person": "Marc Henrichmann",
    "party": "CDU/CSU",
-   "to_speaker": "Hans Koller",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-12"
-  },
-  {
-   "quote": "An den Steuern und an der Bürokratie, die Sie alle nach oben treiben!",
-   "person": "Marc Bernhard",
-   "party": "AfD",
-   "to_speaker": "Hans Koller",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-12"
-  },
-  {
-   "quote": "„Auch“! „Auch“! „Auch“!",
-   "person": "Marc Bernhard",
-   "party": "AfD",
-   "to_speaker": "Hans Koller",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-12"
-  },
-  {
-   "quote": "Das war jetzt aber sehr platt!",
-   "person": "Stefan Keuter",
-   "party": "AfD",
-   "to_speaker": "Hans Koller",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-12"
-  },
-  {
-   "quote": "Aber das ist nicht zum Thema, ne?",
-   "person": "Steffen Kotré",
-   "party": "AfD",
-   "to_speaker": "Hans Koller",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-12"
-  },
-  {
-   "quote": "Sie auch nicht, oder?",
-   "person": "Raimond Scheirich",
-   "party": "AfD",
-   "to_speaker": "Hans Koller",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-12"
-  },
-  {
-   "quote": "Reaktivieren Sie unsere Kernkraftwerke endlich!",
-   "person": "Raimond Scheirich",
-   "party": "AfD",
-   "to_speaker": "Hans Koller",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-12"
-  },
-  {
-   "quote": "Jetzt haben Sie ja noch keine tragende Funktion! In der Zukunft wird’s vielleicht was, wenn man noch ein paar Hundert Milliarden reinsteckt!",
-   "person": "Raimond Scheirich",
-   "party": "AfD",
-   "to_speaker": "Hans Koller",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-12"
-  },
-  {
-   "quote": "Ach? Haben Sie Angst davor? So haben Sie das doch immer versprochen! Ziehen Sie jetzt den Schwanz ein? Mensch! Ich dachte, Sie kommen mit der Kettensäge und fällen die Windräder!",
-   "person": "Helge Limburg",
-   "party": "Grüne",
-   "to_speaker": "Hans Koller",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-12"
+   "to_speaker": "Alexander Wolf",
+   "to_party": "AfD",
+   "date": "2026-11-13"
   }
  ]
 }
