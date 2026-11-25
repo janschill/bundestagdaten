@@ -1,5 +1,5 @@
 {
- "gesamt": 46159,
+ "gesamt": 46562,
  "jahre": [
   2025,
   2026
@@ -7,31 +7,31 @@
  "haeufig": [
   {
    "quote": "Ja!",
-   "n": 465
+   "n": 471
   },
   {
    "quote": "Genau!",
-   "n": 456
+   "n": 463
   },
   {
    "quote": "So ist es!",
-   "n": 413
+   "n": 417
   },
   {
    "quote": "Hört! Hört!",
-   "n": 295
+   "n": 297
   },
   {
    "quote": "Richtig!",
-   "n": 249
+   "n": 250
   },
   {
    "quote": "Nein!",
-   "n": 181
+   "n": 182
   },
   {
    "quote": "Sehr gut!",
-   "n": 149
+   "n": 150
   },
   {
    "quote": "Aha!",
@@ -43,7 +43,7 @@
   },
   {
    "quote": "Doch!",
-   "n": 127
+   "n": 128
   },
   {
    "quote": "Was?",
@@ -51,169 +51,169 @@
   },
   {
    "quote": "Quatsch!",
-   "n": 106
+   "n": 107
   }
  ],
  "zuletzt": [
   {
-   "quote": "… wirkt nicht!",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Stephan Mayer",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Das hört man aber gar nicht!",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Christian Moser",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Irgendwas aussprechen und dann keine Fragen beantworten wollen! Das ist die AfD!",
-   "person": "Alexander Hoffmann",
+   "quote": "Gar nicht widerspruchsfrei!",
+   "person": "Dr. Inge Gräßle",
    "party": "CDU/CSU",
-   "to_speaker": "Alexander Wolf",
+   "to_speaker": "Michael Kaufmann",
    "to_party": "AfD",
-   "date": "2026-11-13"
+   "date": "2026-11-24"
   },
   {
-   "quote": "Schauen Sie mal in Ihre Reihen!",
-   "person": "Sebastian Fiedler",
-   "party": "SPD",
-   "to_speaker": "Alexander Wolf",
-   "to_party": "AfD",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Haben Sie doch gemacht!",
-   "person": "Dr. Alexander Wolf",
-   "party": "AfD",
-   "to_speaker": "Ralf Stegner",
-   "to_party": "SPD",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Der Kollege Gnauck wurde persönlich angesprochen!",
-   "person": "Jörn König",
-   "party": "AfD",
-   "to_speaker": "Ralf Stegner",
-   "to_party": "SPD",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Was soll das denn?",
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "to_speaker": "Ralf Stegner",
-   "to_party": "SPD",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Was soll das? Die anderen rufen andauernd rein!",
-   "person": "Dr. Bernd Baumann",
-   "party": "AfD",
-   "to_speaker": "Ralf Stegner",
-   "to_party": "SPD",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Die anderen rufen andauernd rein!",
-   "person": "Dr. Alice Weidel",
-   "party": "AfD",
-   "to_speaker": "Ralf Stegner",
-   "to_party": "SPD",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Sie machen sich lächerlich!",
-   "person": "Dr. Alice Weidel",
-   "party": "AfD",
-   "to_speaker": "Ralf Stegner",
-   "to_party": "SPD",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Ja!",
-   "person": "Dr. Alice Weidel",
-   "party": "AfD",
-   "to_speaker": "Alexander Wolf",
-   "to_party": "AfD",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Die Entscheidungen der Präsidentin werden nicht kommentiert!",
-   "person": "Dr. Günter Krings",
-   "party": "CDU/CSU",
-   "to_speaker": "Alexander Wolf",
-   "to_party": "AfD",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "War das eine Kommentierung der Sitzungsleitung?",
-   "person": "Catarina dos Santos-Wintz",
-   "party": "CDU/CSU",
-   "to_speaker": "Alexander Wolf",
-   "to_party": "AfD",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Der 13.!",
-   "person": "Tino Sorge",
-   "party": "CDU/CSU",
-   "to_speaker": "Alexander Wolf",
-   "to_party": "AfD",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Auch am Freitag!",
-   "person": "Dr. Konstantin von Notz",
-   "party": "Grüne",
-   "to_speaker": "Alexander Wolf",
-   "to_party": "AfD",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Das machen Sie doch!",
-   "person": "Mayra Vriesema",
-   "party": "Grüne",
-   "to_speaker": "Alexander Wolf",
-   "to_party": "AfD",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Vor dem Gericht, das Sie gerade kritisiert haben, ne?",
-   "person": "Sonja Eichwede",
-   "party": "SPD",
-   "to_speaker": "Alexander Wolf",
-   "to_party": "AfD",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Sie müssen sich auch mal entscheiden, was Sie von Karlsruhe halten!",
-   "person": "Marcel Emmerich",
-   "party": "Grüne",
-   "to_speaker": "Alexander Wolf",
-   "to_party": "AfD",
-   "date": "2026-11-13"
-  },
-  {
-   "quote": "Aber ihr macht es trotzdem! Ihr macht es trotzdem!",
-   "person": "Janine Wissler",
+   "quote": "Die vor allem vom Klimawandel betroffen sind!",
+   "person": "Ina Latendorf",
    "party": "Linke",
-   "to_speaker": "Daniel Baldy",
-   "to_party": "SPD",
-   "date": "2026-11-13"
+   "to_speaker": "Andreas Bleck",
+   "to_party": "AfD",
+   "date": "2026-11-24"
   },
   {
-   "quote": "Das passt nicht zu Ihrem Vorredner!]",
-   "person": "Marc Henrichmann",
-   "party": "CDU/CSU",
-   "to_speaker": "Alexander Wolf",
+   "quote": "Und noch 500 000 Reiche erschießen, dann passt es, oder?",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Violetta Bock",
+   "to_party": "Linke",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "Eine der klügsten Entscheidungen von Merz bisher!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Violetta Bock",
+   "to_party": "Linke",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "Das war ein bisschen ChatGPT, oder?",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Violetta Bock",
+   "to_party": "Linke",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "Welches denn? Hat das irgendjemand gemerkt?",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Dunja Kreiser",
+   "to_party": "SPD",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "Ihr beschließt die ganze Zeit Rückschritte!",
+   "person": "Lisa Badum",
+   "party": "Grüne",
+   "to_speaker": "Dunja Kreiser",
+   "to_party": "SPD",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "Wenn man jetzt noch wüsste, was das alles ist in Wirklichkeit!",
+   "person": "Dr. Ingo Hahn",
+   "party": "AfD",
+   "to_speaker": "Dunja Kreiser",
+   "to_party": "SPD",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "„Klimaschmutz“!",
+   "person": "Lisa Badum",
+   "party": "Grüne",
+   "to_speaker": "Dunja Kreiser",
+   "to_party": "SPD",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "„Klimaschmutz“!",
+   "person": "Thomas Korell",
+   "party": "AfD",
+   "to_speaker": "Dunja Kreiser",
+   "to_party": "SPD",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "Lassen Sie Gott da raus! Gottlose Partei!",
+   "person": "Lisa Badum",
+   "party": "Grüne",
+   "to_speaker": "Andreas Bleck",
    "to_party": "AfD",
-   "date": "2026-11-13"
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "Waren Sie da?",
+   "person": "Lisa Badum",
+   "party": "Grüne",
+   "to_speaker": "Andreas Bleck",
+   "to_party": "AfD",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "Wie respektlos sind Sie eigentlich?",
+   "person": "Jakob Blankenburg",
+   "party": "SPD",
+   "to_speaker": "Andreas Bleck",
+   "to_party": "AfD",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "Quasi umsonst fahren!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Carsten Schneider",
+   "to_party": "Bundesminister BMUKN",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "Respektlos! Respektlos Menschen und Ländern gegenüber!",
+   "person": "Lisa Badum",
+   "party": "Grüne",
+   "to_speaker": "Andreas Bleck",
+   "to_party": "AfD",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "Und was ist mit China? Das werden Sie natürlich nicht erwähnen, oder?",
+   "person": "Lisa Badum",
+   "party": "Grüne",
+   "to_speaker": "Andreas Bleck",
+   "to_party": "AfD",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "Mit Irrtum kennen Sie sich aus!",
+   "person": "Helge Limburg",
+   "party": "Grüne",
+   "to_speaker": "Andreas Bleck",
+   "to_party": "AfD",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "Was für eine Botschaft!",
+   "person": "Harald Ebner",
+   "party": "Grüne",
+   "to_speaker": "Klaus Mack",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "Sehr witzig! Hahaha!",
+   "person": "Dr. Hendrik Hoppenstedt",
+   "party": "CDU/CSU",
+   "to_speaker": "Jan-Niclas Gesenhues",
+   "to_party": "Grüne",
+   "date": "2026-11-24"
+  },
+  {
+   "quote": "Haben wir schon 2030? Nee, haben wir nicht!",
+   "person": "Uwe Feiler",
+   "party": "CDU/CSU",
+   "to_speaker": "Jan-Niclas Gesenhues",
+   "to_party": "Grüne",
+   "date": "2026-11-24"
   }
  ]
 }
