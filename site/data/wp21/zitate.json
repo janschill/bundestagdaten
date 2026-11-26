@@ -1,5 +1,5 @@
 {
- "gesamt": 46562,
+ "gesamt": 46999,
  "jahre": [
   2025,
   2026
@@ -7,23 +7,23 @@
  "haeufig": [
   {
    "quote": "Ja!",
-   "n": 471
+   "n": 478
   },
   {
    "quote": "Genau!",
-   "n": 463
+   "n": 466
   },
   {
    "quote": "So ist es!",
-   "n": 417
+   "n": 419
   },
   {
    "quote": "Hört! Hört!",
-   "n": 297
+   "n": 299
   },
   {
    "quote": "Richtig!",
-   "n": 250
+   "n": 251
   },
   {
    "quote": "Nein!",
@@ -31,11 +31,11 @@
   },
   {
    "quote": "Sehr gut!",
-   "n": 150
+   "n": 152
   },
   {
    "quote": "Aha!",
-   "n": 147
+   "n": 148
   },
   {
    "quote": "Sehr richtig!",
@@ -43,177 +43,177 @@
   },
   {
    "quote": "Doch!",
-   "n": 128
+   "n": 131
   },
   {
    "quote": "Was?",
-   "n": 110
+   "n": 111
   },
   {
    "quote": "Quatsch!",
-   "n": 107
+   "n": 109
   }
  ],
  "zuletzt": [
   {
-   "quote": "Gar nicht widerspruchsfrei!",
-   "person": "Dr. Inge Gräßle",
-   "party": "CDU/CSU",
-   "to_speaker": "Michael Kaufmann",
-   "to_party": "AfD",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "Die vor allem vom Klimawandel betroffen sind!",
-   "person": "Ina Latendorf",
-   "party": "Linke",
-   "to_speaker": "Andreas Bleck",
-   "to_party": "AfD",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "Und noch 500 000 Reiche erschießen, dann passt es, oder?",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Violetta Bock",
-   "to_party": "Linke",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "Eine der klügsten Entscheidungen von Merz bisher!",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Violetta Bock",
-   "to_party": "Linke",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "Das war ein bisschen ChatGPT, oder?",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Violetta Bock",
-   "to_party": "Linke",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "Welches denn? Hat das irgendjemand gemerkt?",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Dunja Kreiser",
-   "to_party": "SPD",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "Ihr beschließt die ganze Zeit Rückschritte!",
-   "person": "Lisa Badum",
+   "quote": "Die fordere ich auch!",
+   "person": "Schahina Gambir",
    "party": "Grüne",
-   "to_speaker": "Dunja Kreiser",
-   "to_party": "SPD",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "Wenn man jetzt noch wüsste, was das alles ist in Wirklichkeit!",
-   "person": "Dr. Ingo Hahn",
-   "party": "AfD",
-   "to_speaker": "Dunja Kreiser",
-   "to_party": "SPD",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "„Klimaschmutz“!",
-   "person": "Lisa Badum",
-   "party": "Grüne",
-   "to_speaker": "Dunja Kreiser",
-   "to_party": "SPD",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "„Klimaschmutz“!",
-   "person": "Thomas Korell",
-   "party": "AfD",
-   "to_speaker": "Dunja Kreiser",
-   "to_party": "SPD",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "Lassen Sie Gott da raus! Gottlose Partei!",
-   "person": "Lisa Badum",
-   "party": "Grüne",
-   "to_speaker": "Andreas Bleck",
-   "to_party": "AfD",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "Waren Sie da?",
-   "person": "Lisa Badum",
-   "party": "Grüne",
-   "to_speaker": "Andreas Bleck",
-   "to_party": "AfD",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "Wie respektlos sind Sie eigentlich?",
-   "person": "Jakob Blankenburg",
-   "party": "SPD",
-   "to_speaker": "Andreas Bleck",
-   "to_party": "AfD",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "Quasi umsonst fahren!",
-   "person": "Stephan Brandner",
-   "party": "AfD",
-   "to_speaker": "Carsten Schneider",
-   "to_party": "Bundesminister BMUKN",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "Respektlos! Respektlos Menschen und Ländern gegenüber!",
-   "person": "Lisa Badum",
-   "party": "Grüne",
-   "to_speaker": "Andreas Bleck",
-   "to_party": "AfD",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "Und was ist mit China? Das werden Sie natürlich nicht erwähnen, oder?",
-   "person": "Lisa Badum",
-   "party": "Grüne",
-   "to_speaker": "Andreas Bleck",
-   "to_party": "AfD",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "Mit Irrtum kennen Sie sich aus!",
-   "person": "Helge Limburg",
-   "party": "Grüne",
-   "to_speaker": "Andreas Bleck",
-   "to_party": "AfD",
-   "date": "2026-11-24"
-  },
-  {
-   "quote": "Was für eine Botschaft!",
-   "person": "Harald Ebner",
-   "party": "Grüne",
-   "to_speaker": "Klaus Mack",
+   "to_speaker": "Nicolas Zippelius",
    "to_party": "CDU/CSU",
-   "date": "2026-11-24"
+   "date": "2026-11-25"
   },
   {
-   "quote": "Sehr witzig! Hahaha!",
-   "person": "Dr. Hendrik Hoppenstedt",
+   "quote": "Ein Zechpreller!",
+   "person": "Thorsten Frei",
    "party": "CDU/CSU",
-   "to_speaker": "Jan-Niclas Gesenhues",
-   "to_party": "Grüne",
-   "date": "2026-11-24"
+   "to_speaker": "Alexander Hoffmann",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-25"
   },
   {
-   "quote": "Haben wir schon 2030? Nee, haben wir nicht!",
-   "person": "Uwe Feiler",
-   "party": "CDU/CSU",
-   "to_speaker": "Jan-Niclas Gesenhues",
+   "quote": "Das glauben Sie doch selber nicht!",
+   "person": "Tino Chrupalla",
+   "party": "AfD",
+   "to_speaker": "Alexander Hoffmann",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Deutschland nicht!",
+   "person": "Tino Chrupalla",
+   "party": "AfD",
+   "to_speaker": "Alexander Hoffmann",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Doch!",
+   "person": "Dr. Alice Weidel",
+   "party": "AfD",
+   "to_speaker": "Alexander Hoffmann",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Das haben wir doch jetzt schon gezahlt durch Ihre Sanktionen!",
+   "person": "Tino Chrupalla",
+   "party": "AfD",
+   "to_speaker": "Alexander Hoffmann",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Was kostet ein Krieg gegen Russland? Fragen Sie mal unsere Großväter, was der kostet! 5 Millionen tote deutsche Soldaten! Wahnsinn! Unverantwortlich!",
+   "person": "Dr. Götz Frömming",
+   "party": "AfD",
+   "to_speaker": "Alexander Hoffmann",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Wer regiert denn da?",
+   "person": "Dr. Götz Frömming",
+   "party": "AfD",
+   "to_speaker": "Alexander Hoffmann",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Sven Schulze ist Ministerpräsident!",
+   "person": "Tino Chrupalla",
+   "party": "AfD",
+   "to_speaker": "Alexander Hoffmann",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Wer regiert denn?",
+   "person": "Dr. Götz Frömming",
+   "party": "AfD",
+   "to_speaker": "Alexander Hoffmann",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Es gibt doch gar keinen!",
+   "person": "Tino Chrupalla",
+   "party": "AfD",
+   "to_speaker": "Alexander Hoffmann",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Es regiert Herr Schulze!",
+   "person": "Tino Chrupalla",
+   "party": "AfD",
+   "to_speaker": "Alexander Hoffmann",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Cool! Und er sieht auch sehr gut aus!",
+   "person": "Dr. Alice Weidel",
+   "party": "AfD",
+   "to_speaker": "Alexander Hoffmann",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Der erste Satz ist selbstvergessen! Kritik kann man benennen, aber Gleichsetzung ist selbstvergessen!",
+   "person": "Andreas Audretsch",
+   "party": "Grüne",
+   "to_speaker": "Alexander Hoffmann",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Für die Grünen!",
+   "person": "Dr. Götz Frömming",
+   "party": "AfD",
+   "to_speaker": "Anton Hofreiter",
    "to_party": "Grüne",
-   "date": "2026-11-24"
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Ich sage Ihnen: Das ist selbst- und demokratievergessen, diese Gleichsetzung zu machen! Kritisieren Sie! Bringen Sie jede Kritik an! Aber setzen Sie nicht gleich!",
+   "person": "Andreas Audretsch",
+   "party": "Grüne",
+   "to_speaker": "Alexander Hoffmann",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Sehr gute Idee!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Martin Erwin Renner",
+   "to_party": "AfD",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Oah!",
+   "person": "Claudia Roth",
+   "party": "Grüne",
+   "to_speaker": "Martin Erwin Renner",
+   "to_party": "AfD",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Natürlich!",
+   "person": "Claudia Roth",
+   "party": "Grüne",
+   "to_speaker": "Martin Erwin Renner",
+   "to_party": "AfD",
+   "date": "2026-11-25"
+  },
+  {
+   "quote": "Bingo!",
+   "person": "Derya Türk-Nachbaur",
+   "party": "SPD",
+   "to_speaker": "Martin Erwin Renner",
+   "to_party": "AfD",
+   "date": "2026-11-25"
   }
  ]
 }

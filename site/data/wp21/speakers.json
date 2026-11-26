@@ -19,12 +19,6 @@
    "n_reden": 19
   },
   {
-   "speaker": "Matthias Miersch",
-   "party": "SPD",
-   "rate": 23.4,
-   "n_reden": 13
-  },
-  {
    "speaker": "Josephine Ortleb",
    "party": "SPD",
    "rate": 23.3,
@@ -49,6 +43,12 @@
    "n_reden": 20
   },
   {
+   "speaker": "Matthias Miersch",
+   "party": "SPD",
+   "rate": 22.4,
+   "n_reden": 14
+  },
+  {
    "speaker": "Marc Biadacz",
    "party": "CDU/CSU",
    "rate": 22.2,
@@ -57,14 +57,14 @@
   {
    "speaker": "Britta Haßelmann",
    "party": "Grüne",
-   "rate": 22.2,
-   "n_reden": 14
+   "rate": 22.1,
+   "n_reden": 15
   },
   {
    "speaker": "Schahina Gambir",
    "party": "Grüne",
-   "rate": 21.6,
-   "n_reden": 27
+   "rate": 21.9,
+   "n_reden": 28
   },
   {
    "speaker": "Heike Heubach",
@@ -95,12 +95,12 @@
   {
    "person": "Stephan Brandner",
    "party": "AfD",
-   "n": 2965
+   "n": 2973
   },
   {
    "person": "Dr. Götz Frömming",
    "party": "AfD",
-   "n": 1332
+   "n": 1357
   },
   {
    "person": "Martin Reichardt",
@@ -110,27 +110,27 @@
   {
    "person": "Dr. Bernd Baumann",
    "party": "AfD",
-   "n": 1045
+   "n": 1064
   },
   {
    "person": "Jörn König",
    "party": "AfD",
-   "n": 992
+   "n": 1000
   },
   {
    "person": "Beatrix von Storch",
    "party": "AfD",
-   "n": 893
+   "n": 907
   },
   {
    "person": "Dr. Johannes Fechner",
    "party": "SPD",
-   "n": 863
+   "n": 874
   },
   {
    "person": "Britta Haßelmann",
    "party": "Grüne",
-   "n": 845
+   "n": 857
   },
   {
    "person": "Kay Gottschalk",
@@ -145,7 +145,17 @@
   {
    "person": "Markus Frohnmaier",
    "party": "AfD",
-   "n": 666
+   "n": 681
+  },
+  {
+   "person": "Dr. Alice Weidel",
+   "party": "AfD",
+   "n": 617
+  },
+  {
+   "person": "Claudia Roth",
+   "party": "Grüne",
+   "n": 608
   },
   {
    "person": "Marc Bernhard",
@@ -155,17 +165,7 @@
   {
    "person": "Filiz Polat",
    "party": "Grüne",
-   "n": 592
-  },
-  {
-   "person": "Claudia Roth",
-   "party": "Grüne",
-   "n": 568
-  },
-  {
-   "person": "Dr. Alice Weidel",
-   "party": "AfD",
-   "n": 568
+   "n": 600
   }
  ]
 }
