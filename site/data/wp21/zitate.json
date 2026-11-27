@@ -1,5 +1,5 @@
 {
- "gesamt": 46999,
+ "gesamt": 47487,
  "jahre": [
   2025,
   2026
@@ -7,23 +7,23 @@
  "haeufig": [
   {
    "quote": "Ja!",
-   "n": 478
+   "n": 481
   },
   {
    "quote": "Genau!",
-   "n": 466
+   "n": 469
   },
   {
    "quote": "So ist es!",
-   "n": 419
+   "n": 422
   },
   {
    "quote": "Hört! Hört!",
-   "n": 299
+   "n": 301
   },
   {
    "quote": "Richtig!",
-   "n": 251
+   "n": 257
   },
   {
    "quote": "Nein!",
@@ -31,15 +31,15 @@
   },
   {
    "quote": "Sehr gut!",
-   "n": 152
+   "n": 153
   },
   {
    "quote": "Aha!",
-   "n": 148
+   "n": 149
   },
   {
    "quote": "Sehr richtig!",
-   "n": 136
+   "n": 137
   },
   {
    "quote": "Doch!",
@@ -47,7 +47,7 @@
   },
   {
    "quote": "Was?",
-   "n": 111
+   "n": 112
   },
   {
    "quote": "Quatsch!",
@@ -56,164 +56,164 @@
  ],
  "zuletzt": [
   {
-   "quote": "Die fordere ich auch!",
-   "person": "Schahina Gambir",
-   "party": "Grüne",
-   "to_speaker": "Nicolas Zippelius",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-25"
-  },
-  {
-   "quote": "Ein Zechpreller!",
-   "person": "Thorsten Frei",
-   "party": "CDU/CSU",
-   "to_speaker": "Alexander Hoffmann",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-25"
-  },
-  {
-   "quote": "Das glauben Sie doch selber nicht!",
-   "person": "Tino Chrupalla",
+   "quote": "Ich kriege dafür immer Ordnungsrufe!",
+   "person": "Martin Reichardt",
    "party": "AfD",
-   "to_speaker": "Alexander Hoffmann",
+   "to_speaker": "Christoph Naser",
    "to_party": "CDU/CSU",
-   "date": "2026-11-25"
+   "date": "2026-11-26"
   },
   {
-   "quote": "Deutschland nicht!",
-   "person": "Tino Chrupalla",
-   "party": "AfD",
-   "to_speaker": "Alexander Hoffmann",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-25"
-  },
-  {
-   "quote": "Doch!",
-   "person": "Dr. Alice Weidel",
-   "party": "AfD",
-   "to_speaker": "Alexander Hoffmann",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-25"
-  },
-  {
-   "quote": "Das haben wir doch jetzt schon gezahlt durch Ihre Sanktionen!",
-   "person": "Tino Chrupalla",
-   "party": "AfD",
-   "to_speaker": "Alexander Hoffmann",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-25"
-  },
-  {
-   "quote": "Was kostet ein Krieg gegen Russland? Fragen Sie mal unsere Großväter, was der kostet! 5 Millionen tote deutsche Soldaten! Wahnsinn! Unverantwortlich!",
-   "person": "Dr. Götz Frömming",
-   "party": "AfD",
-   "to_speaker": "Alexander Hoffmann",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-25"
-  },
-  {
-   "quote": "Wer regiert denn da?",
-   "person": "Dr. Götz Frömming",
-   "party": "AfD",
-   "to_speaker": "Alexander Hoffmann",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-25"
-  },
-  {
-   "quote": "Sven Schulze ist Ministerpräsident!",
-   "person": "Tino Chrupalla",
-   "party": "AfD",
-   "to_speaker": "Alexander Hoffmann",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-25"
-  },
-  {
-   "quote": "Wer regiert denn?",
-   "person": "Dr. Götz Frömming",
-   "party": "AfD",
-   "to_speaker": "Alexander Hoffmann",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-25"
-  },
-  {
-   "quote": "Es gibt doch gar keinen!",
-   "person": "Tino Chrupalla",
-   "party": "AfD",
-   "to_speaker": "Alexander Hoffmann",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-25"
-  },
-  {
-   "quote": "Es regiert Herr Schulze!",
-   "person": "Tino Chrupalla",
-   "party": "AfD",
-   "to_speaker": "Alexander Hoffmann",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-25"
-  },
-  {
-   "quote": "Cool! Und er sieht auch sehr gut aus!",
-   "person": "Dr. Alice Weidel",
-   "party": "AfD",
-   "to_speaker": "Alexander Hoffmann",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-25"
-  },
-  {
-   "quote": "Der erste Satz ist selbstvergessen! Kritik kann man benennen, aber Gleichsetzung ist selbstvergessen!",
-   "person": "Andreas Audretsch",
-   "party": "Grüne",
-   "to_speaker": "Alexander Hoffmann",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-25"
-  },
-  {
-   "quote": "Für die Grünen!",
-   "person": "Dr. Götz Frömming",
-   "party": "AfD",
-   "to_speaker": "Anton Hofreiter",
-   "to_party": "Grüne",
-   "date": "2026-11-25"
-  },
-  {
-   "quote": "Ich sage Ihnen: Das ist selbst- und demokratievergessen, diese Gleichsetzung zu machen! Kritisieren Sie! Bringen Sie jede Kritik an! Aber setzen Sie nicht gleich!",
-   "person": "Andreas Audretsch",
-   "party": "Grüne",
-   "to_speaker": "Alexander Hoffmann",
-   "to_party": "CDU/CSU",
-   "date": "2026-11-25"
-  },
-  {
-   "quote": "Sehr gute Idee!",
+   "quote": "Was? Und Frauenfeindlichkeit nicht vergessen!",
    "person": "Stephan Brandner",
    "party": "AfD",
-   "to_speaker": "Martin Erwin Renner",
-   "to_party": "AfD",
-   "date": "2026-11-25"
+   "to_speaker": "Carl-Philipp Sassenrath",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-26"
   },
   {
-   "quote": "Oah!",
-   "person": "Claudia Roth",
+   "quote": "Sie haben sie gemacht, die Probleme! Das ist noch viel schlimmer!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Carl-Philipp Sassenrath",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-26"
+  },
+  {
+   "quote": "Ja, das wollen wir auch! Da sind wir uns ja einig!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Carl-Philipp Sassenrath",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-26"
+  },
+  {
+   "quote": "Orientierungslosigkeit?",
+   "person": "Dr. Sandra Detzer",
    "party": "Grüne",
-   "to_speaker": "Martin Erwin Renner",
-   "to_party": "AfD",
-   "date": "2026-11-25"
+   "to_speaker": "Carl-Philipp Sassenrath",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-26"
   },
   {
-   "quote": "Natürlich!",
-   "person": "Claudia Roth",
+   "quote": "Ausgaben und Schulden explodieren!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Carl-Philipp Sassenrath",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-26"
+  },
+  {
+   "quote": "Ja, dann machen Sie was dagegen! Sie regieren doch!",
+   "person": "Stephan Brandner",
+   "party": "AfD",
+   "to_speaker": "Carl-Philipp Sassenrath",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-26"
+  },
+  {
+   "quote": "Ja, das Richtige machen!",
+   "person": "Dr. Klaus Wiener",
+   "party": "CDU/CSU",
+   "to_speaker": "Katrin Uhlig",
+   "to_party": "Grüne",
+   "date": "2026-11-26"
+  },
+  {
+   "quote": "Wer ist Linnemann?",
+   "person": "Dr. Sandra Detzer",
    "party": "Grüne",
-   "to_speaker": "Martin Erwin Renner",
-   "to_party": "AfD",
-   "date": "2026-11-25"
+   "to_speaker": "Daniel Walter",
+   "to_party": "SPD",
+   "date": "2026-11-26"
   },
   {
-   "quote": "Bingo!",
-   "person": "Derya Türk-Nachbaur",
+   "quote": "Sehr wahr!",
+   "person": "Jürgen Coße",
    "party": "SPD",
-   "to_speaker": "Martin Erwin Renner",
-   "to_party": "AfD",
-   "date": "2026-11-25"
+   "to_speaker": "Daniel Walter",
+   "to_party": "SPD",
+   "date": "2026-11-26"
+  },
+  {
+   "quote": "Klar! Wenn Sie reden bestimmt!",
+   "person": "Enrico Komning",
+   "party": "AfD",
+   "to_speaker": "Tamara Mazzi",
+   "to_party": "Linke",
+   "date": "2026-11-26"
+  },
+  {
+   "quote": "Doch, er wirkt!",
+   "person": "Dr. Andreas Lenz",
+   "party": "CDU/CSU",
+   "to_speaker": "Tamara Mazzi",
+   "to_party": "Linke",
+   "date": "2026-11-26"
+  },
+  {
+   "quote": "Doch, wirkt! Wirkt sehr gut! Können Sie nachlesen! 35 Prozent kommen an!",
+   "person": "Dr. Klaus Wiener",
+   "party": "CDU/CSU",
+   "to_speaker": "Tamara Mazzi",
+   "to_party": "Linke",
+   "date": "2026-11-26"
+  },
+  {
+   "quote": "Reden Sie doch mal über den Haushalt! Reden Sie mal über den Haushalt!",
+   "person": "Dr. Klaus Wiener",
+   "party": "CDU/CSU",
+   "to_speaker": "Tamara Mazzi",
+   "to_party": "Linke",
+   "date": "2026-11-26"
+  },
+  {
+   "quote": "Nee! Die Konzerne finanzieren den Staat, Frau Mazzi! So rum läuft das! Gucken Sie sich mal die Steuerstatistiken an! Am Ende übrigens auch Ihre Diät!",
+   "person": "Dr. Klaus Wiener",
+   "party": "CDU/CSU",
+   "to_speaker": "Tamara Mazzi",
+   "to_party": "Linke",
+   "date": "2026-11-26"
+  },
+  {
+   "quote": "Wo ist der günstig?",
+   "person": "Ruben Rupp",
+   "party": "AfD",
+   "to_speaker": "Tamara Mazzi",
+   "to_party": "Linke",
+   "date": "2026-11-26"
+  },
+  {
+   "quote": "Nee! Nicht alles!",
+   "person": "Daniel Walter",
+   "party": "SPD",
+   "to_speaker": "Sepp Müller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-26"
+  },
+  {
+   "quote": "0,1 Prozent dieses Quartal!",
+   "person": "Raimond Scheirich",
+   "party": "AfD",
+   "to_speaker": "Sepp Müller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-26"
+  },
+  {
+   "quote": "Trotz dieser Regierung!",
+   "person": "Katrin Uhlig",
+   "party": "Grüne",
+   "to_speaker": "Sepp Müller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-26"
+  },
+  {
+   "quote": "Lächerlich!",
+   "person": "Steffen Kotré",
+   "party": "AfD",
+   "to_speaker": "Sepp Müller",
+   "to_party": "CDU/CSU",
+   "date": "2026-11-26"
   }
  ]
 }
